@@ -4427,10 +4427,8 @@ e_hre = { # Heiliges Römisches Reich
 						has_landed_title = c_sundgau
 					}
 					any_vassal = {
-						and = {
-							has_landed_title = c_nordgau
-							has_landed_title = c_sundgau
-						}
+						has_landed_title = c_nordgau
+						has_landed_title = c_sundgau
 					}
 				}
 			}
@@ -5248,8 +5246,6 @@ e_roman_empire = { # Roman Empire
 	color2 = { 255 255 255 }
 	capital = 333 # Roma # Rome
 	short_name = yes
-	title = Emperor
-	title_female = Empress
 	purple_born_heirs = yes
 	culture = italian
 	religion = orthodox
@@ -14831,11 +14827,9 @@ e_scandinavia = { # Nordmannia
 		ruled_years = 5
 		is_adult = yes
 		not = { tier = emperor }
-		and = {
-			has_landed_title = k_denmark
-			has_landed_title = k_norway
-			has_landed_title = k_sweden
-		}
+		has_landed_title = k_denmark
+		has_landed_title = k_norway
+		has_landed_title = k_sweden
 	}
 } # end e_scandinavia
 e_russia = { # Rus
@@ -17946,10 +17940,8 @@ e_poland = { # Polska-Lietuva
 				culture = lithuanian
 			}
 		}
-		and = {
-			has_landed_title = k_poland
-			has_landed_title = k_lithuania
-		}
+		has_landed_title = k_poland
+		has_landed_title = k_lithuania
 		war = no
 		ruled_years = 5
 		has_regent = no
@@ -19310,10 +19302,8 @@ e_carpathia = { # Magyarország
 						has_landed_title = c_heves
 					}
 					any_vassal = {
-						and = {
-							has_landed_title = c_abauj
-							has_landed_title = c_heves
-						}
+						has_landed_title = c_abauj
+						has_landed_title = c_heves
 					}
 				}
 			}
@@ -21911,10 +21901,8 @@ e_carpathia = { # Magyarország
 	# Creation/usurpation trigger
 	allow = {
 		religion_group = christian
-		and = {
-			has_landed_title = k_hungary
-			has_landed_title = k_croatia
-		}
+		has_landed_title = k_hungary
+		has_landed_title = k_croatia
 		ruled_years = 5
 		war = no
 		has_regent = no
@@ -23634,7 +23622,7 @@ e_britannia = { # Britannia
 		english = "Engelond"
 		swedish = "Ænglandi"
 		norsegaelic = "Ænglandi"
-		anglonorse = "Ænglandi"
+		anglonorse = "Englaland"
 		gothic = "Ænglandi"
 		danish = "Ænglandi"
 		norwegian = "Ænglandi"
@@ -23724,7 +23712,8 @@ e_britannia = { # Britannia
 				}
 				b_wolvesey = {
 					saxon = "Wulfeseg"
-					}
+					anglonorse = "Wulfeseg"
+				}
 				b_portchester = {
 					norwegian = "Portceaster"
 					danish = "Portceaster"
@@ -23853,7 +23842,7 @@ e_britannia = { # Britannia
 					norwegian = "Nyr Searesborg"
 					danish = "Nyr Searesburgh"
 					swedish = "Nyr Searesborg"
-					anglonorse = "Nyr Searesborg"
+					anglonorse = "Niwe Searesburh"
 					gothic = "Nyr Searesborg"
 					norse = "Nyr Searesborg"
 					norsegaelic = "Nyr Searesborg"
@@ -23871,7 +23860,7 @@ e_britannia = { # Britannia
 					norwegian = "Searesborg"
 					danish = "Searesburgh"
 					swedish = "Searesborg"
-					anglonorse = "Searesborg"
+					anglonorse = "Searoburh"
 					gothic = "Searesborg"
 					norse = "Searesborg"
 					norsegaelic = "Searesborg"
@@ -23889,7 +23878,7 @@ e_britannia = { # Britannia
 					norwegian = "Malmesborg"
 					danish = "Malmesburgh"
 					swedish = "Malmesborg"
-					anglonorse = "Malmesborg"
+					anglonorse = "Malmesburh"
 					gothic = "Malmesborg"
 					norse = "Malmesborg"
 					norsegaelic = "Malmesborg"
@@ -23928,10 +23917,11 @@ e_britannia = { # Britannia
 				color = { 241 95 45 }
 				color2 = { 255 255 255 }
 				saxon = "Wiht"
+				anglonorse = "Wiht"
 				b_carisbrooke = {
 					norman = "Beaucombe"
 					saxon = "Adrintun"
-					norse = "Adrintun"
+					anglonorse = "Adrintun"
 				}
 				#b_east_cowes = {}
 			}
@@ -23971,7 +23961,7 @@ e_britannia = { # Britannia
 					norwegian = "Scaepterborg"
 					danish = "Scaepterburgh"
 					swedish = "Scaepterborg"
-					anglonorse = "Scaepterborg"
+					anglonorse = "Scaeptesburh"
 					gothic = "Scaepterborg"
 					norse = "Scaepterborg"
 					norsegaelic = "Scaepterborg"
@@ -24052,7 +24042,7 @@ e_britannia = { # Britannia
 					norwegian = "Sumortün"
 					danish = "Sumortün"
 					swedish = "Sumortün"
-					anglonorse = "Sumortün"
+					anglonorse = "Sumortun"
 					gothic = "Sumortün"
 					norse = "Sumortün"
 					norsegaelic = "Sumortün"
@@ -24192,7 +24182,7 @@ e_britannia = { # Britannia
 					norwegian = "Æbbandün"
 					danish = "Æbbandün"
 					swedish = "Æbbandün"
-					anglonorse = "Æbbandün"
+					anglonorse = "Æbbandun"
 					gothic = "Æbbandün"
 					norse = "Æbbandün"
 					norsegaelic = "Æbbandün"
@@ -24201,7 +24191,8 @@ e_britannia = { # Britannia
 				}
 				b_wallingford = {
 					saxon = "Wallingaforda"
-					}
+					anglonorse = "Wallingaforda"
+				}
 				b_windsor = {
 					norwegian = "Windlesora"
 					danish = "Windlesora"
@@ -24305,7 +24296,7 @@ e_britannia = { # Britannia
 					norwegian = "Cantawaraborg"
 					danish = "Cantawaraburgh"
 					swedish = "Cantawaraborg"
-					anglonorse = "Cantawaraborg"
+					anglonorse = "Cantawaraburh"
 					gothic = "Cantawaraborg"
 					norse = "Cantawaraborg"
 					norsegaelic = "Cantawaraborg"
@@ -24334,7 +24325,7 @@ e_britannia = { # Britannia
 					norwegian = "Hrofescester"
 					danish = "Hrofescester"
 					swedish = "Hrofescester"
-					anglonorse = "Hrofescester"
+					anglonorse = "Hrofesceaster"
 					gothic = "Hrofescester"
 					norse = "Hrofescester"
 					norsegaelic = "Hrofescester"
@@ -24346,7 +24337,7 @@ e_britannia = { # Britannia
 					norwegian = "Sandwïc"
 					danish = "Sandwïc"
 					swedish = "Sandwïc"
-					anglonorse = "Sandwïc"
+					anglonorse = "Sandwic"
 					gothic = "Sandwïc"
 					norse = "Sandwïc"
 					norsegaelic = "Sandwïc"
@@ -24436,7 +24427,7 @@ e_britannia = { # Britannia
 				norwegian = "Suðríki"
 				danish = "Suðríki"
 				swedish = "Suðríki"
-				anglonorse = "Suðríki"
+				anglonorse = "Suthrige"
 				gothic = "Suðríki"
 				norse = "Suðríki"
 				norsegaelic = "Suðríki"
@@ -24458,7 +24449,7 @@ e_britannia = { # Britannia
 					norwegian = "Geldeford"
 					danish = "Geldeford"
 					swedish = "Geldeford"
-					anglonorse = "Geldeford"
+					anglonorse = "Gildaforda"
 					gothic = "Geldeford"
 					norse = "Geldeford"
 					norsegaelic = "Geldeford"
@@ -24478,7 +24469,7 @@ e_britannia = { # Britannia
 					saxon = "Fearnhamme"
 					norman = "Ferneham"
 				}
-					b_lambeth = {
+				b_lambeth = {
 					norwegian = "Lambehitha"
 					danish = "Lambehitha"
 					swedish = "Lambehitha"
@@ -24546,7 +24537,7 @@ e_britannia = { # Britannia
 				norwegian = "Suðseaxe"
 				danish = "Suðseaxe"
 				swedish = "Suðseaxe"
-				anglonorse = "Suðseaxe"
+				anglonorse = "Suthseaxe"
 				gothic = "Suðseaxe"
 				norse = "Suðseaxe"
 				norsegaelic = "Suðseaxe"
@@ -24558,19 +24549,22 @@ e_britannia = { # Britannia
 				irish = "Rhegin"
 				scottish = "Rhegin"
 				b_pevensey = {
-				saxon = "Pefensea"
+					saxon = "Pefensea"
+					anglonorse = "Pefensea"
 				}
 				b_lewes = {
-				saxon = "Hlaewas"
+					saxon = "Hlaewas"
+					anglonorse = "Hlaewas"
 				}
 				b_arundel = {
-				saxon = "Earndæl"
+					saxon = "Earndæl"
+					anglonorse = "Earndæl"
 				}
 				b_chichester = {
 					norwegian = "Cissceaster"
 					danish = "Cissceaster"
 					swedish = "Cissceaster"
-					anglonorse = "Cissceaster"
+					anglonorse = "Cissaceaster"
 					gothic = "Cissceaster"
 					norse = "Cissceaster"
 					norsegaelic = "Cissceaster"
@@ -24581,7 +24575,7 @@ e_britannia = { # Britannia
 					norwegian = "Seoles"
 					danish = "Seoles"
 					swedish = "Seoles"
-					anglonorse = "Seoles"
+					anglonorse = "Sealseg"
 					gothic = "Seoles"
 					norse = "Seoles"
 					norsegaelic = "Seoles"
@@ -24676,12 +24670,12 @@ e_britannia = { # Britannia
 					norwegian = "Dünhaefod"
 					danish = "Dünhaefod"
 					swedish = "Dünhaefod"
-					anglonorse = "Dünhaefod"
+					anglonorse = "Dunhaefod"
 					gothic = "Dünhaefod"
 					norse = "Dünhaefod"
 					norsegaelic = "Dünhaefod"
 					icelandic = "Dünhaefod"
-					saxon = "Dünhaefod"
+					saxon = "Dunhaefod"
 					welsh = "Lannstevan"
 					cumbric = "Lannstevan"
 					breton = "Lannstevan"
@@ -24806,12 +24800,12 @@ e_britannia = { # Britannia
 					norwegian = "Hlydanford"
 					danish = "Hlydanford"
 					swedish = "Hlydanford"
-					anglonorse = "Hlydanford"
+					anglonorse = "Hlydanforda"
 					gothic = "Hlydanford"
 					norse = "Hlydanford"
 					norsegaelic = "Hlydanford"
 					icelandic = "Hlydanford"
-					saxon = "Hlydanford"
+					saxon = "Hlydanforda"
 					norman = "Lidefort"
 				}
 				b_totnes = {}
@@ -24918,7 +24912,7 @@ e_britannia = { # Britannia
 				norwegian = "Gleawcester"
 				danish = "Gleawcester"
 				swedish = "Gleawcester"
-				anglonorse = "Gleawcester"
+				anglonorse = "Gleawceaster"
 				gothic = "Gleawcester"
 				norse = "Gleawcester"
 				norsegaelic = "Gleawcester"
@@ -24972,10 +24966,12 @@ e_britannia = { # Britannia
 				b_cirencester = {
 					roman = "Corinium"
 					greek = "Korinion"
+					anglonorse = "Cirenceaster"
 					saxon = "Cirenceaster"
 				}
 				b_tewkesbury = {
-				saxon = "Theocesburh"
+					saxon = "Theocesburh"
+					anglonorse = "Theocesburh"
 				}
 				#b_hailes = {}
 				#b_sudeley = {}
@@ -25028,17 +25024,20 @@ e_britannia = { # Britannia
 					icelandic = "Eofeshamme"
 					saxon = "Eofeshamme"
 				}
-				b_droitwich = {}
+				b_droitwich = {
+					saxon = "Saltwych"
+					anglonorse = "Saltwych"
+				}
 				b_kidderminster = {
 					norwegian = "Chedemynster"
 					danish = "Chedemynster"
 					swedish = "Chedemynster"
-					anglonorse = "Chedemynster"
+					anglonorse = "Cedeminster"
 					gothic = "Chedemynster"
 					norse = "Chedemynster"
 					norsegaelic = "Chedemynster"
 					icelandic = "Chedemynster"
-					saxon = "Chedemynster"
+					saxon = "Cedeminster"
 					norman = "Chedeminstre"
 				}
 				#b_pershore = {}
@@ -25098,12 +25097,13 @@ e_britannia = { # Britannia
 					irish = "Henffordd"
 					scottish = "Henffordd"
 					saxon = "Heresforda"
+					anglonorse = "Heresforda"
 				}
 				b_ledbury = {
 					norwegian = "Liedeborg"
 					danish = "Liedeburgh"
 					swedish = "Liedeborg"
-					anglonorse = "Liedeborg"
+					anglonorse = "Liedeburh"
 					gothic = "Liedeborg"
 					norse = "Liedeborg"
 					norsegaelic = "Liedeborg"
@@ -25115,7 +25115,7 @@ e_britannia = { # Britannia
 					norwegian = "Cliford"
 					danish = "Cliford"
 					swedish = "Cliford"
-					anglonorse = "Cliford"
+					anglonorse = "Clifforda"
 					gothic = "Cliford"
 					norse = "Cliford"
 					norsegaelic = "Cliford"
@@ -25151,7 +25151,7 @@ e_britannia = { # Britannia
 				norwegian = "Scrobbesborg"
 				danish = "Scrobbesborg"
 				swedish = "Scrobbesborg"
-				anglonorse = "Scrobbesborg"
+				anglonorse = "Scrobbesburh"
 				gothic = "Scrobbesborg"
 				norse = "Scrobbesborg"
 				norsegaelic = "Scrobbesborg"
@@ -25167,7 +25167,7 @@ e_britannia = { # Britannia
 					norwegian = "Scrobbesborg"
 					danish = "Scrobbesburgh"
 					swedish = "Scrobbesborg"
-					anglonorse = "Scrobbesborg"
+					anglonorse = "Scrobbesburh"
 					gothic = "Scrobbesborg"
 					norse = "Scrobbesborg"
 					norsegaelic = "Scrobbesborg"
@@ -25306,12 +25306,15 @@ e_britannia = { # Britannia
 					icelandic = "Wæring"
 					saxon = "Wæringwic"
 				}
-				b_coventry = {}
+				b_coventry = {
+					saxon = "Cofestre"
+					anglonorse = "Cofestre"
+				}
 				b_birmingham = {
 					norwegian = "Beormingaham"
 					danish = "Beormingaham"
 					swedish = "Beormingaham"
-					anglonorse = "Beormingaham"
+					anglonorse = "Beormingasham"
 					gothic = "Beormingaham"
 					norse = "Beormingaham"
 					norsegaelic = "Beormingaham"
@@ -25333,12 +25336,12 @@ e_britannia = { # Britannia
 				norwegian = "Stæffordscir"
 				danish = "Stæffordscir"
 				swedish = "Stæffordscir"
-				anglonorse = "Stæffordscir"
+				anglonorse = "Tomsæte"
 				gothic = "Stæffordscir"
 				norse = "Stæffordscir"
 				norsegaelic = "Stæffordscir"
 				icelandic = "Stæffordscir"
-				saxon = "Tomtun"
+				saxon = "Tomsæte"
 				welsh = "Swydd Stafford"
 				breton = "Swydd Stafford"
 				cornish = "Swydd Stafford"
@@ -25419,7 +25422,7 @@ e_britannia = { # Britannia
 			norwegian = "Miðængle"
 			danish = "Miðængle"
 			swedish = "Miðængle"
-			anglonorse = "Miðængle"
+			anglonorse = "Middelengle"
 			gothic = "Miðængle"
 			norse = "Miðængle"
 			norsegaelic = "Miðængle"
@@ -25437,7 +25440,7 @@ e_britannia = { # Britannia
 				norwegian = "Norðhamtun"
 				danish = "Norðhamtun"
 				swedish = "Norðhamtun"
-				anglonorse = "Norðhamtun"
+				anglonorse = "Hamtun"
 				gothic = "Norðhamtun"
 				norse = "Norðhamtun"
 				norsegaelic = "Norðhamtun"
@@ -25454,7 +25457,7 @@ e_britannia = { # Britannia
 					norwegian = "Norðhamtun"
 					danish = "Norðhamtun"
 					swedish = "Norðhamtun"
-					anglonorse = "Norðhamtun"
+					anglonorse = "Hamtun"
 					gothic = "Norðhamtun"
 					norse = "Norðhamtun"
 					norsegaelic = "Norðhamtun"
@@ -25524,7 +25527,7 @@ e_britannia = { # Britannia
 				norwegian = "Beadanford"
 				danish = "Beadanford"
 				swedish = "Beadanford"
-				anglonorse = "Beadanford"
+				anglonorse = "Beadanforda"
 				gothic = "Beadanford"
 				norse = "Beadanford"
 				norsegaelic = "Beadanford"
@@ -25534,7 +25537,7 @@ e_britannia = { # Britannia
 					norwegian = "Beadanford"
 					danish = "Beadanford"
 					swedish = "Beadanford"
-					anglonorse = "Beadanford"
+					anglonorse = "Beadanforda"
 					gothic = "Beadanford"
 					norse = "Beadanford"
 					norsegaelic = "Beadanford"
@@ -25555,6 +25558,7 @@ e_britannia = { # Britannia
 				}
 				b_flitwick = {
 					saxon = "Flitwic"
+					anglonorse = "Flitwic"
 				}
 				b_luton = {
 					norwegian = "Luntun"
@@ -25621,9 +25625,11 @@ e_britannia = { # Britannia
 				}
 				b_ramsey = {
 					saxon = "Ramseg"
+					anglonorse = "Ramseg"
 				}
 				b_st_ives = {
 					saxon = "Slepe"
+					anglonorse = "Slepe"
 				}
 				#b_godmanchester = {
 				#	norwegian = "Godmundceaster"
@@ -25664,7 +25670,7 @@ e_britannia = { # Britannia
 					norwegian = "Æglesborg"
 					danish = "Æglesburgh"
 					swedish = "Æglesborg"
-					anglonorse = "Æglesborg"
+					anglonorse = "Æglesburh"
 					gothic = "Æglesborg"
 					norse = "Æglesborg"
 					norsegaelic = "Æglesborg"
@@ -25675,7 +25681,7 @@ e_britannia = { # Britannia
 					norwegian = "Brádwelle"
 					danish = "Brádwelle"
 					swedish = "Brádwelle"
-					anglonorse = "Brádwelle"
+					anglonorse = "Bradwelle"
 					gothic = "Brádwelle"
 					norse = "Brádwelle"
 					norsegaelic = "Brádwelle"
@@ -25727,7 +25733,7 @@ e_britannia = { # Britannia
 				norwegian = "Oxnaford"
 				danish = "Oxnaford"
 				swedish = "Oxnaford"
-				anglonorse = "Oxnaford"
+				anglonorse = "Oxenaforda"
 				gothic = "Oxnaford"
 				norse = "Oxnaford"
 				norsegaelic = "Oxnaford"
@@ -25743,7 +25749,7 @@ e_britannia = { # Britannia
 					norwegian = "Oxnaford"
 					danish = "Oxnaford"
 					swedish = "Oxnaford"
-					anglonorse = "Oxnaford"
+					anglonorse = "Oxenaforda"
 					gothic = "Oxnaford"
 					norse = "Oxnaford"
 					norsegaelic = "Oxnaford"
@@ -25760,7 +25766,7 @@ e_britannia = { # Britannia
 					norwegian = "Banesborg"
 					danish = "Banesburgh"
 					swedish = "Banesborg"
-					anglonorse = "Banesborg"
+					anglonorse = "Banesburh"
 					gothic = "Banesborg"
 					norse = "Banesborg"
 					norsegaelic = "Banesborg"
@@ -25831,7 +25837,7 @@ e_britannia = { # Britannia
 			norwegian = "Austseaxe"
 			danish = "Austseaxe"
 			swedish = "Austseaxe"
-			anglonorse = "Austseaxe"
+			anglonorse = "Eastseaxe"
 			gothic = "Austseaxe"
 			norse = "Austseaxe"
 			norsegaelic = "Austseaxe"
@@ -25849,7 +25855,7 @@ e_britannia = { # Britannia
 				norwegian = "Miðseaxe"
 				danish = "Miðseaxe"
 				swedish = "Miðseaxe"
-				anglonorse = "Miðseaxe"
+				anglonorse = "Middelseaxe"
 				gothic = "Miðseaxe"
 				norse = "Miðseaxe"
 				norsegaelic = "Miðseaxe"
@@ -25869,7 +25875,7 @@ e_britannia = { # Britannia
 					norwegian = "þorney"
 					danish = "þorney"
 					swedish = "þorney"
-					anglonorse = "þorney"
+					anglonorse = "Thornigeoth"
 					gothic = "þorney"
 					norse = "þorney"
 					norsegaelic = "þorney"
@@ -25881,7 +25887,7 @@ e_britannia = { # Britannia
 					norwegian = "Lundúnir"
 					danish = "Lundúnir"
 					swedish = "Lundúnir"
-					anglonorse = "Lundúnir"
+					anglonorse = "Lundunwic"
 					gothic = "Lundene"
 					norse = "Lundúnir"
 					norsegaelic = "Lundúnir"
@@ -25902,7 +25908,7 @@ e_britannia = { # Britannia
 					norwegian = "Hvítrgnæfa"
 					danish = "Hvítrgnæfa"
 					swedish = "Hvítrgnæfa"
-					anglonorse = "Hvítrgnæfa"
+					anglonorse = "Lundenburh"
 					gothic = "Hvítrgnæfa"
 					norse = "Hvítrgnæfa"
 					norsegaelic = "Hvítrgnæfa"
@@ -25926,12 +25932,12 @@ e_britannia = { # Britannia
 					norwegian = "Fulanhamme"
 					danish = "Fulanhamme"
 					swedish = "Fulanhamme"
-					anglonorse = "Fulanhamme"
+					anglonorse = "Fulanham"
 					gothic = "Fulanhamme"
 					norse = "Fulanhamme"
 					norsegaelic = "Fulanhamme"
 					icelandic = "Fulanhamme"
-					saxon = "Fulanhamme"
+					saxon = "Fulanham"
 				}
 				#b_baynardscastle = { norman = "Bainiardus" }
 				#b_kensington = {
@@ -25964,7 +25970,7 @@ e_britannia = { # Britannia
 				norwegian = "Austseaxe"
 				danish = "Austseaxe"
 				swedish = "Austseaxe"
-				anglonorse = "Austseaxe"
+				anglonorse = "Eastseaxe"
 				gothic = "Austseaxe"
 				norse = "Austseaxe"
 				norsegaelic = "Austseaxe"
@@ -25982,7 +25988,7 @@ e_britannia = { # Britannia
 					norwegian = "Colneceastre"
 					danish = "Colneceastre"
 					swedish = "Colneceastre"
-					anglonorse = "Chelchith"
+					anglonorse = "Colneceaster"
 					gothic = "Colneceastre"
 					norse = "Colneceastre"
 					norsegaelic = "Colneceastre"
@@ -26055,19 +26061,19 @@ e_britannia = { # Britannia
 				norwegian = "Heortford"
 				danish = "Heortford"
 				swedish = "Heortford"
-				anglonorse = "Heortford"
+				anglonorse = "Heortforda"
 				gothic = "Heortford"
 				norse = "Heortford"
 				norsegaelic = "Heortford"
 				icelandic = "Heortford"
-				saxon = "Heortford"
+				saxon = "Heortforda"
 				roman = "Verulamium"
 				greek = "Ourolanion"
 				b_hertford = {
 					norwegian = "Heortford"
 					danish = "Heortford"
 					swedish = "Heortford"
-					anglonorse = "Heortford"
+					anglonorse = "Heortforda"
 					gothic = "Heortford"
 					norse = "Heortford"
 					norsegaelic = "Heortford"
@@ -26078,12 +26084,12 @@ e_britannia = { # Britannia
 					norwegian = "Beorhoanstadde"
 					danish = "Beorhoanstadde"
 					swedish = "Beorhoanstadde"
-					anglonorse = "Beorhoanstadde"
+					anglonorse = "Beorchamstæd"
 					gothic = "Beorhoanstadde"
 					norse = "Beorhoanstadde"
 					norsegaelic = "Beorhoanstadde"
 					icelandic = "Beorhoanstadde"
-					saxon = "Beorhoanstadde"
+					saxon = "Beorchamstæd"
 					norman = "Berkhampsede"
 				}
 				b_tring = {
@@ -26162,7 +26168,7 @@ e_britannia = { # Britannia
 			norwegian = "Austængle"
 			danish = "Austængle"
 			swedish = "Austængle"
-			anglonorse = "Austængle"
+			anglonorse = "Eastengle"
 			gothic = "Austængle"
 			norse = "Austængle"
 			norsegaelic = "Austængle"
@@ -26180,7 +26186,7 @@ e_britannia = { # Britannia
 				norwegian = "Norðfolc"
 				danish = "Norðfolc"
 				swedish = "Norðfolc"
-				anglonorse = "Norðfolc"
+				anglonorse = "Northfolc"
 				gothic = "Norðfolc"
 				norse = "Norðfolc"
 				norsegaelic = "Norðfolc"
@@ -26194,16 +26200,24 @@ e_britannia = { # Britannia
 				scottish = "Caer Went"
 				b_thetford = {
 					saxon = "Theodforda"
+					norse = "Theodforda"
+					anglonorse = "Theodforda"
 				}
 				b_lynn = {
 					saxon = "Lean"
+					norse = "Lean"
+					anglonorse = "Lean"
 				}
 				b_norwich = {
 					saxon = "Northwic"
+					norse = "Northwic"
+					anglonorse = "Northwic"
 				}
 				b_elmham = {}
 				b_castle_rising = {
 					saxon = "Snettisham"
+					norse = "Snettisham"
+					anglonorse = "Snettisham"
 				}
 				#b_weeting = {}
 				#b_castle_acre = {}
@@ -26218,7 +26232,7 @@ e_britannia = { # Britannia
 				norwegian = "Suðfolc"
 				danish = "Suðfolc"
 				swedish = "Suðfolc"
-				anglonorse = "Suðfolc"
+				anglonorse = "Suthfolc"
 				gothic = "Suðfolc"
 				norse = "Suðfolc"
 				norsegaelic = "Suðfolc"
@@ -26239,7 +26253,7 @@ e_britannia = { # Britannia
 					norwegian = "Duncic"
 					danish = "Duncic"
 					swedish = "Duncic"
-					anglonorse = "Duncic"
+					anglonorse = "Dunwic"
 					gothic = "Duncic"
 					norse = "Duncic"
 					norsegaelic = "Duncic"
@@ -26250,7 +26264,7 @@ e_britannia = { # Britannia
 					norwegian = "Auga"
 					danish = "Auga"
 					swedish = "Auga"
-					anglonorse = "Auga"
+					anglonorse = "Igeoth"
 					gothic = "Auga"
 					norse = "Auga"
 					norsegaelic = "Auga"
@@ -26315,7 +26329,7 @@ e_britannia = { # Britannia
 				norwegian = "Élig"
 				danish = "Élig"
 				swedish = "Élig"
-				anglonorse = "Élig"
+				anglonorse = "Elig"
 				gothic = "Élig"
 				norse = "Élig"
 				norsegaelic = "Élig"
@@ -26325,7 +26339,7 @@ e_britannia = { # Britannia
 					norwegian = "Élig"
 					danish = "Élig"
 					swedish = "Élig"
-					anglonorse = "Élig"
+					anglonorse = "Elig"
 					gothic = "Élig"
 					norse = "Élig"
 					norsegaelic = "Élig"
@@ -26396,7 +26410,7 @@ e_britannia = { # Britannia
 					norwegian = "Alreheða"
 					danish = "Alreheða"
 					swedish = "Alreheða"
-					anglonorse = "Alreheða"
+					anglonorse = "Ealdrehetha"
 					gothic = "Alreheða"
 					norse = "Alreheða"
 					norsegaelic = "Alreheða"
@@ -26437,7 +26451,7 @@ e_britannia = { # Britannia
 			norwegian = "Fimm Borginn"
 			danish = "Fimm Borginn"
 			swedish = "Fimm Borginn"
-			anglonorse = "Fimm Borginn"
+			anglonorse = "tha Fif Byrig"
 			gothic = "Fimm Borginn"
 			norse = "Fimm Borginn"
 			norsegaelic = "Fimm Borginn"
@@ -26495,19 +26509,23 @@ e_britannia = { # Britannia
 				b_stamford_lincolnshire = {}
 				b_torksey = {
 					saxon = "Spaldingas" #Not Torksey but an actual Saxon settlement, Torksey was a Viking winter camp
+					anglonorse = "Torkeseg"
 				}
 				b_gainsborough = {
 					norwegian = "Gainsborg"
 					danish = "Gainsburgh"
 					swedish = "Gainsborg"
-					anglonorse = "Gainsborg"
+					anglonorse = "Gegnesburh"
 					gothic = "Gainsborg"
 					norse = "Gainsborg"
 					norsegaelic = "Gainsborg"
 					icelandic = "Gainsborg"
 					saxon = "Gegnesburh"
 				}
-				b_boston = { saxon = "Bostun" }
+				b_boston = { 
+					saxon = "Bostun"
+					anglonorse = "Bostun"
+				}
 				#b_crowland = {}
 				#b_grantham = {
 				#	norwegian = "Grantaham"
@@ -26657,12 +26675,12 @@ e_britannia = { # Britannia
 				norwegian = "Djúrabý"
 				danish = "Djúrabý"
 				swedish = "Djúrabý"
-				anglonorse = "Djúrabý"
+				anglonorse = "Deoraby"
 				gothic = "Djúrabý"
 				norse = "Djúrabý"
 				norsegaelic = "Djúrabý"
 				icelandic = "Djúrabý"
-				saxon = "Deoraby"
+				saxon = "Northworthig"
 				b_castleton = {
 					norwegian = "Péacland"
 					danish = "Péacland"
@@ -26747,12 +26765,13 @@ e_britannia = { # Britannia
 				b_southwell = {}
 				b_newark = {
 					saxon = "Niweweorc"
-					}
+					anglonorse = "Niweweorc"
+				}
 				b_hucknall = {
 					norwegian = "Hokeuhale"
 					danish = "Hokeuhale"
 					swedish = "Hokeuhale"
-					anglonorse = "Hokeuhale"
+					anglonorse = "Hocanhalh"
 					gothic = "Hokeuhale"
 					norse = "Hokeuhale"
 					norsegaelic = "Hokeuhale"
@@ -26783,7 +26802,7 @@ e_britannia = { # Britannia
 			norwegian = "Jorvík"
 			danish = "Jorvík"
 			swedish = "Jorvík"
-			anglonorse = "Jorvík"
+			anglonorse = "Eoforic"
 			gothic = "Jorvík"
 			norse = "Jorvík"
 			norsegaelic = "Jorvík"
@@ -26795,7 +26814,7 @@ e_britannia = { # Britannia
 			cornish = "Deifr"
 			irish = "Deifr"
 			scottish = "Deifr"
-			norman = "Évèroui"
+			norman = "Éverwyck"
 			roman = "Eboracum"
 			greek = "Eborakon"
 			c_york = { # West York Ridding # West ridding / York Vale
@@ -26804,7 +26823,7 @@ e_britannia = { # Britannia
 				norwegian = "Jorvík"
 				danish = "Jorvík"
 				swedish = "Jorvík"
-				anglonorse = "Jorvík"
+				anglonorse = "Eoforic"
 				gothic = "Jorvík"
 				norse = "Jorvík"
 				norsegaelic = "Jorvík"
@@ -26816,7 +26835,7 @@ e_britannia = { # Britannia
 				breton = "Ebrauc"
 				irish = "Ebrauc"
 				scottish = "Ebrauc"
-				norman = "Évèroui"
+				norman = "Éverwyck"
 				roman = "Eboracum"
 				greek = "Eborakon"
 				holy_site = norse_pagan
@@ -26837,14 +26856,14 @@ e_britannia = { # Britannia
 					breton = "Ebrauc"
 					irish = "Ebrauc"
 					scottish = "Ebrauc"
-					norman = "Évèroui"
+					norman = "Éverwyck"
 					roman = "Eboracum"
 					greek = "Eborakon"
 				}
 				b_conisbrough = {
 					danish = "Cyningesburgh"
 					swedish = "Cyningesborg"
-					anglonorse = "Cyningesborg"
+					anglonorse = "Cyningesburh"
 					gothic = "Cyningesborg"
 					norwegian = "Cyningesborg"
 					norse = "Cyningesborg"
@@ -26866,13 +26885,13 @@ e_britannia = { # Britannia
 				b_pontefract = {
 					danish = "Tateshale"
 					swedish = "Tateshale"
-					anglonorse = "Tateshale"
+					anglonorse = "Tateshalh"
 					gothic = "Tateshale"
 					norwegian = "Tateshale"
 					norse = "Tateshale"
 					norsegaelic = "Tateshale"
 					icelandic = "Tateshale"
-					saxon = "Tateshall"
+					saxon = "Tateshalh"
 					norman = "Pontefracto"
 				}
 				b_tickhillcastle = {}
@@ -26954,10 +26973,13 @@ e_britannia = { # Britannia
 			c_york_moors = { # North York Ridding (1415) # North Ridding / York Moors
 				color = { 25 180 55 }
 				color2 = { 255 255 255 }
+				anglonorse = "se North Thriding"
+				saxon = "North Dere"
+				norse = "Skarðaborg"
 				b_scarborough = {
 					danish = "Skardaburgh"
 					swedish = "Skarðaborg"
-					anglonorse = "Skarðaborg"
+					anglonorse = "Skarthaburh"
 					gothic = "Skarðaborg"
 					norwegian = "Skarðaborg"
 					norse = "Skarðaborg"
@@ -27055,7 +27077,7 @@ e_britannia = { # Britannia
 				b_middleham = {
 					danish = "Medelai"
 					swedish = "Medelai"
-					anglonorse = "Medelai"
+					anglonorse = "Medeley"
 					gothic = "Medelai"
 					norwegian = "Medelai"
 					norse = "Medelai"
@@ -27069,6 +27091,9 @@ e_britannia = { # Britannia
 			c_york_wolds = { # East York Ridding (1416) # East Ridding / York Wolds
 				color = { 255 80 5 }
 				color2 = { 255 255 255 }
+				anglonorse = "se East Thriding"
+				saxon = "East Dere"
+				norse = "Holdernessa"
 				b_cottingham = {
 					danish = "Cotingeham"
 					swedish = "Cotingeham"
@@ -27095,7 +27120,7 @@ e_britannia = { # Britannia
 				b_bridlington = {
 					danish = "Bretlintun"
 					swedish = "Bretlintun"
-					anglonorse = "Bretlintun"
+					anglonorse = "Berhtelingtun"
 					gothic = "Bretlintun"
 					norwegian = "Bretlintun"
 					norse = "Bretlintun"
@@ -27105,15 +27130,16 @@ e_britannia = { # Britannia
 					norman = "Bretlinton"
 				}
 				b_hull = {
-					danish = "Wyke"
-					swedish = "Wyke"
-					anglonorse = "Wyke"
-					gothic = "Wyke"
-					norwegian = "Wyke"
-					norse = "Wyke"
-					norsegaelic = "Wyke"
-					icelandic = "Wyke"
-					saxon = "Wyke"
+					danish = "Vik"
+					swedish = "Vik"
+					anglonorse = "Vik"
+					gothic = "Vik"
+					norwegian = "Vik"
+					norse = "Vik"
+					norsegaelic = "Vik"
+					icelandic = "Vik"
+					saxon = "Wic"
+					english = "Kingston"
 				}
 				#b_skipsea = {}
 				#b_driffield = {}
@@ -27181,7 +27207,7 @@ e_britannia = { # Britannia
 					norwegian = "Fuþþernessa"
 					danish = "Fuþþernessa"
 					swedish = "Fuþþernessa"
-					anglonorse = "Fuþþernessa"
+					anglonorse = "Futhernessa"
 					gothic = "Fuþþernessa"
 					norse = "Fuþþernessa"
 					norsegaelic = "Fuþþernessa"
@@ -27190,6 +27216,7 @@ e_britannia = { # Britannia
 				}
 				b_piel_island = {
 					saxon = "Fodderelig"
+					anglonorse = "Fodderelig"
 				}
 				b_salford = {
 					saxon = "Sealhforda"
@@ -27314,7 +27341,8 @@ e_britannia = { # Britannia
 					norman = "Maclesfeld"
 				}
 				b_frodsham = {
-					saxon = "Frodeshamme"
+					saxon = "Frodesham"
+					anglonorse = "Frodesham"
 					}
 				#b_malpas = {
 				#	norwegian = "Depenbæce"
@@ -27368,7 +27396,7 @@ e_britannia = { # Britannia
 					norwegian = "Kirkjubýr"
 					danish = "Kirkjubýr"
 					swedish = "Kirkjubýr"
-					anglonorse = "Kirkjubýr"
+					anglonorse = "Kirkby"
 					gothic = "Kirkjubýr"
 					norse = "Kirkjubýr"
 					norsegaelic = "Kirkjubýr"
@@ -27388,7 +27416,7 @@ e_britannia = { # Britannia
 			norwegian = "Norðhymbraland"
 			danish = "Norðhymbraland"
 			swedish = "Norðhymbraland"
-			anglonorse = "Norðhymbraland"
+			anglonorse = "Northymbraland"
 			gothic = "Norðhymbraland"
 			norse = "Norðhymbraland"
 			norsegaelic = "Norðhymbraland"
@@ -27406,7 +27434,7 @@ e_britannia = { # Britannia
 				norwegian = "Norðhymbraland"
 				danish = "Norðhymbraland"
 				swedish = "Norðhymbraland"
-				anglonorse = "Norðhymbraland"
+				anglonorse = "Bebbanburh"
 				gothic = "Norðhymbraland"
 				norse = "Norðhymbraland"
 				norsegaelic = "Norðhymbraland"
@@ -27422,7 +27450,7 @@ e_britannia = { # Britannia
 					norwegian = "Bebbanborg"
 					danish = "Bebbanburgh"
 					swedish = "Bebbanborg"
-					anglonorse = "Bebbanborg"
+					anglonorse = "Bebbanburh"
 					gothic = "Bebbanborg"
 					norse = "Bebbanborg"
 					norsegaelic = "Bebbanborg"
@@ -27612,7 +27640,8 @@ e_britannia = { # Britannia
 				}
 				b_egremont = {
 					saxon = "Ehendun"
-					}
+					anglonorse = "Ehendun"
+				}
 				b_penrith = {
 					cumbric = "Penryth"
 					welsh = "Penryth"
@@ -28449,6 +28478,24 @@ e_britannia = { # Britannia
 			} # end c_gwyr
 		} # end d_morgannwg
 	} # end k_wales
+	# Must be defined before k_ireland
+	k_ireland_titular = { # Tara
+		color = { 161 51 177 }
+		color2 = { 255 255 255 }
+		capital = 975 # Brega
+		culture = irish
+		religion = catholic
+		allow = {
+			# Only allow it to be usurped when already held, and otherwise it must
+			# have become de jure to create it.
+			FROM = {
+				or = {
+					is_titular = no
+					has_holder = yes
+				}
+			}
+		}
+	}
 	k_ireland = { # Éire
 		color = { 3 49 35 }
 		color2 = { 255 255 255 }
@@ -30196,6 +30243,30 @@ e_britannia = { # Britannia
 				#}
 			} # end c_tipperary
 		} # end d_munster
+		gain_effect = {
+			# If title receiver also owns the titular Tara, then
+			# we can safely destroy and deactivate that title now.
+			k_ireland_titular = { # Tara
+				if = {
+					limit = {
+						or = {
+							has_holder = no
+							holder = PREV
+						}
+					}
+					hidden_tooltip = {
+						# If it somehow became non-titular, then we must be sure
+						# to transfer its de jure territory to k_ireland first.
+						any_direct_de_jure_vassal_title = { de_jure_liege = k_ireland }
+					}
+					activate_title = {
+						title = THIS
+						status = no
+					}
+					destroy_landed_title = THIS
+				}
+			}
+		}
 	} # end k_ireland
 	k_scotland = { # Alba
 		color = { 214 143 0 }
@@ -31859,10 +31930,8 @@ e_britannia = { # Britannia
 				or = {
 					lower_real_tier_than = duke
 					any_vassal = {
-						and = {
-							lower_real_tier_than = duke
-							has_landed_title = c_isle_of_man
-						}
+						lower_real_tier_than = duke
+						has_landed_title = c_isle_of_man
 					}
 					and = {
 						higher_real_tier_than = count
@@ -31872,13 +31941,11 @@ e_britannia = { # Britannia
 						}
 					}
 					any_vassal = {
-						and = {
-							higher_real_tier_than = count
-							has_landed_title = c_isle_of_man
-							any_demesne_title = {
-								tier = count
-								not = { title = c_isle_of_man }
-							}
+						higher_real_tier_than = count
+						has_landed_title = c_isle_of_man
+						any_demesne_title = {
+							tier = count
+							not = { title = c_isle_of_man }
 						}
 					}
 				}
@@ -32305,41 +32372,22 @@ e_britannia = { # Britannia
 		culture = cumbric
 		capital = 1484 # Rinn Friu # Strathclyde
 		allow = {
-			and = {
-				or = {
-					culture = cumbric
-					culture = breton
-					culture = welsh
-				}
-				or = {
-					has_landed_title = d_strathclyde
-					any_vassal = { has_landed_title = d_strathclyde }
-				}
-				or = {
-					has_landed_title = d_northumberland
-					any_vassal = { has_landed_title = d_northumberland }
-				}
-				or = {
-					has_landed_title = d_lancaster
-					any_vassal = { has_landed_title = d_lancaster }
-				}
+			or = {
+				culture = cumbric
+				culture = breton
+				culture = welsh
 			}
-		}
-	}
-	k_ireland_titular = { # Tara
-		color = { 161 51 177 }
-		color2 = { 255 255 255 }
-		capital = 975 # Brega
-		culture = irish
-		religion = catholic
-		allow = {
-			# Only allow it to be usurped when already held, and otherwise it must
-			# have become de jure to create it.
-			FROM = {
-				or = {
-					is_titular = no
-					has_holder = yes
-				}
+			or = {
+				has_landed_title = d_strathclyde
+				any_vassal = { has_landed_title = d_strathclyde }
+			}
+			or = {
+				has_landed_title = d_northumberland
+				any_vassal = { has_landed_title = d_northumberland }
+			}
+			or = {
+				has_landed_title = d_lancaster
+				any_vassal = { has_landed_title = d_lancaster }
 			}
 		}
 	}
@@ -35690,7 +35738,7 @@ e_france = { # France
 		d_bourbon = { # Bourbon
 			color = { 74 133 186 }
 			color2 = { 255 255 255 }
-			capital = 139 # Bourges
+			capital = 146 # Bourbon
 			culture = frankish
 			c_bourbon = { # Bourbon (146)
 				color = { 26 173 228 }
@@ -44528,7 +44576,7 @@ e_spain = { # España
 		d_la_mancha = { # La Mancha
 			color = { 203 152 74 }
 			color2 = { 255 255 255 }
-			capital = 1201 # Guadalajara
+			capital = 196 # Calatrava
 			bedouin_arabic = "al-Mányà"
 			maghreb_arabic = "al-Mányà"
 			levantine_arabic = "al-Mányà"
@@ -47303,7 +47351,6 @@ e_persia = { # Érán
 				holy_site = zoroastrian # Placeholder
 				holy_site = mazdaki
 				holy_site = manichean
-				holy_site = yazidi # Placeholder
 				holy_site = zun_pagan
 				holy_site = zun_pagan_reformed
 				b_ardabil = {
@@ -52167,15 +52214,13 @@ e_null = {
 				#}
 			} # end c_wargrien
 			allow = {
-				and = {
-					or = {
-						has_landed_title = c_lubeck
-						any_vassal = { has_landed_title = c_lubeck }
-					}
-					or = {
-						has_landed_title = c_wargrien
-						any_vassal = { has_landed_title = c_wargrien }
-					}
+				or = {
+					has_landed_title = c_lubeck
+					any_vassal = { has_landed_title = c_lubeck }
+				}
+				or = {
+					has_landed_title = c_wargrien
+					any_vassal = { has_landed_title = c_wargrien }
 				}
 			}
 		} # end d_lubeck
@@ -53169,15 +53214,13 @@ e_null = {
 				#b_raothenburg = {}
 			}
 			allow = {
-				and = {
-					or = {
-						has_landed_title = c_niederlausitz
-						any_vassal = { has_landed_title = c_niederlausitz }
-					}
-					or = {
-						has_landed_title = c_lausitz
-						any_vassal = { has_landed_title = c_lausitz }
-					}
+				or = {
+					has_landed_title = c_niederlausitz
+					any_vassal = { has_landed_title = c_niederlausitz }
+				}
+				or = {
+					has_landed_title = c_lausitz
+					any_vassal = { has_landed_title = c_lausitz }
 				}
 			}
 		} # end d_lausitz
