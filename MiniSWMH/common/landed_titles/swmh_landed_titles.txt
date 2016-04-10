@@ -5294,7 +5294,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 	bohemian = "Rzímská Rzíse"
 	hungarian = "Római Birodalom"
 	polish = "Cesarstwo Rzymski"
-	serbian = "Rimsko Carstvo"
+	serbian = "Srpsko-Rimsko Carstvo"
 	croatian = "Rimsko Carstvo"
 	bosnian = "Rimsku Imperiju"
 	karantanci = "Rimsko Cesárstvo"
@@ -15322,6 +15322,8 @@ e_russia = { # Rus
 				gothic = "Kœnugarðr"
 				norsegaelic = "Kœnugarðr"
 				anglonorse = "Kœnugarðr"
+				holy_site = baltic_pagan
+				holy_site = baltic_pagan_reformed
 				b_bilohorodka = {}
 				b_kiev = {
 					danish = "Kœnugarðr"
@@ -17845,8 +17847,6 @@ e_poland = { # Polska-Lietuva
 			c_podlasie = { # Belsk (425)
 				color = { 148 100 100 }
 				color2 = { 255 255 255 }
-				holy_site = baltic_pagan
-				holy_site = baltic_pagan_reformed
 				b_drohiczyn = {}
 				b_tykocin = {}
 				b_bransk = {}
@@ -33717,6 +33717,14 @@ e_italy = { # Italia
 				#b_riparbella = {}
 				#b_pontedera = {}
 			}
+		}
+		d_siena= { # Siena
+			color = { 38 25 123 }
+			color2 = { 255 255 255 }
+			capital = 330 # Siena
+			culture = tuscan
+			roman = "Saena"
+			greek = "Saena"
 		}
 		# Creation/usurpation trigger
 		allow = { religion_group = christian }
