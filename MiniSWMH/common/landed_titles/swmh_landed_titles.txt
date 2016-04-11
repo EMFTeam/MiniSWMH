@@ -9587,9 +9587,6 @@ e_byzantium = { # Basileia Rhõmaiõn
 		dynasty_title_names = no # Will not be named "Seljuk", etc.
 		culture = greek
 		capital = 759 # Ikonion
-		oghuz = "Rûm"
-		turkmen = "Rûm"
-		turkish = "Rûm"
 		norman = "Anatolie"
 		frankish = "Anatolie"
 		orthodox = 400 # Crusade target weight
@@ -10174,7 +10171,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 				#b_yedisu = {}
 			} # end c_melitene
 		} # end d_melitene
-		allow = { NOT = { realm = { title = e_byzantium } } }
+		allow = {
+			FROM = { is_titular = no }
+			NOT = { realm = { title = e_byzantium } }
+		}
 	} # end k_anatolia
 	k_cyprus = { # Kyprou
 		color = { 248 246 137 }
@@ -14609,7 +14609,7 @@ e_scandinavia = { # Nordmannia
 				color2 = { 255 255 255 }
 				b_tanberg = {}
 				b_tingelstad = {}
-				b_hole = {}
+				b_hole = {} # Hólar/Steinn
 			}
 		}
 		d_vestlandet = { # Biorgvin
@@ -62053,10 +62053,20 @@ k_ottoman = { # Ottoman Turks
 }
 k_rum = { # Rûm
 	color = { 18 125 91 }
-	culture = turkish
+	culture = turkmen
 	capital = 759 # Ikonion
 	dynasty_title_names = no # Will not be named "Seljuk", etc.
-	allow = { always = no }
+	allow = {
+		FROM = { is_titular = no } # Only when de jure
+		OR = { # Either a player or Muslim
+			ai = no
+			religion_group = muslim
+		}
+		OR = { # Not to be created/usurped under/as the ERE unless title is not de jure vassal to the ERE
+			NOT = { top_liege = { has_landed_title = e_byzantium } }
+			FROM = { NOT = { de_jure_liege = e_byzantium } }
+		}
+	}
 }
 d_saruhan = { # Saruhan
 	color = { 144 171 225 }
@@ -62076,7 +62086,7 @@ d_saruhan = { # Saruhan
 e_seljuk_turks = { # Seljuk Empire
 	color = { 99 168 74 }
 	capital = 646 # Isfahan # Esfahan
-	culture = turkish
+	culture = turkmen
 	#tribe = yes
 	#landless = yes
 	allow = { always = no }
