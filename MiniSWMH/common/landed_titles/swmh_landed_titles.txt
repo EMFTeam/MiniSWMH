@@ -5304,8 +5304,6 @@ e_byzantium = { # Basileia Rhõmaiõn
 	arberian = "Perandoria Romake"
 	armenian = "Hrromeakan Kaysrut'yun"
 	georgian = "Romis Imperia"
-	# The Emperor can revoke duchies at no prestige cost and no opinion penalty with other vassals
-	duchy_revokation = yes
 	has_top_de_jure_capital = yes
 	purple_born_heirs = yes
 	k_byzantium = { # Thessalonika
@@ -5699,8 +5697,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 				color2 = { 255 255 255 }
 				orthodox = 500 # Crusade target weight
 				catholic = 300 # Crusade target weight
-				sunni = 350 # Crusade target weight
+				muslim = 300 # Crusade target weight
+				sunni = 300 # Crusade target weight
 				shiite = 100 # Crusade target weight
+				
 				top_de_jure_capital = yes
 				norwegian = "Miklagarðr"
 				danish = "Miklagarðr"
