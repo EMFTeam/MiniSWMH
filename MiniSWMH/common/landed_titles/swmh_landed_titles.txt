@@ -1,3 +1,5 @@
+# -*- ck2.landed_titles -*-
+
 # HOLY ORDERS
 d_knights_templar = { # Knights Templar
 	color = { 230 230 230 }
@@ -1546,7 +1548,7 @@ d_ghilman = { # Ghilman
 	color = { 60 165 80 }
 	color2 = { 255 255 255 }
 	graphical_culture = bektashigfx
-	capital = 627 # Kara-Kum
+	capital = 621 # Buzachi
 	# Parent Religion
 	religion = sunni
 	culture = oghuz
@@ -5240,7 +5242,34 @@ e_hre = { # Heiliges Römisches Reich
 		}
 	}
 	allow = {
-		FROM = { has_holder = yes } # Only allow usurp. Should only be created by decision.
+		FROM = {
+			has_holder = yes
+			is_titular = no
+		}
+		OR = {
+			realm_size = 320
+			AND = {
+				realm_size = 120
+				OR = {
+					not_emf_trigger = yes
+					AND = {
+						FROM = { has_holder = no }
+						primary_title = {
+							OR = {
+								has_law = crown_authority_3
+								has_law = crown_authority_4
+							}
+						}
+					}
+					FROM = {
+						has_holder = yes
+						has_law = crown_authority_4
+					}
+				}
+			}
+		}
+		war = no
+		has_regent = no
 	}
 } # end e_hre
 e_roman_empire = { # Roman Empire
@@ -13648,36 +13677,16 @@ e_byzantium = { # Basileia Rhõmaiõn
 		e_roman_empire = { # Roman Empire
 			has_holder = no
 		}
-		ruled_years = 5
-		war = no
-		has_regent = no
-		OR = {
-			NOT = { tier = emperor }
-			is_nomadic = yes # Kezrüm, I shall never forget you!
-		}
-		# Constantinople is held by you or any vassal (at any level) in your
-		# non-nomadic subrealm, which for most people is all of their realm.
-		# If the county is not controlled in such a way, then EMF's Automatic
-		# Empire Disintegration (AED) will forfeit the title. Besides, I'd say
-		# that's quite the reasonable requirement for the ERE to be usurped or
-		# created.
 		c_byzantion = {
 			holder_scope = {
 				OR = {
-					character = PREVPREV
-					AND = {
-						any_liege = { character = PREVPREVPREV }
-						NOR = {
-							is_nomadic = yes
-							any_liege = {
-								NOT = { character = PREVPREVPREV }
-								is_nomadic = yes
-							}
-						}
-					}
+					character = ROOT
+					is_liege_or_above = ROOT
 				}
 			}
 		}
+		war = no
+		has_regent = no
 	}
 } # end e_byzantium
 e_scandinavia = { # Nordmannia
@@ -37372,6 +37381,8 @@ e_spain = { # España
 				egyptian_arabic = "Burchia"
 				andalusian_arabic = "Burchia"
 				sicilian_arabic = "Burchia"
+				catalan = "Burchs"
+				frankish = "Bourges"
 				b_burgos = {
 					bedouin_arabic = "Burchia"
 					maghreb_arabic = "Burchia"
@@ -37379,21 +37390,23 @@ e_spain = { # España
 					egyptian_arabic = "Burchia"
 					andalusian_arabic = "Burchia"
 					sicilian_arabic = "Burchia"
+					catalan = "Burchs"
+					frankish = "Bourges"
 				}
 				b_mirandadeebro = {
-					bedouin_arabic = "Miranda"
-					maghreb_arabic = "Miranda"
-					levantine_arabic = "Miranda"
-					egyptian_arabic = "Miranda"
-					andalusian_arabic = "Miranda"
-					sicilian_arabic = "Miranda"
+					bedouin_arabic = "Miranda al-A'bra"
+					maghreb_arabic = "Miranda al-A'bra"
+					levantine_arabic = "Miranda al-A'bra"
+					egyptian_arabic = "Miranda al-A'bra"
+					andalusian_arabic = "Miranda al-A'bra"
+					sicilian_arabic = "Miranda al-A'bra"
 					catalan = "Miranda d'Ebre"
 					frankish = "Mirande d'Èbre"
 					galician = "Miranda do Ebro"
 					portuguese = "Miranda do Ebro"
 					aragonese = "Miranda d'Ebro"
 					leonese = "Miranda d'Ebro"
-					basque = "Miranda Ebro"
+					basque = "Miranda Ebroko"
 				}
 				b_onya = {
 					bedouin_arabic = "Unniyya"
@@ -37406,6 +37419,7 @@ e_spain = { # España
 					frankish = "Ogne"
 					portuguese = "Onha"
 					aragonese = "Onya"
+					basque = "Onia"
 				}
 				b_lara = {
 					bedouin_arabic = "La'ra"
@@ -37422,10 +37436,10 @@ e_spain = { # España
 					egyptian_arabic = "Qal'at Shigrit"
 					andalusian_arabic = "Qal'at Shigrit"
 					sicilian_arabic = "Qal'at Shigrit"
-					catalan = "Castroxeric"
+					catalan = "Castrasoritz"
 					frankish = "Châteauséri"
 					galician = "Castroxeriz"
-					portuguese = "Castroxeris"
+					portuguese = "Alcácer do Geriz"
 					aragonese = "Castrocheríz"
 					leonese = "Castroxeriz"
 					basque = "Kastroxeritz"
@@ -37437,10 +37451,10 @@ e_spain = { # España
 					egyptian_arabic = "al-Aran"
 					andalusian_arabic = "al-Aran"
 					sicilian_arabic = "al-Aran"
-					frankish = "Arande de Douro"
+					frankish = "Arande de Dure"
 					galician = "Aranda do Douro"
 					portuguese = "Aranda do Douro"
-					basque = "Aranda Duero"
+					basque = "Aranda Dueroko"
 				}
 				#b_frias = {
 				#	bedouin_arabic = "al-Frit"
@@ -48577,10 +48591,30 @@ e_persia = { # Érán
 		allow = { liege = { NOT = { has_landed_title = e_persia } } }
 	} # end k_mesopotamia
 	allow = {
+		OR = {
+			realm_size = 220
+			AND = {
+				realm_size = 120
+				OR = {
+					not_emf_trigger = yes
+					AND = {
+						FROM = { has_holder = no }
+						primary_title = {
+							OR = {
+								has_law = crown_authority_3
+								has_law = crown_authority_4
+							}
+						}
+					}
+					FROM = {
+						has_holder = yes
+						has_law = crown_authority_4
+					}
+				}
+			}
+		}
 		war = no
 		has_regent = no
-		realm_size = 120
-		NOT = { tier = emperor }
 	}
 } # end e_persia
 # All landed kingdom titles that have no de jure empire must go
@@ -58098,10 +58132,14 @@ e_null = {
 			color = { 80 200 50 }
 			color2 = { 255 255 255 }
 			capital = 1580 # Khotan
+			khotanese = "Hvam"
 			c_khotan = { # Khotan (1580)
 				color = { 85 205 45 }
 				color2 = { 255 255 255 }
-				b_khotan = {}
+				khotanese = "Hvam"
+				b_khotan = {
+					khotanese = "Hvam"
+				}
 				b_keriya = {}
 				b_guma = {}
 				b_chadota = {}
