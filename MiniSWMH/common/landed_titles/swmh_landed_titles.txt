@@ -1860,7 +1860,7 @@ e_hre = { # Heiliges Römisches Reich
 			}
 			independent = yes
 			NOT = { tier = emperor }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_frisia
 	k_upper_lorraine = { # Oberlothringen
@@ -2156,7 +2156,7 @@ e_hre = { # Heiliges Römisches Reich
 					prestige = 700
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_upper_lorraine
 	k_lower_lorraine = { # Niederlothringen
@@ -2557,7 +2557,7 @@ e_hre = { # Heiliges Römisches Reich
 					prestige = 700
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_lower_lorraine
 	k_saxony = { # Sachsen
@@ -2998,7 +2998,7 @@ e_hre = { # Heiliges Römisches Reich
 					prestige = 700
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_saxony
 	k_franconia = { # Franken
@@ -3199,7 +3199,7 @@ e_hre = { # Heiliges Römisches Reich
 					prestige = 700
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_franconia
 	k_bavaria = { # Baiern
@@ -3532,7 +3532,7 @@ e_hre = { # Heiliges Römisches Reich
 					prestige = 700
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_bavaria
 	k_carinthia = { # Kärnten
@@ -4023,7 +4023,7 @@ e_hre = { # Heiliges Römisches Reich
 					prestige = 700
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_carinthia
 	k_schwaben = { # Schwaben
@@ -4389,7 +4389,7 @@ e_hre = { # Heiliges Römisches Reich
 					prestige = 700
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_schwaben
 	k_bohemia = { # Czechy
@@ -4948,7 +4948,7 @@ e_hre = { # Heiliges Römisches Reich
 		allow = {
 			has_landed_title = d_bohemia
 			has_landed_title = d_moravia
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_bohemia
 	k_germany = { # Deutschland
@@ -4961,7 +4961,7 @@ e_hre = { # Heiliges Römisches Reich
 			e_hre = { # Heiliges Römisches Reich
 				has_holder = no
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	k_lotharingia = { # Lotharingen
@@ -4971,7 +4971,7 @@ e_hre = { # Heiliges Römisches Reich
 		culture = low_frankish
 		dignity = 30 # One more than Burgundy
 		allow = {
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	allow = {
@@ -5001,7 +5001,7 @@ e_hre = { # Heiliges Römisches Reich
 				}
 			}
 		}
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_hre
 e_roman_empire = { # Roman Empire
@@ -5038,7 +5038,7 @@ e_roman_empire = { # Roman Empire
 			has_holder = yes
 			is_de_jure_title = yes
 		}
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 }
 e_byzantium = { # Basileia Rhõmaiõn
@@ -6196,7 +6196,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_neopatras
 		allow = {
 			NOT = { realm = { title = e_byzantium } }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_byzantium
 	k_epirus = { # Epeiros
@@ -6954,7 +6954,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 					title = e_roman_empire
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_epirus
 	k_achaea = { # Moréos
@@ -7835,7 +7835,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		allow = {
 			religion_group = christian
 			NOT = { realm = { title = e_byzantium } }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_achaea
 	k_candia = { # Kretes
@@ -8107,7 +8107,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_krete
 		allow = {
 			NOT = { realm = { title = e_byzantium } }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_candia
 	k_nikaea = { # Nikaia
@@ -9351,7 +9351,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 					title = e_roman_empire
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_nikaea
 	k_anatolia = { # Ikonion
@@ -9946,7 +9946,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_melitene
 		allow = {
 			NOT = { realm = { title = e_byzantium } }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_anatolia
 	k_cyprus = { # Kyprou
@@ -10241,7 +10241,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		allow = {
 			religion_group = christian
 			NOT = { realm = { title = e_byzantium } }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_cyprus
 	k_trebizond = { # Trebizond
@@ -10953,7 +10953,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 					title = e_roman_empire
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_trebizond
 	k_cilician = { # Kilikia
@@ -11404,7 +11404,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_seleukeia
 		allow = {
 			NOT = { realm = { title = e_byzantium } }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_cilician
 	k_bulgaria = { # Balgariya
@@ -12637,7 +12637,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_ohrid
 		allow = {
 			NOT = { realm = { title = e_byzantium } }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_bulgaria
 	k_serbia = { # Srbija
@@ -13247,7 +13247,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		allow = {
 			religion_group = christian
 			liege = { NOT = { has_landed_title = e_byzantium } }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_serbia
 	k_ragusa = { # Dubrovnik
@@ -13422,7 +13422,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_ragusa
 		allow = {
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_ragusa
 	allow = {
@@ -13431,7 +13431,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 			has_holder = no
 		}
 		c_byzantion = { owner_under_ROOT = yes }
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_byzantium
 e_scandinavia = { # Nordmannia
@@ -13767,7 +13767,7 @@ e_scandinavia = { # Nordmannia
 			culture = frisian
 			german = "Außenlande"
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_denmark
 	k_iceland = { # Ísland
 		color = { 0 86 147 }
@@ -13815,7 +13815,7 @@ e_scandinavia = { # Nordmannia
 			}
 		} # end d_iceland
 		allow = {
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_iceland
 	k_sweden = { # Sviaríki
@@ -14267,7 +14267,7 @@ e_scandinavia = { # Nordmannia
 				#b_hemse = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_sweden
 	k_norway = { # Norégr
 		color = { 95 4 30 }
@@ -14563,7 +14563,7 @@ e_scandinavia = { # Nordmannia
 				#b_torshavn = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_norway
 	# Creation/usurpation trigger
 	allow = {
@@ -14574,7 +14574,7 @@ e_scandinavia = { # Nordmannia
 		has_landed_title = k_denmark
 		has_landed_title = k_norway
 		has_landed_title = k_sweden
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_scandinavia
 e_russia = { # Rus
@@ -14918,7 +14918,7 @@ e_russia = { # Rus
 				b_sarov = {}
 			}
 		} # end d_murom
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_vladimir
 	k_polotsk = { # Polotsk
 		color = { 119 35 100 }
@@ -15029,7 +15029,7 @@ e_russia = { # Rus
 				#b_vileyka = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_polotsk
 	k_ruthenia = { # Kiev
 		color = { 220 183 61 }
@@ -15401,7 +15401,7 @@ e_russia = { # Rus
 				b_serpeysk = {}
 			}
 		} # end d_novosil
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_ruthenia
 	k_novgorod = { # Novgorod
 		color = { 224 224 224 }
@@ -15602,14 +15602,14 @@ e_russia = { # Rus
 				b_veksenga = {}
 			}
 		} # end d_beloozero
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_novgorod
 	allow = {
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
 		}
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_russia
 e_poland = { # Polska-Lietuva
@@ -16172,7 +16172,7 @@ e_poland = { # Polska-Lietuva
 				}
 			}
 		} # end d_sieradzko-leczyckie
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_poland
 	k_lithuania = { # Lietuva
 		color = { 92 157 103 }
@@ -17487,7 +17487,7 @@ e_poland = { # Polska-Lietuva
 				}
 			} # end c_nadruvia
 		} # end d_prussia
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_lithuania
 	k_galicia = { # Halych-Volyn
 		color = { 10 69 106 }
@@ -17631,7 +17631,7 @@ e_poland = { # Polska-Lietuva
 				b_hrubieszow = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_galicia
 	allow = {
 		hidden_tooltip = {
@@ -17643,7 +17643,7 @@ e_poland = { # Polska-Lietuva
 		}
 		has_landed_title = k_poland
 		has_landed_title = k_lithuania
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_poland
 e_carpathia = { # Magyarország
@@ -17799,7 +17799,7 @@ e_carpathia = { # Magyarország
 				year = 1100
 				NOT = { primary_title = { title = k_bulgaria } }
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_wallachia
 	k_moldau = { # Moldova
@@ -18237,7 +18237,7 @@ e_carpathia = { # Magyarország
 				year = 1100
 				NOT = { primary_title = { title = k_bulgaria } }
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_moldau
 	k_hungary = { # Magyarország
@@ -20010,7 +20010,7 @@ e_carpathia = { # Magyarország
 				}
 			} # end c_marmaros
 		} # end d_transylvania
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_hungary
 	k_bosnia = { # Bosna
 		color = { 0 86 148 }
@@ -20230,7 +20230,7 @@ e_carpathia = { # Magyarország
 				b_dobojgrad = {}
 			}
 		} # end d_usora_i_soli
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_bosnia
 	k_croatia = { # Hrvatska
 		color = { 184 184 0 }
@@ -21598,14 +21598,14 @@ e_carpathia = { # Magyarország
 				}
 			} # end c_varadzin
 		} # end d_slavonia
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_croatia
 	# Creation/usurpation trigger
 	allow = {
 		religion_group = christian
 		has_landed_title = k_hungary
 		has_landed_title = k_croatia
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_carpathia
 e_arabia = { # Arabian Empire
@@ -21784,7 +21784,7 @@ e_arabia = { # Arabian Empire
 				b_nibaj = {}
 			}
 		} # end d_nefoud
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_arabia
 	k_oman = { # Uman
 		color = { 177 19 159 }
@@ -21837,7 +21837,7 @@ e_arabia = { # Arabian Empire
 				b_duqm = {}
 			}
 		} # end d_oman
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_oman
 	k_yemen = { # Yaman
 		color = { 88 1 155 }
@@ -21956,7 +21956,7 @@ e_arabia = { # Arabian Empire
 				#b_qashiu = {}
 			}
 		} # end d_hadramaut
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_yemen
 	k_egypt = { # Misr
 		color = { 65 36 40 }
@@ -22687,7 +22687,7 @@ e_arabia = { # Arabian Empire
 			}
 		} # end d_sinai
 		allow = {
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_egypt
 	k_syria = { # al-Sham
@@ -23081,10 +23081,10 @@ e_arabia = { # Arabian Empire
 				#b_russeifa = {}
 			}
 		} # end d_jordan
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_syria
 	allow = {
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_arabia
 e_abyssinia = { # Abyssinia
@@ -23205,7 +23205,7 @@ e_abyssinia = { # Abyssinia
 				b_halib = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_adal
 	k_abyssinia = { # Abyssinia
 		color = { 201 143 68 }
@@ -23367,7 +23367,7 @@ e_abyssinia = { # Abyssinia
 				b_debreberhan = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_abyssinia
 	k_nubia = { # Nubia
 		color = { 161 172 86 }
@@ -23514,7 +23514,7 @@ e_abyssinia = { # Abyssinia
 				b_mahareaka = {}
 			}
 		} # end d_nobatia
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_nubia
 	k_sennar = { # Sennar
 		color = { 200 48 110 }
@@ -23570,7 +23570,7 @@ e_abyssinia = { # Abyssinia
 		}
 		allow = {
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_sennar
 	k_maikelebahr = { # Maikele Bahr
@@ -23659,7 +23659,7 @@ e_abyssinia = { # Abyssinia
 				b_wolqayt = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_maikelebahr
 	allow = {
 		hidden_tooltip = {
@@ -23671,7 +23671,7 @@ e_abyssinia = { # Abyssinia
 		has_landed_title = k_maikelebahr
 		has_landed_title = k_nubia
 		has_landed_title = k_abyssinia
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_abyssinia
 e_britannia = { # Britannia
@@ -27804,7 +27804,7 @@ e_britannia = { # Britannia
 				b_st_peter_port = { norman = "Saint Pierre Port" }
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_england
 	k_wales = { # Wales
 		color = { 135 25 3 }
@@ -28570,7 +28570,7 @@ e_britannia = { # Britannia
 				}
 			} # end c_gwyr
 		} # end d_morgannwg
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_wales
 	# Must be defined before k_ireland
 	k_ireland_titular = { # Tara
@@ -28580,7 +28580,7 @@ e_britannia = { # Britannia
 		culture = irish
 		religion = catholic
 		allow = {
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	k_ireland = { # Éire
@@ -30354,7 +30354,7 @@ e_britannia = { # Britannia
 				}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_ireland
 	k_scotland = { # Alba
 		color = { 214 143 0 }
@@ -31921,7 +31921,7 @@ e_britannia = { # Britannia
 				}
 			} # end c_dunphris
 		} # end d_strathclyde
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_scotland
 	k_ellan_vannin = { # Man
 		color = { 60 60 118 }
@@ -32455,7 +32455,7 @@ e_britannia = { # Britannia
 				}
 			}
 		} # end d_western_isles
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_ellan_vannin
 	k_old_north = { # Hen Ogledd
 		color = { 82 92 157 }
@@ -32470,7 +32470,7 @@ e_britannia = { # Britannia
 			d_strathclyde = { owner_under_ROOT = yes }
 			d_northumberland = { owner_under_ROOT = yes }
 			d_lancaster = { owner_under_ROOT = yes }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	allow = {
@@ -32478,7 +32478,7 @@ e_britannia = { # Britannia
 			religion_group = christian
 			religion_group = pagan_group
 		}
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_britannia
 e_italy = { # Italia
@@ -32493,7 +32493,7 @@ e_italy = { # Italia
 		dignity = 200 # Never want the Republic of Genoa to change primary title
 		allow = {
 			is_republic = yes
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	k_pisa = { # Pisa
@@ -32504,7 +32504,7 @@ e_italy = { # Italia
 		dignity = 200 # Never want the Republic of Pisa to change primary title
 		allow = {
 			is_republic = yes
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	k_italy = { # Lombardia
@@ -33454,7 +33454,7 @@ e_italy = { # Italia
 		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_italy
 	k_patrimoniumpetri = { # Patrimonium Sancti Petri
@@ -33950,7 +33950,7 @@ e_italy = { # Italia
 		allow = {
 			religion_group = christian
 			liege = { has_landed_title = e_byzantium }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_patrimoniumpetri
 	k_sardinia = { # Corsicae et Sardiniae
@@ -34101,7 +34101,7 @@ e_italy = { # Italia
 		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_sardinia
 	k_sicily = { # Sicilia
@@ -34955,7 +34955,7 @@ e_italy = { # Italia
 				#b_sangjilan = {}
 			}
 		} # end d_sicily
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_sicily
 	k_venice = { # Venezia
 		color = { 52 127 128 }
@@ -34982,14 +34982,14 @@ e_italy = { # Italia
 		}
 		allow = {
 			is_republic = yes
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	allow = {
 		religion_group = christian
 		has_landed_title = k_italy
 		has_landed_title = k_sicily
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_italy
 e_france = { # France
@@ -35418,7 +35418,7 @@ e_france = { # France
 				#b_murten = {} # c_bern (Zähringen)
 			}
 		} # end d_upper_burgundy
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_burgundy
 	k_brittany = { # Breizh
 		color = { 240 240 240 }
@@ -35561,7 +35561,7 @@ e_france = { # France
 					culture_group = celtic
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_brittany
 	k_france = { # France
@@ -36410,7 +36410,7 @@ e_france = { # France
 				#b_creil = {}
 			}
 		} # end d_valois
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_france
 	k_aquitaine = { # Aquitaine
 		color = { 54 50 226 }
@@ -36979,7 +36979,7 @@ e_france = { # France
 		} # end d_limousin
 		allow = {
 			NOT = { has_landed_title = k_france }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_aquitaine
 	allow = {
@@ -36995,7 +36995,7 @@ e_france = { # France
 		religion_group = christian
 		has_landed_title = k_france
 		has_landed_title = k_burgundy
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_france
 e_spain = { # España
@@ -37960,7 +37960,7 @@ e_spain = { # España
 		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_castille
 	k_navarra = { # Navarra
@@ -38340,7 +38340,7 @@ e_spain = { # España
 		allow = {
 			culture = basque
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_navarra
 	k_leon = { # León
@@ -39269,7 +39269,7 @@ e_spain = { # España
 		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_leon
 	k_aragon = { # Aragón
@@ -40822,7 +40822,7 @@ e_spain = { # España
 		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_aragon
 	k_portugal = { # Portugal
@@ -42178,7 +42178,7 @@ e_spain = { # España
 		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_portugal
 	k_andalusia = { # Al-Andalus
@@ -45701,7 +45701,7 @@ e_spain = { # España
 					culture = andalusian_arabic
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_andalusia
 	# TITULAR SWMH Spain
@@ -45717,7 +45717,7 @@ e_spain = { # España
 			c_coruna = { owner_under_ROOT = yes }
 			c_lugo = { owner_under_ROOT = yes }
 			c_lemos = { owner_under_ROOT = yes }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	# Principado de Cataluña
@@ -45734,7 +45734,7 @@ e_spain = { # España
 			c_lleida = { owner_under_ROOT = yes }
 			c_tarragona = { owner_under_ROOT = yes }
 			c_girona = { owner_under_ROOT = yes }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_catalunya
 	# Reino de Valencia
@@ -45749,7 +45749,7 @@ e_spain = { # España
 			c_castellon = { owner_under_ROOT = yes }
 			c_murcia = { owner_under_ROOT = yes }
 			c_almansa = { owner_under_ROOT = yes }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	# Reino de Granada
@@ -45764,7 +45764,7 @@ e_spain = { # España
 			c_almeria = { owner_under_ROOT = yes }
 			c_jaen = { owner_under_ROOT = yes }
 			c_cordoba = { owner_under_ROOT = yes }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	k_asturias = { # Asturias
@@ -45782,7 +45782,7 @@ e_spain = { # España
 			religion_group = christian
 			c_asturias_de_oviedo = { owner_under_ROOT = yes }
 			c_asturias_de_santillana = { owner_under_ROOT = yes }
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	# Creation/usurpation trigger
@@ -45794,7 +45794,7 @@ e_spain = { # España
 				culture = andalusian_arabic
 			}
 		}
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 	# END TITULAR SWMH Spain
 } # end e_spain
@@ -46338,7 +46338,7 @@ e_africa = { # Africa
 				b_arigh = {}
 			}
 		} # end d_zab
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_africa
 	k_maghreb = { # Maghreb
 		color = { 150 110 210 }
@@ -46728,7 +46728,7 @@ e_africa = { # Africa
 				b_alnif = {}
 			}
 		} # end d_marrakech
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_maghreb
 	k_mauretania = { # Mauretania
 		color = { 64 0 128 }
@@ -46819,13 +46819,13 @@ e_africa = { # Africa
 				b_tassarahla = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_mauretania
 	allow = {
 		religion_group = muslim
 		has_landed_title = k_mauretania
 		has_landed_title = k_africa
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_africa
 e_persia = { # Érán
@@ -47119,7 +47119,7 @@ e_persia = { # Érán
 			}
 		}
 		allow = {
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_persia
 	k_daylam = { # Daylam
@@ -47315,7 +47315,7 @@ e_persia = { # Érán
 			}
 		} # end d_azerbaijan
 		allow = {
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_daylam
 	k_khorasan = { # Khoarásán
@@ -47536,7 +47536,7 @@ e_persia = { # Érán
 			}
 		}
 		allow = {
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_khorasan
 	k_sistan = { # Sístán
@@ -47639,7 +47639,7 @@ e_persia = { # Érán
 			}
 		} # end d_makran
 		allow = {
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_sistan
 	k_mavarannahr = { # Mavár-an-Nahr
@@ -47830,7 +47830,7 @@ e_persia = { # Érán
 			}
 		} # end d_khwarazm
 		allow = {
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_mavarannahr
 	k_kafarestan = { # Kábulistán
@@ -47927,7 +47927,7 @@ e_persia = { # Érán
 			}
 		} # end d_khottal
 		allow = {
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_kafarestan
 	k_mesopotamia = { # al-Iraq
@@ -48172,7 +48172,7 @@ e_persia = { # Érán
 			}
 		} # end d_kurdistan
 		allow = {
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_mesopotamia
 	allow = {
@@ -48198,7 +48198,7 @@ e_persia = { # Érán
 				}
 			}
 		}
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_persia
 # All landed kingdom titles that have no de jure empire must go
@@ -48219,7 +48219,7 @@ e_null = {
 		allow = {
 			culture = armenian
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	}
 	k_armenia = { # Hayk
@@ -49106,7 +49106,7 @@ e_null = {
 				}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_armenia
 	k_jerusalem = { # Jerusalem
 		color = { 180 180 180 }
@@ -49791,7 +49791,7 @@ e_null = {
 		# Creation/Usurp Trigger
 		allow = {
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_jerusalem
 	k_antioch = { # Antioche
@@ -50625,7 +50625,7 @@ e_null = {
 		} # end d_tripoli
 		allow = {
 			religion_group = christian
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_antioch
 	k_aljazira = { # Al Jazira
@@ -51056,7 +51056,7 @@ e_null = {
 				b_haditha = { assyrian = "Hdatta" }
 			}
 		} # end d_diyareast
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_aljazira
 	k_pomerania = { # Wendland
 		color = { 136 89 151 }
@@ -52826,7 +52826,7 @@ e_null = {
 					prestige = 3000
 				}
 			}
-			title_king_basic_allow_trigger = yes
+			title_king_basic_allow = yes
 		}
 	} # end k_pomerania
 	k_terra = { # Livonia
@@ -54651,7 +54651,7 @@ e_null = {
 				}
 			}
 		} # end d_osel_wiek
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_terra
 	k_taurica = { # Qirim
 		color = { 90 150 175 }
@@ -55521,7 +55521,7 @@ e_null = {
 				b_bakota_ponyzzia = {}
 			} # end c_peresechen
 		} # end d_podolia
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_taurica
 	k_khazaria = { # Qazarstan
 		color = { 224 142 35 }
@@ -56870,7 +56870,7 @@ e_null = {
 				b_nymphaion_korchev = {}
 			} # end c_korchev
 		} # end d_tmutarakan
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_khazaria
 	# END k_khazaria
 	k_alania = { # Alania
@@ -57403,7 +57403,7 @@ e_null = {
 				b_tetchick_ev = {}
 			}
 		} # end d_sarir
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_alania
 	# END k_alania
 	k_turkestan_west = { # Aq Turkestán
@@ -57529,7 +57529,7 @@ e_null = {
 				b_shavgar = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_turkestan_west
 	k_turkestan_east = { # Mavi Turkestán
 		color = { 200 140 40 }
@@ -57677,7 +57677,7 @@ e_null = {
 				b_calmadana = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_turkestan_east
 	k_volga_bulgaria = { # Bolgar
 		color = { 255 255 153 }
@@ -58774,7 +58774,7 @@ e_null = {
 				}
 			} # end c_mountain_cheremisa
 		} # end d_sura
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_volga_bulgaria
 	##### Finnish
 	k_finland = { # Suomi
@@ -59683,7 +59683,7 @@ e_null = {
 				#b_kingisepp = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_finland
 	# END k_finland
 	k_perm = { # Perym
@@ -60329,7 +60329,7 @@ e_null = {
 				}
 			} # end c_zyriane
 		} # end d_perm_vychegda
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_perm
 	k_bjarmia = { # Vepsänma
 		color = { 163 39 80 }
@@ -60596,7 +60596,7 @@ e_null = {
 				}
 			}
 		} # end d_pechora
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_bjarmia
 	k_georgia = { # Sakartvelo
 		color = { 122 26 98 }
@@ -60913,7 +60913,7 @@ e_null = {
 				b_dedoplistsqaro = {}
 			}
 		}
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_georgia
 	k_caucasian_albania = { # Arran
 		color = { 60 126 98 }
@@ -61082,7 +61082,7 @@ e_null = {
 				b_aghuen = {}
 			}
 		} # end d_shirvan
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_caucasian_albania
 	k_canarias = { # Canarias
 		color = { 182 198 176 }
@@ -61143,7 +61143,7 @@ e_null = {
 				b_aguimes = {}
 			}
 		} # end d_canarias
-		allow = { title_king_basic_allow_trigger = yes }
+		allow = { title_king_basic_allow = yes }
 	} # end k_canarias
 	allow = { always = no }
 } # end e_null
@@ -61442,21 +61442,21 @@ k_moravia = { # Velká Morava
 	culture = moravian
 	capital = 441 # Boruy # Brno
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_almohad = { # Almohad
 	color = { 0 105 56 }
 	capital = 847 # Tarúdant # Tharasset
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_al-murabitids = { # Al-Murabitids
 	color = { 10 105 56 }
 	capital = 847 # Tarúdant # Tharasset
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 d_aydin = { # Aydin
@@ -61477,7 +61477,7 @@ k_beni_helal = { # Beni Helal
 	color = { 128 163 56 }
 	capital = 719 # Makkah # Mecca
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 d_candar = { # Candar
@@ -61515,7 +61515,7 @@ k_fatimids = { # Fatimids
 	capital = 796 # Cairo
 	culture = egyptian_arabic
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 d_germiyan = { # Germiyan
@@ -61539,14 +61539,14 @@ k_hammadid = { # Hammadid
 	culture = beja
 	capital = 1211 # Beja
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_kafsid = { # Kafsid
 	color = { 109 130 20 }
 	capital = 817 # Tunis
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 d_karaman = { # Qaraman
@@ -61570,14 +61570,14 @@ k_magyar = { # Hét Magyar
 	culture = hungarian
 	capital = 522 # Veszprém # Pest
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_marinid = { # Marinid
 	color = { 46 255 5 }
 	capital = 840 # Fâs # Fes
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 d_mentese = { # Mentese
@@ -61615,7 +61615,7 @@ k_naples = { # Naples
 	capital = 334 # Napoli
 	culture = italian
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 d_osmanli = { # Osmanli
@@ -61639,7 +61639,7 @@ k_ottoman = { # Ottoman Turks
 	allow = {
 		culture_group = altaic
 		NOT = { realm = { title = e_byzantium } }
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_rum = { # Rûm
@@ -61656,7 +61656,7 @@ k_rum = { # Rûm
 			NOT = { top_liege = { has_landed_title = e_byzantium } }
 			FROM = { NOT = { de_jure_liege = e_byzantium } }
 		}
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 d_saruhan = { # Saruhan
@@ -61681,7 +61681,7 @@ e_seljuk_turks = { # Seljuk Empire
 	#tribe = yes
 	#landless = yes
 	allow = {
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 }
 d_ahi = { # Ahiler
@@ -61736,28 +61736,28 @@ k_trinacria = { # Trinacria
 			religion = catholic
 			is_heresy_of = catholic
 		}
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_zenata = { # Zenata
 	color = { 0 71 189 }
 	capital = 837 # Figuig
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_zirid = { # Zirid
 	color = { 90 195 49 }
 	capital = 834 # Tilimsân # Tlemecen
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_ziyanids = { # Ziyanids
 	color = { 5 76 194 }
 	capital = 1353 # Sfax # Mahdia
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_makuria = { # Makuria
@@ -61770,12 +61770,12 @@ k_makuria = { # Makuria
 	andalusian_arabic = "Muqurra"
 	bedouin_arabic = "Muqurra"
 	capital = 793 # Makuria
-	allow = { title_king_basic_allow_trigger = yes }
+	allow = { title_king_basic_allow = yes }
 }
 k_alodia = { # Alodia
 	color = { 175 100 80 }
 	capital = 1490 # Soba
-	allow = { title_king_basic_allow_trigger = yes }
+	allow = { title_king_basic_allow = yes }
 }
 k_tiaret = { # Tiáret
 	color = { 149 180 17 }
@@ -61784,7 +61784,7 @@ k_tiaret = { # Tiáret
 	foa = IMAM_FOA
 	title_prefix = IMAMATE_OF
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_israel = { # Israel
@@ -61794,13 +61794,13 @@ k_israel = { # Israel
 	dynasty_title_names = no # Will not be named "Seljuk", etc.
 	capital = 774 # Jérusalem # Jerusalem
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_ifat = { # Ifat
 	color = { 170 10 20 }
 	capital = 873 # Adal # Harer
-	allow = { title_king_basic_allow_trigger = yes }
+	allow = { title_king_basic_allow = yes }
 }
 k_blemmyes = { # Béja
 	color = { 255 67 20 }
@@ -61808,14 +61808,14 @@ k_blemmyes = { # Béja
 	culture = beja
 	capital = 1211 # Beja
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_khwarezmia = { # Khwarezm
 	color = { 255 67 20 }
 	capital = 626 # Khwarezm # Káth
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_kimek = { # Kimek
@@ -61827,7 +61827,7 @@ k_kimek = { # Kimek
 	foa = Khan_FOA
 	title_prefix = Khanliq_of
 	allow = {
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 k_kerman = { # Kermán
@@ -61837,7 +61837,7 @@ k_kerman = { # Kermán
 	allow = {
 		culture_group = altaic
 		NOT = { top_liege = { has_landed_title = e_byzantium } }
-		title_king_basic_allow_trigger = yes
+		title_king_basic_allow = yes
 	}
 }
 # TITULAR EMPIRES
@@ -61867,7 +61867,7 @@ e_latin_empire = { # Imperium Romaniae
 				}
 			}
 		}
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 } # end e_latin_empire
 ### INDIA ###
@@ -61878,6 +61878,6 @@ e_india = { # India # Titular, created by special decision only if entire India 
 	title_female = SAMRAJNI_CHAKRAVARTIN
 	dynasty_title_names = no # Will not be named "Seljuk", etc.
 	allow = {
-		title_emperor_basic_allow_trigger = yes
+		title_emperor_basic_allow = yes
 	}
 }
