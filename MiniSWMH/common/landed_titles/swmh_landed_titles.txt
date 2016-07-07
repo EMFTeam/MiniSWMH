@@ -89,7 +89,7 @@ d_hashshashin = { # Hashshashin
 	landless = yes
 	culture = persian
 	# Parent Religion
-	religion = shiite
+	religion = ismaili
 	# Cannot be held as a secondary title
 	primary = yes
 	# Cannot be vassalized
@@ -2451,6 +2451,7 @@ e_hre = { # Heiliges Römisches Reich
 				dutch = "Keulen"
 				frankish = "Cologne"
 				holy_site = catholic
+				holy_site = lollard
 				b_koln = {
 					dutch = "Keulen"
 					frankish = "Cologne"
@@ -5501,6 +5502,9 @@ e_byzantium = { # Basileia Rhõmaiõn
 				franconian = "Konstantinusesburg"
 				holy_site = orthodox
 				holy_site = nestorian
+				holy_site = waldensian
+				holy_site = maronite
+				holy_site = bogomilist
 				b_constantinople = {
 					norwegian = "Miklagarðr"
 					danish = "Miklagarðr"
@@ -6195,7 +6199,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_neopatras
 		} # end d_neopatras
 		allow = {
-			NOT = { realm = { title = e_byzantium } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_byzantium
@@ -6948,11 +6955,9 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_corfu
 		} # end d_cephalonia
 		allow = {
-			realm = {
-				NOR = {
-					title = e_byzantium
-					title = e_roman_empire
-				}
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
 			}
 			title_king_basic_allow = yes
 		}
@@ -7221,6 +7226,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				turkish = "Atina"
 				pecheneg = "Atina"
 				holy_site = hellenic_pagan
+				holy_site = druze
 				b_athens = {
 					frankish = "Athènes"
 					norman = "Athènes"
@@ -7833,8 +7839,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_arcadia
 		} # end d_achaia
 		allow = {
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			religion_group = christian
-			NOT = { realm = { title = e_byzantium } }
 			title_king_basic_allow = yes
 		}
 	} # end k_achaea
@@ -8106,7 +8115,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_chandax
 		} # end d_krete
 		allow = {
-			NOT = { realm = { title = e_byzantium } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_candia
@@ -9344,13 +9356,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 		} # end d_cibyrrhaeot
 		allow = {
-			religion = orthodox
-			realm = {
-				NOT = {
-					title = e_byzantium
-					title = e_roman_empire
-				}
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
 			}
+			religion_group = christian
 			title_king_basic_allow = yes
 		}
 	} # end k_nikaea
@@ -9593,6 +9603,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				turkmen = "Divrigi"
 				turkish = "Divrigi"
 				armenian = "Tewrik"
+				holy_site = paulician
 				b_tephrike = {
 					oghuz = "Divrigi"
 					turkmen = "Divrigi"
@@ -9945,7 +9956,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_melitene
 		} # end d_melitene
 		allow = {
-			NOT = { realm = { title = e_byzantium } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_anatolia
@@ -10239,8 +10253,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 		} # end d_cyprus
 		allow = {
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			religion_group = christian
-			NOT = { realm = { title = e_byzantium } }
 			title_king_basic_allow = yes
 		}
 	} # end k_cyprus
@@ -10946,13 +10963,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 		} # end d_armeniacon
 		allow = {
-			religion_group = christian
-			realm = {
-				NOR = {
-					title = e_byzantium
-					title = e_roman_empire
-				}
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
 			}
+			religion_group = christian
 			title_king_basic_allow = yes
 		}
 	} # end k_trebizond
@@ -11115,6 +11130,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				andalusian_arabic = "Sisiya"
 				frankish = "Sisa"
 				norman = "Sisa"
+				holy_site = apostolic
 				b_sis = {
 					oghuz = "Kozan"
 					turkmen = "Kozan"
@@ -11403,7 +11419,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_anamur
 		} # end d_seleukeia
 		allow = {
-			NOT = { realm = { title = e_byzantium } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_cilician
@@ -11965,6 +11984,8 @@ e_byzantium = { # Basileia Rhõmaiõn
 				turkmen = "Filibe"
 				turkish = "Filibe"
 				pecheneg = "Filibe"
+				holy_site = bogomilist
+				holy_site = cathar
 				b_bachkovo = {
 					east_gothic = "Petritsoni"
 					greek = "Petritsoni"
@@ -12636,7 +12657,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_naissus
 		} # end d_ohrid
 		allow = {
-			NOT = { realm = { title = e_byzantium } }
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_bulgaria
@@ -13245,8 +13269,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_travunija
 		} # end d_dioclea
 		allow = {
+			OR = {
+				emf_trigger = yes
+				byzantine_lockout_trigger = yes
+			}
 			religion_group = christian
-			liege = { NOT = { has_landed_title = e_byzantium } }
 			title_king_basic_allow = yes
 		}
 	} # end k_serbia
@@ -15439,6 +15466,7 @@ e_russia = { # Rus
 				anglonorse = "Holmgarðr"
 				holy_site = slavic_pagan
 				holy_site = slavic_pagan_reformed
+				holy_site = bogomilist
 				b_novgorodkremlin = {}
 				b_novgorod = {
 					danish = "Holmgarðr"
@@ -21169,6 +21197,7 @@ e_carpathia = { # Magyarország
 			c_vodica = { # Vodica (959)
 				color = { 100 121 121 }
 				color2 = { 255 255 255 }
+				holy_site = bogomilist
 				b_dubica = {}
 				b_bosanska_krupa = {
 					hungarian = "Pset"
@@ -21710,6 +21739,7 @@ e_arabia = { # Arabian Empire
 				holy_site = sunni
 				holy_site = shiite
 				holy_site = ibadi
+				holy_site = ismaili
 				b_qalatmedina = {}
 				b_medina = {}
 				b_khaybar = {}
@@ -21725,6 +21755,7 @@ e_arabia = { # Arabian Empire
 				holy_site = pagan
 				holy_site = yazidi
 				holy_site = ibadi
+				holy_site = ismaili
 				b_taif = {}
 				b_mecca = {}
 				b_jeddah = {}
@@ -21983,6 +22014,10 @@ e_arabia = { # Arabian Empire
 				holy_site = monophysite
 				holy_site = nestorian
 				holy_site = hellenic_pagan
+				holy_site = paulician
+				holy_site = apostolic
+				holy_site = maronite
+				holy_site = nabawiyya
 				coptic = "Rakote"
 				greek = "Alexandreia"
 				b_alexandria = {
@@ -22184,6 +22219,7 @@ e_arabia = { # Arabian Empire
 				roman = "Babylon"
 				greek = "Phystaton"
 				coptic = "Phystaton"
+				holy_site = druze
 				b_cairo = {
 					roman = "Babylon" # The Old Roman Fortress and City that turned into Cairo was know as Babylon
 					greek = "Babylon" # The Old Roman Fortress and City that turned into Cairo was know as Babylon
@@ -22901,6 +22937,7 @@ e_arabia = { # Arabian Empire
 				holy_site = samaritan
 				holy_site = karaite
 				holy_site = shiite
+				holy_site = ismaili
 				b_citadelofdamascus = {
 					frankish = "Château de Damascus"
 					norman = "Château de Damascus"
@@ -22933,6 +22970,7 @@ e_arabia = { # Arabian Empire
 				norman = "Balbec"
 				roman = "Heliopolis"
 				greek = "Helioupolis"
+				holy_site = druze
 				b_baalbek = {
 					frankish = "Balbec"
 					norman = "Balbec"
@@ -24376,6 +24414,7 @@ e_britannia = { # Britannia
 				irish = "Ceint"
 				scottish = "Ceint"
 				holy_site = catholic
+				holy_site = lollard
 				b_dover = {}
 				b_canterbury = {
 					norwegian = "Cantawaraborg"
@@ -25011,6 +25050,7 @@ e_britannia = { # Britannia
 				scottish = "Caer Gloui"
 				roman = "Glevum"
 				greek = "Glevum"
+				holy_site = lollard
 				b_gloucester = {
 					norwegian = "Gleawceaster"
 					danish = "Gleawceaster"
@@ -32957,6 +32997,7 @@ e_italy = { # Italia
 				title_prefix = MARQUISATE_OF
 				roman = "Hasta"
 				greek = "Asta"
+				holy_site = waldensian
 				b_alessandria = {}
 				b_casale = {}
 				b_asti = {
@@ -33837,6 +33878,9 @@ e_italy = { # Italia
 				holy_site = pagan
 				holy_site = aztec
 				holy_site = aztec_reformed
+				holy_site = waldensian
+				holy_site = cathar
+				holy_site = lollard
 				b_roma = {
 					pentarchy = yes
 					used_for_dynasty_names = no
@@ -35230,6 +35274,8 @@ e_france = { # France
 				color2 = { 255 255 255 }
 				roman = "Lugdunum"
 				greek = "Lougdounon"
+				holy_site = cathar
+				holy_site = waldensian
 				b_brindas = {}
 				b_stjeanbaptiste = {}
 				b_lyon = {
@@ -36641,6 +36687,7 @@ e_france = { # France
 				color = { 16 22 249 }
 				color2 = { 255 255 255 }
 				culture = occitan
+				holy_site = cathar
 				b_saissac = {}
 				b_carcassonne_villebasse = {}
 				b_rases = {}
@@ -45825,6 +45872,7 @@ e_africa = { # Africa
 				color2 = { 255 255 255 }
 				roman = "Carthago"
 				greek = "Karchedon"
+				holy_site = nabawiyya
 				b_tunis = {
 					sanhaja = "Tunes"
 					tagelmust = "Tunes"
@@ -46699,6 +46747,7 @@ e_africa = { # Africa
 			c_massat = { # Asfî (844)
 				color = { 53 160 42 }
 				color2 = { 255 255 255 }
+				holy_site = nabawiyya
 				b_oualidia = {}
 				b_eljadida = {}
 				b_safi = {}
@@ -46979,6 +47028,7 @@ e_persia = { # Érán
 			c_shiraz = { # Shiraz (644)
 				color = { 30 190 180 }
 				color2 = { 255 255 255 }
+				holy_site = nabawiyya
 				b_shiraz = {}
 				b_djuyum = {}
 				b_istakhr = {}
@@ -47978,6 +48028,7 @@ e_persia = { # Érán
 			c_al_nadjaf = { # Qadisiyyah (692) # Al Nadjaf
 				color = { 90 130 202 }
 				color2 = { 255 255 255 }
+				holy_site = ismaili	
 				b_qadisiyyah = {}
 				b_waqisa = {}
 				b_masjidsad = {}
@@ -48579,6 +48630,7 @@ e_null = {
 				georgian = "Amberdi"
 				holy_site = miaphysite
 				holy_site = monophysite
+				holy_site = apostolic
 				b_bjni = {}
 				b_amberd = {}
 				b_etchmiadzin = {
@@ -49186,6 +49238,15 @@ e_null = {
 				holy_site = samaritan
 				holy_site = karaite
 				holy_site = ibadi
+				holy_site = waldensian
+				holy_site = cathar
+				holy_site = lollard
+				holy_site = paulician
+				holy_site = apostolic
+				holy_site = maronite
+				holy_site = bogomilist
+				holy_site = ismaili
+				holy_site = nabawiyya
 				b_towerofdavid = {
 					maghreb_arabic = "Burj Daud"
 					levantine_arabic = "Burj Daud"
@@ -49728,6 +49789,10 @@ e_null = {
 				color2 = { 255 255 255 }
 				roman = "Berytus"
 				greek = "Berytos"
+				
+				holy_site = maronite
+				holy_site = druze
+				
 				b_beirut = {
 					roman = "Berytus"
 					greek = "Berytos"
@@ -50120,6 +50185,10 @@ e_null = {
 				holy_site = miaphysite
 				holy_site = monophysite
 				holy_site = nestorian
+				holy_site = paulician
+				holy_site = apostolic
+				holy_site = maronite
+				holy_site = druze
 				b_antiocheia = {
 					bedouin_arabic = "Antakiya"
 					maghreb_arabic = "Antakiya"
@@ -61052,6 +61121,9 @@ e_null = {
 			c_absheron = { # Abšaran (668)
 				color = { 162 234 22 }
 				color2 = { 255 255 255 }
+				
+				holy_site = paulician
+				
 				b_baku = {}
 				b_lankaran = {}
 				b_absheron = {}
@@ -61468,7 +61540,7 @@ d_aydin = { # Aydin
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61490,7 +61562,7 @@ d_candar = { # Candar
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61503,7 +61575,7 @@ d_eretnid = { # Eretna
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61529,7 +61601,7 @@ d_germiyan = { # Germiyan
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61559,7 +61631,7 @@ d_karaman = { # Qaraman
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61590,7 +61662,7 @@ d_mentese = { # Mentese
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61605,7 +61677,7 @@ d_karasi = { # Qarasi
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61627,7 +61699,7 @@ d_osmanli = { # Osmanli
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61637,8 +61709,11 @@ k_ottoman = { # Ottoman Turks
 	culture = turkish
 	capital = 742 # Prousa # Prusa
 	allow = {
+		OR = {
+			emf_trigger = yes
+			byzantine_lockout_trigger = yes
+		}
 		culture_group = altaic
-		NOT = { realm = { title = e_byzantium } }
 		title_king_basic_allow = yes
 	}
 }
@@ -61648,13 +61723,15 @@ k_rum = { # Rûm
 	capital = 759 # Ikonion
 	dynasty_title_names = no # Will not be named "Seljuk", etc.
 	allow = {
-		OR = { # Either a player or Muslim
-			ai = no
-			religion_group = muslim
+		hidden_tooltip = {
+			OR = { # Either a player or Muslim
+				ai = no
+				religion_group = muslim
+			}
 		}
-		OR = { # Not to be created/usurped under/as the ERE unless title is not de jure vassal to the ERE
-			NOT = { top_liege = { has_landed_title = e_byzantium } }
-			FROM = { NOT = { de_jure_liege = e_byzantium } }
+		OR = {
+			emf_trigger = yes
+			byzantine_lockout_trigger = yes
 		}
 		title_king_basic_allow = yes
 	}
@@ -61669,7 +61746,7 @@ d_saruhan = { # Saruhan
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61695,7 +61772,7 @@ d_ahi = { # Ahiler
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61709,7 +61786,7 @@ d_hamid = { # Hamid
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61723,7 +61800,7 @@ d_tekke = { # Teke
 			FROM = { is_titular = no }
 			AND = {
 				culture_group = altaic
-				NOT = { realm = { title = e_byzantium } }
+				byzantine_lockout_trigger = yes
 			}
 		}
 	}
@@ -61835,8 +61912,11 @@ k_kerman = { # Kermán
 	culture = turkmen
 	capital = 639 # Kermân # Kerman
 	allow = {
+		OR = {
+			emf_trigger = yes
+			byzantine_lockout_trigger = yes
+		}
 		culture_group = altaic
-		NOT = { top_liege = { has_landed_title = e_byzantium } }
 		title_king_basic_allow = yes
 	}
 }
