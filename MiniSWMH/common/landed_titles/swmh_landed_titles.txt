@@ -1415,7 +1415,7 @@ d_mamluks = { # Mamluks
 	graphical_culture = bektashigfx
 	capital = 796 # Cairo
 	# Parent Religion
-	religion = shiite
+	religion = ismaili
 	mercenary = yes
 	title = CAPTAIN
 	foa = CAPTAIN_FOA
@@ -38006,7 +38006,10 @@ e_spain = { # España
 		}
 		# Creation/usurpation trigger
 		allow = {
-			religion_group = christian
+			OR = {
+				religion_group = christian
+				FROM = { has_holder = yes }
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_castille
@@ -38385,8 +38388,13 @@ e_spain = { # España
 		} # end d_navarra
 		# Creation/usurpation trigger
 		allow = {
-			culture = basque
-			religion_group = christian
+			OR = {
+				AND = {
+					culture = basque
+					religion_group = christian
+				}
+				FROM = { has_holder = yes }
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_navarra
@@ -39315,7 +39323,10 @@ e_spain = { # España
 		} # end d_salamanca
 		# Creation/usurpation trigger
 		allow = {
-			religion_group = christian
+			OR = {
+				religion_group = christian
+				FROM = { has_holder = yes }
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_leon
@@ -40868,7 +40879,10 @@ e_spain = { # España
 		}
 		# Creation/usurpation trigger
 		allow = {
-			religion_group = christian
+			OR = {
+				religion_group = christian
+				FROM = { has_holder = yes }
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_aragon
@@ -42224,7 +42238,10 @@ e_spain = { # España
 		} # end d_porto
 		# Creation/usurpation trigger
 		allow = {
-			religion_group = christian
+			OR = {
+				religion_group = christian
+				FROM = { has_holder = yes }
+			}
 			title_king_basic_allow = yes
 		}
 	} # end k_portugal
