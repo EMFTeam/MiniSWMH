@@ -61774,7 +61774,9 @@ e_seljuk_turks = { # Seljuk Empire
 	culture = turkmen
 	#tribe = yes
 	#landless = yes
+	short_name = yes
 	allow = {
+		FROM = { has_holder = yes }
 		title_emperor_basic_allow = yes
 	}
 }
