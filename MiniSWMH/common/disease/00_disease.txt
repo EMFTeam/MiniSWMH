@@ -1,3 +1,5 @@
+# -*- ck2.disease -*-
+
 # This file holds the diseases for The Reaper's due, with all new values and effects
 # note the "rip = yes" -- this will make it so that the disease is The Reaper's Due exclusive, so that we can have both versions of the disease
 # if "rip" is not specified, the disease will be available in both version (with the same values in both) and doesn't need to be set twice
@@ -885,7 +887,7 @@ bubonic_plague = {
 				1570 # SWMH Qarashahr for vanilla Dunhuang
 			}
 			excluded_regions = {
-				world_india_rajastan custom_historical_plague_free_zone
+				custom_historical_plague_free_zone
 			}
 		}
 
@@ -895,7 +897,7 @@ bubonic_plague = {
 				1570 # SWMH Qarashahr for vanilla Dunhuang
 			}
 			excluded_regions = {
-				world_india_rajastan
+				
 			}
 		}
 
@@ -922,7 +924,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses Scandinavia and respects the HPFZ
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_europe_north custom_historical_plague_free_zone
@@ -932,7 +934,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses Britain
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_europe_west_brittania
@@ -942,7 +944,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses the Steppe
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_steppe
@@ -978,7 +980,7 @@ bubonic_plague = {
 				1570 # SWMH Qarashahr for vanilla Dunhuang
 			}
 			excluded_regions = {
-				world_india_rajastan custom_historical_plague_free_zone
+				custom_historical_plague_free_zone
 			}
 		}
 
@@ -988,7 +990,7 @@ bubonic_plague = {
 				1570 # SWMH Qarashahr for vanilla Dunhuang
 			}
 			excluded_regions = {
-				world_india_rajastan
+				
 			}
 		}
 
@@ -1015,7 +1017,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses Scandinavia and respects the HPFZ
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_europe_north custom_historical_plague_free_zone
@@ -1025,7 +1027,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses Britain
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_europe_west_brittania
@@ -1035,7 +1037,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses the Steppe
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_steppe
@@ -1072,7 +1074,7 @@ bubonic_plague = {
 				1570 # SWMH Qarashahr for vanilla Dunhuang
 			}
 			excluded_regions = {
-				world_india_rajastan custom_historical_plague_free_zone
+				custom_historical_plague_free_zone
 			}
 		}
 
@@ -1082,7 +1084,7 @@ bubonic_plague = {
 				1570 # SWMH Qarashahr for vanilla Dunhuang
 			}
 			excluded_regions = {
-				world_india_rajastan
+				
 			}
 		}
 
@@ -1109,7 +1111,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses Scandinavia and respects the HPFZ
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_europe_north custom_historical_plague_free_zone
@@ -1119,7 +1121,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses Britain
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_europe_west_brittania
@@ -1129,7 +1131,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses the Steppe
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_steppe
@@ -1161,7 +1163,7 @@ bubonic_plague = {
 				1570 # SWMH Qarashahr for vanilla Dunhuang
 			}
 			excluded_regions = {
-				world_india_rajastan custom_historical_plague_free_zone
+				custom_historical_plague_free_zone
 			}
 		}
 
@@ -1171,7 +1173,7 @@ bubonic_plague = {
 				1570 # SWMH Qarashahr for vanilla Dunhuang
 			}
 			excluded_regions = {
-				world_india_rajastan
+				
 			}
 		}
 
@@ -1198,7 +1200,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses Scandinavia and respects the HPFZ
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_europe_north custom_historical_plague_free_zone
@@ -1208,7 +1210,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses Britain
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_europe_west_brittania
@@ -1218,7 +1220,7 @@ bubonic_plague = {
 		outbreak_scenario = { # Comes via India and misses the Steppe
 			chance = 0.10
 			start_provinces = {
-				1600 # SWMH Debul for vanilla Kundina
+				899 # SWMH Pandjgúr for vanilla Kundina
 			}
 			excluded_regions = {
 				world_steppe
@@ -1251,7 +1253,7 @@ bubonic_plague = {
 				1570 # SWMH Qarashahr for vanilla Dunhuang
 			}
 			excluded_regions = {
-				world_india_rajastan custom_historical_plague_free_zone
+				custom_historical_plague_free_zone
 			}
 		}
 	}
