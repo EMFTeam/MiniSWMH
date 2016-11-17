@@ -127,7 +127,7 @@ tuberculosis = { # Consumption
 	}
 	on_province_infection = {
 		province_event = {
-			id = RIP.11703 #prosperity ended by epidemic
+			RIP.11703 #prosperity ended by epidemic
 		}
 	}
 	always_get_message = no

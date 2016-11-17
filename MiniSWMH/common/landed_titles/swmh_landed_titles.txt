@@ -2148,6 +2148,7 @@ e_hre = { # Heiliges Römisches Reich
 		} # end d_barleduc
 		allow = {
 			OR = {
+				emf_trigger = yes
 				prestige = 2500
 				AND = {
 					NOT = { tier = emperor }
@@ -2550,6 +2551,7 @@ e_hre = { # Heiliges Römisches Reich
 		} # end d_berg
 		allow = {
 			OR = {
+				emf_trigger = yes
 				prestige = 2500
 				AND = {
 					NOT = { tier = emperor }
@@ -2991,6 +2993,7 @@ e_hre = { # Heiliges Römisches Reich
 		} # end d_brunswick
 		allow = {
 			OR = {
+				emf_trigger = yes
 				prestige = 2500
 				AND = {
 					NOT = { tier = emperor }
@@ -3192,6 +3195,7 @@ e_hre = { # Heiliges Römisches Reich
 		} # end d_hessen
 		allow = {
 			OR = {
+				emf_trigger = yes
 				prestige = 2500
 				AND = {
 					NOT = { tier = emperor }
@@ -3525,6 +3529,7 @@ e_hre = { # Heiliges Römisches Reich
 		} # end d_osterreich
 		allow = {
 			OR = {
+				emf_trigger = yes
 				prestige = 2500
 				AND = {
 					NOT = { tier = emperor }
@@ -4016,6 +4021,7 @@ e_hre = { # Heiliges Römisches Reich
 		}
 		allow = {
 			OR = {
+				emf_trigger = yes
 				prestige = 2500
 				AND = {
 					NOT = { tier = emperor }
@@ -4382,6 +4388,7 @@ e_hre = { # Heiliges Römisches Reich
 		} # end d_burgau
 		allow = {
 			OR = {
+				emf_trigger = yes
 				prestige = 2500
 				AND = {
 					NOT = { tier = emperor }
@@ -23185,7 +23192,7 @@ e_abyssinia = { # Abyssinia
 			}
 		}
 		d_tedjoura = { # Tadjoura
-			color = { 28 145 255 }
+			color = { 150 80 125 }
 			color2 = { 255 255 255 }
 			capital = 874 # Tadjoura
 			c_tadjoura = { # Tadjoura (874)
