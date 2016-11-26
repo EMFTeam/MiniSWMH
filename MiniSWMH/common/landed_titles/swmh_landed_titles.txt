@@ -33145,6 +33145,7 @@ e_italy = { # Italia
 				b_vivinaia = {}
 				b_montemagno = {}
 				b_pescia = {}
+				b_poggio = {}				
 				b_montecarloluccaveryniceplaceforaholiday = {}
 			}
 			c_prato = { # Prato (1137)
@@ -33185,14 +33186,16 @@ e_italy = { # Italia
 					roman = "Florentia"
 					greek = "Phlorentia"
 				}
-				b_stinche = {}
+				b_altafronte = {}
 				b_fiesole = {
 					roman = "Faesulae"
 					greek = "Phaisoulai"
 				}
-				b_vallombrosa = {}
+				b_montagliari = {}
 				b_poggiobonsi = {}
 				b_passignano = {}
+				b_stinche = {}	
+				b_vallombrosa = {}	
 			}
 			c_arezzo = { # Arezzo (1115)
 				color = { 226 251 226 }
@@ -33248,6 +33251,7 @@ e_italy = { # Italia
 				b_montalcino = {}
 				b_montebuoni = {}
 				b_sprunga = {}
+				b_montone_in_chianti = {}
 				b_castellina_in_chianti = {}
 			}
 			c_scialenga = { # Scialenga (1135)
@@ -33329,6 +33333,34 @@ e_italy = { # Italia
 				b_campiglia = {}
 			}
 		}
+		d_firenze_republic = { # Florentine republic
+			color = { 255 248 186 }
+			color2 = { 255 255 255 }
+			culture = tuscan
+			capital = 328 # Firenze
+			allow = { always = no }
+		} # end d_siena		
+		d_lucca_republic = { # Luccan republic
+			color = { 198 43 69 }
+			color2 = { 255 255 255 }
+			culture = tuscan
+			capital = 323 # Lucca
+			allow = { always = no }
+		} # end d_siena		
+		d_arezzo_republic = { # Arentine republic
+			color = { 76 124 69 }
+			color2 = { 255 255 255 }
+			culture = tuscan
+			capital = 1115 # Arezzo 
+			allow = { always = no }
+		} # end d_siena		
+		d_siena_republic = { # Sienese republic
+			color = { 2 19 127 }
+			color2 = { 255 255 255 }
+			culture = tuscan
+			capital = 330 # Siena
+	        allow = { always = no }			
+		} # end d_siena		
 		# Creation/usurpation trigger
 		allow = {
 			religion_group = christian
@@ -60507,7 +60539,9 @@ e_null = {
 					greek = "Meschistha"
 				}
 				b_gori = {}
-				b_bebristsikhe = {}
+				b_surami = {}
+				b_ateni = {}					
+				b_urbnisi = {}
 			}
 			c_javakheti = { # Javakheti (1407)
 				color = { 96 121 155 }
@@ -60516,9 +60550,10 @@ e_null = {
 				turkmen = "Ahilkelek"
 				turkish = "Ahilkelek"
 				b_kldekari = {}
+				b_khertvisi = {}				
 				b_tsunda = {}
 				b_tmogvi = {}
-				b_kumurdo = {}
+				b_kumurdo = {}			
 				b_akhalkalaki = {
 					oghuz = "Ahilkelek"
 					turkmen = "Ahilkelek"
@@ -60538,7 +60573,8 @@ e_null = {
 					turkmen = "Ahiska"
 					turkish = "Ahiska"
 				}
-				b_likani = {}
+				b_tori = {}
+				b_atskuri = {}				
 			}
 		} # end d_kartli
 		d_tao = { # Tayk
@@ -60752,11 +60788,14 @@ e_null = {
 					greek = "Kotais"
 				}
 				b_bagrati = {}
+				b_khoni = {}
+				b_shorapani = {
+					greek = "Sarapanis"
+				}				
 				b_tsikhegoji = {
 					roman = "Arkhaiopolis"
 					greek = "Arkhaiopolis"
-				}
-				b_khoni = {}
+				}				
 				b_ghelati = {}
 				b_motsameta = {}
 			}
@@ -61032,7 +61071,7 @@ e_null = {
 		} # end d_canarias
 		allow = { title_king_basic_allow = yes }
 	} # end k_canarias
-allow = { always = no }
+	allow = { always = no }
 } # end e_null
 # TITULAR DUCHIES
 d_the_isles = { # Man
