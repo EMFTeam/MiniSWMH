@@ -505,7 +505,7 @@
 }
 102 = {
 	title=c_penthievre
-	max_settlements=4
+	max_settlements=5
 	terrain=plains
 }
 103 = {
@@ -1749,7 +1749,7 @@
 }
 351 = {
 	title=c_ravenna
-	max_settlements=5
+	max_settlements=6
 	terrain=plains
 }
 352 = {
@@ -2674,7 +2674,7 @@
 }
 536 = {
 	title=c_galich
-	max_settlements=5
+	max_settlements=6
 	terrain=mountain
 }
 537 = {
@@ -3099,7 +3099,7 @@
 }
 621 = {
 	title=c_buzachi
-	max_settlements=1
+	max_settlements=2
 	terrain=steppe
 }
 622 = {
@@ -3119,7 +3119,7 @@
 }
 625 = {
 	title=c_ustyurt
-	max_settlements=1
+	max_settlements=2
 	terrain=steppe
 }
 626 = {
@@ -3137,7 +3137,7 @@
 	terrain=steppe
 }
 629 = {
-	title=c_farava
+	title=c_khavaran
 	max_settlements=4
 	terrain=mountain
 }
@@ -3197,7 +3197,7 @@
 }
 641 = {
 	title=c_hormuz
-	max_settlements=6
+	max_settlements=7
 	terrain=coastal_desert
 }
 642 = {
@@ -3642,7 +3642,7 @@
 }
 730 = {
 	title=c_palmyra
-	max_settlements=4
+	max_settlements=5
 	terrain=desert
 }
 731 = {
@@ -4243,7 +4243,7 @@
 }
 851 = {
 	title=c_capua
-	max_settlements=4
+	max_settlements=5
 	terrain=plains
 }
 852 = {
@@ -4473,7 +4473,7 @@
 }
 897 = {
 	title=c_irgiz
-	max_settlements=1
+	max_settlements=2
 	terrain=plains
 }
 898 = {
@@ -5173,9 +5173,8 @@
 	terrain=mountain
 }
 1041 = {
-	title=c_aosta
-	max_settlements=5
-	terrain=mountain
+	max_settlements=7
+	terrain=desert
 }
 1042 = {
 	title=c_bugey
@@ -5639,7 +5638,7 @@
 }
 1134 = {
 	title=c_casentino
-	max_settlements=3
+	max_settlements=4
 	terrain=forest
 }
 1135 = {
@@ -5754,7 +5753,7 @@
 }
 1157 = {
 	title=c_comminges
-	max_settlements=4
+	max_settlements=5
 	terrain=mountain
 }
 1158 = {
@@ -6174,7 +6173,7 @@
 }
 1242 = {
 	title=c_salamiyah
-	max_settlements=2
+	max_settlements=3
 	terrain=desert
 }
 1243 = {
@@ -6410,7 +6409,7 @@
 	terrain=mountain
 }
 1290 = {
-	title=c_sepiro
+	title=c_seprio
 	max_settlements=5
 	terrain=farmlands
 }
@@ -6790,7 +6789,7 @@
 }
 1368 = {
 	title=c_akjoujt
-	max_settlements=2
+	max_settlements=3
 	terrain=desert
 }
 1369 = {
@@ -7277,7 +7276,7 @@
 }
 1481 = {
 	title=c_uzboy
-	max_settlements=1
+	max_settlements=2
 	terrain=steppe
 }
 1482 = {
@@ -7352,7 +7351,7 @@
 }
 1497 = {
 	max_settlements=7
-	terrain=mountain
+	terrain=coastal_desert
 }
 1498 = {
 	max_settlements=7
@@ -7409,7 +7408,7 @@
 }
 1509 = {
 	title=c_bur
-	max_settlements=3
+	max_settlements=5
 	terrain=plains
 }
 1510 = {
@@ -7608,7 +7607,7 @@
 }
 1549 = {
 	title=c_karasu
-	max_settlements=1
+	max_settlements=2
 	terrain=steppe
 }
 1550 = {
@@ -9242,17 +9241,33 @@
 }
 1946 = {
 	max_settlements=7
-	terrain=desert
+	terrain=coastal_desert
 }
 1947 = {
 	max_settlements=7
-	terrain=desert
+	terrain=coastal_desert
 }
 1948 = {
 	max_settlements=7
-	terrain=desert
+	terrain=coastal_desert
 }
 1949 = {
 	max_settlements=7
+	terrain=coastal_desert
+}
+1950 = {
+	max_settlements=7
+	terrain=coastal_desert
+}
+1951 = {
+	max_settlements=7
+	terrain=coastal_desert
+}
+1952 = {
+	max_settlements=7
 	terrain=desert
+}
+1953 = {
+	max_settlements=7
+	terrain=coastal_desert
 }

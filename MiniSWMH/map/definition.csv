@@ -627,7 +627,7 @@ province;red;green;blue;x;x
 626;42;174;13;Kath;x
 627;84;177;141;;x
 628;126;180;14;Bukhara;x
-629;168;183;142;Farava;x
+629;168;183;142;Khavaran;x
 630;0;186;15;Merv;x
 631;42;189;143;Dihistan;x
 632;84;192;16;Tus;x
@@ -1948,6 +1948,7 @@ province;red;green;blue;x;x
 1947;1;63;85;Central Blacksea;x
 1948;169;105;92;Lake Bracciano;x
 1949;43;204;73;Lake Bolsena;x
-1950;43;177;138;Lake Traismeno;x
+1950;43;177;138;Lake Trasimeno;x
 1951;127;42;209;Lake Fucino;x
 1952;1;174;10;;x
+1953;127;177;4;Lake Hamun;x
