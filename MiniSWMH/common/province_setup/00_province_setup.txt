@@ -2999,7 +2999,7 @@
 }
 601 = {
 	title=c_imeretia
-	max_settlements=5
+	max_settlements=6
 	terrain=mountain
 }
 602 = {
@@ -3387,7 +3387,7 @@
 }
 679 = {
 	title=c_kartli
-	max_settlements=5
+	max_settlements=6
 	terrain=mountain
 }
 680 = {
@@ -6700,7 +6700,7 @@
 }
 1350 = {
 	title=c_samtskhe
-	max_settlements=3
+	max_settlements=5
 	terrain=mountain
 }
 1351 = {
@@ -6946,7 +6946,7 @@
 }
 1407 = {
 	title=c_javakheti
-	max_settlements=4
+	max_settlements=5
 	terrain=mountain
 }
 1408 = {
