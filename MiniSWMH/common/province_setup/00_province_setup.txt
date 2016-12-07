@@ -2419,7 +2419,7 @@
 }
 485 = {
 	title=c_euboia
-	max_settlements=3
+	max_settlements=4
 	terrain=plains
 }
 486 = {
@@ -3137,7 +3137,7 @@
 	terrain=steppe
 }
 629 = {
-	title=c_khavaran
+	title=c_abivard
 	max_settlements=4
 	terrain=mountain
 }
@@ -3277,7 +3277,7 @@
 }
 657 = {
 	title=c_luristan
-	max_settlements=5
+	max_settlements=4
 	terrain=mountain
 }
 658 = {
@@ -3437,7 +3437,7 @@
 }
 689 = {
 	title=c_igharayn
-	max_settlements=5
+	max_settlements=6
 	terrain=mountain
 }
 690 = {
