@@ -7,7 +7,7 @@ import subprocess
 from localpaths import rootpath
 
 
-version = 'v1.3.0-BETA'
+version = 'v1.2.8-BETA'
 
 cut_titles = ['e_rajastan', 'e_mali', 'k_sahara', 'k_fezzan', 'k_kanem', 'k_hausaland']
 
