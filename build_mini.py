@@ -25,7 +25,7 @@ def main():
 
     try:
         sys.stdout.write(subprocess.check_output([str(mapcut_bin_path)] + cut_titles,
-                                                 universal_newlines=True, stderr=subprocess.STDOUT));
+                                                 universal_newlines=True, stderr=subprocess.STDOUT))
     except subprocess.CalledProcessError as e:
         sys.stderr.write('mapcut failed!\ncommand: {}\nexit code: {}\n\n{}'.format(e.cmd, e.returncode, e.output))
         return 2
