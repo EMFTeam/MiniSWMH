@@ -5373,7 +5373,7 @@
 }
 1081 = {
 	title=c_odishi
-	max_settlements=3
+	max_settlements=4
 	terrain=plains
 }
 1082 = {
@@ -6371,7 +6371,7 @@
 }
 1282 = {
 	title=c_charpete
-	max_settlements=3
+	max_settlements=4
 	terrain=mountain
 }
 1283 = {

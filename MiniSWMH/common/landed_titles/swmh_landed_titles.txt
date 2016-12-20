@@ -9316,11 +9316,13 @@ e_byzantium = {
 				turkmen = "Sarkisla"
 				turkish = "Sarkisla"
 				armenian = "Dzamintav"
+				assyrian = "Simandu"
 				b_tzamandos = {
 					oghuz = "Zamanti"
 					turkmen = "Zamanti"
 					turkish = "Zamanti"
 					armenian = "Dzamintav"
+					assyrian = "Simandu"
 				}
 				b_malandara = {
 					oghuz = "Sarkisla"
@@ -10976,7 +10978,18 @@ e_byzantium = {
 					turkmen = "Susanoglu"
 					turkish = "Susanoglu"
 				}
-				b_mokhbud = {}
+				b_novumola = {
+					oghuz = "Tokmar"
+					turkmen = "Tokmar"
+					turkish = "Tokmar"
+					bedouin_arabic = "Tokmar"
+					maghreb_arabic = "Tokmar"
+					levantine_arabic = "Tokmar"
+					egyptian_arabic = "Tokmar"
+					andalusian_arabic = "Tokmar"
+					sicilian_arabic = "Tokmar"
+					kurdish = "Tokmar"
+				}
 			}
 			c_anamur = {
 				color = { 147 208 60 }
@@ -14673,7 +14686,7 @@ e_russia = {
 		}
 	}
 	k_ruthenia = {
-		color = { 220 183 61 }
+		color = { 131 108 71 }
 		color2 = { 255 255 255 }
 		capital = 547
 		culture = russian
@@ -21564,6 +21577,7 @@ e_arabia = {
 			c_alexandria = {
 				color = { 102 221 136 }
 				color2 = { 255 255 255 }
+				holy_site = syriac
 				holy_site = miaphysite
 				holy_site = monophysite
 				holy_site = nestorian
@@ -21794,6 +21808,7 @@ e_arabia = {
 				}
 				b_alazhar = {
 					greek = "Kremastá Ekklisía"
+					coptic = "Ekklesia Jinioi"
 				}
 				b_helwan = {}
 				b_ain_shams = {}
@@ -21826,7 +21841,9 @@ e_arabia = {
 				color2 = { 255 255 255 }
 				roman = "Memphis"
 				greek = "Memphis"
+				coptic = "Giza"
 				b_gizeh = {
+					coptic = "Giza"
 					roman = "Memphis"
 					greek = "Memphis"
 				}
@@ -21838,7 +21855,9 @@ e_arabia = {
 				b_dashur = {}
 				b_zawyetalayran = {}
 				b_abughorob = {}
-				b_abusir = {}
+				b_abusir = {
+					coptic = "Busiri"
+				}
 			}
 			c_sarqihya = {
 				color = { 28 240 123 }
@@ -21874,6 +21893,7 @@ e_arabia = {
 				b_lahun = {
 					roman = "Ptolemais Hormou"
 					greek = "Ptolemais Hormou"
+					coptic = "Lehone"
 				}
 				b_alqababt = {}
 			}
@@ -21955,9 +21975,21 @@ e_arabia = {
 				color2 = { 255 255 255 }
 				roman = "Ammonium"
 				greek = "Ammonion"
+				coptic = "Sekhetam"
+				sanhaja = "Isiwan"
+				zanata = "Isiwan"
+				tuareg = "Isiwan"
+				masmuda = "Isiwan"
+				tagelmust = "Isiwan"
 				b_siwa = {
 					roman = "Ammonium"
 					greek = "Ammonion"
+					coptic = "Sekhetam"
+					sanhaja = "Isiwan"
+					zanata = "Isiwan"
+					tuareg = "Isiwan"
+					masmuda = "Isiwan"
+					tagelmust = "Isiwan"
 				}
 				b_santariya = {
 					roman = "Klimax"
@@ -22012,6 +22044,7 @@ e_arabia = {
 				b_ushmun = {
 					roman = "Hermopolis Magna"
 					greek = "Hermopolis Megas"
+					coptic = "Shmounein"
 				}
 			}
 			c_ikhmin = {
@@ -22325,6 +22358,8 @@ e_arabia = {
 				norman = "Mombech"
 				roman = "Hierapolis"
 				greek = "Hierapolis"
+				assyrian = "Mabbug"
+				kurdish = "Minbij"
 				b_qalatnajm = {
 					frankish = "Caeciliana"
 					norman = "Caeciliana"
@@ -22334,10 +22369,13 @@ e_arabia = {
 					norman = "Mombech"
 					roman = "Hierapolis"
 					greek = "Hierapolis"
+					assyrian = "Mabbug"
+					kurdish = "Minbij"
 				}
 				b_balissyria = {
 					roman = "Barbalissos"
 					greek = "Barbalissos"
+					assyrian = "Beit Bales"
 				}
 				b_jarabulus = {
 					frankish = "Geraple"
@@ -32847,7 +32885,9 @@ e_italy = {
 					roman = "Melpes"
 					greek = "Melpes"
 				}
-				b_tricarico = {}
+				b_tricarico = {
+					greek = "Triakron"
+				}
 				b_acerenza = {}
 				b_montepeloso = {}
 				b_potenza = {
@@ -34338,8 +34378,13 @@ e_france = {
 			c_tourraine = {
 				color = { 40 55 229 }
 				color2 = { 255 255 255 }
+				roman = "Caesarodunum"
+				greek = "Kaisarodunon"
 				b_chinon = {}
-				b_tours = {}
+				b_tours = {
+					roman = "Caesarodunum"
+					greek = "Kaisarodunon"
+				}
 				b_beaulieu = {}
 				b_amboise = {}
 				b_loches = {}
@@ -34549,7 +34594,12 @@ e_france = {
 			c_chartres = {
 				color = { 98 36 238 }
 				color2 = { 255 255 255 }
-				b_chartres = {}
+				roman = "Autricum"
+				greek = "Autrikon"
+				b_chartres = {
+					roman = "Autricum"
+					greek = "Autrikon"
+				}
 				b_gallardon = {}
 				b_tiron = {}
 				b_sours = {}
@@ -35063,7 +35113,10 @@ e_france = {
 					roman = "Nemausus"
 					greek = "Nemausos"
 				}
-				b_uzes = {}
+				b_uzes = {
+					roman = "Ucetia"
+					greek = "Ucetia"
+				}
 				b_chateaudebeucaire = {}
 				b_saingilles = {}
 				title = VICOMTE
@@ -35079,8 +35132,13 @@ e_france = {
 				color2 = { 255 255 255 }
 				culture = occitan
 				holy_site = cathar
+				roman = "Carcasum"
+				greek = "Carcasum"
 				b_saissac = {}
-				b_carcassonne_villebasse = {}
+				b_carcassonne_villebasse = {
+					roman = "Carcasum"
+					greek = "Carcasum"
+				}
 				b_rases = {}
 				b_limoux = {}
 				b_lastours = {}
@@ -35136,8 +35194,13 @@ e_france = {
 				color = { 33 22 255 }
 				color2 = { 255 255 255 }
 				culture = occitan
+				roman = "Lapurdum"
+				greek = "Lapurdum"
 				b_sauveterre = {}
-				b_bayonne = {}
+				b_bayonne = {
+					roman = "Lapurdum"
+					greek = "Lapurdum"
+				}
 				b_dax = {}
 				b_aire = {}
 				title = VICOMTE
@@ -41630,7 +41693,7 @@ e_spain = {
 				}
 			}
 			c_cadiz = {
-				color = { 255 0 255 }
+				color = { 185 20 180 }
 				color2 = { 255 255 255 }
 				bedouin_arabic = "Qarmuna"
 				maghreb_arabic = "Qarmuna"
@@ -44432,7 +44495,6 @@ e_africa = {
 		}
 	}
 	allow = {
-		religion_group = muslim
 		has_landed_title = k_mauretania
 		has_landed_title = k_africa
 		title_emperor_basic_allow = yes
@@ -44669,6 +44731,26 @@ e_persia = {
 				pahlavi = "Veh-Ardashir"
 				b_kerman = {
 					pahlavi = "Veh-Ardashir"
+					maghreb_arabic = "Bardsir"
+					levantine_arabic = "Bardsir"
+					egyptian_arabic = "Bardsir"
+					andalusian_arabic = "Bardsir"
+					sicilian_arabic = "Bardsir"
+					bedouin_arabic = "Bardsir"
+					oghuz = "Bardsir"
+					turkmen = "Bardsir"
+					turkish = "Bardsir"
+					kurdish = "Bardsir"
+					khwarezmi = "Bardsir"
+					khorasani = "Bardsir"
+					persian = "Bardsir"
+					sogdian = "Bardsir"
+					daylamite = "Bardsir"
+					afghan = "Bardsir"
+					qufs = "Bardsir"
+					baloch = "Bardsir"
+					khalaj = "Bardsir"
+					tajik = "Bardsir"
 				}
 				b_rayin = {}
 				b_bam = {}
@@ -45029,16 +45111,6 @@ e_persia = {
 				b_asadabad_arghiyan = {}
 				b_isfarain = {}
 			}
-			c_abivard = {
-				color = { 85 185 30 }
-				color2 = { 255 255 255 }
-				b_abivard = {}
-				b_farava = {}
-				b_nasa = {
-					pahlavi = "Mithrdatkert"
-				}
-				b_akhor = {}
-			}
 			c_tus = {
 				color = { 90 175 15 }
 				color2 = { 255 255 255 }
@@ -45105,6 +45177,16 @@ e_persia = {
 				b_mayhana = {}
 				b_dandankan = {}
 				b_mazduran = {}
+			}
+			c_abivard = {
+				color = { 85 185 30 }
+				color2 = { 255 255 255 }
+				b_abivard = {}
+				b_farava = {}
+				b_nasa = {
+					pahlavi = "Mithrdatkert"
+				}
+				b_akhor = {}
 			}
 			c_amol = {
 				color = { 156 210 80 }
@@ -46914,6 +46996,10 @@ e_null = {
 					bedouin_arabic = "Hisn Ziyad"
 					kurdish = "Xarpet"
 				}
+				b_pertek = {
+					greek = "Berdak"
+					armenian = "Berdak"
+				}
 			}
 		}
 		gain_effect = {
@@ -47014,6 +47100,7 @@ e_null = {
 				holy_site = miaphysite
 				holy_site = monophysite
 				holy_site = nestorian
+				holy_site = syriac
 				holy_site = pagan
 				holy_site = yazidi
 				holy_site = jewish
@@ -47954,6 +48041,7 @@ e_null = {
 				turkish = "Antakiya"
 				armenian = "Antiok"
 				assyrian = "Antiokia"
+				holy_site = syriac
 				holy_site = orthodox
 				holy_site = miaphysite
 				holy_site = monophysite
@@ -48517,6 +48605,7 @@ e_null = {
 				bedouin_arabic = "Âmid"
 				assyrian = "Amid"
 				kurdish = "Amed"
+				holy_site = syriac
 				b_kiaburc = {}
 				b_amida = {
 					armenian = "Tigranakert"
@@ -48669,7 +48758,11 @@ e_null = {
 					roman = "Carrhae"
 					greek = "Karrai"
 				}
-				b_tallmazwan = {}
+				b_tallmazwan = {
+					roman = "Constantina"
+					greek = "Konstantina"
+					assyrian = "Tella d'Mauzalath"
+				}
 				b_akcakale = {}
 				b_ceylanpinar = {}
 			}
@@ -48692,6 +48785,7 @@ e_null = {
 				bedouin_arabic = "Mâridîn"
 				kurdish = "Mêrdîn"
 				assyrian = "Merdô"
+				holy_site = syriac
 				holy_site = nestorian
 				b_maridin = {
 					greek = "Marida"
@@ -48736,6 +48830,9 @@ e_null = {
 					oghuz = "Siverek"
 					turkmen = "Siverek"
 					turkish = "Siverek"
+					armenian = "Sevaverak"
+					greek = "Sevaverak"
+					assyrian = "Sibaberek"
 				}
 			}
 			c_amadiya = {
