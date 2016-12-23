@@ -1916,11 +1916,11 @@ e_hre = {
 			c_pontamousson = {
 				color = { 111 111 111 }
 				color2 = { 255 255 255 }
-				b_pontamousson = {
+				b_saintdizier = {
 					german = "Mussenbrück"
 				}
-				b_briey = {
-					german = "Brieg"
+				b_mousson = {
+					german = "Mussen"
 				}
 				b_scaaarpone = {}
 				b_toul = {
@@ -3959,10 +3959,6 @@ e_hre = {
 			c_sundgau = {
 				color = { 93 93 93 }
 				color2 = { 255 255 255 }
-				title = LANDGRAVE
-				title_female = LANDGRAVINE
-				foa = LANDGRAVE_FOA
-				title_prefix = LANDGRAVE_OF
 				dutch = "Sundgouw"
 				b_kolmar = {}
 				b_murbach = {}
@@ -9593,11 +9589,12 @@ e_byzantium = {
 					oghuz = "Dogansehir"
 					turkmen = "Dogansehir"
 					turkish = "Dogansehir"
+					assyrian = "Zuptara"
 				}
-				b_corduene = {}
-				b_seneqerim = {}
-				b_arguvan = {}
-				b_kigi = {}
+				b_qlaudia = {
+					greek = "Kaloudia"
+				}
+				b_gubos = {}
 			}
 		}
 		allow = {
@@ -31341,6 +31338,30 @@ e_italy = {
 	color2 = { 255 255 255 }
 	capital = 235
 	culture = italian
+	k_tuscany = {
+		color = { 59 59 119 }
+		color2 = { 255 255 255 }
+		capital = 328
+		culture = tuscan
+	}
+	k_tuscan_league = {
+		color = { 59 59 119 }
+		color2 = { 64 88 77 }
+		capital = 1137
+		culture = tuscan
+		short_name = yes
+		title = RECTOR
+		title_female = RECTOR_FEMALE
+	}
+	k_lombard_league = {
+		color = { 169 17 46 }
+		color2 = { 255 255 255 }
+		capital = 235
+		culture = italian
+		short_name = yes
+		title = RECTOR
+		title_female = RECTOR_FEMALE
+	}
 	k_genoa = {
 		color = { 234 131 110 }
 		capital = 233
@@ -46661,6 +46682,7 @@ e_null = {
 				sicilian_arabic = "Šimšat"
 				bedouin_arabic = "Šimšat"
 				kurdish = "Erxenî"
+				armenian = "Chapaghjur"
 				b_citharizion = {
 					oghuz = "Keteriz"
 					turkmen = "Keteriz"
@@ -46673,6 +46695,7 @@ e_null = {
 					turkmen = "Bingöl"
 					turkish = "Bingöl"
 					kurdish = "Cewlîg"
+					armenian = "Chapaghjur"
 				}
 				b_arshamasat = {
 					greek = "Arsamosaton"
@@ -48706,9 +48729,11 @@ e_null = {
 				color2 = { 255 255 255 }
 				roman = "Callinicum"
 				greek = "Kallinikos"
+				assyrian = "Qaliniqos"
 				b_rakka = {
 					roman = "Callinicum"
 					greek = "Kallinikos"
+					assyrian = "Qaliniqos"
 				}
 				b_qalatjabar = {
 					roman = "Dausara"
@@ -48762,6 +48787,9 @@ e_null = {
 					roman = "Constantina"
 					greek = "Konstantina"
 					assyrian = "Tella d'Mauzalath"
+					oghuz = "Viransehir"
+					turkmen = "Viransehir"
+					turkish = "Viransehir"
 				}
 				b_akcakale = {}
 				b_ceylanpinar = {}
@@ -48887,6 +48915,14 @@ e_null = {
 				b_faysabur = {
 					kurdish = "Faysh-Khabur"
 					pahlavi = "Peroz Shapur"
+				}
+				b_fenek = {
+					greek = "Penek"
+					armenian = "Penek"
+					assyrian = "Penek"
+					oghuz = "Fenek Hisar"
+					turkmen = "Fenek Hisar"
+					turkish = "Fenek Hisar"
 				}
 			}
 			c_sinjar = {

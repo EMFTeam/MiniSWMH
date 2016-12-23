@@ -640,7 +640,7 @@
 }
 129 = {
 	title=c_verdun
-	max_settlements=4
+	max_settlements=3
 	terrain=plains
 }
 130 = {
@@ -3482,7 +3482,7 @@
 }
 698 = {
 	title=c_al_jazira
-	max_settlements=3
+	max_settlements=4
 	terrain=desert
 }
 699 = {
@@ -3527,7 +3527,7 @@
 }
 707 = {
 	title=c_melitene
-	max_settlements=4
+	max_settlements=5
 	terrain=mountain
 }
 708 = {
@@ -5109,7 +5109,7 @@
 }
 1028 = {
 	title=c_pontamousson
-	max_settlements=4
+	max_settlements=3
 	terrain=plains
 }
 1029 = {
@@ -5149,7 +5149,7 @@
 }
 1036 = {
 	title=c_montbeliard
-	max_settlements=4
+	max_settlements=3
 	terrain=hills
 }
 1037 = {
