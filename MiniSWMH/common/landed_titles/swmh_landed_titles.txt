@@ -25138,6 +25138,7 @@ e_britannia = {
 					scottish = "Lundein"
 					roman = "Londinium"
 					greek = "Londinion"
+					crusader_culture = "Gotham"
 				}
 				b_st_pauls = {}
 				b_tower_of_london = {
