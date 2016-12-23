@@ -14098,7 +14098,9 @@ e_scandinavia = {
 			c_trondelag = {
 				color = { 98 38 255 }
 				color2 = { 255 255 255 }
-				b_trondheim = {}
+				b_trondheim = {
+					crusader_culture = "Armageddon Reef"
+				}
 				b_sverresborg = {
 					danish = "Sverresburgh"
 				}
