@@ -20,7 +20,9 @@ def build_mapcut():
     print(">> attempting to build mapcut from source...")
     os.chdir(str(mapcut_path))
     try:
-        sys.stdout.write(subprocess.check_output(scons_bin_path, universal_newlines=True, stderr=subprocess.STDOUT))
+        output = subprocess.check_output(scons_bin_path, universal_newlines=True, stderr=subprocess.STDOUT)
+        if sys.stdout:
+            sys.stdout.write(output)
     except subprocess.CalledProcessError as e:
         sys.stderr.write('> scons failed!\n> command: {}\n> exit code: {}\n\n{}'.format(e.cmd, e.returncode, e.output))
         sys.exit(1)
@@ -39,8 +41,10 @@ def main():
     print(">> executing mapcut...")
 
     try:
-        sys.stdout.write(subprocess.check_output([str(mapcut_bin_path)] + cut_titles,
-                                                 universal_newlines=True, stderr=subprocess.STDOUT))
+        output = subprocess.check_output([str(mapcut_bin_path)] + cut_titles,
+                                         universal_newlines=True, stderr=subprocess.STDOUT)
+        if sys.stdout:
+            sys.stdout.write(output)
     except subprocess.CalledProcessError as e:
         sys.stderr.write('> mapcut failed!\n> command: {}\n> exit code: {}\n\n{}'.format(e.cmd, e.returncode, e.output))
         return 3
