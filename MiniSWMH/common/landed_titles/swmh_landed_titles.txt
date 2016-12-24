@@ -14098,9 +14098,7 @@ e_scandinavia = {
 			c_trondelag = {
 				color = { 98 38 255 }
 				color2 = { 255 255 255 }
-				b_trondheim = {
-					crusader_culture = "Armageddon Reef"
-				}
+				b_trondheim = {}
 				b_sverresborg = {
 					danish = "Sverresburgh"
 				}
@@ -25140,7 +25138,6 @@ e_britannia = {
 					scottish = "Lundein"
 					roman = "Londinium"
 					greek = "Londinion"
-					crusader_culture = "Gotham"
 				}
 				b_st_pauls = {}
 				b_tower_of_london = {
