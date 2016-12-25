@@ -49000,7 +49000,11 @@ e_null = {
 					sicilian_arabic = "Nohidrah"
 					bedouin_arabic = "Nohidrah"
 				}
-				b_dehi = {}
+				b_aqra = {
+					kurdish = "Akrê"
+				}
+				b_maaltha = {}
+				b_marmattai = {}
 			}
 			c_erbil = {
 				color = { 9 89 236 }
@@ -49024,6 +49028,9 @@ e_null = {
 				b_shaqlawa = {}
 				b_darabad = {
 					assyrian = "Beth Wazik"
+				}
+				b_tellhaftun = {
+					assyrian = "Hebton"
 				}
 			}
 			c_mosul = {
