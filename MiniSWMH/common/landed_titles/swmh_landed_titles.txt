@@ -25138,7 +25138,6 @@ e_britannia = {
 					scottish = "Lundein"
 					roman = "Londinium"
 					greek = "Londinion"
-					crusader_culture = "Gotham"
 				}
 				b_st_pauls = {}
 				b_tower_of_london = {
@@ -25178,6 +25177,10 @@ e_britannia = {
 				}
 				b_baynardscastle = {
 					norman = "Bainiardus"
+				}
+				b_gotham = {
+					anglonorse = "Gotham"
+					crusader_culture = "FIXME"
 				}
 			}
 			c_essex = {
