@@ -25178,10 +25178,6 @@ e_britannia = {
 				b_baynardscastle = {
 					norman = "Bainiardus"
 				}
-				b_gotham = {
-					anglonorse = "Gotham"
-					crusader_culture = "FIXME"
-				}
 			}
 			c_essex = {
 				color = { 241 25 25 }
