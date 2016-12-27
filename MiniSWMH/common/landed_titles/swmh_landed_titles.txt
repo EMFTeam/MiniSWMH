@@ -31343,6 +31343,9 @@ e_italy = {
 		color2 = { 255 255 255 }
 		capital = 328
 		culture = tuscan
+		allow = {
+			title_king_basic_allow = yes
+		}
 	}
 	k_tuscan_league = {
 		color = { 59 59 119 }
@@ -31352,6 +31355,9 @@ e_italy = {
 		short_name = yes
 		title = RECTOR
 		title_female = RECTOR_FEMALE
+		allow = {
+			title_king_basic_allow = yes
+		}
 	}
 	k_lombard_league = {
 		color = { 169 17 46 }
@@ -31361,6 +31367,9 @@ e_italy = {
 		short_name = yes
 		title = RECTOR
 		title_female = RECTOR_FEMALE
+		allow = {
+			title_king_basic_allow = yes
+		}
 	}
 	k_genoa = {
 		color = { 234 131 110 }
