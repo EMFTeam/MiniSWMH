@@ -32178,6 +32178,15 @@ e_italy = {
 				b_campiglia = {}
 			}
 		}
+		d_asti_republic = {
+			color = { 45 124 39 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 232
+			allow = {
+				always = no
+			}
+		}
 		d_firenze_republic = {
 			color = { 255 248 186 }
 			color2 = { 255 255 255 }
