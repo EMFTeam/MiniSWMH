@@ -32178,11 +32178,50 @@ e_italy = {
 				b_campiglia = {}
 			}
 		}
+		d_mantua_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 354
+			title = CAPTAINOFTHEPEOPLE
+			title_female = CAPTAINOFTHEPEOPLE_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_ferrara_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 353
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_cremona_republic = {
+			color = { 174 170 72 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 320
+			title = CONSUL
+			title_female = CONSUL_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
 		d_asti_republic = {
 			color = { 45 124 39 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 232
+			title = CONSUL
+			title_female = CONSUL_FEMALE
+			short_name = yes
 			allow = {
 				always = no
 			}
@@ -32192,6 +32231,9 @@ e_italy = {
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 328
+			title = CONSUL
+			title_female = CONSUL_FEMALE
+			short_name = yes
 			allow = {
 				always = no
 			}
@@ -32201,6 +32243,9 @@ e_italy = {
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 323
+			title = RECTOR
+			title_female = RECTOR_FEMALE
+			short_name = yes
 			allow = {
 				always = no
 			}
@@ -32210,6 +32255,9 @@ e_italy = {
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 1115
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
 			allow = {
 				always = no
 			}
@@ -32219,6 +32267,9 @@ e_italy = {
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 330
+			title = GRANDE
+			title_female = GRANDE_FEMALE
+			short_name = yes
 			allow = {
 				always = no
 			}
