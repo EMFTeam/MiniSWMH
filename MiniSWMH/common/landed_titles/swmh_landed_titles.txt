@@ -59410,16 +59410,6 @@ d_gazzula = {
 		always = no
 	}
 }
-d_targa = {
-	color = { 150 97 51 }
-	culture = tuareg
-	capital = 1405
-	title = RAIS
-	foa = RAIS_FOA
-	allow = {
-		always = no
-	}
-}
 d_lawata = {
 	color = { 122 53 19 }
 	culture = zanata
@@ -59446,32 +59436,6 @@ d_dakhila = {
 	capital = 1342
 	title = RAIS
 	foa = RAIS_FOA
-	allow = {
-		always = no
-	}
-}
-d_soninke = {
-	color = { 110 50 30 }
-	culture = soninke
-	capital = 913
-	allow = {
-		always = no
-	}
-}
-d_zaghawa = {
-	color = { 22 111 22 }
-	capital = 1235
-	culture = zaghawa
-	title = RAIS
-	foa = RAIS_FOA
-	allow = {
-		always = no
-	}
-}
-d_duguwa = {
-	color = { 143 64 64 }
-	culture = zaghawa
-	capital = 1480
 	allow = {
 		always = no
 	}
@@ -59508,16 +59472,6 @@ d_mazata = {
 }
 d_azben = {
 	color = { 22 238 106 }
-	capital = 1225
-	culture = tuareg
-	title = RAIS
-	foa = RAIS_FOA
-	allow = {
-		always = no
-	}
-}
-d_takarkart = {
-	color = { 232 36 208 }
 	capital = 1225
 	culture = tuareg
 	title = RAIS
