@@ -2674,7 +2674,7 @@
 }
 536 = {
 	title=c_galich
-	max_settlements=5
+	max_settlements=6
 	terrain=mountain
 }
 537 = {
@@ -3642,7 +3642,7 @@
 }
 730 = {
 	title=c_palmyra
-	max_settlements=4
+	max_settlements=5
 	terrain=desert
 }
 731 = {
@@ -5754,7 +5754,7 @@
 }
 1157 = {
 	title=c_comminges
-	max_settlements=4
+	max_settlements=5
 	terrain=mountain
 }
 1158 = {
@@ -6174,7 +6174,7 @@
 }
 1242 = {
 	title=c_salamiyah
-	max_settlements=2
+	max_settlements=3
 	terrain=desert
 }
 1243 = {
@@ -7413,7 +7413,7 @@
 }
 1509 = {
 	title=c_bur
-	max_settlements=3
+	max_settlements=5
 	terrain=plains
 }
 1510 = {
