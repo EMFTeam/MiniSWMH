@@ -32178,6 +32178,54 @@ e_italy = {
 				b_campiglia = {}
 			}
 		}
+		d_vicenza_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 1131
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_verona_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 319
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_padova_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 355
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_ferrara_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 353
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
 		d_mantua_republic = {
 			color = { 74 174 83 }
 			color2 = { 255 255 255 }
@@ -32190,11 +32238,95 @@ e_italy = {
 				always = no
 			}
 		}
-		d_ferrara_republic = {
+		d_brescia_republic = {
 			color = { 201 136 79 }
 			color2 = { 255 255 255 }
 			culture = italian
-			capital = 353
+			capital = 318
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_bergamo_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 1125
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_milano_republic = {
+			color = { 74 174 83 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 235
+			title = CONSUL
+			title_female = CONSUL_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_pavia_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 234
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_modena_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 322
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_reggio_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 957
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_parma_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 321
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
+		d_piacenza_republic = {
+			color = { 201 136 79 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 1124
 			title = PODESTA
 			title_female = PODESTA_FEMALE
 			short_name = yes
@@ -32243,8 +32375,8 @@ e_italy = {
 			color2 = { 255 255 255 }
 			culture = tuscan
 			capital = 323
-			title = RECTOR
-			title_female = RECTOR_FEMALE
+			title = PODESTA
+			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
 				always = no
