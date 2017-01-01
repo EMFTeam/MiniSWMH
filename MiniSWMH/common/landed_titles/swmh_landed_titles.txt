@@ -59521,16 +59521,6 @@ d_mazata = {
 		always = no
 	}
 }
-d_azben = {
-	color = { 22 238 106 }
-	capital = 1225
-	culture = tuareg
-	title = RAIS
-	foa = RAIS_FOA
-	allow = {
-		always = no
-	}
-}
 d_naqis = {
 	color = { 230 160 75 }
 	capital = 1593
