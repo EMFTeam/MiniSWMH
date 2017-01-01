@@ -32178,8 +32178,20 @@ e_italy = {
 				b_campiglia = {}
 			}
 		}
+		d_vercelli_republic = {
+			color = { 26 60 102 }
+			color2 = { 255 255 255 }
+			culture = italian
+			capital = 1130
+			title = PODESTA
+			title_female = PODESTA_FEMALE
+			short_name = yes
+			allow = {
+				always = no
+			}
+		}
 		d_vicenza_republic = {
-			color = { 74 174 83 }
+			color = { 44 102 26 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 1131
@@ -32191,7 +32203,7 @@ e_italy = {
 			}
 		}
 		d_verona_republic = {
-			color = { 74 174 83 }
+			color = { 15 166 111 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 319
@@ -32203,7 +32215,7 @@ e_italy = {
 			}
 		}
 		d_padova_republic = {
-			color = { 74 174 83 }
+			color = { 102 26 68 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 355
@@ -32215,7 +32227,7 @@ e_italy = {
 			}
 		}
 		d_ferrara_republic = {
-			color = { 201 136 79 }
+			color = { 141 179 213 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 353
@@ -32263,7 +32275,7 @@ e_italy = {
 			}
 		}
 		d_milano_republic = {
-			color = { 74 174 83 }
+			color = { 68 86 102 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 235
@@ -32287,7 +32299,7 @@ e_italy = {
 			}
 		}
 		d_modena_republic = {
-			color = { 201 136 79 }
+			color = { 86 166 15 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 322
@@ -32299,7 +32311,7 @@ e_italy = {
 			}
 		}
 		d_reggio_republic = {
-			color = { 201 136 79 }
+			color = { 166 93 131 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 957
@@ -32311,7 +32323,7 @@ e_italy = {
 			}
 		}
 		d_parma_republic = {
-			color = { 201 136 79 }
+			color = { 87 189 183 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 321
@@ -32323,7 +32335,7 @@ e_italy = {
 			}
 		}
 		d_piacenza_republic = {
-			color = { 201 136 79 }
+			color = { 102 82 68 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 1124
@@ -32335,7 +32347,7 @@ e_italy = {
 			}
 		}
 		d_cremona_republic = {
-			color = { 174 170 72 }
+			color = { 238 166 15 }
 			color2 = { 255 255 255 }
 			culture = italian
 			capital = 320
