@@ -364,6 +364,7 @@ d_sunni_turkic_company = {
 	color2 = { 255 255 255 }
 	capital = 621
 	religion = sunni
+	culture = oghuz
 	mercenary = yes
 	title = CAPTAIN
 	foa = CAPTAIN_FOA
