@@ -725,7 +725,7 @@ d_varangian_guard = {
 	foa = CAPTAIN_FOA
 	landless = yes
 	primary = yes
-	strength_growth_per_century = 0.100
+	strength_growth_per_century = 0.330
 	mercenary_type = varangian_guard_composition
 }
 d_cuman_company = {
