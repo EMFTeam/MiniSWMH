@@ -14062,6 +14062,7 @@ e_scandinavia = {
 				b_audunborg = {}
 				b_berle = {}
 				b_aasmul = {}
+				b_elvain = {}
 				b_aatloeyna = {}
 			}
 		}
