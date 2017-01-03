@@ -5102,6 +5102,12 @@ e_byzantium = {
 					turkish = "Corlu"
 					pecheneg = "Corlu"
 				}
+				b_hexamilion = {
+					oghuz = "Eksamil"
+					turkmen = "Eksamil"
+					turkish = "Eksamil"
+					pecheneg = "Eksamil"
+				}
 				b_chariopolis = {
 					oghuz = "Hayrabolu"
 					turkmen = "Hayrabolu"

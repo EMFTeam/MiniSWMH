@@ -2469,7 +2469,7 @@
 }
 495 = {
 	title=c_kaliopolis
-	max_settlements=6
+	max_settlements=7
 	terrain=plains
 }
 496 = {
