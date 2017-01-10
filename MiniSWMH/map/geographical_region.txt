@@ -306,3 +306,13 @@ custom_historical_plague_free_zone = {
 		c_valais c_urgell c_faereyar c_lepiel c_minsk c_peremyshl c_armagnac c_chur c_lutsk c_zaslawye
 	}
 }
+custom_sicilian = {
+	duchies = {
+		d_sicily d_calabria
+	}
+}
+custom_neapolitan = {
+	duchies = {
+		d_napoli d_capua d_gaeta d_apulia d_bari d_venosa d_tarent d_salerno d_atri d_benevento d_amalfi
+	}
+}
