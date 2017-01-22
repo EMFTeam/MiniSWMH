@@ -33352,6 +33352,7 @@ e_italy = {
 					greek = "Alba Phoukentis"
 				}
 				b_valva = {}
+				b_anticoli = {}
 				b_carsoli = {}
 				b_tagliacozzo = {}
 			}
@@ -33438,6 +33439,9 @@ e_italy = {
 					sicilian_arabic = "Qatansar"
 				}
 				b_montelone = {}
+				b_ajello = {}
+				b_crotone = {}
+				b_martirano = {}
 			}
 			c_reggio = {
 				color = { 241 229 254 }

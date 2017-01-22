@@ -5648,7 +5648,7 @@
 }
 1136 = {
 	title=c_catanzaro
-	max_settlements=4
+	max_settlements=5
 	terrain=mountain
 }
 1137 = {
