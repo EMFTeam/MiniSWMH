@@ -45616,6 +45616,7 @@ e_persia = {
 			c_rukhadj = {
 				color = { 148 170 89 }
 				color2 = { 255 255 255 }
+				pahlavi = "Harauvatish"
 				b_kahdahar = {}
 				b_pandjvay = {}
 				b_bakrabad = {}
