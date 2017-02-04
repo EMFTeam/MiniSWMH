@@ -33548,12 +33548,13 @@ e_italy = {
 					andalusian_arabic = "Gafludi"
 					sicilian_arabic = "Gafludi"
 				}
-				b_naso = {}
+				b_brolo = {}
 				b_mistretta = {
 					roman = "Amestratus"
 					greek = "Amestratos"
 				}
 				b_nicosia = {}
+				b_naso = {}
 			}
 			c_siracusa = {
 				color = { 150 231 143 }
