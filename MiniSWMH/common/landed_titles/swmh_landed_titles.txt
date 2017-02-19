@@ -34436,7 +34436,6 @@ e_italy = {
 				}
 				b_paterno = {}
 				b_agosta = {}
-				b_brolo = {}
 				b_milazzo = {}
 			}
 			c_modica = {
@@ -47657,7 +47656,6 @@ e_null = {
 				georgian = "Širaki"
 				armenian = "Širak"
 				greek = "Anion"
-				georgian = "Anisi"
 				kurdish = "Anî"
 				b_kumayri = {}
 				b_erazgewors = {
