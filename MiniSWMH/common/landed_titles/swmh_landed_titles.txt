@@ -4618,7 +4618,7 @@ e_hre = {
 					moravian = "Litomierzicze"
 					polish = "Litomierzyce"
 				}
-				b_Pilsena = {
+				b_bilina = {
 					bohemian = "Bielina"
 					moravian = "Bielina"
 					german = "Pilsen"
@@ -59780,7 +59780,7 @@ e_null = {
 	k_georgia = {
 		color = { 122 26 98 }
 		color2 = { 255 255 255 }
-		capital = 679
+		capital = 1357
 		culture = georgian
 		orthodox = 200
 		roman = "Iberia"
