@@ -4,23 +4,24 @@ import os
 import sys
 import datetime
 import subprocess
+from pathlib import Path
 
 from localpaths import rootpath
 
 
 version = 'v1.3.0-BETA'
 cut_titles = ['e_rajastan', 'e_mali', 'k_sahara', 'k_fezzan', 'k_kanem', 'k_hausaland']
-scons_bin_path = '/usr/bin/scons'
+scons_bin_path = Path('/usr/bin/scons')
+mapcut_bin_path_default = Path('/usr/local/bin/mapcut')
 
 mini_path = rootpath / 'MiniSWMH/MiniSWMH'
 mapcut_path = rootpath / 'ck2utils/mapcut'
-
 
 def build_mapcut():
     print(">> attempting to build mapcut from source...")
     os.chdir(str(mapcut_path))
     try:
-        output = subprocess.check_output(scons_bin_path, universal_newlines=True, stderr=subprocess.STDOUT)
+        output = subprocess.check_output(str(scons_bin_path), universal_newlines=True, stderr=subprocess.STDOUT)
         if sys.stdout:
             sys.stdout.write(output)
     except subprocess.CalledProcessError as e:
@@ -29,8 +30,11 @@ def build_mapcut():
 
 
 def main():
-    mapcut_bin = 'mapcut' if sys.platform.startswith('linux') else 'mapcut.exe'
-    mapcut_bin_path = mapcut_path / mapcut_bin
+    if sys.platform.startswith('linux') and mapcut_bin_path_default.exists():
+        mapcut_bin_path = mapcut_bin_path_default
+    else:
+        mapcut_bin = 'mapcut' if sys.platform.startswith('linux') else 'mapcut.exe'
+        mapcut_bin_path = mapcut_path / mapcut_bin
 
     if not mapcut_bin_path.exists():
         build_mapcut()
