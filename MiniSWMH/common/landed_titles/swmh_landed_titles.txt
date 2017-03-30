@@ -46513,6 +46513,8 @@ e_persia = {
 			c_rukhadj = {
 				color = { 148 170 89 }
 				color2 = { 255 255 255 }
+				roman = "Archosia"
+				greek = "Archosia"
 				pahlavi = "Harauvatish"
 				b_kahdahar = {}
 				b_pandjvay = {}
@@ -60498,7 +60500,7 @@ d_guddala = {
 }
 d_gazzula = {
 	color = { 150 56 175 }
-	capital = 847
+	capital = 1363
 	culture = tagelmust
 	title = RAIS
 	foa = RAIS_FOA
