@@ -1,3 +1,5 @@
+# -*- ck2 -*-
+
 world_europe_west_brittania = {
 	duchies = {
 		d_somerset
