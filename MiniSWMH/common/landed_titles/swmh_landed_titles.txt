@@ -60293,69 +60293,6 @@ e_null = {
 			title_king_basic_allow = yes
 		}
 	}
-	k_canarias = {
-		color = { 182 198 176 }
-		color2 = { 255 255 255 }
-		capital = 1365
-		castillan = "Canarias"
-		basque = "Kanariak"
-		aragonese = "Canarias"
-		catalan = "Canarias"
-		leonese = "Canarias"
-		zanata = "Kanar"
-		galician = "Canárias"
-		portuguese = "Canárias"
-		culture = canarian
-		d_canarias = {
-			color = { 24 58 121 }
-			color2 = { 255 255 255 }
-			capital = 1365
-			castillan = "Canarias"
-			basque = "Kanariak"
-			aragonese = "Canarias"
-			catalan = "Canarias"
-			leonese = "Canarias"
-			zanata = "Kanar"
-			galician = "Canárias"
-			portuguese = "Canárias"
-			c_tenerife = {
-				color = { 15 185 243 }
-				color2 = { 255 255 255 }
-				castillan = "Tenerife"
-				basque = "Tenerife"
-				aragonese = "Tenerife"
-				catalan = "Tenerife"
-				leonese = "Tenerife"
-				galician = "Tenerife"
-				portuguese = "Tenerife"
-				zanata = "Ašenšen"
-				canarian = "Achinet"
-				b_adeje = {}
-				b_taoro = {}
-				b_guimar = {}
-				b_candelaria = {}
-			}
-			c_canarias = {
-				color = { 50 185 243 }
-				color2 = { 255 255 255 }
-				castillan = "Gran Canaria"
-				basque = "Kanaria Handia"
-				aragonese = "Gran Canaria"
-				catalan = "Gran Canaria"
-				leonese = "Gran Canaria"
-				zanata = "Tamãran"
-				canarian = "Tamarán"
-				galician = "Grã Canária"
-				portuguese = "Grã Canária"
-				b_agaldar = {}
-				b_telde = {}
-				b_aguimes = {}
-			}
-		}
-		allow = {
-			title_king_basic_allow = yes
-		}
-	}
 	allow = {
 		always = no
 	}

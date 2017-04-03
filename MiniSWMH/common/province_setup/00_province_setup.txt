@@ -4232,8 +4232,7 @@
 	terrain=plains
 }
 849 = {
-	title=c_canarias
-	max_settlements=3
+	max_settlements=7
 	terrain=coastal_desert
 }
 850 = {
@@ -6774,8 +6773,7 @@
 	terrain=desert
 }
 1365 = {
-	title=c_tenerife
-	max_settlements=4
+	max_settlements=7
 	terrain=coastal_desert
 }
 1366 = {

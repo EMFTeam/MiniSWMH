@@ -847,7 +847,7 @@ province;red;green;blue;x;x
 846;42;195;23;Ifni;x
 847;84;198;151;Tharasset;x
 848;0;3;225;Bremen;x
-849;126;201;24;Canarias;x
+849;126;201;24;;x
 850;168;96;42;Kandalax;x
 851;84;9;226;Capua;x
 852;85;84;11;Zamindavar;x
@@ -1363,7 +1363,7 @@ province;red;green;blue;x;x
 1362;43;210;208;Sous;x
 1363;85;0;81;Draa;x
 1364;127;3;209;Tindouf;x
-1365;127;153;134;Tenerife;x
+1365;127;153;134;;x
 1366;1;9;210;Tassarahla;x
 1367;43;12;83;;x
 1368;85;15;211;Akjoujt;x

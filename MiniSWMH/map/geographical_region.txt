@@ -471,7 +471,6 @@ world_africa_north = {
 		d_draa
 		d_adrar
 		d_taghaza
-		d_canarias
 		d_alexandria
 		d_damietta
 		d_cairo
