@@ -1,0 +1,114 @@
+From;To;Type;Through;-1;-1;-1;-1;Comment
+5;1421;sea;1797;-1;-1;-1;-1;Ulaid-Kintyre
+35;39;sea;1766;-1;-1;-1;-1;Western Isles-Ross
+36;37;sea;1767;-1;-1;-1;-1;Orkney-Gallaibh
+45;1422;sea;1797;-1;-1;-1;-1;Argyll-Bod
+78;79;sea;1727;-1;-1;-1;-1;Brugge-Zeeland
+79;80;sea;1727;-1;-1;-1;-1;Zeeland-Holland
+79;93;sea;1727;-1;-1;-1;-1;Zeeland-Gent
+81;84;sea;1727;-1;-1;-1;-1;Westfriesland-Frisia
+166;839;sea;1708;-1;-1;-1;-1;Algeciras-Ceuta
+166;841;sea;1708;-1;-1;-1;-1;Algeciras-Tangiers
+1051;1584;sea;1815;-1;-1;-1;-1;Vendsyssel-Himmerland
+267;1586;sea;1818;-1;-1;-1;-1;Jylland-Samsø
+1585;265;sea;1818;-1;-1;-1;-1;Centraljylland-Fyn
+265;1027;sea;1772;-1;-1;-1;-1;Fyn-Sjaelland
+266;303;sea;1772;-1;-1;-1;-1;Sjaelland-Skåne
+1073;291;sea;1778;-1;-1;-1;-1;Attundaland-Åland
+1073;292;sea;1732;-1;-1;-1;-1;Attundaland-Södermanland
+291;382;sea;1778;-1;-1;-1;-1;Åland-Suomi
+931;300;sea;1776;-1;-1;-1;-1;Kalmar-Öland
+1101;1103;sea;1806;-1;-1;-1;-1;Cinarca-Gallura
+338;343;sea;1704;-1;-1;-1;-1;Gerace-Paterno
+356;357;sea;1708;-1;-1;-1;-1;Venezia-Treviso
+376;987;sea;1777;-1;-1;-1;-1;Saaremaa-Liivimaa
+473;474;sea;1705;-1;-1;-1;-1;Arta-Corfu
+474;476;sea;1705;-1;-1;-1;-1;Corfu-Achaia
+475;476;sea;1705;-1;-1;-1;-1;Hellas-Achaia
+380;1268;sea;1786;-1;-1;-1;-1;Narva-Korporje
+484;485;sea;1709;-1;-1;-1;-1;Naxos-Euboia
+486;746;sea;1709;-1;-1;-1;-1;Samos-Ephesos
+487;744;sea;1709;-1;-1;-1;-1;Lesbos-Abydos
+495;744;sea;1720;-1;-1;-1;-1;Kaliopolis-Abydos
+562;598;sea;1723;-1;-1;-1;-1;Korchev-Tmutarakan
+826;827;sea;1799;-1;-1;-1;-1;Menorca-Mallorca
+967;827;sea;1799;-1;-1;-1;-1;Eivissa-Mallorca
+472;1014;sea;1705;-1;-1;-1;-1;Epeiros-Corfu
+1304;1043;sea;1820;-1;-1;-1;-1;Sydsjælland-Lolland
+64;1183;sea;1797;-1;-1;-1;-1;Gweynd-Anglesey
+848;263;sea;1773;-1;-1;-1;-1;Bremen-Eselsfleth
+1267;366;sea;1772;-1;-1;-1;-1;Szvuine-Stettin
+304;1505;sea;1772;-1;-1;-1;-1;Rügen-Barth
+1267;308;sea;1772;-1;-1;-1;-1;Szvuine-Wolgast
+26;1417;sea;1738;-1;-1;-1;-1;Winchester-Wight
+1419;45;sea;1766;-1;-1;-1;-1;Muile-Argyll
+1420;45;sea;1766;-1;-1;-1;-1;Ile-Argyll
+1426;1427;sea;1766;-1;-1;-1;-1;Leodhas-Uibhist
+459;1312;sea;1707;-1;-1;-1;-1;Krk-Modrus
+468;1295;sea;1706;-1;-1;-1;-1;Ragusa-Korcula
+936;1295;sea;1706;-1;-1;-1;-1;Hvar-Korcula
+485;482;sea;1715;-1;-1;-1;-1;Euboia-Athens
+496;1259;sea;1720;-1;-1;-1;-1;Byz-Chrysopolis
+857;874;sea;1940;-1;-1;-1;-1;Zabid-Tadjoura
+641;1592;sea;1945;-1;-1;-1;-1;Hormuz-Suhar
+651;653;sea;1475;-1;-1;-1;-1;Qatif-Bahrein
+784;653;sea;1475;-1;-1;-1;-1;Qatar-Bahrein
+730;728;;1483;-1;-1;-1;-1;Palmyra-Damascus
+722;785;;782;-1;-1;-1;-1;Elim-Nekhel
+724;716;;1483;-1;-1;-1;-1;Amman-Dumat al-Jundal
+717;716;;1483;-1;-1;-1;-1;Fayd-Dumat al-Jundal
+296;297;major_river;1827;-1;-1;-1;-1;Viken-Vastergotland
+387;404;major_river;1849;-1;-1;-1;-1;Kola-Zaozerye
+387;409;major_river;1849;-1;-1;-1;-1;Kola-Bezhetsky Verh
+403;404;major_river;1850;-1;-1;-1;-1;Romny-Zaozerye
+410;412;major_river;1859;-1;-1;-1;-1;Toropets-Torzhok
+410;570;major_river;1859;-1;-1;-1;-1;Toropets-Tver
+569;570;major_river;1859;-1;-1;-1;-1;Vyazma-Tver
+570;573;major_river;1860;-1;-1;-1;-1;Tver-Pereyaslavl Zalessky
+407;574;major_river;1863;-1;-1;-1;-1;Kostroma-Rostov
+407;583;major_river;1863;-1;-1;-1;-1;Kostroma-Suzdal
+610;614;major_river;1866;-1;-1;-1;-1;Bulgar-Ashli
+611;614;major_river;1866;-1;-1;-1;-1;Qazan-Ashli
+592;617;major_river;1868;-1;-1;-1;-1;Burtasy-Uzens
+593;617;major_river;1868;-1;-1;-1;-1;Khopyor-Uzens
+564;608;major_river;1882;-1;-1;-1;-1;Desht-i-Kipchak-Lower Volga
+594;608;major_river;1882;-1;-1;-1;-1;Sarkel-Lower Volga
+593;594;major_river;1883;-1;-1;-1;-1;Khopyor-Sarkel
+594;619;major_river;1883;-1;-1;-1;-1;Sarkel-Saray
+566;605;major_river;1884;-1;-1;-1;-1;Sugrov-Manych
+594;605;major_river;1884;-1;-1;-1;-1;Sarkel-Manych
+553;1280;major_river;1889;-1;-1;-1;-1;Lyubech-Iskorosten
+544;555;major_river;1890;-1;-1;-1;-1;Korsun-Pereyaslavl
+544;1288;major_river;1890;-1;-1;-1;-1;Korsun-Lubny
+558;563;major_river;1890;-1;-1;-1;-1;Lower Dniepr-Lower Don
+558;1288;major_river;1890;-1;-1;-1;-1;Lower Dniepr-Lubny
+543;557;major_river;1892;-1;-1;-1;-1;Oleshye-Lukomorie
+557;558;major_river;1892;-1;-1;-1;-1;Lukomorie-Lower Dniepr
+416;985;major_river;1894;-1;-1;-1;-1;West Dvina-Selija
+963;985;major_river;1895;-1;-1;-1;-1;Jeriska-Selija
+553;555;major_river;1898;-1;-1;-1;-1;Lyubech-Pereyaslavl
+24;32;major_river;1901;-1;-1;-1;-1;Surrey-Middlesex
+32;73;major_river;1901;-1;-1;-1;-1;Middlesex-Kent
+32;973;major_river;1901;-1;-1;-1;-1;Middlesex-Berkshire
+72;73;major_river;1901;-1;-1;-1;-1;Essex-Kent
+973;974;major_river;1902;-1;-1;-1;-1;Berkshire-Buckinghamshire
+105;106;major_river;1903;-1;-1;-1;-1;Vannes-Nantes
+106;1175;major_river;1903;-1;-1;-1;-1;Nantes-Porhoet
+1166;1189;major_river;1907;-1;-1;-1;-1;Brie-Gatinas
+98;99;major_river;1908;-1;-1;-1;-1;Vexin-Evreux
+130;930;major_river;1910;-1;-1;-1;-1;Troyes-Bar
+1176;1185;major_river;1914;-1;-1;-1;-1;Valois-Vertus
+132;1160;major_river;1915;-1;-1;-1;-1;Auxerre-Sancerre
+209;1188;major_river;1923;-1;-1;-1;-1;Armagnac-Quercy
+221;1249;major_river;1927;-1;-1;-1;-1;Provence-Nimes
+222;223;major_river;1927;-1;-1;-1;-1;Venaissin-Viviers
+222;1249;major_river;1927;-1;-1;-1;-1;Venaissin-Nimes
+1047;1249;major_river;1927;-1;-1;-1;-1;Arles-Nimes
+118;1007;major_river;1930;-1;-1;-1;-1;Trier-Konigssondergau
+1850;1851;portage;403;-1;-1;-1;-1;Andoma-Soyda
+1896;1893;portage;417;-1;-1;-1;-1;Lovat-West Dvina A
+1893;1886;portage;568;-1;-1;-1;-1;West Dvina A-Smolnya B
+1885;1859;portage;569;-1;-1;-1;-1;Smolnya A -Volga A
+1875;1899;portage;1277;-1;-1;-1;-1;Oka E-Sejm A
+1880;1881;portage;577;-1;-1;-1;-1;Pronya-Don A
+1883;1869;portage;595;-1;-1;-1;-1;Don C- Volga K
