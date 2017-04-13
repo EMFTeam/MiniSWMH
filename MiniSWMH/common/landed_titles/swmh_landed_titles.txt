@@ -57561,7 +57561,9 @@ e_null = {
 					khazar = "Ordukänd"
 				}
 				b_ulugqat = {}
-				b_yarkand = {}
+				b_yarkand = {
+					khotanese = "Saka"
+				}
 				b_artuj = {}
 				b_pichan = {}
 				b_uksalur = {}
