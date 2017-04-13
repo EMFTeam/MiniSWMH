@@ -34414,6 +34414,7 @@ e_italy = {
 			}
 		}
 		allow = {
+			is_republic = no
 			title_king_basic_allow = yes
 		}
 	}
