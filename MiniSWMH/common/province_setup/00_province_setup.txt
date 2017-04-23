@@ -1589,7 +1589,7 @@
 }
 319 = {
 	title=c_verona
-	max_settlements=5
+	max_settlements=6
 	terrain=plains
 }
 320 = {
@@ -5622,7 +5622,7 @@
 }
 1131 = {
 	title=c_vicenza
-	max_settlements=4
+	max_settlements=5
 	terrain=hills
 }
 1132 = {
@@ -5682,7 +5682,7 @@
 }
 1143 = {
 	title=c_este
-	max_settlements=4
+	max_settlements=5
 	terrain=plains
 }
 1144 = {
