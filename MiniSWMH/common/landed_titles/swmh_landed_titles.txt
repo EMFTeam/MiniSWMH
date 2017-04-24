@@ -3784,7 +3784,7 @@ e_hre = {
 					greek = "Akouileia"
 					east_gothic = "Akouileia"
 				}
-				b_portogruaro = {}
+				b_portoguaro = {}
 				b_udine = {}
 				b_motta = {}
 				b_ciridale = {}
