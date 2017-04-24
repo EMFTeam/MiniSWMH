@@ -3428,6 +3428,7 @@ e_hre = {
 				b_gorz = {
 					karantanci = "Gorica"
 				}
+				b_grado = {}
 				b_vrtojba = {}
 				b_cervignano = {
 					karantanci = "Cervinjan"
@@ -35221,12 +35222,12 @@ e_italy = {
 				color = { 40 143 132 }
 				color2 = { 255 255 255 }
 				venetian = "Venexia"
-				b_rialto = {}
+				b_venezia = {}
 				b_san_marco = {}
 				b_chioggia = {
 					venetian = "Cióxa"
 				}
-				b_portoguaro = {
+				b_portogruaro = {
 					venetian = "Portogruèr"
 				}
 				b_concordia = {
