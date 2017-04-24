@@ -34412,7 +34412,7 @@ e_italy = {
 				b_tortoli = {
 					sardinian = "Tòrtuelie"
 				}
-				b_dolunova = {}
+				b_dolinova = {}
 				b_villasor = {
 					sardinian = "Bidda Sorris"
 				}
