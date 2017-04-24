@@ -3428,7 +3428,6 @@ e_hre = {
 				b_gorz = {
 					karantanci = "Gorica"
 				}
-				b_grado = {}
 				b_vrtojba = {}
 				b_cervignano = {
 					karantanci = "Cervinjan"
@@ -3789,7 +3788,6 @@ e_hre = {
 				b_ciridale = {}
 				b_tarcento = {}
 				b_pieve = {}
-				b_portoguaro = {}
 			}
 			allow = {
 				religion_group = christian
@@ -35214,19 +35212,35 @@ e_italy = {
 		culture = venetian
 		dignity = 200
 		christian = 375
+		venetian = "Venexia"
 		d_venice = {
+			venetian = "Venexia"
 			color = { 34 137 126 }
 			capital = 356
 			c_venezia = {
 				color = { 40 143 132 }
 				color2 = { 255 255 255 }
-				b_venezia = {}
+				venetian = "Venexia"
 				b_rialto = {}
-				b_pallestrina = {}
-				b_chioggia = {}
-				b_jesolo = {}
-				b_murano = {}
-				b_torcello = {}
+				b_san_marco = {}
+				b_chioggia = {
+					venetian = "Cióxa"
+				}
+				b_portoguaro = {
+					venetian = "Portogruèr"
+				}
+				b_concordia = {
+					venetian = "Cuncuardhia"
+				}
+				b_murano = {
+					venetian = "Muran"
+				}
+				b_torcello = {
+					venetian = "Torcèlo"
+				}
+				b_caorle = {
+					venetian = "Càorle"
+				}
 			}
 		}
 		allow = {
