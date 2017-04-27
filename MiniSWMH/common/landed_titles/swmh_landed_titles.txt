@@ -1295,7 +1295,7 @@ e_hre = {
 		capital = 262
 		dignity = 200
 		allow = {
-			always = no
+			title_king_basic_allow = yes
 		}
 	}
 	k_frisia = {
