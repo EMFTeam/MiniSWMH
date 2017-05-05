@@ -24369,7 +24369,16 @@ e_abyssinia = {
 		orthodox = 300
 		catholic = 10
 		muslim = 30
+		ethiopian = "Ityoppya"
 		coptic = "Ethaush"
+		bedouin_arabic = "Habasha"
+		levantine_arabic = "Habasha"
+		egyptian_arabic = "Habasha"
+		sicilian_arabic = "Habasha"
+		andalusian_arabic = "Habasha"
+		maghreb_arabic = "Habasha"
+		yemeni = "Habasha"
+		hijazi = "Habasha"
 		d_axum = {
 			color = { 198 30 93 }
 			color2 = { 255 255 255 }
@@ -48995,7 +49004,7 @@ e_null = {
 					greek = "Rámla"
 				}
 				b_blanchegarde = {
-					greek = "Lefki Froura"
+					greek = "Saphitha"
 				}
 				b_saintsamuel = {
 					greek = "Monì tìs Agios Samuel"
@@ -49069,7 +49078,7 @@ e_null = {
 				b_alsamoa = {}
 				b_bethgibelin = {
 					roman = "Eleutheropolis"
-					greek = "Eleutheropolis"
+					greek = "Eleutheroupolis"
 				}
 				b_syrsebbe = {}
 			}
