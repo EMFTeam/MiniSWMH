@@ -1154,7 +1154,7 @@
 	terrain=mountain
 }
 232 = {
-	title=c_monferrato
+	title=c_asti
 	max_settlements=5
 	terrain=farmlands
 }
@@ -1174,7 +1174,7 @@
 	terrain=farmlands
 }
 236 = {
-	title=c_piemonte
+	title=c_susa
 	max_settlements=6
 	terrain=mountain
 }
@@ -1224,7 +1224,7 @@
 	terrain=mountain
 }
 246 = {
-	title=c_grisons
+	title=c_aosta
 	max_settlements=4
 	terrain=mountain
 }
@@ -1613,7 +1613,7 @@
 	terrain=hills
 }
 324 = {
-	title=c_corsica
+	title=c_rogliano
 	max_settlements=5
 	terrain=mountain
 }
