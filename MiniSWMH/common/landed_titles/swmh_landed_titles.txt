@@ -3425,48 +3425,76 @@ e_hre = {
 				color = { 244 227 180 }
 				color2 = { 255 255 255 }
 				culture = karantanci
+				karantanci = "Gorica"
+				venetian = "Gurize"
+				italian = "Gorizia"
+				sardinian = "Gorizia"
+				sicilian = "Gorizia"
+				umbrian = "Gorizia"
+				laziale = "Gorizia"
+				langobardisch = "Gorizia"
+				neapolitan = "Gorizia"
+				tuscan = "Gorizia"
+				ligurian = "Gorizia"
+				dalmatian = "Gorizia"
 				b_gorz = {
 					karantanci = "Gorica"
+					venetian = "Gurize"
+					italian = "Gorizia"
+					sardinian = "Gorizia"
+					sicilian = "Gorizia"
+					umbrian = "Gorizia"
+					laziale = "Gorizia"
+					langobardisch = "Gorizia"
+					neapolitan = "Gorizia"
+					tuscan = "Gorizia"
+					ligurian = "Gorizia"
+					dalmatian = "Gorizia"
 				}
-				b_grado = {}
-				b_vrtojba = {}
-				b_cervignano = {
-					karantanci = "Cervinjan"
-				}
-				b_monfalcone = {
-					german = "Falkenberg"
-					thuringian = "Falkenberg"
-					swabian = "Falkenberg"
-					bavarian = "Falkenberg"
-					franconian = "Falkenberg"
-					low_saxon = "Falkenberg"
-					low_german = "Falkenberg"
-					low_frankish = "Falkenberg"
-					dutch = "Falkenberg"
-					karantanci = "Tržic"
+				b_kanal = {
+					venetian = "Canale"
+					italian = "Canale"
+					sardinian = "Canale"
+					sicilian = "Canale"
+					umbrian = "Canale"
+					laziale = "Canale"
+					langobardisch = "Canale"
+					neapolitan = "Canale"
+					tuscan = "Canale"
+					ligurian = "Canale"
+					dalmatian = "Canale"
+					karantanci = "Kanale"
 				}
 				b_cormons = {
-					german = "Gremaun"
-					thuringian = "Gremaun"
-					swabian = "Gremaun"
-					bavarian = "Gremaun"
-					franconian = "Gremaun"
-					low_saxon = "Gremaun"
-					low_german = "Gremaun"
-					low_frankish = "Gremaun"
-					dutch = "Gremaun"
+					italian = "Cormòns"
+					sardinian = "Cormòns"
+					sicilian = "Cormòns"
+					umbrian = "Cormòns"
+					laziale = "Cormòns"
+					langobardisch = "Cormòns"
+					neapolitan = "Cormòns"
+					tuscan = "Cormòns"
+					ligurian = "Cormòns"
+					venetian = "Cormòns"
+					dalmatian = "Cormòns"
+					karantanci = "Krmin"
 				}
-				b_gradisca = {
-					karantanci = "Gradišce"
-					german = "Gradis"
-					thuringian = "Gradis"
-					swabian = "Gradis"
-					bavarian = "Gradis"
-					franconian = "Gradis"
-					low_saxon = "Gradis"
-					low_german = "Gradis"
-					low_frankish = "Gradis"
-					dutch = "Gradis"
+				b_farra = {
+					venetian = "Fare"
+				}
+				b_monfalcone = {
+					italian = "monfalcone"
+					sardinian = "monfalcone"
+					sicilian = "monfalcone"
+					umbrian = "monfalcone"
+					laziale = "monfalcone"
+					langobardisch = "monfalcone"
+					neapolitan = "monfalcone"
+					tuscan = "monfalcone"
+					ligurian = "monfalcone"
+					venetian = "monfalcone"
+					dalmatian = "monfalcone"
+					karantanci = "Tržic"
 				}
 			}
 			c_karnten = {
@@ -3781,15 +3809,78 @@ e_hre = {
 				greek = "Akouileia"
 				east_gothic = "Akouileia"
 				b_aquileia = {
+					venetian = "Olee"
 					greek = "Akouileia"
+					german = "Aglar"
+					thuringian = "Aglar"
+					swabian = "Aglar"
+					bavarian = "Aglar"
+					franconian = "Aglar"
+					low_saxon = "Aglar"
+					low_german = "Aglar"
+					low_frankish = "Aglar"
+					dutch = "Aglar"
+					karantanci = "Oglej"
 					east_gothic = "Akouileia"
 				}
-				b_portoguaro = {}
-				b_udine = {}
-				b_motta = {}
-				b_ciridale = {}
-				b_tarcento = {}
-				b_pieve = {}
+				b_porcia = {
+					venetian = "Porcía"
+				}
+				b_udine = {
+					venetian = "Udin"
+					german = "Weiden"
+					thuringian = "Weiden"
+					swabian = "Weiden"
+					bavarian = "Weiden"
+					franconian = "Weiden"
+					low_saxon = "Weiden"
+					low_german = "Weiden"
+					low_frankish = "Weiden"
+					dutch = "Weiden"
+					karantanci = "Videm"
+				}
+				b_Polcenic = {}
+				b_ciridale = {
+					venetian = "Cividât"
+					german = "Östrich"
+					thuringian = "Östrich"
+					swabian = "Östrich"
+					bavarian = "Östrich"
+					franconian = "Östrich"
+					low_saxon = "Östrich"
+					low_german = "Östrich"
+					low_frankish = "Östrich"
+					dutch = "Östrich"
+					karantanci = "Chedad"
+				}
+				b_polcenigo = {
+					venetian = "Polcenic"
+				}
+				b_pordenone = {
+					venetian = "Pordenon"
+					german = "Portenau"
+					thuringian = "Portenau"
+					swabian = "Portenau"
+					bavarian = "Portenau"
+					franconian = "Portenau"
+					low_saxon = "Portenau"
+					low_german = "Portenau"
+					low_frankish = "Portenau"
+					dutch = "Portenau"
+				}
+				b_spilimbergo = {
+					german = "Spengenberg"
+					thuringian = "Spengenberg"
+					swabian = "Spengenberg"
+					bavarian = "Spengenberg"
+					franconian = "Spengenberg"
+					low_saxon = "Spengenberg"
+					low_german = "Spengenberg"
+					low_frankish = "Spengenberg"
+					dutch = "Spengenberg"
+					karantanci = "Špilberg"
+					venetian = "Spilimbèrc"
+				}
 			}
 			allow = {
 				religion_group = christian
@@ -35416,12 +35507,25 @@ e_italy = {
 				color2 = { 255 255 255 }
 				venetian = "Venexia"
 				b_venezia = {}
-				b_rialto = {}
-				b_pallestrina = {}
-				b_chioggia = {}
-				b_jesolo = {}
-				b_murano = {}
-				b_torcello = {}
+				b_san_marco = {}
+				b_chioggia = {
+					venetian = "Cióxa"
+				}
+				b_portogruaro = {
+					venetian = "Portogruèr"
+				}
+				b_concordia = {
+					venetian = "Cuncuardhia"
+				}
+				b_murano = {
+					venetian = "Muran"
+				}
+				b_torcello = {
+					venetian = "Torcèlo"
+				}
+				b_caorle = {
+					venetian = "Càorle"
+				}
 			}
 		}
 		allow = {
