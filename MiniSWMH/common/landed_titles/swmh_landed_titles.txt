@@ -28341,8 +28341,15 @@ e_britannia = {
 			title_king_basic_allow = yes
 		}
 		gain_effect = {
-			custom_tooltip = {
-				text = ENGLAND_BECOMES_DE_JURE_TT
+			if = {
+				limit = {
+					FROM = {
+						is_de_jure_title = no
+					}
+				}
+				custom_tooltip = {
+					text = ENGLAND_BECOMES_DE_JURE_TT
+				}
 			}
 		}
 	}
