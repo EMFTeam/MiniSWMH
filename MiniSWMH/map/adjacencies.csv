@@ -77,13 +77,13 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 594;619;major_river;1883;-1;-1;-1;-1;Sarkel-Saray
 566;605;major_river;1884;-1;-1;-1;-1;Sugrov-Manych
 594;605;major_river;1884;-1;-1;-1;-1;Sarkel-Manych
-553;1280;major_river;1889;-1;-1;-1;-1;Lyubech-Iskorosten
-544;555;major_river;1890;-1;-1;-1;-1;Korsun-Pereyaslavl
-544;1288;major_river;1890;-1;-1;-1;-1;Korsun-Lubny
-558;563;major_river;1890;-1;-1;-1;-1;Lower Dniepr-Lower Don
-558;1288;major_river;1890;-1;-1;-1;-1;Lower Dniepr-Lubny
-543;557;major_river;1892;-1;-1;-1;-1;Oleshye-Lukomorie
-557;558;major_river;1892;-1;-1;-1;-1;Lukomorie-Lower Dniepr
+553;1280;sea;1889;-1;-1;-1;-1;Lyubech-Iskorosten
+544;555;sea;1890;-1;-1;-1;-1;Korsun-Pereyaslavl
+544;1288;sea;1890;-1;-1;-1;-1;Korsun-Lubny
+558;563;sea;1890;-1;-1;-1;-1;Lower Dniepr-Lower Don
+558;1288;sea;1890;-1;-1;-1;-1;Lower Dniepr-Lubny
+543;557;sea;1892;-1;-1;-1;-1;Oleshye-Lukomorie
+557;558;sea;1892;-1;-1;-1;-1;Lukomorie-Lower Dniepr
 416;985;major_river;1894;-1;-1;-1;-1;West Dvina-Selija
 963;985;major_river;1895;-1;-1;-1;-1;Jeriska-Selija
 553;555;major_river;1898;-1;-1;-1;-1;Lyubech-Pereyaslavl
