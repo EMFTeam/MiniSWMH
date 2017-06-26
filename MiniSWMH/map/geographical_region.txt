@@ -617,6 +617,8 @@ custom_frisia = {
 }
 custom_england = {
 	duchies = {
+		d_cornwall
+		d_channel_islands
 		d_somerset
 		d_canterbury
 		d_hereford
@@ -627,7 +629,6 @@ custom_england = {
 		d_york
 		d_lancaster
 		d_northumberland
-		d_lothian
 	}
 }
 custom_castillian = {

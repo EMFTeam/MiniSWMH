@@ -28344,10 +28344,17 @@ e_britannia = {
 			}
 		}
 		allow = {
-			regional_percentage = {
-				region = custom_england
-				percentage = 0.500
-				owner_under_ROOT = yes
+			OR = {
+				custom_tooltip = {
+					text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
+					hidden_tooltip = {
+						ai = no
+						has_character_flag = swmh_can_form_england
+					}
+				}
+				FROM = {
+					has_holder = yes
+				}
 			}
 			title_king_basic_allow = yes
 		}
