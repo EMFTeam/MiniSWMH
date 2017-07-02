@@ -1362,7 +1362,7 @@ e_hre = {
 				b_borsele = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_utrecht = {
@@ -1407,7 +1407,7 @@ e_hre = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_gelre = {
@@ -1473,7 +1473,7 @@ e_hre = {
 				b_leuvenheim = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_frisia = {
@@ -1593,7 +1593,7 @@ e_hre = {
 				b_assen = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -1657,7 +1657,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_luxembourg = {
@@ -1742,7 +1742,7 @@ e_hre = {
 				b_orval = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_pfalz = {
@@ -1816,7 +1816,7 @@ e_hre = {
 				b_sclossveldenz = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_upper_lorraine = {
@@ -1904,7 +1904,7 @@ e_hre = {
 				b_charpeigne = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_barleduc = {
@@ -1951,7 +1951,7 @@ e_hre = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -2090,7 +2090,7 @@ e_hre = {
 				b_dinant = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_liege = {
@@ -2150,7 +2150,7 @@ e_hre = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_hainaut = {
@@ -2228,7 +2228,7 @@ e_hre = {
 				b_lecateau = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_limburg = {
@@ -2271,7 +2271,7 @@ e_hre = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_koln = {
@@ -2312,7 +2312,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_berg = {
@@ -2404,7 +2404,7 @@ e_hre = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -2467,7 +2467,7 @@ e_hre = {
 				b_buckeburg = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_oldenburg = {
@@ -2501,7 +2501,7 @@ e_hre = {
 				b_wiefelstede = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_osnabruck = {
@@ -2524,7 +2524,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bishopmunster = {
@@ -2550,7 +2550,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bremen = {
@@ -2576,7 +2576,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_holstein = {
@@ -2656,7 +2656,7 @@ e_hre = {
 				b_hachhede = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_magdeburg = {
@@ -2678,7 +2678,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_saxewittenberg = {
@@ -2739,7 +2739,7 @@ e_hre = {
 				b_gotha = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_meissen = {
@@ -2788,7 +2788,7 @@ e_hre = {
 				b_naumburg = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_altmark = {
@@ -2807,7 +2807,7 @@ e_hre = {
 				b_tangermunde = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_brunswick = {
@@ -2864,7 +2864,7 @@ e_hre = {
 				b_gandersheim = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -2934,7 +2934,7 @@ e_hre = {
 				b_moskebach = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_wurzburg = {
@@ -2979,7 +2979,7 @@ e_hre = {
 				b_mainderheim = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_mainz = {
@@ -3010,7 +3010,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_thuringia = {
@@ -3043,7 +3043,7 @@ e_hre = {
 				b_eichsfeld = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_hessen = {
@@ -3078,7 +3078,7 @@ e_hre = {
 				b_isenburg = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -3160,7 +3160,7 @@ e_hre = {
 				b_rohrbach = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_tyrol = {
@@ -3200,7 +3200,7 @@ e_hre = {
 				b_arco = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bamberg = {
@@ -3225,7 +3225,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_nuremberg = {
@@ -3270,7 +3270,7 @@ e_hre = {
 				b_erlangen = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_oberbayern = {
@@ -3307,7 +3307,7 @@ e_hre = {
 				b_pfaffenberg = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_salzburg = {
@@ -3340,7 +3340,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_osterreich = {
@@ -3410,7 +3410,7 @@ e_hre = {
 				b_seebenstein = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -3474,7 +3474,7 @@ e_hre = {
 				b_pettau = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_carinthia = {
@@ -3622,7 +3622,7 @@ e_hre = {
 				b_eberndorf = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_istria = {
@@ -3899,7 +3899,7 @@ e_hre = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_aquileia = {
@@ -3994,7 +3994,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -4046,7 +4046,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_baden = {
@@ -4087,7 +4087,7 @@ e_hre = {
 				b_breisach = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_chur = {
@@ -4120,7 +4120,7 @@ e_hre = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_alsace = {
@@ -4182,7 +4182,7 @@ e_hre = {
 				b_landser = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_zahringen = {
@@ -4242,7 +4242,7 @@ e_hre = {
 				b_winterthur = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_teck = {
@@ -4303,7 +4303,7 @@ e_hre = {
 				b_waiblingen = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_burgau = {
@@ -4357,7 +4357,7 @@ e_hre = {
 				b_spielberg = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -5114,7 +5114,7 @@ e_hre = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_moravia = {
@@ -5528,7 +5528,7 @@ e_hre = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -5943,7 +5943,7 @@ e_byzantium = {
 				b_skyros = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_thrace = {
@@ -6226,7 +6226,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_strymon = {
@@ -6340,7 +6340,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_thessalonika = {
@@ -6506,7 +6506,7 @@ e_byzantium = {
 				b_dion = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_neopatras = {
@@ -6787,7 +6787,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -7038,7 +7038,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_epirus = {
@@ -7354,7 +7354,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_cephalonia = {
@@ -7561,7 +7561,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -7943,7 +7943,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_achaia = {
@@ -8437,7 +8437,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -8716,7 +8716,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -8849,7 +8849,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_boukellarion = {
@@ -9016,7 +9016,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_samos = {
@@ -9142,7 +9142,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_thracesia = {
@@ -9288,7 +9288,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_opsikon = {
@@ -9609,7 +9609,7 @@ e_byzantium = {
 				b_midaion = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_optimatoi = {
@@ -9776,7 +9776,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_cibyrrhaeot = {
@@ -9978,7 +9978,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -10075,7 +10075,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_cappadocia = {
@@ -10162,7 +10162,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_coloneia = {
@@ -10255,7 +10255,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sebasteia = {
@@ -10332,7 +10332,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lykandos = {
@@ -10392,7 +10392,7 @@ e_byzantium = {
 				b_komanachryse = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_anatolia = {
@@ -10534,7 +10534,7 @@ e_byzantium = {
 				b_derbe = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_melitene = {
@@ -10600,7 +10600,7 @@ e_byzantium = {
 				b_gubos = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -10898,7 +10898,7 @@ e_byzantium = {
 				has_landed_title = c_nicosia
 				has_landed_title = c_famagusta
 				has_landed_title = c_limisol
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -11064,7 +11064,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_cherson = {
@@ -11483,7 +11483,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_armeniacon = {
@@ -11598,7 +11598,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -11939,7 +11939,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_seleukeia = {
@@ -12073,7 +12073,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -12286,7 +12286,7 @@ e_byzantium = {
 				b_kteina = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_karvuna = {
@@ -12427,7 +12427,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_adrianopolis = {
@@ -12838,7 +12838,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_vidin = {
@@ -12959,7 +12959,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ohrid = {
@@ -13307,7 +13307,7 @@ e_byzantium = {
 				b_gracanica = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -13413,7 +13413,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_macva = {
@@ -13553,7 +13553,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_hum = {
@@ -13672,7 +13672,7 @@ e_byzantium = {
 				b_zaborani = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_dioclea = {
@@ -13932,7 +13932,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -14114,7 +14114,7 @@ e_byzantium = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -14207,7 +14207,7 @@ e_scandinavia = {
 				b_solvesborg = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sjaelland = {
@@ -14268,7 +14268,7 @@ e_scandinavia = {
 				b_nyborg = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_halland = {
@@ -14300,7 +14300,7 @@ e_scandinavia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_jylland = {
@@ -14368,7 +14368,7 @@ e_scandinavia = {
 				b_skive = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_slesvig = {
@@ -14475,7 +14475,7 @@ e_scandinavia = {
 				b_rungholt = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bornholm = {
@@ -14503,7 +14503,7 @@ e_scandinavia = {
 				b_ronne = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_nordfrisland = {
@@ -14513,7 +14513,7 @@ e_scandinavia = {
 			culture = frisian
 			german = "Auﬂenlande"
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -14564,7 +14564,7 @@ e_scandinavia = {
 				b_goddalir = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -14660,7 +14660,7 @@ e_scandinavia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ostergotland = {
@@ -14753,7 +14753,7 @@ e_scandinavia = {
 				b_piksborg = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_vastergotland = {
@@ -14818,7 +14818,7 @@ e_scandinavia = {
 				b_amordh = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sodermandland = {
@@ -14906,7 +14906,7 @@ e_scandinavia = {
 				b_badelunda = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_halsingland = {
@@ -14985,7 +14985,7 @@ e_scandinavia = {
 				b_alir = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_gotland = {
@@ -15010,7 +15010,7 @@ e_scandinavia = {
 				b_alva = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -15078,7 +15078,7 @@ e_scandinavia = {
 				b_gimsoy = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_opplandene = {
@@ -15117,7 +15117,7 @@ e_scandinavia = {
 				b_hole = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_vestlandet = {
@@ -15165,7 +15165,7 @@ e_scandinavia = {
 				b_aatloeyna = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_more = {
@@ -15194,7 +15194,7 @@ e_scandinavia = {
 				b_blindheim = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_trondelag = {
@@ -15238,7 +15238,7 @@ e_scandinavia = {
 				b_stormoen = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_halogaland = {
@@ -15300,7 +15300,7 @@ e_scandinavia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_jamtland = {
@@ -15321,7 +15321,7 @@ e_scandinavia = {
 				b_sveg = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_faereyar = {
@@ -15340,7 +15340,7 @@ e_scandinavia = {
 				b_torshavn = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -15437,7 +15437,7 @@ e_russia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_nizhny_novgorod = {
@@ -15465,7 +15465,7 @@ e_russia = {
 				b_kovemino = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ustyg = {
@@ -15488,7 +15488,7 @@ e_russia = {
 				b_chukholma = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_tver = {
@@ -15524,7 +15524,7 @@ e_russia = {
 				b_myshkin = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_rostov = {
@@ -15583,7 +15583,7 @@ e_russia = {
 				b_danilov = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_moskva = {
@@ -15621,7 +15621,7 @@ e_russia = {
 				b_kremyonki = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ryazan = {
@@ -15661,7 +15661,7 @@ e_russia = {
 				b_dedilovo = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_murom = {
@@ -15707,7 +15707,7 @@ e_russia = {
 				b_sarov = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -15791,7 +15791,7 @@ e_russia = {
 				b_kraslava = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_minsk = {
@@ -15823,7 +15823,7 @@ e_russia = {
 				b_vileyka = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -15919,7 +15919,7 @@ e_russia = {
 				b_mezhyrica = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_pereyaslavl = {
@@ -15954,7 +15954,7 @@ e_russia = {
 				b_hlynsk = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_novgorod-seversk = {
@@ -15984,7 +15984,7 @@ e_russia = {
 				b_oboyan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_smolensk = {
@@ -16053,7 +16053,7 @@ e_russia = {
 				b_chocimsk = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_toropec = {
@@ -16083,7 +16083,7 @@ e_russia = {
 				b_oscen = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_turov = {
@@ -16120,7 +16120,7 @@ e_russia = {
 				b_luninets = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_chernigov = {
@@ -16166,7 +16166,7 @@ e_russia = {
 				b_starodub_chernigov = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_novosil = {
@@ -16222,7 +16222,7 @@ e_russia = {
 				b_serpeysk = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -16330,7 +16330,7 @@ e_russia = {
 				b_vytegra = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_russa = {
@@ -16366,7 +16366,7 @@ e_russia = {
 				b_loknya = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_pskov = {
@@ -16385,7 +16385,7 @@ e_russia = {
 				b_veljepskov = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_beloozero = {
@@ -16418,7 +16418,7 @@ e_russia = {
 				b_veksenga = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -16503,7 +16503,7 @@ e_poland = {
 				b_brodno = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_greater_poland = {
@@ -16614,7 +16614,7 @@ e_poland = {
 						has_landed_title = c_poznanskie
 					}
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_silesia = {
@@ -17037,7 +17037,7 @@ e_poland = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lesser_poland = {
@@ -17141,7 +17141,7 @@ e_poland = {
 				b_radom = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_kuyavia = {
@@ -17298,7 +17298,7 @@ e_poland = {
 						has_landed_title = c_kujawy
 					}
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sieradzko-leczyckie = {
@@ -17360,7 +17360,7 @@ e_poland = {
 						has_landed_title = c_sieradzko-leczyckie
 					}
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -17685,7 +17685,7 @@ e_poland = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_trakai = {
@@ -17918,7 +17918,7 @@ e_poland = {
 						has_landed_title = c_trakai
 					}
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_samogitia = {
@@ -18231,7 +18231,7 @@ e_poland = {
 						has_landed_title = c_zhmud
 					}
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_prussia = {
@@ -18980,7 +18980,7 @@ e_poland = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -19085,7 +19085,7 @@ e_poland = {
 				b_brody = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_volhynia = {
@@ -19152,7 +19152,7 @@ e_poland = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_podlaise = {
@@ -19188,7 +19188,7 @@ e_poland = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_belz = {
@@ -19220,7 +19220,7 @@ e_poland = {
 				b_hrubieszow = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -19342,7 +19342,7 @@ e_carpathia = {
 				b_buzau = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_oltenia = {
@@ -19392,7 +19392,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -19675,7 +19675,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_basarabia = {
@@ -19839,7 +19839,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -19965,7 +19965,7 @@ e_carpathia = {
 				b_szony = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_gyor = {
@@ -20054,7 +20054,7 @@ e_carpathia = {
 				b_csesznek = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_nyitra = {
@@ -20302,7 +20302,7 @@ e_carpathia = {
 				b_bakabanya = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_pecs = {
@@ -20369,7 +20369,7 @@ e_carpathia = {
 				b_csurgo = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ungvar = {
@@ -20487,7 +20487,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ujavar = {
@@ -20546,7 +20546,7 @@ e_carpathia = {
 						has_landed_title = c_heves
 					}
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_csanad = {
@@ -20753,7 +20753,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bacs = {
@@ -20927,7 +20927,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_syrmia = {
@@ -21111,7 +21111,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_pest = {
@@ -21273,7 +21273,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_transylvania = {
@@ -21574,7 +21574,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -21717,7 +21717,7 @@ e_carpathia = {
 				b_humac = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_usora_i_soli = {
@@ -21802,7 +21802,7 @@ e_carpathia = {
 				b_dobojgrad = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -22334,7 +22334,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_krk = {
@@ -22554,7 +22554,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_dalmatian_islands = {
@@ -22745,7 +22745,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_croatia = {
@@ -22961,7 +22961,7 @@ e_carpathia = {
 				b_liplje = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_slavonia = {
@@ -23188,7 +23188,7 @@ e_carpathia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -23233,7 +23233,7 @@ e_arabia = {
 				b_madyan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_amman = {
@@ -23276,7 +23276,7 @@ e_arabia = {
 				b_ath_taqab = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_medina = {
@@ -23348,7 +23348,7 @@ e_arabia = {
 				b_jurash = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_nefoud = {
@@ -23395,7 +23395,7 @@ e_arabia = {
 				b_nibaj = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -23456,7 +23456,7 @@ e_arabia = {
 				b_sur_masirah = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -23502,7 +23502,7 @@ e_arabia = {
 				b_zinjibar = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sanaa = {
@@ -23543,7 +23543,7 @@ e_arabia = {
 				b_yarim = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_hadramaut = {
@@ -23586,7 +23586,7 @@ e_arabia = {
 				b_qashiu = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -23709,7 +23709,7 @@ e_arabia = {
 				b_shammas = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_damietta = {
@@ -23842,7 +23842,7 @@ e_arabia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_cairo = {
@@ -24020,7 +24020,7 @@ e_arabia = {
 				b_ahnas = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_alwahat = {
@@ -24108,7 +24108,7 @@ e_arabia = {
 				b_dayr = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_aswan = {
@@ -24262,7 +24262,7 @@ e_arabia = {
 				b_philae = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_cyrenaica = {
@@ -24390,7 +24390,7 @@ e_arabia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sinai = {
@@ -24445,7 +24445,7 @@ e_arabia = {
 				b_khanyunis = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -24596,7 +24596,7 @@ e_arabia = {
 				b_barinsyria = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_homs = {
@@ -24656,7 +24656,7 @@ e_arabia = {
 				b_shmemiscastle = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_damascus = {
@@ -24773,7 +24773,7 @@ e_arabia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_jordan = {
@@ -24861,7 +24861,7 @@ e_arabia = {
 				b_russeifa = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -24911,7 +24911,7 @@ e_abyssinia = {
 				b_daarbuduq = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ifat = {
@@ -24938,7 +24938,7 @@ e_abyssinia = {
 				b_bati = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_tedjoura = {
@@ -24986,7 +24986,7 @@ e_abyssinia = {
 				b_holhol = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_afar = {
@@ -25016,7 +25016,7 @@ e_abyssinia = {
 				b_halib = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -25093,7 +25093,7 @@ e_abyssinia = {
 				b_sekota = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_damot = {
@@ -25133,7 +25133,7 @@ e_abyssinia = {
 				b_gafat = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_gondar = {
@@ -25167,7 +25167,7 @@ e_abyssinia = {
 				b_debrelibanos = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_amhara = {
@@ -25199,7 +25199,7 @@ e_abyssinia = {
 				b_debreberhan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -25250,7 +25250,7 @@ e_abyssinia = {
 				b_hajaralasla = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_nubia = {
@@ -25297,7 +25297,7 @@ e_abyssinia = {
 				b_alusheir = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_nobatia = {
@@ -25360,7 +25360,7 @@ e_abyssinia = {
 				b_mahareaka = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -25401,7 +25401,7 @@ e_abyssinia = {
 				b_ketema = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_darfur = {
@@ -25422,7 +25422,7 @@ e_abyssinia = {
 				b_tagali = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -25479,7 +25479,7 @@ e_abyssinia = {
 				b_wadibaraka = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_badi = {
@@ -25506,7 +25506,7 @@ e_abyssinia = {
 				b_debarwa = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_kassala = {
@@ -25526,7 +25526,7 @@ e_abyssinia = {
 				b_showak = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -26086,7 +26086,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_canterbury = {
@@ -26339,7 +26339,7 @@ e_britannia = {
 				b_bramber = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_cornwall = {
@@ -26524,7 +26524,7 @@ e_britannia = {
 				b_buckfast = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_hereford = {
@@ -26987,7 +26987,7 @@ e_britannia = {
 				b_chartley = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bedford = {
@@ -27343,7 +27343,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_essex = {
@@ -27619,7 +27619,7 @@ e_britannia = {
 				b_ashridge_priory = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_norfolk = {
@@ -27890,7 +27890,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_fivebouroughs = {
@@ -28187,7 +28187,7 @@ e_britannia = {
 				b_rufford = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_york = {
@@ -28455,7 +28455,7 @@ e_britannia = {
 				b_howden = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lancaster = {
@@ -28693,7 +28693,7 @@ e_britannia = {
 				b_brougham = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_northumberland = {
@@ -28905,7 +28905,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_channel_islands = {
@@ -28959,7 +28959,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		gain_effect = {
@@ -29218,7 +29218,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_deheubarth = {
@@ -29439,7 +29439,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_powys = {
@@ -29630,7 +29630,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_morgannwg = {
@@ -29807,7 +29807,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -30181,7 +30181,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_connacht = {
@@ -30468,7 +30468,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_meath = {
@@ -30771,7 +30771,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_leinster = {
@@ -31103,7 +31103,7 @@ e_britannia = {
 				b_grannagh = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_munster = {
@@ -31563,7 +31563,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		gain_effect = {
@@ -31774,7 +31774,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lothian = {
@@ -32090,7 +32090,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_albany = {
@@ -32375,7 +32375,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_moray = {
@@ -32578,7 +32578,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_aberdeen = {
@@ -32793,7 +32793,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sutherland = {
@@ -32932,7 +32932,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_strathclyde = {
@@ -33175,7 +33175,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -33295,7 +33295,7 @@ e_britannia = {
 					owner_under_ROOT = yes
 				}
 				num_of_count_titles = 2
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_hebrides = {
@@ -33515,7 +33515,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_orkney = {
@@ -33568,7 +33568,7 @@ e_britannia = {
 				b_sanday = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_western_isles = {
@@ -33717,7 +33717,7 @@ e_britannia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -33943,7 +33943,7 @@ e_italy = {
 				b_massino = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_verona = {
@@ -34020,7 +34020,7 @@ e_italy = {
 				b_onara = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_parma = {
@@ -34059,7 +34059,7 @@ e_italy = {
 				b_ronacagli = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ivrea = {
@@ -34144,7 +34144,7 @@ e_italy = {
 				b_crescentino = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_saluzzo = {
@@ -34186,7 +34186,7 @@ e_italy = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_monferrato = {
@@ -34231,7 +34231,7 @@ e_italy = {
 				b_cortemilia = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_massa = {
@@ -34272,7 +34272,7 @@ e_italy = {
 				b_voghera = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_genoa = {
@@ -34301,7 +34301,7 @@ e_italy = {
 				b_chivari = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_savona = {
@@ -34352,7 +34352,7 @@ e_italy = {
 				b_dolceacqua = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_modena = {
@@ -34406,7 +34406,7 @@ e_italy = {
 				b_montecuccolo = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_mantua = {
@@ -34436,7 +34436,7 @@ e_italy = {
 				b_redondesco = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lucca = {
@@ -34485,7 +34485,7 @@ e_italy = {
 				b_biserno = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_toscana = {
@@ -34550,7 +34550,7 @@ e_italy = {
 				b_del_trebbio = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_siena = {
@@ -34591,7 +34591,7 @@ e_italy = {
 				b_radicofani = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sovana = {
@@ -34632,7 +34632,7 @@ e_italy = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_pisa = {
@@ -34662,7 +34662,7 @@ e_italy = {
 				b_campiglia = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_vercelli_republic = {
@@ -34674,7 +34674,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_vicenza_republic = {
@@ -34686,7 +34686,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_verona_republic = {
@@ -34698,7 +34698,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_padova_republic = {
@@ -34710,7 +34710,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ferrara_republic = {
@@ -34722,7 +34722,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_mantua_republic = {
@@ -34734,7 +34734,7 @@ e_italy = {
 			title_female = CAPTAINOFTHEPEOPLE_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_brescia_republic = {
@@ -34746,7 +34746,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bergamo_republic = {
@@ -34758,7 +34758,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_milano_republic = {
@@ -34770,7 +34770,7 @@ e_italy = {
 			title_female = CONSUL_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_pavia_republic = {
@@ -34782,7 +34782,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_modena_republic = {
@@ -34794,7 +34794,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_reggio_republic = {
@@ -34806,7 +34806,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_parma_republic = {
@@ -34818,7 +34818,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_piacenza_republic = {
@@ -34830,7 +34830,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_cremona_republic = {
@@ -34842,7 +34842,7 @@ e_italy = {
 			title_female = CONSUL_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_asti_republic = {
@@ -34854,7 +34854,7 @@ e_italy = {
 			title_female = CONSUL_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_firenze_republic = {
@@ -34866,7 +34866,7 @@ e_italy = {
 			title_female = CONSUL_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lucca_republic = {
@@ -34878,7 +34878,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_arezzo_republic = {
@@ -34890,7 +34890,7 @@ e_italy = {
 			title_female = PODESTA_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_siena_republic = {
@@ -34902,7 +34902,7 @@ e_italy = {
 			title_female = GRANDE_FEMALE
 			short_name = yes
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -35021,7 +35021,7 @@ e_italy = {
 				b_civitavecchia = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ravenna = {
@@ -35095,7 +35095,7 @@ e_italy = {
 				b_lugo_cunio = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_spoleto = {
@@ -35178,7 +35178,7 @@ e_italy = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_urbino = {
@@ -35242,7 +35242,7 @@ e_italy = {
 				b_san_marino = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ferrara = {
@@ -35285,7 +35285,7 @@ e_italy = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ancona = {
@@ -35315,7 +35315,7 @@ e_italy = {
 				b_loreto = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -35363,7 +35363,7 @@ e_italy = {
 				b_sagone = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sardinia = {
@@ -35476,7 +35476,7 @@ e_italy = {
 				b_sulci = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -35501,7 +35501,7 @@ e_italy = {
 			culture = langobardisch
 			allow = {
 				is_republic = yes
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_benevento = {
@@ -35512,7 +35512,7 @@ e_italy = {
 			roman = "Beneventum"
 			greek = "Beneuenton"
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_napoli = {
@@ -35553,7 +35553,7 @@ e_italy = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_capua = {
@@ -35606,7 +35606,7 @@ e_italy = {
 				b_altavilla_irpina = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_gaeta = {
@@ -35659,7 +35659,7 @@ e_italy = {
 				b_moloro = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_apulia = {
@@ -35710,7 +35710,7 @@ e_italy = {
 				b_policastro = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bari = {
@@ -35751,7 +35751,7 @@ e_italy = {
 				b_molfetta = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_venosa = {
@@ -35796,7 +35796,7 @@ e_italy = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_tarent = {
@@ -35848,7 +35848,7 @@ e_italy = {
 				b_ostuni = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_salerno = {
@@ -35886,7 +35886,7 @@ e_italy = {
 				b_buonalbergo = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_atri = {
@@ -35945,7 +35945,7 @@ e_italy = {
 				b_montedorisio = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_calabria = {
@@ -36034,7 +36034,7 @@ e_italy = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sicily = {
@@ -36318,7 +36318,7 @@ e_italy = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -36363,7 +36363,7 @@ e_italy = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -36463,7 +36463,7 @@ e_france = {
 				b_martigny = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_arles = {
@@ -36489,7 +36489,7 @@ e_france = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_provence = {
@@ -36580,7 +36580,7 @@ e_france = {
 				b_lecheylard = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lyon = {
@@ -36612,7 +36612,7 @@ e_france = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_dauphine = {
@@ -36686,7 +36686,7 @@ e_france = {
 				b_pontcharra = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_basel = {
@@ -36714,7 +36714,7 @@ e_france = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_upper_burgundy = {
@@ -36785,7 +36785,7 @@ e_france = {
 				b_avences = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -36962,7 +36962,7 @@ e_france = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lowerbrittany = {
@@ -36976,7 +36976,7 @@ e_france = {
 				NOT = {
 					has_landed_title = d_brittany
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -37089,7 +37089,7 @@ e_france = {
 				b_torhout = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_artois = {
@@ -37192,7 +37192,7 @@ e_france = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_burgundy = {
@@ -37258,7 +37258,7 @@ e_france = {
 				b_stjeandelosne = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bourbon = {
@@ -37288,7 +37288,7 @@ e_france = {
 				b_chalmazel = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_anjou = {
@@ -37355,7 +37355,7 @@ e_france = {
 				b_montmirail_vendome = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_normandy = {
@@ -37476,7 +37476,7 @@ e_france = {
 				b_serqueux = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_alencon = {
@@ -37514,7 +37514,7 @@ e_france = {
 				b_houdan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_orleans = {
@@ -37547,7 +37547,7 @@ e_france = {
 				b_montereau = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_blois = {
@@ -37589,7 +37589,7 @@ e_france = {
 				b_bonneval = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_berry = {
@@ -37625,7 +37625,7 @@ e_france = {
 				b_charenton = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_nevers = {
@@ -37676,7 +37676,7 @@ e_france = {
 				b_mailly = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_archreims = {
@@ -37702,7 +37702,7 @@ e_france = {
 				religion_group = christian
 				is_theocracy = yes
 				piety = 500
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_champagne = {
@@ -37769,7 +37769,7 @@ e_france = {
 				b_chalindrey = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_rethel = {
@@ -37796,7 +37796,7 @@ e_france = {
 				b_montcornet = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_valois = {
@@ -37889,7 +37889,7 @@ e_france = {
 				b_creil = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -37962,7 +37962,7 @@ e_france = {
 				b_brusque = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_gevaudan = {
@@ -38003,7 +38003,7 @@ e_france = {
 				b_tournel = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_foix = {
@@ -38057,7 +38057,7 @@ e_france = {
 				b_montaner = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_septimania = {
@@ -38166,7 +38166,7 @@ e_france = {
 				b_puisserguier = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_gascogne = {
@@ -38227,7 +38227,7 @@ e_france = {
 				b_castelnau = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_aquitaine = {
@@ -38279,7 +38279,7 @@ e_france = {
 				b_auberoche = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_auvergne = {
@@ -38333,7 +38333,7 @@ e_france = {
 				b_vorey = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_poitou = {
@@ -38417,7 +38417,7 @@ e_france = {
 				b_fontdouce = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_limousin = {
@@ -38460,7 +38460,7 @@ e_france = {
 				b_tulle = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -38956,7 +38956,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_segovia = {
@@ -39203,7 +39203,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_najera = {
@@ -39361,7 +39361,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_alba_de_tormes = {
@@ -39380,7 +39380,7 @@ e_spain = {
 				c_salamanca = {
 					owner_under_ROOT = yes
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_medina_sidonia = {
@@ -39399,7 +39399,7 @@ e_spain = {
 				c_cadiz = {
 					owner_under_ROOT = yes
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_alburquerque = {
@@ -39418,7 +39418,7 @@ e_spain = {
 				c_alcantara = {
 					owner_under_ROOT = yes
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_medinaceli = {
@@ -39437,7 +39437,7 @@ e_spain = {
 				c_soria = {
 					owner_under_ROOT = yes
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_infantado = {
@@ -39456,7 +39456,7 @@ e_spain = {
 				c_palencia = {
 					owner_under_ROOT = yes
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -39844,7 +39844,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -40205,7 +40205,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_leon = {
@@ -40645,7 +40645,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_salamanca = {
@@ -40789,7 +40789,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -41006,7 +41006,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_zaragoza = {
@@ -41292,7 +41292,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_barcelona = {
@@ -41790,7 +41790,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_catalunya_nova = {
@@ -41997,7 +41997,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_teruel = {
@@ -42249,7 +42249,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_gandia = {
@@ -42267,7 +42267,7 @@ e_spain = {
 				c_denia = {
 					owner_under_ROOT = yes
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_cardona = {
@@ -42285,7 +42285,7 @@ e_spain = {
 				c_barcelona = {
 					owner_under_ROOT = yes
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -42746,7 +42746,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_beira = {
@@ -43057,7 +43057,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_porto = {
@@ -43364,7 +43364,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -43834,7 +43834,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_algarve = {
@@ -43980,7 +43980,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_badajoz = {
@@ -44326,7 +44326,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_toledo = {
@@ -44648,7 +44648,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sevilla = {
@@ -45013,7 +45013,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_granada = {
@@ -45399,7 +45399,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_cordoba = {
@@ -45602,7 +45602,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_la_mancha = {
@@ -45833,7 +45833,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_valencia = {
@@ -46113,7 +46113,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_murcia = {
@@ -46332,7 +46332,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_mallorca = {
@@ -46583,7 +46583,7 @@ e_spain = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -46942,7 +46942,7 @@ e_africa = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_qamuda = {
@@ -47035,7 +47035,7 @@ e_africa = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_tripolitania = {
@@ -47160,7 +47160,7 @@ e_africa = {
 				b_surman = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_kabylia = {
@@ -47260,7 +47260,7 @@ e_africa = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_zab = {
@@ -47351,7 +47351,7 @@ e_africa = {
 				b_tuggurt = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -47447,7 +47447,7 @@ e_africa = {
 				b_ahfir = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_tlemcen = {
@@ -47518,7 +47518,7 @@ e_africa = {
 				b_bougtob = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_tangiers = {
@@ -47588,7 +47588,7 @@ e_africa = {
 				b_geurcif = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_fes = {
@@ -47656,7 +47656,7 @@ e_africa = {
 				b_guercif = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_marrakech = {
@@ -47729,7 +47729,7 @@ e_africa = {
 				b_alnif = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -47775,7 +47775,7 @@ e_africa = {
 				b_birumgrein = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_adrar = {
@@ -47824,7 +47824,7 @@ e_africa = {
 				b_atrar = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_taghaza = {
@@ -47848,7 +47848,7 @@ e_africa = {
 				b_tassarahla = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -47951,7 +47951,7 @@ e_persia = {
 				b_burdj = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_khoar = {
@@ -48001,7 +48001,7 @@ e_persia = {
 				b_kharkan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_fars = {
@@ -48085,7 +48085,7 @@ e_persia = {
 				b_istahbanat = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_kerman = {
@@ -48162,7 +48162,7 @@ e_persia = {
 				b_kishqeshmi = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_yazd = {
@@ -48192,7 +48192,7 @@ e_persia = {
 				b_nain = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ahwaz = {
@@ -48234,7 +48234,7 @@ e_persia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -48275,7 +48275,7 @@ e_persia = {
 				b_natil = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_gilan = {
@@ -48320,7 +48320,7 @@ e_persia = {
 				b_shamiran = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_gurgan = {
@@ -48344,7 +48344,7 @@ e_persia = {
 				b_okarem = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_azerbaijan = {
@@ -48471,7 +48471,7 @@ e_persia = {
 				b_vartan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -48555,7 +48555,7 @@ e_persia = {
 				b_kuri = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_merv = {
@@ -48611,7 +48611,7 @@ e_persia = {
 				b_nevida = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_herat = {
@@ -48667,7 +48667,7 @@ e_persia = {
 				b_manshan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_balkh = {
@@ -48712,7 +48712,7 @@ e_persia = {
 				b_ushburqan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -48775,7 +48775,7 @@ e_persia = {
 				b_bezda = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ustrushana = {
@@ -48797,7 +48797,7 @@ e_persia = {
 				b_varaghser = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ferghana = {
@@ -48839,7 +48839,7 @@ e_persia = {
 				b_naqad = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_shash = {
@@ -48917,7 +48917,7 @@ e_persia = {
 				b_sutkend = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_khwarazm = {
@@ -48975,7 +48975,7 @@ e_persia = {
 				b_jigirband = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -49033,7 +49033,7 @@ e_persia = {
 				b_kazima = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_kufa = {
@@ -49070,7 +49070,7 @@ e_persia = {
 				b_safata = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_kermanshah = {
@@ -49115,7 +49115,7 @@ e_persia = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_baghdad = {
@@ -49173,7 +49173,7 @@ e_persia = {
 				b_birmallaha = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_samarra = {
@@ -49237,7 +49237,7 @@ e_persia = {
 				b_barimma = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_kurdistan = {
@@ -49297,7 +49297,7 @@ e_persia = {
 				b_sine = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -49406,7 +49406,7 @@ e_null = {
 				b_nakorzan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_suenik = {
@@ -49491,7 +49491,7 @@ e_null = {
 				b_ordubad = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_vaspurakan = {
@@ -49668,7 +49668,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_armenia = {
@@ -49854,7 +49854,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lori = {
@@ -49890,7 +49890,7 @@ e_null = {
 				b_gardman = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_taron = {
@@ -50053,7 +50053,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_mesopotamia = {
@@ -50154,7 +50154,7 @@ e_null = {
 				b_varzahan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_dzopk = {
@@ -50273,7 +50273,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		gain_effect = {
@@ -50524,7 +50524,7 @@ e_null = {
 				b_abasan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_acre = {
@@ -50678,7 +50678,7 @@ e_null = {
 				b_calansue = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_oultrejourdain = {
@@ -50792,7 +50792,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ascalon = {
@@ -50864,7 +50864,7 @@ e_null = {
 				b_laforbie = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_galilee = {
@@ -51003,7 +51003,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -51304,7 +51304,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_antioch = {
@@ -51602,7 +51602,7 @@ e_null = {
 				b_treiz = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_tripoli = {
@@ -51914,7 +51914,7 @@ e_null = {
 				b_msheilfort = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -52064,7 +52064,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_jazira = {
@@ -52144,7 +52144,7 @@ e_null = {
 				b_ceylanpinar = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_diyareast = {
@@ -52413,7 +52413,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -52840,7 +52840,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_pomeralia = {
@@ -53019,7 +53019,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lubeck = {
@@ -53187,7 +53187,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lubusz = {
@@ -53398,7 +53398,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_pommerania = {
@@ -53883,7 +53883,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_rugen = {
@@ -54045,7 +54045,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_brandenburg = {
@@ -54109,7 +54109,7 @@ e_null = {
 				b_ruppin = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lausitz = {
@@ -54138,7 +54138,7 @@ e_null = {
 				b_raothenburg = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -54504,7 +54504,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_talava = {
@@ -54709,7 +54709,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_courland = {
@@ -54933,7 +54933,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_zemigalia = {
@@ -55157,7 +55157,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_lettigale = {
@@ -55348,7 +55348,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_esthonia = {
@@ -55711,7 +55711,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_dorpat = {
@@ -55893,7 +55893,7 @@ e_null = {
 						religion_group = christian
 					}
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_osel_wiek = {
@@ -56128,7 +56128,7 @@ e_null = {
 						religion_group = christian
 					}
 				}
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -56358,7 +56358,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sarkel = {
@@ -56561,7 +56561,7 @@ e_null = {
 				b_sharukan = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_zaporizhia = {
@@ -56680,7 +56680,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_vorksla = {
@@ -56749,7 +56749,7 @@ e_null = {
 				b_hotmysl = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_podolia = {
@@ -56999,7 +56999,7 @@ e_null = {
 				b_bakota_ponyzzia = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -57661,7 +57661,7 @@ e_null = {
 				b_ur_karakh = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_saray = {
@@ -57831,7 +57831,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_azov = {
@@ -58027,7 +58027,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_tmutarakan = {
@@ -58325,7 +58325,7 @@ e_null = {
 				b_nymphaion_korchev = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -58614,7 +58614,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_zichia = {
@@ -58783,7 +58783,7 @@ e_null = {
 				b_nicopsia = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sarir = {
@@ -58865,7 +58865,7 @@ e_null = {
 				b_tetchick_ev = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -58913,7 +58913,7 @@ e_null = {
 				b_nagarahara = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_khottal = {
@@ -58970,7 +58970,7 @@ e_null = {
 				b_anderab = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -59047,7 +59047,7 @@ e_null = {
 				b_bakrabad = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_makran = {
@@ -59092,7 +59092,7 @@ e_null = {
 				b_sura = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -59130,7 +59130,7 @@ e_null = {
 				b_emba = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ustyurt = {
@@ -59163,7 +59163,7 @@ e_null = {
 				b_gazanjyk = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_dasht-i-qipchaq = {
@@ -59209,7 +59209,7 @@ e_null = {
 				b_kostanay = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_jand = {
@@ -59236,7 +59236,7 @@ e_null = {
 				b_shavgar = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -59321,7 +59321,7 @@ e_null = {
 				b_chigil = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_kashgar = {
@@ -59385,7 +59385,7 @@ e_null = {
 				b_kizilsu = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_kucha = {
@@ -59467,7 +59467,7 @@ e_null = {
 				b_charchi = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ayaguz = {
@@ -59495,7 +59495,7 @@ e_null = {
 				b_akzhar = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_khotan = {
@@ -59553,7 +59553,7 @@ e_null = {
 			}
 			allow = {
 				independent = yes
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -59902,7 +59902,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_samara = {
@@ -60023,7 +60023,7 @@ e_null = {
 				b_karakiya = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_bashkirs = {
@@ -60099,7 +60099,7 @@ e_null = {
 				b_kasra_sakmar = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_mordva = {
@@ -60330,7 +60330,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_podonye = {
@@ -60471,7 +60471,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_sura = {
@@ -60672,7 +60672,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -61222,7 +61222,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_viipuri = {
@@ -61379,7 +61379,7 @@ e_null = {
 				b_lieksa = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_norrland = {
@@ -61486,7 +61486,7 @@ e_null = {
 				b_neiden = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_karelia = {
@@ -61541,7 +61541,7 @@ e_null = {
 				b_umba = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_ingria = {
@@ -61566,7 +61566,7 @@ e_null = {
 				b_kingisepp = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -61732,7 +61732,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_vyatka = {
@@ -62034,7 +62034,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_pelym = {
@@ -62104,7 +62104,7 @@ e_null = {
 				b_verkhoturye = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_perm_vychegda = {
@@ -62227,7 +62227,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -62357,7 +62357,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_onega = {
@@ -62432,7 +62432,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_pechora = {
@@ -62505,7 +62505,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -62577,7 +62577,7 @@ e_null = {
 				b_atskuri = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_tao = {
@@ -62616,7 +62616,7 @@ e_null = {
 				}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_klarjeti = {
@@ -62663,7 +62663,7 @@ e_null = {
 				b_doliskana = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_kakheti = {
@@ -62724,7 +62724,7 @@ e_null = {
 				b_lebaiskari = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_abkhazia = {
@@ -62771,7 +62771,7 @@ e_null = {
 				b_bzyb = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_imeretia = {
@@ -62815,7 +62815,7 @@ e_null = {
 				b_motsameta = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_racha = {
@@ -62838,7 +62838,7 @@ e_null = {
 				b_gebi = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_hereti = {
@@ -62857,7 +62857,7 @@ e_null = {
 				b_dedoplistsqaro = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -62900,7 +62900,7 @@ e_null = {
 				b_shamkhor = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_derbent = {
@@ -62985,7 +62985,7 @@ e_null = {
 				b_tabarsaran = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		d_shirvan = {
@@ -63039,7 +63039,7 @@ e_null = {
 				b_aghuen = {}
 			}
 			allow = {
-				title_duchy_basic_allow = yes
+				title_duke_basic_allow = yes
 			}
 		}
 		allow = {
@@ -63055,14 +63055,14 @@ d_the_isles = {
 	color2 = { 255 255 255 }
 	capital = 36
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_abbasid = {
 	color = { 19 180 16 }
 	capital = 693
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_danes = {
@@ -63071,7 +63071,7 @@ d_danes = {
 	capital = 266
 	culture = norse
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_geats = {
@@ -63080,14 +63080,14 @@ d_geats = {
 	capital = 297
 	culture = norse
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_sandomiersk = {
 	color = { 253 137 137 }
 	capital = 531
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_sweden = {
@@ -63096,28 +63096,28 @@ d_sweden = {
 	capital = 290
 	culture = norse
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_swiss = {
 	color = { 255 1 1 }
 	capital = 244
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_temes = {
 	color = { 147 121 58 }
 	capital = 517
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_wielkopolska = {
 	color = { 252 144 144 }
 	capital = 431
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_hilal = {
@@ -63126,7 +63126,7 @@ d_hilal = {
 	capital = 807
 	culture = bedouin_arabic
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_qurra = {
@@ -63135,7 +63135,7 @@ d_qurra = {
 	capital = 804
 	culture = bedouin_arabic
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_massufa = {
@@ -63145,7 +63145,7 @@ d_massufa = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_lamtuna = {
@@ -63155,7 +63155,7 @@ d_lamtuna = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_lamta = {
@@ -63165,7 +63165,7 @@ d_lamta = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_lamta_east = {
@@ -63175,7 +63175,7 @@ d_lamta_east = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_guddala = {
@@ -63185,7 +63185,7 @@ d_guddala = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_gazzula = {
@@ -63195,7 +63195,7 @@ d_gazzula = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_lawata = {
@@ -63205,7 +63205,7 @@ d_lawata = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_masila = {
@@ -63215,7 +63215,7 @@ d_masila = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_dakhila = {
@@ -63225,7 +63225,7 @@ d_dakhila = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_musab = {
@@ -63235,7 +63235,7 @@ d_musab = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_azger = {
@@ -63245,7 +63245,7 @@ d_azger = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_mazata = {
@@ -63255,7 +63255,7 @@ d_mazata = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_naqis = {
@@ -63265,7 +63265,7 @@ d_naqis = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_kanz = {
@@ -63275,7 +63275,7 @@ d_kanz = {
 	title = KANZ
 	foa = KANZ_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_baqlin = {
@@ -63285,7 +63285,7 @@ d_baqlin = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_djarin = {
@@ -63295,7 +63295,7 @@ d_djarin = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_qataa = {
@@ -63305,7 +63305,7 @@ d_qataa = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_bazin = {
@@ -63315,7 +63315,7 @@ d_bazin = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_danakil = {
@@ -63325,7 +63325,7 @@ d_danakil = {
 	title = RAIS
 	foa = RAIS_FOA
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_shewa = {
@@ -63333,7 +63333,7 @@ d_shewa = {
 	culture = ethiopian
 	capital = 1521
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_silesians = {
@@ -63341,7 +63341,7 @@ d_silesians = {
 	culture = polish
 	capital = 434
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_polans = {
@@ -63349,7 +63349,7 @@ d_polans = {
 	culture = polish
 	capital = 431
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_vistulans = {
@@ -63357,7 +63357,7 @@ d_vistulans = {
 	culture = polish
 	capital = 527
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_mazovians = {
@@ -63365,7 +63365,7 @@ d_mazovians = {
 	culture = polish
 	capital = 530
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_hormuz = {
@@ -63373,7 +63373,7 @@ d_hormuz = {
 	capital = 641
 	pahlavi = "Ohrmazd"
 	allow = {
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 k_moravia = {
@@ -63420,7 +63420,7 @@ d_aydin = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 k_beni_helal = {
@@ -63445,7 +63445,7 @@ d_candar = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_eretnid = {
@@ -63461,7 +63461,7 @@ d_eretnid = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 k_fatimids = {
@@ -63489,7 +63489,7 @@ d_germiyan = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 k_hammadid = {
@@ -63522,7 +63522,7 @@ d_karaman = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 k_magyar = {
@@ -63555,7 +63555,7 @@ d_mentese = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_karasi = {
@@ -63573,7 +63573,7 @@ d_karasi = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 k_naples = {
@@ -63598,7 +63598,7 @@ d_osmanli = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 k_ottoman = {
@@ -63648,7 +63648,7 @@ d_saruhan = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 e_seljuk_turks = {
@@ -63679,7 +63679,7 @@ d_ahi = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_hamid = {
@@ -63696,7 +63696,7 @@ d_hamid = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 d_tekke = {
@@ -63713,7 +63713,7 @@ d_tekke = {
 				byzantine_lockout_trigger = yes
 			}
 		}
-		title_duchy_basic_allow = yes
+		title_duke_basic_allow = yes
 	}
 }
 k_trinacria = {
