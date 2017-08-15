@@ -51551,7 +51551,7 @@ e_null = {
 					sicilian_arabic = "Sahyun"
 					yemeni = "Sahyun"
 					hijazi = "Sahyun"
-					greek = "Sahyoun"
+					greek = "Sigon"
 				}
 				b_jabala = {
 					bedouin_arabic = "Gabla"
@@ -51651,7 +51651,7 @@ e_null = {
 			masmuda = "Tarabulus"
 			zanata = "Tarabulus"
 			roman = "Phoenice"
-			greek = "Phoenike"
+			greek = "Phoiníkes"
 			c_tortosa = {
 				color = { 73 152 34 }
 				color2 = { 255 255 255 }
