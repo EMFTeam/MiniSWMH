@@ -230,11 +230,11 @@ province;red;green;blue;x;x
 229;168;48;142;Forcalquier;x
 230;0;51;15;Nice;x
 231;42;54;143;Saluzzo;x
-232;84;57;16;Asti;x
+232;84;57;16;Monferrato;x
 233;126;60;144;Genoa;x
 234;168;63;17;Pavia;x
 235;0;66;145;Lombardia;x
-236;42;69;18;Susa;x
+236;42;69;18;Piemonte;x
 237;84;72;146;Savoie;x
 238;126;75;19;Valais;x
 239;168;78;147;Geneve;x
@@ -244,7 +244,7 @@ province;red;green;blue;x;x
 243;126;138;49;Orvieto;x
 244;168;93;22;Bern;x
 245;0;96;150;Schwyz;x
-246;42;99;23;Aosta;x
+246;42;99;23;Grisons;x
 247;84;102;151;Chur;x
 248;126;105;24;St Gallen;x
 249;168;108;152;Schwaben;x
@@ -322,7 +322,7 @@ province;red;green;blue;x;x
 321;42;111;188;Parma;x
 322;84;114;61;Modena;x
 323;126;117;189;Lucca;x
-324;168;120;62;Rogliano;x
+324;168;120;62;Corsica;x
 325;0;123;190;Arborea;x
 326;42;126;63;Cagliari;x
 327;84;129;191;Pisa;x
