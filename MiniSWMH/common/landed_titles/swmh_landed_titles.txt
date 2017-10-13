@@ -1,6 +1,6 @@
 # -*- ck2.landed_titles -*-
 
-d_knights_templar = {
+d_knights_templar_error = {
 	color = { 230 230 230 }
 	color2 = { 255 255 255 }
 	graphical_culture = holygfx
