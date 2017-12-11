@@ -9480,3 +9480,11 @@
     max_settlements=7
     terrain=coastal_desert
 }
+1998 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+1999 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
