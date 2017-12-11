@@ -75,7 +75,7 @@ c_novgorod = {
     holy_site = slavic_pagan_reformed
     holy_site = bogomilist
 }
-c_upper_silesia = {
+c_wroclaw = {
     holy_site = slavic_pagan
     holy_site = slavic_pagan_reformed
 }
@@ -192,7 +192,7 @@ c_york = {
     holy_site = norse_pagan
     holy_site = norse_pagan_reformed
 }
-c_monferrato = {
+c_asti = {
     holy_site = waldensian
 }
 c_roma = {
@@ -295,6 +295,9 @@ c_baghdad = {
     holy_site = nestorian
     holy_site = manichean
 }
+c_garhwal = {
+    holy_site = hindu
+}
 c_varazhnunik = {
     holy_site = apostolic
 }
@@ -385,9 +388,10 @@ c_itil = {
     holy_site = tengri_pagan
     holy_site = tengri_pagan_reformed
 }
-c_kabul = {
+c_ghazna = {
     holy_site = zun_pagan
     holy_site = zun_pagan_reformed
+    holy_site = bon
 }
 c_zamindavar = {
     holy_site = zun_pagan
@@ -415,4 +419,31 @@ c_hlynov = {
 }
 c_absheron = {
     holy_site = paulician
+}
+c_kashgar = {
+    holy_site = taoist
+}
+c_kucha = {
+    holy_site = taoist
+}
+c_balasaghun = {
+    holy_site = taoist
+}
+c_khotan = {
+    holy_site = taoist
+}
+c_badakhshan = {
+    holy_site = bon
+}
+c_gilgit = {
+    holy_site = bon
+}
+c_purang = {
+    holy_site = hindu
+    holy_site = jain
+    holy_site = bon
+}
+c_kunlun = {
+    holy_site = taoist
+    holy_site = bon
 }

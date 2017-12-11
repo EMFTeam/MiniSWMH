@@ -125,7 +125,7 @@
 }
 26 = {
     title=c_winchester
-    max_settlements=5
+    max_settlements=6
     terrain=plains
 }
 27 = {
@@ -395,7 +395,7 @@
 }
 80 = {
     title=c_holland
-    max_settlements=5
+    max_settlements=6
     terrain=coastal_desert
 }
 81 = {
@@ -415,12 +415,12 @@
 }
 84 = {
     title=c_frisia
-    max_settlements=4
-    terrain=farmlands
+    max_settlements=5
+    terrain=plains
 }
 85 = {
     title=c_ostfriesland
-    max_settlements=4
+    max_settlements=5
     terrain=plains
 }
 86 = {
@@ -430,12 +430,12 @@
 }
 87 = {
     title=c_osnabruck
-    max_settlements=3
+    max_settlements=6
     terrain=plains
 }
 88 = {
     title=c_munster
-    max_settlements=4
+    max_settlements=5
     terrain=plains
 }
 89 = {
@@ -445,7 +445,7 @@
 }
 90 = {
     title=c_julich
-    max_settlements=4
+    max_settlements=5
     terrain=plains
 }
 91 = {
@@ -575,7 +575,7 @@
 }
 116 = {
     title=c_liege
-    max_settlements=4
+    max_settlements=6
     terrain=plains
 }
 117 = {
@@ -585,28 +585,28 @@
 }
 118 = {
     title=c_trier
-    max_settlements=4
+    max_settlements=6
     terrain=hills
 }
 119 = {
     title=c_koln
-    max_settlements=7
-    terrain=plains
+    max_settlements=6
+    terrain=hills
 }
 120 = {
     title=c_gottingen
-    max_settlements=4
+    max_settlements=5
     terrain=forest
 }
 121 = {
     title=c_nassau
-    max_settlements=4
+    max_settlements=5
     terrain=forest
 }
 122 = {
     title=c_leiningen
-    max_settlements=4
-    terrain=plains
+    max_settlements=5
+    terrain=forest
 }
 123 = {
     title=c_mainz
@@ -625,22 +625,22 @@
 }
 126 = {
     title=c_nordgau
-    max_settlements=4
-    terrain=forest
+    max_settlements=5
+    terrain=plains
 }
 127 = {
-    title=c_lorraine
+    title=c_blamont
     max_settlements=5
-    terrain=hills
+    terrain=plains
 }
 128 = {
     title=c_metz
-    max_settlements=4
+    max_settlements=5
     terrain=forest
 }
 129 = {
     title=c_verdun
-    max_settlements=3
+    max_settlements=5
     terrain=plains
 }
 130 = {
@@ -659,19 +659,19 @@
     terrain=plains
 }
 133 = {
-    title=c_saintois
-    max_settlements=4
-    terrain=plains
+    title=c_vaudemont
+    max_settlements=5
+    terrain=hills
 }
 134 = {
     title=c_sundgau
     max_settlements=4
-    terrain=forest
+    terrain=plains
 }
 135 = {
     title=c_besancon
-    max_settlements=2
-    terrain=plains
+    max_settlements=5
+    terrain=forest
 }
 136 = {
     title=c_dijon
@@ -1111,7 +1111,7 @@
 223 = {
     title=c_viviers
     max_settlements=4
-    terrain=hills
+    terrain=forest
 }
 224 = {
     title=c_forez
@@ -1130,21 +1130,21 @@
 }
 227 = {
     title=c_lyon
-    max_settlements=5
+    max_settlements=4
     terrain=hills
 }
 228 = {
     title=c_dauphine_viennois
-    max_settlements=4
+    max_settlements=5
     terrain=plains
 }
 229 = {
     title=c_forcalquier
-    max_settlements=4
-    terrain=hills
+    max_settlements=5
+    terrain=mountain
 }
 230 = {
-    title=c_nice
+    title=c_antibes
     max_settlements=4
     terrain=mountain
 }
@@ -1154,7 +1154,7 @@
     terrain=mountain
 }
 232 = {
-    title=c_monferrato
+    title=c_asti
     max_settlements=5
     terrain=farmlands
 }
@@ -1174,18 +1174,18 @@
     terrain=farmlands
 }
 236 = {
-    title=c_piemonte
+    title=c_susa
     max_settlements=6
     terrain=mountain
 }
 237 = {
     title=c_savoie
-    max_settlements=5
+    max_settlements=6
     terrain=mountain
 }
 238 = {
     title=c_valais
-    max_settlements=3
+    max_settlements=4
     terrain=mountain
 }
 239 = {
@@ -1200,12 +1200,12 @@
 }
 241 = {
     title=c_neuchatel
-    max_settlements=2
+    max_settlements=4
     terrain=forest
 }
 242 = {
     title=c_aargau
-    max_settlements=5
+    max_settlements=4
     terrain=hills
 }
 243 = {
@@ -1214,47 +1214,47 @@
     terrain=plains
 }
 244 = {
-    title=c_bern
-    max_settlements=4
+    title=c_rheinfelden
+    max_settlements=5
     terrain=mountain
 }
 245 = {
     title=c_schwyz
-    max_settlements=4
+    max_settlements=3
     terrain=mountain
 }
 246 = {
-    title=c_grisons
+    title=c_aosta
     max_settlements=4
     terrain=mountain
 }
 247 = {
     title=c_chur
-    max_settlements=3
+    max_settlements=5
     terrain=mountain
 }
 248 = {
-    title=c_st_gallen
-    max_settlements=5
+    title=c_thurgau
+    max_settlements=4
     terrain=hills
 }
 249 = {
-    title=c_schwaben
+    title=c_montfort
     max_settlements=4
     terrain=mountain
 }
 250 = {
     title=c_breisgau
     max_settlements=4
-    terrain=forest
+    terrain=hills
 }
 251 = {
     title=c_furstenberg
-    max_settlements=3
+    max_settlements=4
     terrain=hills
 }
 252 = {
-    title=c_ulm
+    title=c_schelklingen
     max_settlements=4
     terrain=hills
 }
@@ -1265,8 +1265,8 @@
 }
 254 = {
     title=c_wurzburg
-    max_settlements=4
-    terrain=forest
+    max_settlements=5
+    terrain=plains
 }
 255 = {
     title=c_thuringen
@@ -1276,20 +1276,20 @@
 256 = {
     title=c_weimar
     max_settlements=4
-    terrain=hills
+    terrain=farmlands
 }
 257 = {
     title=c_braunschweig
     max_settlements=5
-    terrain=forest
+    terrain=hills
 }
 258 = {
     title=c_luneburg
-    max_settlements=5
-    terrain=hills
+    max_settlements=6
+    terrain=forest
 }
 259 = {
-    title=c_celle
+    title=c_lippe
     max_settlements=5
     terrain=plains
 }
@@ -1300,18 +1300,18 @@
 }
 261 = {
     title=c_hamburg
-    max_settlements=5
+    max_settlements=6
     terrain=plains
 }
 262 = {
     title=c_lubeck
-    max_settlements=6
+    max_settlements=5
     terrain=farmlands
 }
 263 = {
     title=c_holstein
-    max_settlements=4
-    terrain=coastal_desert
+    max_settlements=5
+    terrain=forest
 }
 264 = {
     title=c_slesvig
@@ -1390,7 +1390,7 @@
 }
 279 = {
     max_settlements=7
-    terrain=arctic
+    terrain=forest
 }
 280 = {
     title=c_vasterbotten
@@ -1524,7 +1524,7 @@
 }
 306 = {
     title=c_rostock
-    max_settlements=4
+    max_settlements=3
     terrain=plains
 }
 307 = {
@@ -1535,7 +1535,7 @@
 308 = {
     title=c_wolgast
     max_settlements=5
-    terrain=plains
+    terrain=hills
 }
 309 = {
     title=c_altmark
@@ -1555,22 +1555,22 @@
 312 = {
     title=c_meissen
     max_settlements=5
-    terrain=plains
+    terrain=forest
 }
 313 = {
     title=c_bamberg
-    max_settlements=3
+    max_settlements=4
     terrain=hills
 }
 314 = {
     title=c_nurnberg
     max_settlements=5
-    terrain=hills
+    terrain=plains
 }
 315 = {
-    title=c_kempten
-    max_settlements=3
-    terrain=hills
+    title=c_andechs
+    max_settlements=5
+    terrain=forest
 }
 316 = {
     title=c_tirol
@@ -1579,7 +1579,7 @@
 }
 317 = {
     title=c_trent
-    max_settlements=3
+    max_settlements=4
     terrain=mountain
 }
 318 = {
@@ -1613,9 +1613,9 @@
     terrain=hills
 }
 324 = {
-    title=c_corsica
+    title=c_rogliano
     max_settlements=5
-    terrain=mountain
+    terrain=hills
 }
 325 = {
     title=c_arborea
@@ -1695,7 +1695,7 @@
 340 = {
     title=c_palermo
     max_settlements=7
-    terrain=hills
+    terrain=plains
 }
 341 = {
     title=c_trapani
@@ -1775,7 +1775,7 @@
 356 = {
     title=c_venezia
     max_settlements=7
-    terrain=farmlands
+    terrain=coastal_desert
 }
 357 = {
     title=c_treviso
@@ -1784,22 +1784,22 @@
 }
 358 = {
     title=c_aquileia
-    max_settlements=4
+    max_settlements=6
     terrain=mountain
 }
 359 = {
-    title=c_innsbruck
-    max_settlements=5
-    terrain=hills
+    title=c_lienz
+    max_settlements=4
+    terrain=mountain
 }
 360 = {
     title=c_oberbayern
-    max_settlements=6
+    max_settlements=5
     terrain=hills
 }
 361 = {
     title=c_niederbayern
-    max_settlements=5
+    max_settlements=4
     terrain=hills
 }
 362 = {
@@ -1814,12 +1814,12 @@
 }
 364 = {
     title=c_lausitz
-    max_settlements=3
+    max_settlements=4
     terrain=hills
 }
 365 = {
     title=c_brandenburg
-    max_settlements=6
+    max_settlements=5
     terrain=forest
 }
 366 = {
@@ -1979,7 +1979,7 @@
 }
 397 = {
     title=c_samoyeds
-    max_settlements=1
+    max_settlements=2
     terrain=arctic
 }
 398 = {
@@ -1989,7 +1989,7 @@
 }
 399 = {
     title=c_syrj
-    max_settlements=1
+    max_settlements=2
     terrain=arctic
 }
 400 = {
@@ -2134,12 +2134,12 @@
 }
 428 = {
     title=c_kujawy
-    max_settlements=5
+    max_settlements=4
     terrain=plains
 }
 429 = {
     title=c_gnieznienskie
-    max_settlements=4
+    max_settlements=5
     terrain=plains
 }
 430 = {
@@ -2154,21 +2154,21 @@
 }
 432 = {
     title=c_kaliskie
-    max_settlements=5
+    max_settlements=4
     terrain=plains
 }
 433 = {
     title=c_opole
-    max_settlements=4
-    terrain=hills
-}
-434 = {
-    title=c_upper_silesia
     max_settlements=5
     terrain=hills
 }
+434 = {
+    title=c_wroclaw
+    max_settlements=6
+    terrain=hills
+}
 435 = {
-    title=c_lower_silesia
+    title=c_glogow
     max_settlements=4
     terrain=plains
 }
@@ -2185,7 +2185,7 @@
 438 = {
     title=c_hradec
     max_settlements=6
-    terrain=forest
+    terrain=hills
 }
 439 = {
     title=c_plzen
@@ -2225,11 +2225,11 @@
 446 = {
     title=c_znojmo
     max_settlements=4
-    terrain=plains
+    terrain=hills
 }
 447 = {
     title=c_passau
-    max_settlements=4
+    max_settlements=5
     terrain=hills
 }
 448 = {
@@ -2284,7 +2284,7 @@
 }
 458 = {
     title=c_istria
-    max_settlements=3
+    max_settlements=4
     terrain=plains
 }
 459 = {
@@ -2624,18 +2624,18 @@
 }
 526 = {
     title=c_cieszyn
-    max_settlements=4
+    max_settlements=5
     terrain=mountain
 }
 527 = {
     title=c_krakowskie
-    max_settlements=6
+    max_settlements=7
     terrain=plains
 }
 528 = {
     title=c_sieradzko-leczyckie
     max_settlements=4
-    terrain=hills
+    terrain=plains
 }
 529 = {
     title=c_plock
@@ -2644,12 +2644,12 @@
 }
 530 = {
     title=c_czersk
-    max_settlements=4
+    max_settlements=5
     terrain=farmlands
 }
 531 = {
     title=c_sandomierskie
-    max_settlements=5
+    max_settlements=6
     terrain=hills
 }
 532 = {
@@ -3110,7 +3110,7 @@
 623 = {
     title=c_kerder
     max_settlements=3
-    terrain=coastal_desert
+    terrain=steppe
 }
 624 = {
     title=c_mangyshlak
@@ -3168,7 +3168,7 @@
 }
 635 = {
     title=c_qohistan
-    max_settlements=6
+    max_settlements=4
     terrain=mountain
 }
 636 = {
@@ -3273,7 +3273,7 @@
 656 = {
     title=c_tigris
     max_settlements=6
-    terrain=plains
+    terrain=desert
 }
 657 = {
     title=c_luristan
@@ -3297,7 +3297,7 @@
 }
 661 = {
     title=c_ruyan
-    max_settlements=3
+    max_settlements=4
     terrain=mountain
 }
 662 = {
@@ -3448,7 +3448,7 @@
 691 = {
     title=c_al_nasiryah
     max_settlements=2
-    terrain=plains
+    terrain=forest
 }
 692 = {
     title=c_al_nadjaf
@@ -3458,7 +3458,7 @@
 693 = {
     title=c_baghdad
     max_settlements=7
-    terrain=plains
+    terrain=desert
 }
 694 = {
     title=c_karbala
@@ -3478,7 +3478,7 @@
 697 = {
     title=c_mosul
     max_settlements=5
-    terrain=plains
+    terrain=desert
 }
 698 = {
     title=c_al_jazira
@@ -3558,12 +3558,12 @@
 713 = {
     title=c_druz
     max_settlements=4
-    terrain=plains
+    terrain=desert
 }
 714 = {
     title=c_az_zarqa
     max_settlements=4
-    terrain=plains
+    terrain=desert
 }
 715 = {
     title=c_shahrazur
@@ -3593,12 +3593,12 @@
 720 = {
     title=c_hijaz
     max_settlements=4
-    terrain=desert
+    terrain=mountain
 }
 721 = {
     title=c_tabuk
     max_settlements=3
-    terrain=mountain
+    terrain=desert
 }
 722 = {
     title=c_petra
@@ -3902,7 +3902,7 @@
 }
 782 = {
     max_settlements=7
-    terrain=mountain
+    terrain=desert
 }
 783 = {
     title=c_maan
@@ -4228,7 +4228,7 @@
 }
 848 = {
     title=c_bremen
-    max_settlements=6
+    max_settlements=5
     terrain=plains
 }
 849 = {
@@ -4243,7 +4243,7 @@
 851 = {
     title=c_capua
     max_settlements=5
-    terrain=plains
+    terrain=farmlands
 }
 852 = {
     title=c_zamindavar
@@ -4257,23 +4257,23 @@
 }
 854 = {
     title=c_makran
-    max_settlements=6
+    max_settlements=5
     terrain=mountain
 }
 855 = {
     title=c_mahra
     max_settlements=2
-    terrain=desert
+    terrain=mountain
 }
 856 = {
     title=c_kathiri
     max_settlements=4
-    terrain=desert
+    terrain=mountain
 }
 857 = {
     title=c_bayda
     max_settlements=5
-    terrain=desert
+    terrain=mountain
 }
 858 = {
     title=c_aden
@@ -4318,7 +4318,7 @@
 866 = {
     title=c_dhofar
     max_settlements=3
-    terrain=desert
+    terrain=mountain
 }
 867 = {
     title=c_duqm
@@ -4343,12 +4343,12 @@
 871 = {
     title=c_busaso
     max_settlements=3
-    terrain=desert
+    terrain=mountain
 }
 872 = {
     title=c_berbera
     max_settlements=4
-    terrain=desert
+    terrain=mountain
 }
 873 = {
     title=c_harer
@@ -4427,7 +4427,7 @@
 }
 888 = {
     title=c_komi
-    max_settlements=1
+    max_settlements=2
     terrain=arctic
 }
 889 = {
@@ -4473,7 +4473,7 @@
 897 = {
     title=c_irgiz
     max_settlements=2
-    terrain=plains
+    terrain=steppe
 }
 898 = {
     title=c_sibir
@@ -4482,7 +4482,7 @@
 }
 899 = {
     title=c_pandjgur
-    max_settlements=3
+    max_settlements=4
     terrain=mountain
 }
 900 = {
@@ -4506,7 +4506,7 @@
 }
 904 = {
     title=c_balkh
-    max_settlements=4
+    max_settlements=5
     terrain=plains
 }
 905 = {
@@ -4516,7 +4516,7 @@
 }
 906 = {
     title=c_rivsharan
-    max_settlements=4
+    max_settlements=3
     terrain=mountain
 }
 907 = {
@@ -4619,7 +4619,7 @@
 }
 930 = {
     title=c_bar
-    max_settlements=4
+    max_settlements=6
     terrain=plains
 }
 931 = {
@@ -4679,7 +4679,7 @@
 }
 942 = {
     title=c_saarbrucken
-    max_settlements=3
+    max_settlements=4
     terrain=forest
 }
 943 = {
@@ -4708,9 +4708,9 @@
     terrain=hills
 }
 948 = {
-    title=c_hessen
+    title=c_gleiberg
     max_settlements=5
-    terrain=plains
+    terrain=forest
 }
 949 = {
     title=c_powys_wenwynwyn
@@ -4728,23 +4728,23 @@
     terrain=plains
 }
 952 = {
-    title=c_frankfurt
+    title=c_hanau
     max_settlements=6
-    terrain=forest
+    terrain=plains
 }
 953 = {
     title=c_bentheim
-    max_settlements=3
+    max_settlements=4
     terrain=plains
 }
 954 = {
-    title=c_zeitz
-    max_settlements=3
-    terrain=farmlands
+    title=c_groitzsch
+    max_settlements=4
+    terrain=plains
 }
 955 = {
     title=c_augsburg
-    max_settlements=3
+    max_settlements=5
     terrain=hills
 }
 956 = {
@@ -4768,7 +4768,7 @@
     terrain=forest
 }
 960 = {
-    title=c_lauffen
+    title=c_wertheim
     max_settlements=4
     terrain=plains
 }
@@ -4818,9 +4818,9 @@
     terrain=mountain
 }
 970 = {
-    title=c_comburg
-    max_settlements=4
-    terrain=plains
+    title=c_sulzbach
+    max_settlements=5
+    terrain=hills
 }
 971 = {
     title=c_philadelphia
@@ -4854,12 +4854,12 @@
 }
 977 = {
     title=c_waldburg
-    max_settlements=4
+    max_settlements=5
     terrain=hills
 }
 978 = {
-    title=c_merseburg
-    max_settlements=3
+    title=c_landsberg
+    max_settlements=4
     terrain=farmlands
 }
 979 = {
@@ -4869,13 +4869,13 @@
 }
 980 = {
     title=c_everstein
-    max_settlements=3
+    max_settlements=4
     terrain=hills
 }
 981 = {
-    title=c_ansbach
+    title=c_truhendingen
     max_settlements=4
-    terrain=plains
+    terrain=forest
 }
 982 = {
     title=c_prignitz
@@ -4948,9 +4948,9 @@
     terrain=plains
 }
 996 = {
-    title=c_lublin
-    max_settlements=4
-    terrain=plains
+    title=c_wislica
+    max_settlements=5
+    terrain=hills
 }
 997 = {
     title=c_utena
@@ -4958,13 +4958,13 @@
     terrain=plains
 }
 998 = {
-    title=c_voigtland
-    max_settlements=4
+    title=c_sonneberg
+    max_settlements=5
     terrain=hills
 }
 999 = {
     title=c_legnica
-    max_settlements=4
+    max_settlements=5
     terrain=plains
 }
 1000 = {
@@ -5003,19 +5003,19 @@
     terrain=hills
 }
 1007 = {
-    title=c_konigssondergau
-    max_settlements=5
+    title=c_katzenelnbogen
+    max_settlements=4
     terrain=plains
 }
 1008 = {
     title=c_zweibrucken
-    max_settlements=4
+    max_settlements=5
     terrain=forest
 }
 1009 = {
     title=c_mark
-    max_settlements=4
-    terrain=plains
+    max_settlements=5
+    terrain=hills
 }
 1010 = {
     title=c_sunmore
@@ -5053,14 +5053,14 @@
     terrain=plains
 }
 1017 = {
-    title=c_arnhem
-    max_settlements=4
-    terrain=coastal_desert
+    title=c_hamaland
+    max_settlements=5
+    terrain=plains
 }
 1018 = {
     title=c_vianden
     max_settlements=4
-    terrain=hills
+    terrain=forest
 }
 1019 = {
     title=c_brussel
@@ -5092,13 +5092,13 @@
     terrain=plains
 }
 1025 = {
-    title=c_reinholdsburg
-    max_settlements=4
+    title=c_stade
+    max_settlements=5
     terrain=plains
 }
 1026 = {
     title=c_aachen
-    max_settlements=3
+    max_settlements=4
     terrain=plains
 }
 1027 = {
@@ -5107,68 +5107,68 @@
     terrain=plains
 }
 1028 = {
-    title=c_pontamousson
-    max_settlements=3
+    title=c_gutzkow
+    max_settlements=4
     terrain=plains
 }
 1029 = {
     title=c_teck
-    max_settlements=4
-    terrain=plains
+    max_settlements=5
+    terrain=forest
 }
 1030 = {
-    title=c_eberstein
-    max_settlements=2
-    terrain=plains
+    title=c_calw
+    max_settlements=4
+    terrain=hills
 }
 1031 = {
-    title=c_hohenzollern
+    title=c_zollern
     max_settlements=4
     terrain=hills
 }
 1032 = {
     title=c_oettingen
-    max_settlements=3
+    max_settlements=4
     terrain=hills
 }
 1033 = {
-    title=c_leuchenberg
-    max_settlements=3
+    title=c_leuchtenberg
+    max_settlements=4
     terrain=hills
 }
 1034 = {
     title=c_helfenstein
-    max_settlements=3
+    max_settlements=4
     terrain=hills
 }
 1035 = {
-    title=c_hohenloe
+    title=c_hohenlohe
     max_settlements=4
     terrain=plains
 }
 1036 = {
     title=c_montbeliard
-    max_settlements=3
+    max_settlements=5
     terrain=hills
 }
 1037 = {
     title=c_basel
-    max_settlements=2
+    max_settlements=3
     terrain=hills
 }
 1038 = {
-    title=c_cheese
-    max_settlements=5
+    title=c_gruyere
+    max_settlements=4
     terrain=mountain
 }
 1039 = {
-    title=c_amous
-    max_settlements=3
-    terrain=plains
+    title=c_dole
+    max_settlements=5
+    terrain=forest
 }
 1040 = {
     title=c_chablais
-    max_settlements=3
+    max_settlements=5
     terrain=mountain
 }
 1041 = {
@@ -5176,9 +5176,9 @@
     terrain=desert
 }
 1042 = {
-    title=c_bugey
-    max_settlements=4
-    terrain=hills
+    title=c_bresse
+    max_settlements=5
+    terrain=plains
 }
 1043 = {
     title=c_lolland
@@ -5186,14 +5186,14 @@
     terrain=farmlands
 }
 1044 = {
-    title=c_varais
+    title=c_dagsburg
     max_settlements=4
-    terrain=forest
+    terrain=plains
 }
 1045 = {
-    title=c_portois
-    max_settlements=4
-    terrain=forest
+    title=c_vesoul
+    max_settlements=5
+    terrain=plains
 }
 1046 = {
     title=c_pombia
@@ -5201,19 +5201,19 @@
     terrain=hills
 }
 1047 = {
-    title=c_arles
-    max_settlements=3
+    title=c_marseille
+    max_settlements=6
     terrain=plains
 }
 1048 = {
     title=c_graisivaudan
-    max_settlements=4
+    max_settlements=5
     terrain=mountain
 }
 1049 = {
-    title=c_gapencais
+    title=c_vaud
     max_settlements=4
-    terrain=mountain
+    terrain=forest
 }
 1050 = {
     title=c_nordisland
@@ -5232,72 +5232,72 @@
 }
 1053 = {
     title=c_dannenberg
-    max_settlements=3
+    max_settlements=4
     terrain=plains
 }
 1054 = {
     title=c_henneberg
-    max_settlements=3
+    max_settlements=5
     terrain=hills
 }
 1055 = {
-    title=c_pultusk
-    max_settlements=4
+    title=c_inowroclaw
+    max_settlements=5
     terrain=plains
 }
 1056 = {
     title=c_namur
-    max_settlements=3
+    max_settlements=4
     terrain=plains
 }
 1057 = {
     title=c_limburg
-    max_settlements=4
+    max_settlements=5
     terrain=forest
 }
 1058 = {
     title=c_zutphen
-    max_settlements=3
+    max_settlements=4
     terrain=plains
 }
 1059 = {
     title=c_oversticht
-    max_settlements=3
+    max_settlements=4
     terrain=plains
 }
 1060 = {
     title=c_laroche
-    max_settlements=3
+    max_settlements=4
     terrain=forest
 }
 1061 = {
     title=c_chiny
-    max_settlements=3
+    max_settlements=5
     terrain=plains
 }
 1062 = {
     title=c_sponheim
-    max_settlements=4
+    max_settlements=5
     terrain=forest
 }
 1063 = {
     title=c_berg
-    max_settlements=4
-    terrain=hills
+    max_settlements=5
+    terrain=plains
 }
 1064 = {
     title=c_niederlausitz
-    max_settlements=3
+    max_settlements=4
     terrain=plains
 }
 1065 = {
     title=c_dithmarschen
-    max_settlements=2
+    max_settlements=3
     terrain=coastal_desert
 }
 1066 = {
-    title=c_wargrien
-    max_settlements=3
+    title=c_kiel
+    max_settlements=5
     terrain=forest
 }
 1067 = {
@@ -5337,7 +5337,7 @@
 }
 1074 = {
     title=c_magdeburg
-    max_settlements=3
+    max_settlements=4
     terrain=hills
 }
 1075 = {
@@ -5352,22 +5352,22 @@
 }
 1077 = {
     title=c_brehna
-    max_settlements=3
+    max_settlements=4
     terrain=plains
 }
 1078 = {
-    title=c_schwartzburg
-    max_settlements=3
+    title=c_schwarzburg
+    max_settlements=4
     terrain=hills
 }
 1079 = {
     title=c_tecklenburg
-    max_settlements=4
+    max_settlements=5
     terrain=plains
 }
 1080 = {
     title=c_lori
-    max_settlements=4
+    max_settlements=5
     terrain=mountain
 }
 1081 = {
@@ -5456,7 +5456,7 @@
     terrain=mountain
 }
 1098 = {
-    title=c_lauenburg
+    title=c_ratzeburg
     max_settlements=4
     terrain=plains
 }
@@ -5478,7 +5478,7 @@
 1102 = {
     title=c_ceccano
     max_settlements=4
-    terrain=hills
+    terrain=plains
 }
 1103 = {
     title=c_gallura
@@ -5843,7 +5843,7 @@
 1175 = {
     title=c_porhoet
     max_settlements=4
-    terrain=woods
+    terrain=forest
 }
 1176 = {
     title=c_valois
@@ -5856,13 +5856,13 @@
     terrain=plains
 }
 1178 = {
-    title=c_tournai
-    max_settlements=3
-    terrain=plains
+    title=c_yarkand
+    max_settlements=4
+    terrain=mountain
 }
 1179 = {
     title=c_lille
-    max_settlements=4
+    max_settlements=5
     terrain=plains
 }
 1180 = {
@@ -5886,9 +5886,9 @@
     terrain=hills
 }
 1184 = {
-    title=c_rustringen
-    max_settlements=3
-    terrain=plains
+    title=c_eppenstein
+    max_settlements=4
+    terrain=mountain
 }
 1185 = {
     title=c_vertus
@@ -6201,8 +6201,9 @@
     terrain=mountain
 }
 1248 = {
-    max_settlements=7
-    terrain=coastal_desert
+    title=c_schaunberg
+    max_settlements=4
+    terrain=hills
 }
 1249 = {
     title=c_nimes
@@ -6221,7 +6222,7 @@
 }
 1252 = {
     title=c_valentinois
-    max_settlements=4
+    max_settlements=5
     terrain=hills
 }
 1253 = {
@@ -6271,7 +6272,7 @@
 }
 1262 = {
     max_settlements=7
-    terrain=coastal_desert
+    terrain=desert
 }
 1263 = {
     title=c_opava
@@ -6280,7 +6281,7 @@
 }
 1264 = {
     title=c_kuenring
-    max_settlements=3
+    max_settlements=4
     terrain=hills
 }
 1265 = {
@@ -6294,9 +6295,9 @@
     terrain=mountain
 }
 1267 = {
-    title=c_szvuine
-    max_settlements=3
-    terrain=coastal_desert
+    title=c_mansfeld
+    max_settlements=4
+    terrain=hills
 }
 1268 = {
     title=c_koporje
@@ -6376,7 +6377,7 @@
 1283 = {
     title=c_yanbu
     max_settlements=4
-    terrain=mountain
+    terrain=desert
 }
 1284 = {
     title=c_dorogobuzh
@@ -6469,7 +6470,7 @@
 }
 1302 = {
     title=c_santok
-    max_settlements=3
+    max_settlements=4
     terrain=hills
 }
 1303 = {
@@ -6535,7 +6536,7 @@
 1315 = {
     title=c_leczyca
     max_settlements=4
-    terrain=farmlands
+    terrain=forest
 }
 1316 = {
     title=c_finale
@@ -6689,7 +6690,7 @@
 }
 1348 = {
     title=c_rudbar
-    max_settlements=2
+    max_settlements=3
     terrain=mountain
 }
 1349 = {
@@ -6778,7 +6779,7 @@
 }
 1366 = {
     title=c_tassarahla
-    max_settlements=1
+    max_settlements=2
     terrain=desert
 }
 1367 = {
@@ -6835,8 +6836,9 @@
     terrain=plains
 }
 1380 = {
-    max_settlements=7
-    terrain=desert
+    title=c_traungau
+    max_settlements=5
+    terrain=hills
 }
 1381 = {
     max_settlements=7
@@ -6948,8 +6950,9 @@
     terrain=mountain
 }
 1408 = {
-    max_settlements=7
-    terrain=desert
+    title=c_kraiburg
+    max_settlements=4
+    terrain=hills
 }
 1409 = {
     title=c_stafford
@@ -6992,9 +6995,9 @@
     terrain=coastal_desert
 }
 1417 = {
-    title=c_wight
-    max_settlements=2
-    terrain=coastal_desert
+    title=c_windische_mark
+    max_settlements=4
+    terrain=hills
 }
 1418 = {
     title=c_jersey
@@ -7386,7 +7389,7 @@
 }
 1505 = {
     title=c_barth
-    max_settlements=3
+    max_settlements=4
     terrain=plains
 }
 1506 = {
@@ -7462,7 +7465,7 @@
 1520 = {
     title=c_zaila
     max_settlements=3
-    terrain=mountain
+    terrain=desert
 }
 1521 = {
     title=c_shewa
@@ -7525,7 +7528,7 @@
 }
 1533 = {
     title=c_mafaza
-    max_settlements=5
+    max_settlements=4
     terrain=mountain
 }
 1534 = {
@@ -7535,17 +7538,17 @@
 }
 1535 = {
     title=c_turan
-    max_settlements=3
+    max_settlements=4
     terrain=mountain
 }
 1536 = {
     title=c_rukhadj
-    max_settlements=3
+    max_settlements=4
     terrain=mountain
 }
 1537 = {
     title=c_bakharz
-    max_settlements=5
+    max_settlements=4
     terrain=mountain
 }
 1538 = {
@@ -7555,22 +7558,22 @@
 }
 1539 = {
     title=c_ganj-rustaq
-    max_settlements=3
+    max_settlements=4
     terrain=steppe
 }
 1540 = {
     title=c_ghor
-    max_settlements=4
+    max_settlements=6
     terrain=mountain
 }
 1541 = {
     title=c_gharchistan
-    max_settlements=2
+    max_settlements=3
     terrain=mountain
 }
 1542 = {
     title=c_guzgan
-    max_settlements=5
+    max_settlements=6
     terrain=steppe
 }
 1543 = {
@@ -7590,7 +7593,7 @@
 }
 1546 = {
     title=c_tokharestan
-    max_settlements=4
+    max_settlements=5
     terrain=mountain
 }
 1547 = {
@@ -7625,12 +7628,12 @@
 }
 1553 = {
     title=c_badakhshan
-    max_settlements=4
+    max_settlements=5
     terrain=mountain
 }
 1554 = {
     max_settlements=7
-    terrain=mountain
+    terrain=desert
 }
 1555 = {
     title=c_rasht
@@ -7694,7 +7697,7 @@
 }
 1567 = {
     title=c_kashgar
-    max_settlements=6
+    max_settlements=4
     terrain=desert
 }
 1568 = {
@@ -7709,12 +7712,12 @@
 }
 1570 = {
     title=c_qarashahr
-    max_settlements=3
+    max_settlements=4
     terrain=mountain
 }
 1571 = {
     title=c_yulduz
-    max_settlements=3
+    max_settlements=4
     terrain=mountain
 }
 1572 = {
@@ -7724,7 +7727,7 @@
 }
 1573 = {
     title=c_yeti-su
-    max_settlements=3
+    max_settlements=4
     terrain=steppe
 }
 1574 = {
@@ -7759,8 +7762,8 @@
 }
 1580 = {
     title=c_khotan
-    max_settlements=5
-    terrain=desert
+    max_settlements=4
+    terrain=mountain
 }
 1581 = {
     title=c_soli
@@ -7805,7 +7808,7 @@
 }
 1590 = {
     max_settlements=7
-    terrain=hills
+    terrain=plains
 }
 1591 = {
     title=c_erbil
@@ -7815,7 +7818,7 @@
 1592 = {
     title=c_suhar
     max_settlements=4
-    terrain=coastal_desert
+    terrain=plains
 }
 1593 = {
     title=c_naqis
@@ -7861,7 +7864,7 @@
 }
 1603 = {
     max_settlements=7
-    terrain=plains
+    terrain=desert
 }
 1604 = {
     max_settlements=7
@@ -7873,7 +7876,7 @@
 }
 1606 = {
     max_settlements=7
-    terrain=desert
+    terrain=plains
 }
 1607 = {
     title=c_gardman
@@ -7889,11 +7892,13 @@
     terrain=mountain
 }
 1610 = {
-    max_settlements=7
+    title=c_sibi
+    max_settlements=3
     terrain=mountain
 }
 1611 = {
-    max_settlements=7
+    title=c_wana
+    max_settlements=3
     terrain=mountain
 }
 1612 = {
@@ -7961,8 +7966,9 @@
     terrain=plains
 }
 1628 = {
-    max_settlements=7
-    terrain=plains
+    title=c_kasmira
+    max_settlements=5
+    terrain=hills
 }
 1629 = {
     max_settlements=7
@@ -9266,6 +9272,211 @@
     terrain=desert
 }
 1953 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+1954 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+1955 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+1956 = {
+    title=c_aalst
+    max_settlements=4
+    terrain=plains
+}
+1957 = {
+    title=c_salm
+    max_settlements=4
+    terrain=hills
+}
+1958 = {
+    title=c_sayn
+    max_settlements=4
+    terrain=plains
+}
+1959 = {
+    title=c_arnsberg
+    max_settlements=4
+    terrain=forest
+}
+1960 = {
+    title=c_ziegenhain
+    max_settlements=4
+    terrain=plains
+}
+1961 = {
+    title=c_gudensberg
+    max_settlements=4
+    terrain=plains
+}
+1962 = {
+    title=c_hoya
+    max_settlements=4
+    terrain=hills
+}
+1963 = {
+    title=c_staufen
+    max_settlements=6
+    terrain=hills
+}
+1964 = {
+    title=c_nellenburg
+    max_settlements=5
+    terrain=hills
+}
+1965 = {
+    title=c_hirschberg
+    max_settlements=4
+    terrain=plains
+}
+1966 = {
+    title=c_abensberg
+    max_settlements=5
+    terrain=plains
+}
+1967 = {
+    title=c_ortenberg
+    max_settlements=4
+    terrain=hills
+}
+1968 = {
+    title=c_niya
+    max_settlements=3
+    terrain=desert
+}
+1969 = {
+    title=c_bamiyan
+    max_settlements=3
+    terrain=mountain
+}
+1970 = {
+    max_settlements=7
+    terrain=mountain
+}
+1971 = {
+    max_settlements=7
+    terrain=desert
+}
+1972 = {
+    max_settlements=7
+    terrain=desert
+}
+1973 = {
+    max_settlements=7
+    terrain=desert
+}
+1974 = {
+    max_settlements=7
+    terrain=forest
+}
+1975 = {
+    title=c_gilgit
+    max_settlements=3
+    terrain=mountain
+}
+1976 = {
+    title=c_skardu
+    max_settlements=3
+    terrain=mountain
+}
+1977 = {
+    title=c_hunza
+    max_settlements=2
+    terrain=mountain
+}
+1978 = {
+    title=c_tashkurgan
+    max_settlements=2
+    terrain=mountain
+}
+1979 = {
+    title=c_kangra
+    max_settlements=4
+    terrain=mountain
+}
+1980 = {
+    title=c_garhwal
+    max_settlements=4
+    terrain=hills
+}
+1981 = {
+    title=c_kurmanchal
+    max_settlements=5
+    terrain=mountain
+}
+1982 = {
+    title=c_leh
+    max_settlements=5
+    terrain=mountain
+}
+1983 = {
+    title=c_tsaparang
+    max_settlements=5
+    terrain=mountain
+}
+1984 = {
+    title=c_rutog
+    max_settlements=2
+    terrain=mountain
+}
+1985 = {
+    title=c_kyunglung
+    max_settlements=4
+    terrain=mountain
+}
+1986 = {
+    title=c_purang
+    max_settlements=4
+    terrain=mountain
+}
+1987 = {
+    title=c_gegyai
+    max_settlements=3
+    terrain=mountain
+}
+1988 = {
+    title=c_gar
+    max_settlements=2
+    terrain=mountain
+}
+1989 = {
+    title=c_kunlun
+    max_settlements=2
+    terrain=mountain
+}
+1990 = {
+    max_settlements=7
+    terrain=mountain
+}
+1991 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+1992 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+1993 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+1994 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+1995 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+1996 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+1997 = {
     max_settlements=7
     terrain=coastal_desert
 }

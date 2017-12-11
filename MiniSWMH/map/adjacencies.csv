@@ -36,11 +36,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 472;1014;sea;1705;-1;-1;-1;-1;Epeiros-Corfu
 1304;1043;sea;1820;-1;-1;-1;-1;Sydsjælland-Lolland
 64;1183;sea;1797;-1;-1;-1;-1;Gweynd-Anglesey
-848;263;sea;1773;-1;-1;-1;-1;Bremen-Eselsfleth
-1267;366;sea;1772;-1;-1;-1;-1;Szvuine-Stettin
 304;1505;sea;1772;-1;-1;-1;-1;Rügen-Barth
-1267;308;sea;1772;-1;-1;-1;-1;Szvuine-Wolgast
-26;1417;sea;1738;-1;-1;-1;-1;Winchester-Wight
 1419;45;sea;1766;-1;-1;-1;-1;Muile-Argyll
 1420;45;sea;1766;-1;-1;-1;-1;Ile-Argyll
 1426;1427;sea;1766;-1;-1;-1;-1;Leodhas-Uibhist
@@ -100,10 +96,12 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1176;1185;major_river;1914;-1;-1;-1;-1;Valois-Vertus
 132;1160;major_river;1915;-1;-1;-1;-1;Auxerre-Sancerre
 209;1188;major_river;1923;-1;-1;-1;-1;Armagnac-Quercy
-221;1249;major_river;1927;-1;-1;-1;-1;Provence-Nimes
 222;223;major_river;1927;-1;-1;-1;-1;Venaissin-Viviers
 222;1249;major_river;1927;-1;-1;-1;-1;Venaissin-Nimes
 1047;1249;major_river;1927;-1;-1;-1;-1;Arles-Nimes
+125;1008;major_river;1929;-1;-1;-1;-1;Baden-Zweibrucken
+1007;1062;major_river;1930;-1;-1;-1;-1;Katzenelnbogen-Sponheim
+90;1063;major_river;1931;-1;-1;-1;-1;Julich-Berg
 118;1007;major_river;1930;-1;-1;-1;-1;Trier-Konigssondergau
 1850;1851;portage;403;-1;-1;-1;-1;Andoma-Soyda
 1896;1893;portage;417;-1;-1;-1;-1;Lovat-West Dvina A
