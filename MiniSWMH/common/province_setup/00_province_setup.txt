@@ -9488,3 +9488,23 @@
     max_settlements=7
     terrain=coastal_desert
 }
+2000 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+2001 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+2002 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+2003 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
+2004 = {
+    max_settlements=7
+    terrain=coastal_desert
+}
