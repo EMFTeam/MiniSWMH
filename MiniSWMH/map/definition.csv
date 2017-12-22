@@ -1473,7 +1473,7 @@ province;red;green;blue;x;x
 1472;127;159;164;Rhwng Gwy A Hafren;x
 1473;169;162;37;Gwyr;x
 1474;1;165;165;;x
-1475;127;186;54;Strait of Hormuz;x
+1475;127;186;54;Ran of Kutch A;x
 1476;85;171;166;;x
 1477;127;174;39;;x
 1478;169;177;167;;x
@@ -1840,8 +1840,8 @@ province;red;green;blue;x;x
 1839;43;129;38;Loch Lomond;x
 1840;85;132;166;Lough Neagh;x
 1841;127;135;39;Erne;x
-1842;169;189;182;Persian Gulf A;x
-1843;1;192;55;Persian Gulf B;x
+1842;169;189;182;Indus A;x
+1843;1;192;55;Indus B;x
 1844;1;174;215;Arabian Sea;x
 1845;43;177;88;Gulf of Khambhat;x
 1846;85;180;216;Gulf of Kuchch;x
@@ -1933,9 +1933,9 @@ province;red;green;blue;x;x
 1932;169;195;212;Maas A;x
 1933;1;198;85;Maas B;x
 1934;43;201;213;Maas C;x
-1935;128;45;129;Ran of Kutch A;x
-1936;1;189;90;Indus A;x
-1937;43;192;218;Indus B;x
+1935;128;45;129;Straif of Hormuz;x
+1936;1;189;90;Persian Gulf A;x
+1937;43;192;218;Persian Gulf B;x
 1938;121;181;181;Redsea A;x
 1939;43;165;178;Redsea B;x
 1940;85;168;51;Redsea C;x
