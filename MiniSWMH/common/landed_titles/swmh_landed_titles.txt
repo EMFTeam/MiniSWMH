@@ -48709,6 +48709,11 @@ e_africa = {
                 b_tiaret = {
                     roman = "Tingartia"
                     greek = "Tingartia"
+                    sanhaja = "Tagdemt"
+                    tagelmust = "Tagdemt"
+                    tuareg = "Tagdemt"
+                    masmuda = "Tagdemt"
+                    zanata = "Tagdemt"
                 }
                 b_qalathuwara = {
                     roman = "Ala Miliaria"
