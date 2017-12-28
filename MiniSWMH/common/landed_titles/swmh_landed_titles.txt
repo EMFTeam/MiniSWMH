@@ -25234,17 +25234,17 @@ e_arabia = {
                     greek = "Phystaton"
                     coptic = "Phystaton"
                 }
-                b_qaylub = {
-                    roman = "Heliopolis"
-                    greek = "Heliopolis"
-                    coptic = "On"
-                }
+                b_qaylub = {}
                 b_alazhar = {
                     greek = "Kremastá Ekklisía"
                     coptic = "Ekklesia Jinioi"
                 }
                 b_helwan = {}
-                b_ain_shams = {}
+                b_ain_shams = {
+                    roman = "Heliopolis"
+                    greek = "Heliopolis"
+                    coptic = "On"
+                }
                 b_ghayfa = {}
             }
             c_manupura = {
