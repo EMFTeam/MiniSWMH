@@ -48363,6 +48363,10 @@ e_africa = {
                 b_tazwir = {
                     roman = "Thusuros"
                     greek = "Thusuros"
+                    bedouin_arabic = "Túzar"
+                    maghreb_arabic = "Túzar"
+                    egyptian_arabic = "Túzar"
+                    levantine_arabic = "Túzar"
                 }
             }
             allow = {
