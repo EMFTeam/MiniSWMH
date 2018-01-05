@@ -4055,7 +4055,7 @@
 }
 813 = {
     title=c_djerba
-    max_settlements=3
+    max_settlements=2
     terrain=coastal_desert
 }
 814 = {
@@ -6720,12 +6720,12 @@
 }
 1354 = {
     title=c_tabassa
-    max_settlements=3
+    max_settlements=4
     terrain=mountain
 }
 1355 = {
     title=c_setif
-    max_settlements=2
+    max_settlements=3
     terrain=mountain
 }
 1356 = {
@@ -8196,7 +8196,7 @@
 }
 1685 = {
     max_settlements=7
-    terrain=plains
+    terrain=hills
 }
 1686 = {
     max_settlements=7
@@ -8204,7 +8204,7 @@
 }
 1687 = {
     max_settlements=7
-    terrain=forest
+    terrain=plains
 }
 1688 = {
     max_settlements=7
@@ -8212,7 +8212,7 @@
 }
 1689 = {
     max_settlements=7
-    terrain=jungle
+    terrain=plains
 }
 1690 = {
     max_settlements=7
