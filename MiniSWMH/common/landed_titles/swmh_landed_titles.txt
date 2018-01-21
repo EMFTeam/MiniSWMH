@@ -26202,6 +26202,2085 @@ e_arabia = {
             title_king_basic_allow = yes
         }
     }
+    k_jerusalem = {
+        color = { 180 180 180 }
+        color2 = { 255 255 255 }
+        capital = 774
+        culture = levantine_arabic
+        assimilate = no
+        gain_effect = {
+            prestige = 5000
+            piety = 2000
+        }
+        christian = 1000
+        muslim = 125
+        sicilian_arabic = "Filastin"
+        bedouin_arabic = "Filastin"
+        maghreb_arabic = "Filastin"
+        levantine_arabic = "Filastin"
+        egyptian_arabic = "Filastin"
+        andalusian_arabic = "Filastin"
+        sanhaja = "Filastin"
+        tagelmust = "Filastin"
+        tuareg = "Filastin"
+        masmuda = "Filastin"
+        zanata = "Filastin"
+        greek = "Palaestina"
+        ethiopian = "Yerusalem"
+        d_jerusalem = {
+            color = { 223 224 199 }
+            color2 = { 255 255 255 }
+            christian = 500
+            muslim = 250
+            sicilian_arabic = "Filastin"
+            bedouin_arabic = "Filastin"
+            maghreb_arabic = "Filastin"
+            levantine_arabic = "Filastin"
+            egyptian_arabic = "Filastin"
+            andalusian_arabic = "Filastin"
+            sanhaja = "Filastin"
+            tagelmust = "Filastin"
+            tuareg = "Filastin"
+            masmuda = "Filastin"
+            zanata = "Filastin"
+            roman = "Palaestina Prima"
+            greek = "Palaestina Prima"
+            ethiopian = "Yerusalem"
+            capital = 774
+            c_jerusalem = {
+                color = { 45 251 69 }
+                color2 = { 255 255 255 }
+                christian = 1000
+                muslim = 500
+                maghreb_arabic = "Al-Quds"
+                levantine_arabic = "Al-Quds"
+                egyptian_arabic = "Al-Quds"
+                andalusian_arabic = "Al-Quds"
+                sicilian_arabic = "Al-Quds"
+                bedouin_arabic = "Al-Quds"
+                sanhaja = "Al-Quds"
+                tagelmust = "Al-Quds"
+                tuareg = "Al-Quds"
+                masmuda = "Al-Quds"
+                zanata = "Al-Quds"
+                oghuz = "Kudüs"
+                turkmen = "Kudüs"
+                turkish = "Kudüs"
+                roman = "Ierosolyma"
+                greek = "Hierosolyma"
+                nubian = "Ierousalmi"
+                ethiopian = "Yerusalem"
+                b_towerofdavid = {
+                    maghreb_arabic = "Burj Daud"
+                    levantine_arabic = "Burj Daud"
+                    egyptian_arabic = "Burj Daud"
+                    andalusian_arabic = "Burj Daud"
+                    sicilian_arabic = "Burj Daud"
+                    bedouin_arabic = "Burj Daud"
+                    sanhaja = "Burj Daud"
+                    tagelmust = "Burj Daud"
+                    tuareg = "Burj Daud"
+                    masmuda = "Burj Daud"
+                    zanata = "Burj Daud"
+                    greek = "Kastro David"
+                }
+                b_bethlehem = {
+                    ethiopian = "Bete Lihem"
+                }
+                b_jerusalem = {
+                    maghreb_arabic = "Al-Quds"
+                    levantine_arabic = "Al-Quds"
+                    egyptian_arabic = "Al-Quds"
+                    andalusian_arabic = "Al-Quds"
+                    sicilian_arabic = "Al-Quds"
+                    bedouin_arabic = "Al-Quds"
+                    sanhaja = "Al-Quds"
+                    tagelmust = "Al-Quds"
+                    tuareg = "Al-Quds"
+                    masmuda = "Al-Quds"
+                    zanata = "Al-Quds"
+                    oghuz = "Kudüs"
+                    turkmen = "Kudüs"
+                    turkish = "Kudüs"
+                    ethiopian = "Yerusalem"
+                }
+                b_rammala = {
+                    roman = "Rámla"
+                    greek = "Rámla"
+                }
+                b_blanchegarde = {
+                    greek = "Saphitha"
+                }
+                b_saintsamuel = {
+                    greek = "Monì tìs Agios Samuel"
+                }
+                b_syrbelmont = {}
+            }
+            c_beersheb = {
+                color = { 15 208 46 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Nablus"
+                maghreb_arabic = "Nablus"
+                levantine_arabic = "Nablus"
+                egyptian_arabic = "Nablus"
+                andalusian_arabic = "Nablus"
+                sicilian_arabic = "Nablus"
+                sanhaja = "Nablus"
+                tagelmust = "Nablus"
+                tuareg = "Nablus"
+                masmuda = "Nablus"
+                zanata = "Nablus"
+                roman = "Neapolis"
+                greek = "Neapolis"
+                b_bethsan = {
+                    roman = "Scythopolis"
+                    greek = "Skythopolis"
+                }
+                b_nablus = {
+                    roman = "Neapolis"
+                    greek = "Neapolis"
+                }
+                b_jericho = {
+                    roman = "Ierichó"
+                    greek = "Ierichó"
+                }
+                b_lafeve = {}
+                b_syrsebastia = {}
+                b_aynjalut = {}
+            }
+            c_hebron = {
+                color = { 49 255 73 }
+                color2 = { 255 255 255 }
+                maghreb_arabic = "El-Khail"
+                levantine_arabic = "El-Khail"
+                egyptian_arabic = "El-Khail"
+                andalusian_arabic = "El-Khail"
+                sicilian_arabic = "El-Khail"
+                bedouin_arabic = "El-Khail"
+                sanhaja = "El-Khail"
+                tagelmust = "El-Khail"
+                tuareg = "El-Khail"
+                masmuda = "El-Khail"
+                zanata = "El-Khail"
+                roman = "Hebron"
+                greek = "Hebrón"
+                b_hebron = {
+                    maghreb_arabic = "El-Khail"
+                    levantine_arabic = "El-Khail"
+                    egyptian_arabic = "El-Khail"
+                    andalusian_arabic = "El-Khail"
+                    sicilian_arabic = "El-Khail"
+                    bedouin_arabic = "El-Khail"
+                    sanhaja = "El-Khail"
+                    tagelmust = "El-Khail"
+                    tuareg = "El-Khail"
+                    masmuda = "El-Khail"
+                    zanata = "El-Khail"
+                    roman = "Hebron"
+                    greek = "Hebrón"
+                }
+                b_syrcarmel = {}
+                b_alsamoa = {}
+                b_bethgibelin = {
+                    roman = "Eleutheropolis"
+                    greek = "Eleutheroupolis"
+                }
+                b_syrsebbe = {}
+            }
+            c_darum = {
+                color = { 5 199 37 }
+                color2 = { 255 255 255 }
+                b_darum = {}
+                b_gaza = {}
+                b_radwan = {}
+                b_salqah = {}
+                b_abasan = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_acre = {
+            color = { 235 224 73 }
+            color2 = { 255 255 255 }
+            bedouin_arabic = "Akka"
+            maghreb_arabic = "Akka"
+            levantine_arabic = "Akka"
+            egyptian_arabic = "Akka"
+            andalusian_arabic = "Akka"
+            sicilian_arabic = "Akka"
+            sanhaja = "Akka"
+            tagelmust = "Akka"
+            tuareg = "Akka"
+            masmuda = "Akka"
+            zanata = "Akka"
+            roman = "Tyrus"
+            greek = "Tyros"
+            capital = 772
+            c_acre = {
+                color = { 47 253 71 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Akka"
+                maghreb_arabic = "Akka"
+                levantine_arabic = "Akka"
+                egyptian_arabic = "Akka"
+                andalusian_arabic = "Akka"
+                sicilian_arabic = "Akka"
+                sanhaja = "Akka"
+                tagelmust = "Akka"
+                tuareg = "Akka"
+                masmuda = "Akka"
+                zanata = "Akka"
+                roman = "Ptolemais"
+                greek = "Ptolemais"
+                b_acre = {
+                    bedouin_arabic = "Akka"
+                    maghreb_arabic = "Akka"
+                    levantine_arabic = "Akka"
+                    egyptian_arabic = "Akka"
+                    andalusian_arabic = "Akka"
+                    sicilian_arabic = "Akka"
+                    sanhaja = "Akka"
+                    tagelmust = "Akka"
+                    tuareg = "Akka"
+                    masmuda = "Akka"
+                    zanata = "Akka"
+                    roman = "Ptolemais"
+                    greek = "Ptolemais"
+                }
+                b_castellumregis = {
+                    greek = "Kastro Basileios"
+                    bedouin_arabic = "Qal'at Qurein"
+                    maghreb_arabic = "Qal'at Qurein"
+                    levantine_arabic = "Qal'at Qurein"
+                    egyptian_arabic = "Qal'at Qurein"
+                    andalusian_arabic = "Qal'at Qurein"
+                    sicilian_arabic = "Qal'at Qurein"
+                    german = "Starkenberg"
+                }
+                b_tyrus = {
+                    roman = "Tyrus"
+                    greek = "Tyros"
+                    bedouin_arabic = "Sur"
+                    maghreb_arabic = "Sur"
+                    levantine_arabic = "Sur"
+                    egyptian_arabic = "Sur"
+                    andalusian_arabic = "Sur"
+                    sicilian_arabic = "Sur"
+                    sanhaja = "Sur"
+                    tagelmust = "Sur"
+                    tuareg = "Sur"
+                    masmuda = "Sur"
+                    zanata = "Sur"
+                }
+                b_haifa = {
+                    roman = "Hepha"
+                    greek = "Hepha"
+                }
+                b_scandelon = {}
+                b_adelon = {
+                    bedouin_arabic = "Ad'loun"
+                    maghreb_arabic = "Ad'loun"
+                    levantine_arabic = "Ad'loun"
+                    egyptian_arabic = "Ad'loun"
+                    andalusian_arabic = "Ad'loun"
+                    sicilian_arabic = "Ad'loun"
+                }
+            }
+            c_tyrus = {
+                color = { 8 202 67 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Sayda"
+                maghreb_arabic = "Sayda"
+                levantine_arabic = "Sayda"
+                egyptian_arabic = "Sayda"
+                andalusian_arabic = "Sayda"
+                sicilian_arabic = "Sayda"
+                sanhaja = "Sayda"
+                tagelmust = "Sayda"
+                tuareg = "Sayda"
+                masmuda = "Sayda"
+                zanata = "Sayda"
+                oghuz = "Sayda"
+                turkmen = "Sayda"
+                turkish = "Sayda"
+                b_sarafand = {}
+                b_sidon = {
+                    bedouin_arabic = "Sayda"
+                    maghreb_arabic = "Sayda"
+                    levantine_arabic = "Sayda"
+                    egyptian_arabic = "Sayda"
+                    andalusian_arabic = "Sayda"
+                    sicilian_arabic = "Sayda"
+                    sanhaja = "Sayda"
+                    tagelmust = "Sayda"
+                    tuareg = "Sayda"
+                    masmuda = "Sayda"
+                    zanata = "Sayda"
+                    oghuz = "Sayda"
+                    turkmen = "Sayda"
+                    turkish = "Sayda"
+                }
+                b_syrbelfort = {}
+                b_schuf = {
+                    bedouin_arabic = "Chouf"
+                    maghreb_arabic = "Chouf"
+                    levantine_arabic = "Chouf"
+                    egyptian_arabic = "Chouf"
+                    andalusian_arabic = "Chouf"
+                    sicilian_arabic = "Chouf"
+                }
+            }
+            c_caesarea = {
+                color = { 47 253 71 }
+                color2 = { 255 255 255 }
+                roman = "Caesarea"
+                greek = "Parálios Kaisáreia"
+                b_caymont = {
+                    roman = "Cammona"
+                    greek = "Cammona"
+                }
+                b_arsuf = {
+                    roman = "Apollonia"
+                    greek = "Apollonia"
+                }
+                b_syrcaesarea = {
+                    roman = "Caesarea"
+                    greek = "Parálios Kaisáreia"
+                }
+                b_calansue = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_oultrejourdain = {
+            color = { 203 159 24 }
+            color2 = { 255 255 255 }
+            roman = "Palaestina Salutaris"
+            greek = "Palaestina Salutaris"
+            capital = 778
+            c_monreal = {
+                color = { 47 253 52 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Shobak"
+                maghreb_arabic = "Shobak"
+                levantine_arabic = "Shobak"
+                egyptian_arabic = "Shobak"
+                andalusian_arabic = "Shobak"
+                sicilian_arabic = "Shobak"
+                sanhaja = "Shobak"
+                tagelmust = "Shobak"
+                tuareg = "Shobak"
+                masmuda = "Shobak"
+                zanata = "Shobak"
+                b_monreal = {
+                    bedouin_arabic = "Shobak"
+                    maghreb_arabic = "Shobak"
+                    levantine_arabic = "Shobak"
+                    egyptian_arabic = "Shobak"
+                    andalusian_arabic = "Shobak"
+                    sicilian_arabic = "Shobak"
+                    sanhaja = "Shobak"
+                    tagelmust = "Shobak"
+                    tuareg = "Shobak"
+                    masmuda = "Shobak"
+                    zanata = "Shobak"
+                }
+                b_syrsegor = {}
+                b_alwuayra = {}
+                b_petra = {}
+                b_wadi_musa = {}
+                b_alhabis = {}
+            }
+            c_petra = {
+                color = { 133 208 14 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Aqabah"
+                maghreb_arabic = "Aqabah"
+                levantine_arabic = "Aqabah"
+                egyptian_arabic = "Aqabah"
+                andalusian_arabic = "Aqabah"
+                sicilian_arabic = "Aqabah"
+                roman = "Aila"
+                greek = "Aila"
+                b_pharaohosisland = {}
+                b_jordanaqba = {
+                    bedouin_arabic = "Aqabah"
+                    maghreb_arabic = "Aqabah"
+                    levantine_arabic = "Aqabah"
+                    egyptian_arabic = "Aqabah"
+                    andalusian_arabic = "Aqabah"
+                    sicilian_arabic = "Aqabah"
+                    roman = "Aila"
+                    greek = "Aila"
+                }
+                b_syrarandal = {}
+            }
+            c_kerak = {
+                color = { 49 255 54 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Al-Karak"
+                maghreb_arabic = "Al-Karak"
+                levantine_arabic = "Al-Karak"
+                egyptian_arabic = "Al-Karak"
+                andalusian_arabic = "Al-Karak"
+                sicilian_arabic = "Al-Karak"
+                sanhaja = "Al-Karak"
+                tagelmust = "Al-Karak"
+                tuareg = "Al-Karak"
+                masmuda = "Al-Karak"
+                zanata = "Al-Karak"
+                b_krakdemoab = {
+                    roman = "Characmoba"
+                    greek = "Characmoba"
+                    frankish = "Le Crac"
+                    norman = "Le Crac"
+                }
+                b_kerak = {
+                    bedouin_arabic = "Al-Karak"
+                    maghreb_arabic = "Al-Karak"
+                    levantine_arabic = "Al-Karak"
+                    egyptian_arabic = "Al-Karak"
+                    andalusian_arabic = "Al-Karak"
+                    sicilian_arabic = "Al-Karak"
+                    sanhaja = "Al-Karak"
+                    tagelmust = "Al-Karak"
+                    tuareg = "Al-Karak"
+                    masmuda = "Al-Karak"
+                    zanata = "Al-Karak"
+                    roman = "Harreketh"
+                    greek = "Harreketh"
+                }
+                b_syrdibban = {}
+                b_tafila = {
+                    frankish = "Taphila"
+                    norman = "Taphila"
+                    roman = "Taphila"
+                    greek = "Taphila"
+                }
+                b_syralrabbah = {
+                    roman = "Areopolis"
+                    greek = "Areopolis"
+                }
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_ascalon = {
+            color = { 225 65 34 }
+            color2 = { 255 255 255 }
+            capital = 780
+            c_jaffa = {
+                color = { 8 202 40 }
+                color2 = { 255 255 255 }
+                roman = "Ioppe"
+                greek = "Ioppa"
+                b_qula = {}
+                b_jaffa = {
+                    roman = "Ioppe"
+                    greek = "Ioppa"
+                }
+                b_lydda = {}
+                b_mirabel = {}
+                b_ramleh = {}
+                b_beitdejan = {}
+                b_kharruba = {}
+                b_yazur = {}
+            }
+            c_ascalon = {
+                color = { 12 205 43 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Asqalan"
+                maghreb_arabic = "Asqalan"
+                levantine_arabic = "Asqalan"
+                egyptian_arabic = "Asqalan"
+                andalusian_arabic = "Asqalan"
+                sicilian_arabic = "Asqalan"
+                sanhaja = "Asqalan"
+                tagelmust = "Asqalan"
+                tuareg = "Asqalan"
+                masmuda = "Asqalan"
+                zanata = "Asqalan"
+                greek = "Iamnia"
+                b_ascalon = {
+                    bedouin_arabic = "Asqalan"
+                    maghreb_arabic = "Asqalan"
+                    levantine_arabic = "Asqalan"
+                    egyptian_arabic = "Asqalan"
+                    andalusian_arabic = "Asqalan"
+                    sicilian_arabic = "Asqalan"
+                    sanhaja = "Asqalan"
+                    tagelmust = "Asqalan"
+                    tuareg = "Asqalan"
+                    masmuda = "Asqalan"
+                    zanata = "Asqalan"
+                }
+                b_ibelin = {
+                    bedouin_arabic = "Iamnia"
+                    maghreb_arabic = "Iamnia"
+                    levantine_arabic = "Iamnia"
+                    egyptian_arabic = "Iamnia"
+                    andalusian_arabic = "Iamnia"
+                    sicilian_arabic = "Iamnia"
+                    sanhaja = "Iamnia"
+                    tagelmust = "Iamnia"
+                    tuareg = "Iamnia"
+                    masmuda = "Iamnia"
+                    zanata = "Iamnia"
+                    greek = "Iamnia"
+                }
+                b_latrun = {}
+                b_montgisard = {}
+                b_karatiyya = {}
+                b_laforbie = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_galilee = {
+            color = { 41 45 138 }
+            color2 = { 255 255 255 }
+            short_name = yes
+            capital = 773
+            bedouin_arabic = "Al-Jalil"
+            maghreb_arabic = "Al-Jalil"
+            levantine_arabic = "Al-Jalil"
+            egyptian_arabic = "Al-Jalil"
+            andalusian_arabic = "Al-Jalil"
+            sicilian_arabic = "Al-Jalil"
+            sanhaja = "Al-Jalil"
+            tagelmust = "Al-Jalil"
+            tuareg = "Al-Jalil"
+            masmuda = "Al-Jalil"
+            zanata = "Al-Jalil"
+            roman = "Palaestina Secunda"
+            greek = "Palaestina Secunda"
+            frankish = "Principauté de Galilée"
+            norman = "Principauté de Galilée"
+            c_tiberias = {
+                color = { 5 199 64 }
+                color2 = { 255 255 255 }
+                b_tiberias = {}
+                b_belvoir = {}
+                b_cavedesueth = {
+                    bedouin_arabic = "Ain al-Habis"
+                    maghreb_arabic = "Ain al-Habis"
+                    levantine_arabic = "Ain al-Habis"
+                    egyptian_arabic = "Ain al-Habis"
+                    andalusian_arabic = "Ain al-Habis"
+                    sicilian_arabic = "Ain al-Habis"
+                    sanhaja = "Ain al-Habis"
+                    tagelmust = "Ain al-Habis"
+                    tuareg = "Ain al-Habis"
+                    masmuda = "Ain al-Habis"
+                    zanata = "Ain al-Habis"
+                }
+                b_sepphoria = {
+                    roman = "Sepphoris"
+                    greek = "Sepphoris"
+                    bedouin_arabic = "Safurriya"
+                    maghreb_arabic = "Safurriya"
+                    levantine_arabic = "Safurriya"
+                    egyptian_arabic = "Safurriya"
+                    andalusian_arabic = "Safurriya"
+                    sicilian_arabic = "Safurriya"
+                    sanhaja = "Safurriya"
+                    tagelmust = "Safurriya"
+                    tuareg = "Safurriya"
+                    masmuda = "Safurriya"
+                    zanata = "Safurriya"
+                }
+                b_nazareth = {
+                    bedouin_arabic = "An-Nasirah"
+                    maghreb_arabic = "An-Nasirah"
+                    levantine_arabic = "An-Nasirah"
+                    egyptian_arabic = "An-Nasirah"
+                    andalusian_arabic = "An-Nasirah"
+                    sicilian_arabic = "An-Nasirah"
+                    sanhaja = "An-Nasirah"
+                    tagelmust = "An-Nasirah"
+                    tuareg = "An-Nasirah"
+                    masmuda = "An-Nasirah"
+                    zanata = "An-Nasirah"
+                }
+                b_mnttabor = {}
+                b_forbelet = {}
+            }
+            c_beirut = {
+                color = { 11 205 70 }
+                color2 = { 255 255 255 }
+                roman = "Berytus"
+                greek = "Berytos"
+                b_beirut = {
+                    roman = "Berytus"
+                    greek = "Berytos"
+                }
+                b_beitkfeya = {}
+                b_chiyah = {}
+                b_choueir = {}
+            }
+            c_safed = {
+                color = { 14 208 73 }
+                color2 = { 255 255 255 }
+                roman = "Paneas"
+                greek = "Paneas"
+                ashkenazi = "Tsfat"
+                bedouin_arabic = "Safad"
+                maghreb_arabic = "Safad"
+                levantine_arabic = "Safad"
+                egyptian_arabic = "Safad"
+                andalusian_arabic = "Safad"
+                sicilian_arabic = "Safad"
+                b_safed = {
+                    roman = "Seph"
+                    greek = "Seph"
+                    ashkenazi = "Tsfat"
+                    bedouin_arabic = "Safad"
+                    maghreb_arabic = "Safad"
+                    levantine_arabic = "Safad"
+                    egyptian_arabic = "Safad"
+                    andalusian_arabic = "Safad"
+                    sicilian_arabic = "Safad"
+                }
+                b_banyas = {
+                    bedouin_arabic = "Banyas"
+                    maghreb_arabic = "Banyas"
+                    levantine_arabic = "Banyas"
+                    egyptian_arabic = "Banyas"
+                    andalusian_arabic = "Banyas"
+                    sicilian_arabic = "Banyas"
+                    roman = "Paneas"
+                    greek = "Paneas"
+                }
+                b_toron = {
+                    bedouin_arabic = "Tibnine"
+                    maghreb_arabic = "Tibnine"
+                    levantine_arabic = "Tibnine"
+                    egyptian_arabic = "Tibnine"
+                    andalusian_arabic = "Tibnine"
+                    sicilian_arabic = "Tibnine"
+                }
+                b_meronisreal = {}
+                b_chastelet = {
+                    bedouin_arabic = "Qasr al-'Atra"
+                    maghreb_arabic = "Qasr al-'Atra"
+                    levantine_arabic = "Qasr al-'Atra"
+                    egyptian_arabic = "Qasr al-'Atra"
+                    andalusian_arabic = "Qasr al-'Atra"
+                    sicilian_arabic = "Qasr al-'Atra"
+                }
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        allow = {
+            religion_group = christian
+            title_king_basic_allow = yes
+        }
+    }
+    k_antioch = {
+        color = { 50 76 150 }
+        color2 = { 255 255 255 }
+        culture = armenian
+        capital = 764
+        bedouin_arabic = "Awasim"
+        maghreb_arabic = "Awasim"
+        levantine_arabic = "Awasim"
+        egyptian_arabic = "Awasim"
+        andalusian_arabic = "Awasim"
+        sicilian_arabic = "Awasim"
+        sanhaja = "Awasim"
+        tagelmust = "Awasim"
+        tuareg = "Awasim"
+        masmuda = "Awasim"
+        zanata = "Awasim"
+        roman = "Principatus Antiochenus"
+        greek = "Antiócheias"
+        ethiopian = "Ansokya"
+        catholic = 300
+        orthodox = 300
+        muslim = 150
+        d_edessa = {
+            color = { 89 21 66 }
+            color2 = { 255 255 255 }
+            name_tier = count
+            capital = 699
+            bedouin_arabic = "Ar-Ruha"
+            maghreb_arabic = "Ar-Ruha"
+            levantine_arabic = "Ar-Ruha"
+            egyptian_arabic = "Ar-Ruha"
+            andalusian_arabic = "Ar-Ruha"
+            sicilian_arabic = "Ar-Ruha"
+            yemeni = "Ar-Ruha"
+            hijazi = "Ar-Ruha"
+            sanhaja = "Ar-Ruha"
+            tagelmust = "Ar-Ruha"
+            tuareg = "Ar-Ruha"
+            masmuda = "Ar-Ruha"
+            zanata = "Ar-Ruha"
+            oghuz = "Urfa"
+            turkmen = "Urfa"
+            turkish = "Urfa"
+            kurdish = "Riha"
+            assyrian = "Urhây"
+            greek = "Edesses"
+            c_edessa = {
+                color = { 153 255 5 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Ar-Ruha"
+                maghreb_arabic = "Ar-Ruha"
+                levantine_arabic = "Ar-Ruha"
+                egyptian_arabic = "Ar-Ruha"
+                andalusian_arabic = "Ar-Ruha"
+                sicilian_arabic = "Ar-Ruha"
+                yemeni = "Ar-Ruha"
+                hijazi = "Ar-Ruha"
+                sanhaja = "Ar-Ruha"
+                tagelmust = "Ar-Ruha"
+                tuareg = "Ar-Ruha"
+                masmuda = "Ar-Ruha"
+                zanata = "Ar-Ruha"
+                oghuz = "Urfa"
+                turkmen = "Urfa"
+                turkish = "Urfa"
+                kurdish = "Riha"
+                assyrian = "Urhây"
+                b_edessa = {
+                    bedouin_arabic = "Ar-Ruha"
+                    maghreb_arabic = "Ar-Ruha"
+                    levantine_arabic = "Ar-Ruha"
+                    egyptian_arabic = "Ar-Ruha"
+                    andalusian_arabic = "Ar-Ruha"
+                    sicilian_arabic = "Ar-Ruha"
+                    yemeni = "Ar-Ruha"
+                    hijazi = "Ar-Ruha"
+                    sanhaja = "Ar-Ruha"
+                    tagelmust = "Ar-Ruha"
+                    tuareg = "Ar-Ruha"
+                    masmuda = "Ar-Ruha"
+                    zanata = "Ar-Ruha"
+                    oghuz = "Urfa"
+                    turkmen = "Urfa"
+                    turkish = "Urfa"
+                    kurdish = "Riha"
+                    assyrian = "Urhây"
+                }
+                b_sruk = {
+                    bedouin_arabic = "Sarug"
+                    maghreb_arabic = "Sarug"
+                    levantine_arabic = "Sarug"
+                    egyptian_arabic = "Sarug"
+                    andalusian_arabic = "Sarug"
+                    sicilian_arabic = "Sarug"
+                    yemeni = "Sarug"
+                    hijazi = "Sarug"
+                    frankish = "Sorogia"
+                    norman = "Sorogia"
+                    oghuz = "Suruç"
+                    turkmen = "Suruç"
+                    turkish = "Suruç"
+                    kurdish = "Sirûc"
+                    roman = "Batnae"
+                    greek = "Batnai"
+                }
+                b_bile = {
+                    bedouin_arabic = "al-Birah"
+                    maghreb_arabic = "al-Birah"
+                    levantine_arabic = "al-Birah"
+                    egyptian_arabic = "al-Birah"
+                    andalusian_arabic = "al-Birah"
+                    sicilian_arabic = "al-Birah"
+                    oghuz = "Birecik"
+                    turkmen = "Birecik"
+                    turkish = "Birecik"
+                    kurdish = "Bêrecûg"
+                    greek = "Birtha"
+                }
+                b_hromgla = {
+                    bedouin_arabic = "Qal'at al-Rum"
+                    maghreb_arabic = "Qal'at al-Rum"
+                    levantine_arabic = "Qal'at al-Rum"
+                    egyptian_arabic = "Qal'at al-Rum"
+                    andalusian_arabic = "Qal'at al-Rum"
+                    sicilian_arabic = "Qal'at al-Rum"
+                    oghuz = "Rumkale"
+                    turkmen = "Rumkale"
+                    turkish = "Rumkale"
+                    kurdish = "Kela Zêrîn"
+                    armenian = "Hromkla"
+                    greek = "Romaion Koula"
+                    frankish = "Ranculat"
+                    norman = "Ranculat"
+                }
+                b_samsat = {
+                    bedouin_arabic = "Sumaysat"
+                    maghreb_arabic = "Sumaysat"
+                    levantine_arabic = "Sumaysat"
+                    egyptian_arabic = "Sumaysat"
+                    andalusian_arabic = "Sumaysat"
+                    armenian = "Šamšat"
+                    greek = "Samosata"
+                    oghuz = "Šimšat"
+                    turkmen = "Šimšat"
+                    turkish = "Šimšat"
+                }
+            }
+            c_tell_bashir = {
+                color = { 155 255 7 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Tell Bashir"
+                maghreb_arabic = "Tell Bashir"
+                levantine_arabic = "Tell Bashir"
+                egyptian_arabic = "Tell Bashir"
+                andalusian_arabic = "Tell Bashir"
+                sicilian_arabic = "Tell Bashir"
+                oghuz = "Tilbesar"
+                turkmen = "Tilbesar"
+                turkish = "Tilbesar"
+                b_turbessel = {
+                    bedouin_arabic = "Tell Bashir"
+                    maghreb_arabic = "Tell Bashir"
+                    levantine_arabic = "Tell Bashir"
+                    egyptian_arabic = "Tell Bashir"
+                    andalusian_arabic = "Tell Bashir"
+                    sicilian_arabic = "Tell Bashir"
+                    turkish = "Tilbesar"
+                }
+                b_trihalet = {
+                    bedouin_arabic = "Tell Halid"
+                    maghreb_arabic = "Tell Halid"
+                    levantine_arabic = "Tell Halid"
+                    egyptian_arabic = "Tell Halid"
+                    andalusian_arabic = "Tell Halid"
+                    sicilian_arabic = "Tell Halid"
+                }
+                b_kyrrhos = {
+                    bedouin_arabic = "Qurus"
+                    maghreb_arabic = "Qurus"
+                    levantine_arabic = "Qurus"
+                    egyptian_arabic = "Qurus"
+                    andalusian_arabic = "Qurus"
+                    sicilian_arabic = "Qurus"
+                    frankish = "Corice"
+                    norman = "Corice"
+                }
+                b_nizip = {
+                    greek = "Nisibina"
+                }
+            }
+            c_aintab = {
+                color = { 157 255 9 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Ayn Tab"
+                maghreb_arabic = "Ayn Tab"
+                levantine_arabic = "Ayn Tab"
+                egyptian_arabic = "Ayn Tab"
+                andalusian_arabic = "Ayn Tab"
+                sicilian_arabic = "Ayn Tab"
+                frankish = "Hamtab"
+                norman = "Hamtab"
+                greek = "Doliche"
+                b_aintab = {
+                    bedouin_arabic = "Ayn Tab"
+                    maghreb_arabic = "Ayn Tab"
+                    levantine_arabic = "Ayn Tab"
+                    egyptian_arabic = "Ayn Tab"
+                    andalusian_arabic = "Ayn Tab"
+                    sicilian_arabic = "Ayn Tab"
+                    frankish = "Hamtab"
+                    norman = "Hamtab"
+                }
+                b_tulupe = {}
+                b_killiz = {}
+                b_ravendan = {
+                    bedouin_arabic = "ar-Rawandan"
+                    maghreb_arabic = "ar-Rawandan"
+                    levantine_arabic = "ar-Rawandan"
+                    egyptian_arabic = "ar-Rawandan"
+                    andalusian_arabic = "ar-Rawandan"
+                    sicilian_arabic = "ar-Rawandan"
+                }
+                b_duluk = {
+                    bedouin_arabic = "Duluk"
+                    maghreb_arabic = "Duluk"
+                    levantine_arabic = "Duluk"
+                    egyptian_arabic = "Duluk"
+                    andalusian_arabic = "Duluk"
+                    sicilian_arabic = "Duluk"
+                    oghuz = "Dülük"
+                    turkmen = "Dülük"
+                    turkish = "Dülük"
+                    greek = "Doliche"
+                }
+            }
+            c_kaisun = {
+                color = { 157 255 9 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Kaisum"
+                maghreb_arabic = "Kaisum"
+                levantine_arabic = "Kaisum"
+                egyptian_arabic = "Kaisum"
+                andalusian_arabic = "Kaisum"
+                sicilian_arabic = "Kaisum"
+                greek = "Kaison"
+                b_kaisun = {
+                    bedouin_arabic = "Kaisum"
+                    maghreb_arabic = "Kaisum"
+                    levantine_arabic = "Kaisum"
+                    egyptian_arabic = "Kaisum"
+                    andalusian_arabic = "Kaisum"
+                    sicilian_arabic = "Kaisum"
+                    greek = "Kaison"
+                }
+                b_behetselin = {
+                    bedouin_arabic = "Hisn Mansur"
+                    maghreb_arabic = "Hisn Mansur"
+                    levantine_arabic = "Hisn Mansur"
+                    egyptian_arabic = "Hisn Mansur"
+                    andalusian_arabic = "Hisn Mansur"
+                    armenian = "Perre"
+                    greek = "Perre"
+                    oghuz = "Hisn-i Mansur"
+                    turkmen = "Hisn-i Mansur"
+                    turkish = "Hisn-i Mansur"
+                    kurdish = "Semsûr"
+                }
+                b_raban = {
+                    greek = "Rabaine"
+                }
+                b_hartanedessa = {
+                    bedouin_arabic = "Káhta"
+                    maghreb_arabic = "Káhta"
+                    levantine_arabic = "Káhta"
+                    egyptian_arabic = "Káhta"
+                    andalusian_arabic = "Káhta"
+                    greek = "Arsameia"
+                    oghuz = "Káhta"
+                    turkmen = "Káhta"
+                    turkish = "Káhta"
+                    kurdish = "Kolik"
+                }
+                b_karkaron = {
+                    armenian = "Gargar"
+                    bedouin_arabic = "Karkar"
+                    maghreb_arabic = "Karkar"
+                    levantine_arabic = "Karkar"
+                    egyptian_arabic = "Karkar"
+                    andalusian_arabic = "Karkar"
+                    oghuz = "Karkar"
+                    turkmen = "Karkar"
+                    turkish = "Karkar"
+                }
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_antioch = {
+            color = { 91 139 188 }
+            color2 = { 255 255 255 }
+            short_name = yes
+            capital = 764
+            christian = 400
+            muslim = 200
+            bedouin_arabic = "Jund 'Awasim"
+            maghreb_arabic = "Jund 'Awasim"
+            levantine_arabic = "Jund 'Awasim"
+            egyptian_arabic = "Jund 'Awasim"
+            andalusian_arabic = "Jund 'Awasim"
+            sicilian_arabic = "Jund 'Awasim"
+            yemeni = "Jund 'Awasim"
+            hijazi = "Jund 'Awasim"
+            sanhaja = "Jund 'Awasim"
+            tagelmust = "Jund 'Awasim"
+            tuareg = "Jund 'Awasim"
+            masmuda = "Jund 'Awasim"
+            zanata = "Jund 'Awasim"
+            greek = "Antiokeias"
+            alan = "Antiokeias"
+            arberian = "Antiokeias"
+            armenian = "Antiok"
+            georgian = "Antiok"
+            frankish = "Principauté d'Antioche"
+            norman = "Principauté d'Antioche"
+            ethiopian = "Ansokya"
+            c_antiocheia = {
+                color = { 106 191 44 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Antakiya"
+                maghreb_arabic = "Antakiya"
+                levantine_arabic = "Antakiya"
+                egyptian_arabic = "Antakiya"
+                andalusian_arabic = "Antakiya"
+                sicilian_arabic = "Antakiya"
+                yemeni = "Antakiya"
+                hijazi = "Antakiya"
+                sanhaja = "Antakiya"
+                tagelmust = "Antakiya"
+                tuareg = "Antakiya"
+                masmuda = "Antakiya"
+                zanata = "Antakiya"
+                oghuz = "Antakiya"
+                turkmen = "Antakiya"
+                turkish = "Antakiya"
+                armenian = "Antiok"
+                assyrian = "Antiokia"
+                ethiopian = "Ansokya"
+                b_antiocheia = {
+                    bedouin_arabic = "Antakiya"
+                    maghreb_arabic = "Antakiya"
+                    levantine_arabic = "Antakiya"
+                    egyptian_arabic = "Antakiya"
+                    andalusian_arabic = "Antakiya"
+                    sicilian_arabic = "Antakiya"
+                    yemeni = "Antakiya"
+                    hijazi = "Antakiya"
+                    sanhaja = "Antakiya"
+                    tagelmust = "Antakiya"
+                    tuareg = "Antakiya"
+                    masmuda = "Antakiya"
+                    zanata = "Antakiya"
+                    turkish = "Antakiya"
+                    armenian = "Antiok"
+                    assyrian = "Antiokia"
+                    ethiopian = "Ansokya"
+                }
+                b_stsymeon = {
+                    bedouin_arabic = "as-Suwaydiyah"
+                    maghreb_arabic = "as-Suwaydiyah"
+                    levantine_arabic = "as-Suwaydiyah"
+                    egyptian_arabic = "as-Suwaydiyah"
+                    andalusian_arabic = "as-Suwaydiyah"
+                    sicilian_arabic = "as-Suwaydiyah"
+                    greek = "Seleukeia Pieria"
+                    oghuz = "Süveydiye"
+                    turkmen = "Süveydiye"
+                    turkish = "Süveydiye"
+                    armenian = "Svedia"
+                }
+                b_darbsak = {
+                    bedouin_arabic = "ad-Darbasak"
+                    maghreb_arabic = "ad-Darbasak"
+                    levantine_arabic = "ad-Darbasak"
+                    egyptian_arabic = "ad-Darbasak"
+                    andalusian_arabic = "ad-Darbasak"
+                    sicilian_arabic = "ad-Darbasak"
+                    frankish = "Trapesac"
+                    norman = "Trapesac"
+                    greek = "Trapezon"
+                }
+                b_harenc = {
+                    bedouin_arabic = "Qalat Antakiya"
+                    maghreb_arabic = "Qalat Antakiya"
+                    levantine_arabic = "Qalat Antakiya"
+                    egyptian_arabic = "Qalat Antakiya"
+                    andalusian_arabic = "Qalat Antakiya"
+                    sicilian_arabic = "Qalat Antakiya"
+                    yemeni = "Qalat Antakiya"
+                    hijazi = "Qalat Antakiya"
+                    sanhaja = "Qalat Antakiya"
+                    tagelmust = "Qalat Antakiya"
+                    tuareg = "Qalat Antakiya"
+                    masmuda = "Qalat Antakiya"
+                    zanata = "Qalat Antakiya"
+                    oghuz = "Antakiya Hisar"
+                    turkmen = "Antakiya Hisar"
+                    turkish = "Antakiya Hisar"
+                    armenian = "Antiokla"
+                    greek = "Kastro Antiokheia"
+                }
+                b_baghras = {
+                    oghuz = "Bakras"
+                    turkmen = "Bakras"
+                    turkish = "Bakras"
+                    greek = "Pagrai"
+                    armenian = "Pagrai"
+                    frankish = "Gaston"
+                    norman = "Gaston"
+                }
+                b_artasium = {
+                    bedouin_arabic = "Artah"
+                    maghreb_arabic = "Artah"
+                    levantine_arabic = "Artah"
+                    egyptian_arabic = "Artah"
+                    andalusian_arabic = "Artah"
+                    sicilian_arabic = "Artah"
+                    frankish = "Artasia"
+                    norman = "Artasia"
+                }
+            }
+            c_hazart = {
+                color = { 106 191 44 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Azaz"
+                maghreb_arabic = "Azaz"
+                levantine_arabic = "Azaz"
+                egyptian_arabic = "Azaz"
+                andalusian_arabic = "Azaz"
+                sicilian_arabic = "Azaz"
+                b_hazart = {
+                    bedouin_arabic = "Azaz"
+                    maghreb_arabic = "Azaz"
+                    levantine_arabic = "Azaz"
+                    egyptian_arabic = "Azaz"
+                    andalusian_arabic = "Azaz"
+                    sicilian_arabic = "Azaz"
+                }
+                b_harimantiochia = {
+                    frankish = "Harenc"
+                    norman = "Harenc"
+                }
+                b_zerdana = {
+                    bedouin_arabic = "Zaradna"
+                    maghreb_arabic = "Zaradna"
+                    levantine_arabic = "Zaradna"
+                    egyptian_arabic = "Zaradna"
+                    andalusian_arabic = "Zaradna"
+                    sicilian_arabic = "Zaradna"
+                    frankish = "Sardona"
+                    norman = "Sardona"
+                }
+                b_sarmada = {
+                    frankish = "Samarta"
+                    norman = "Samarta"
+                }
+            }
+            c_saone = {
+                color = { 106 191 44 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "al-Ladiqiya"
+                maghreb_arabic = "al-Ladiqiya"
+                levantine_arabic = "al-Ladiqiya"
+                egyptian_arabic = "al-Ladiqiya"
+                andalusian_arabic = "al-Ladiqiya"
+                sicilian_arabic = "al-Ladiqiya"
+                yemeni = "al-Ladiqiya"
+                hijazi = "al-Ladiqiya"
+                greek = "Laodikeia"
+                b_latakiah = {
+                    bedouin_arabic = "al-Ladiqiya"
+                    maghreb_arabic = "al-Ladiqiya"
+                    levantine_arabic = "al-Ladiqiya"
+                    egyptian_arabic = "al-Ladiqiya"
+                    andalusian_arabic = "al-Ladiqiya"
+                    sicilian_arabic = "al-Ladiqiya"
+                    yemeni = "al-Ladiqiya"
+                    hijazi = "al-Ladiqiya"
+                    frankish = "Laodicée"
+                    norman = "Laodicée"
+                    greek = "Laodikeia"
+                }
+                b_hisnaddair = {}
+                b_stdanielsyria = {}
+                b_saone = {
+                    bedouin_arabic = "Sahyun"
+                    maghreb_arabic = "Sahyun"
+                    levantine_arabic = "Sahyun"
+                    egyptian_arabic = "Sahyun"
+                    andalusian_arabic = "Sahyun"
+                    sicilian_arabic = "Sahyun"
+                    yemeni = "Sahyun"
+                    hijazi = "Sahyun"
+                    greek = "Sigon"
+                }
+                b_jabala = {
+                    bedouin_arabic = "Gabla"
+                    maghreb_arabic = "Gabla"
+                    levantine_arabic = "Gabla"
+                    egyptian_arabic = "Gabla"
+                    andalusian_arabic = "Gabla"
+                    sicilian_arabic = "Gabla"
+                    frankish = "Gabula"
+                    norman = "Gabula"
+                    greek = "Gabala"
+                }
+                b_balatanos = {
+                    bedouin_arabic = "Ablatunus"
+                    maghreb_arabic = "Ablatunus"
+                    levantine_arabic = "Ablatunus"
+                    egyptian_arabic = "Ablatunus"
+                    andalusian_arabic = "Ablatunus"
+                    sicilian_arabic = "Ablatunus"
+                }
+                b_gibellum = {}
+            }
+            c_archa = {
+                color = { 109 194 47 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Fámieh"
+                maghreb_arabic = "Fámieh"
+                levantine_arabic = "Fámieh"
+                egyptian_arabic = "Fámieh"
+                andalusian_arabic = "Fámieh"
+                sicilian_arabic = "Fámieh"
+                yemeni = "Fámieh"
+                hijazi = "Fámieh"
+                frankish = "Apamée"
+                norman = "Apamée"
+                greek = "Apameia"
+                b_sarmeniasyria = {
+                    bedouin_arabic = "Sarmin"
+                    maghreb_arabic = "Sarmin"
+                    levantine_arabic = "Sarmin"
+                    egyptian_arabic = "Sarmin"
+                    andalusian_arabic = "Sarmin"
+                    sicilian_arabic = "Sarmin"
+                }
+                b_albarasyria = {
+                    bedouin_arabic = "al-Bara"
+                    maghreb_arabic = "al-Bara"
+                    levantine_arabic = "al-Bara"
+                    egyptian_arabic = "al-Bara"
+                    andalusian_arabic = "al-Bara"
+                    sicilian_arabic = "al-Bara"
+                }
+                b_famia = {
+                    bedouin_arabic = "Fámieh"
+                    maghreb_arabic = "Fámieh"
+                    levantine_arabic = "Fámieh"
+                    egyptian_arabic = "Fámieh"
+                    andalusian_arabic = "Fámieh"
+                    sicilian_arabic = "Fámieh"
+                    yemeni = "Fámieh"
+                    hijazi = "Fámieh"
+                    frankish = "Apamée"
+                    norman = "Apamée"
+                    greek = "Apameia"
+                }
+                b_bourzeycastle = {
+                    bedouin_arabic = "Barzuya"
+                    maghreb_arabic = "Barzuya"
+                    levantine_arabic = "Barzuya"
+                    egyptian_arabic = "Barzuya"
+                    andalusian_arabic = "Barzuya"
+                    sicilian_arabic = "Barzuya"
+                    frankish = "Rochefort"
+                    norman = "Rochefort"
+                    greek = "Lysias"
+                }
+                b_treiz = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_tripoli = {
+            color = { 154 39 39 }
+            color2 = { 255 255 255 }
+            name_tier = count
+            capital = 767
+            bedouin_arabic = "Tarabulus"
+            maghreb_arabic = "Tarabulus"
+            levantine_arabic = "Tarabulus"
+            egyptian_arabic = "Tarabulus"
+            andalusian_arabic = "Tarabulus"
+            sicilian_arabic = "Tarabulus"
+            sanhaja = "Tarabulus"
+            tagelmust = "Tarabulus"
+            tuareg = "Tarabulus"
+            masmuda = "Tarabulus"
+            zanata = "Tarabulus"
+            roman = "Phoenice"
+            greek = "Phoiníkes"
+            c_tortosa = {
+                color = { 73 152 34 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Antartus"
+                maghreb_arabic = "Antartus"
+                levantine_arabic = "Antartus"
+                egyptian_arabic = "Antartus"
+                andalusian_arabic = "Antartus"
+                sicilian_arabic = "Antartus"
+                yemeni = "Antartus"
+                hijazi = "Antartus"
+                sanhaja = "Antartus"
+                tagelmust = "Antartus"
+                tuareg = "Antartus"
+                masmuda = "Antartus"
+                zanata = "Antartus"
+                greek = "Antarados"
+                b_tortosa = {
+                    bedouin_arabic = "Antartus"
+                    maghreb_arabic = "Antartus"
+                    levantine_arabic = "Antartus"
+                    egyptian_arabic = "Antartus"
+                    andalusian_arabic = "Antartus"
+                    sicilian_arabic = "Antartus"
+                    yemeni = "Antartus"
+                    hijazi = "Antartus"
+                    sanhaja = "Antartus"
+                    tagelmust = "Antartus"
+                    tuareg = "Antartus"
+                    masmuda = "Antartus"
+                    zanata = "Antartus"
+                    greek = "Antarados"
+                }
+                b_maraclea = {
+                    bedouin_arabic = "Maraqiya"
+                    maghreb_arabic = "Maraqiya"
+                    levantine_arabic = "Maraqiya"
+                    egyptian_arabic = "Maraqiya"
+                    andalusian_arabic = "Maraqiya"
+                    sicilian_arabic = "Maraqiya"
+                    yemeni = "Maraqiya"
+                    hijazi = "Maraqiya"
+                    greek = "Marakleia"
+                }
+                b_valania = {
+                    bedouin_arabic = "Bulunyas"
+                    maghreb_arabic = "Bulunyas"
+                    levantine_arabic = "Bulunyas"
+                    egyptian_arabic = "Bulunyas"
+                    andalusian_arabic = "Bulunyas"
+                    sicilian_arabic = "Bulunyas"
+                    greek = "Balanias"
+                }
+                b_margat = {
+                    bedouin_arabic = "al-Marqab"
+                    maghreb_arabic = "al-Marqab"
+                    levantine_arabic = "al-Marqab"
+                    egyptian_arabic = "al-Marqab"
+                    andalusian_arabic = "al-Marqab"
+                    sicilian_arabic = "al-Marqab"
+                }
+                b_ruad = {}
+                b_alkhawabi = {
+                    frankish = "La Coïble"
+                    norman = "La Coïble"
+                }
+            }
+            c_monferrand = {
+                color = { 73 152 34 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Hisn -al Akrad"
+                maghreb_arabic = "Hisn -al Akrad"
+                levantine_arabic = "Hisn -al Akrad"
+                egyptian_arabic = "Hisn -al Akrad"
+                andalusian_arabic = "Hisn -al Akrad"
+                sicilian_arabic = "Hisn -al Akrad"
+                yemeni = "Hisn -al Akrad"
+                hijazi = "Hisn -al Akrad"
+                sanhaja = "Hisn -al Akrad"
+                tagelmust = "Hisn -al Akrad"
+                tuareg = "Hisn -al Akrad"
+                masmuda = "Hisn -al Akrad"
+                zanata = "Hisn -al Akrad"
+                greek = "Raphaniai"
+                b_chastelrouge = {
+                    bedouin_arabic = "Qalat Yahmur"
+                    maghreb_arabic = "Qalat Yahmur"
+                    levantine_arabic = "Qalat Yahmur"
+                    egyptian_arabic = "Qalat Yahmur"
+                    andalusian_arabic = "Qalat Yahmur"
+                    sicilian_arabic = "Qalat Yahmur"
+                    sanhaja = "Qalat Yahmur"
+                    tagelmust = "Qalat Yahmur"
+                    tuareg = "Qalat Yahmur"
+                    masmuda = "Qalat Yahmur"
+                    zanata = "Qalat Yahmur"
+                }
+                b_zweitina = {}
+                b_chastelblanc = {
+                    bedouin_arabic = "Burj Safita"
+                    maghreb_arabic = "Burj Safita"
+                    levantine_arabic = "Burj Safita"
+                    egyptian_arabic = "Burj Safita"
+                    andalusian_arabic = "Burj Safita"
+                    sicilian_arabic = "Burj Safita"
+                    sanhaja = "Burj Safita"
+                    tagelmust = "Burj Safita"
+                    tuareg = "Burj Safita"
+                    masmuda = "Burj Safita"
+                    zanata = "Burj Safita"
+                }
+                b_krakdeschevaliers = {
+                    bedouin_arabic = "Hisn -al Akrad"
+                    maghreb_arabic = "Hisn -al Akrad"
+                    levantine_arabic = "Hisn -al Akrad"
+                    egyptian_arabic = "Hisn -al Akrad"
+                    andalusian_arabic = "Hisn -al Akrad"
+                    sicilian_arabic = "Hisn -al Akrad"
+                    yemeni = "Hisn -al Akrad"
+                    hijazi = "Hisn -al Akrad"
+                    sanhaja = "Hisn -al Akrad"
+                    tagelmust = "Hisn -al Akrad"
+                    tuareg = "Hisn -al Akrad"
+                    masmuda = "Hisn -al Akrad"
+                    zanata = "Hisn -al Akrad"
+                }
+                b_raphania = {
+                    bedouin_arabic = "Rafaniya"
+                    maghreb_arabic = "Rafaniya"
+                    levantine_arabic = "Rafaniya"
+                    egyptian_arabic = "Rafaniya"
+                    andalusian_arabic = "Rafaniya"
+                    sicilian_arabic = "Rafaniya"
+                    yemeni = "Rafaniya"
+                    hijazi = "Rafaniya"
+                    roman = "Raphaneae"
+                    greek = "Raphaniai"
+                }
+            }
+            c_masyaf = {
+                color = { 73 152 34 }
+                color2 = { 255 255 255 }
+                roman = "Marsyas"
+                greek = "Marsyas"
+                b_alkahf = {}
+                b_masyaf = {
+                    roman = "Marsyas"
+                    greek = "Marsyas"
+                }
+                b_alqadamus = {}
+            }
+            c_tripoli = {
+                color = { 75 154 36 }
+                color2 = { 255 255 255 }
+                bedouin_arabic = "Tarabulus"
+                maghreb_arabic = "Tarabulus"
+                levantine_arabic = "Tarabulus"
+                egyptian_arabic = "Tarabulus"
+                andalusian_arabic = "Tarabulus"
+                sicilian_arabic = "Tarabulus"
+                yemeni = "Tarabulus"
+                hijazi = "Tarabulus"
+                sanhaja = "Tarabulus"
+                tagelmust = "Tarabulus"
+                tuareg = "Tarabulus"
+                masmuda = "Tarabulus"
+                zanata = "Tarabulus"
+                b_syrtripoli = {
+                    bedouin_arabic = "Tarabulus"
+                    maghreb_arabic = "Tarabulus"
+                    levantine_arabic = "Tarabulus"
+                    egyptian_arabic = "Tarabulus"
+                    andalusian_arabic = "Tarabulus"
+                    sicilian_arabic = "Tarabulus"
+                    yemeni = "Tarabulus"
+                    hijazi = "Tarabulus"
+                    sanhaja = "Tarabulus"
+                    tagelmust = "Tarabulus"
+                    tuareg = "Tarabulus"
+                    masmuda = "Tarabulus"
+                    zanata = "Tarabulus"
+                }
+                b_citadeloftripoli = {
+                    bedouin_arabic = "Qalat Tarabulus"
+                    maghreb_arabic = "Qalat Tarabulus"
+                    levantine_arabic = "Qalat Tarabulus"
+                    egyptian_arabic = "Qalat Tarabulus"
+                    andalusian_arabic = "Qalat Tarabulus"
+                    sicilian_arabic = "Qalat Tarabulus"
+                    yemeni = "Qalat Tarabulus"
+                    hijazi = "Qalat Tarabulus"
+                    sanhaja = "Qalat Tarabulus"
+                    tagelmust = "Qalat Tarabulus"
+                    tuareg = "Qalat Tarabulus"
+                    masmuda = "Qalat Tarabulus"
+                    zanata = "Qalat Tarabulus"
+                    greek = "Kastro Tripolis"
+                }
+                b_citdaelofsaintgilles = {
+                    bedouin_arabic = "Qalat Sanjil"
+                    maghreb_arabic = "Qalat Sanjil"
+                    levantine_arabic = "Qalat Sanjil"
+                    egyptian_arabic = "Qalat Sanjil"
+                    andalusian_arabic = "Qalat Sanjil"
+                    sicilian_arabic = "Qalat Sanjil"
+                    sanhaja = "Qalat Sanjil"
+                    tagelmust = "Qalat Sanjil"
+                    tuareg = "Qalat Sanjil"
+                    masmuda = "Qalat Sanjil"
+                    zanata = "Qalat Sanjil"
+                }
+                b_buissera = {
+                    frankish = "Buissera"
+                    norman = "Buissera"
+                }
+                b_archa = {
+                    bedouin_arabic = "Arqa"
+                    maghreb_arabic = "Arqa"
+                    levantine_arabic = "Arqa"
+                    egyptian_arabic = "Arqa"
+                    andalusian_arabic = "Arqa"
+                    sicilian_arabic = "Arqa"
+                    greek = "Archa"
+                }
+                b_amiountripoli = {}
+                b_nephin = {
+                    bedouin_arabic = "Hisn Anaf"
+                    maghreb_arabic = "Hisn Anaf"
+                    levantine_arabic = "Hisn Anaf"
+                    egyptian_arabic = "Hisn Anaf"
+                    andalusian_arabic = "Hisn Anaf"
+                    sicilian_arabic = "Hisn Anaf"
+                    greek = "Nephioun"
+                }
+            }
+            c_gibelet = {
+                color = { 75 154 36 }
+                color2 = { 255 255 255 }
+                name_tier = baron
+                bedouin_arabic = "Jebail"
+                maghreb_arabic = "Jebail"
+                levantine_arabic = "Jebail"
+                egyptian_arabic = "Jebail"
+                andalusian_arabic = "Jebail"
+                sicilian_arabic = "Jebail"
+                yemeni = "Jebail"
+                hijazi = "Jebail"
+                sanhaja = "Jebail"
+                tagelmust = "Jebail"
+                tuareg = "Jebail"
+                masmuda = "Jebail"
+                zanata = "Jebail"
+                roman = "Byblus"
+                greek = "Byblos"
+                b_gibeletcastle = {
+                    bedouin_arabic = "Qalat Jebail"
+                    maghreb_arabic = "Qalat Jebail"
+                    levantine_arabic = "Qalat Jebail"
+                    egyptian_arabic = "Qalat Jebail"
+                    andalusian_arabic = "Qalat Jebail"
+                    sicilian_arabic = "Qalat Jebail"
+                    sanhaja = "Qalat Jebail"
+                    tagelmust = "Qalat Jebail"
+                    tuareg = "Qalat Jebail"
+                    masmuda = "Qalat Jebail"
+                    zanata = "Qalat Jebail"
+                    roman = "Castrum Byblus"
+                    greek = "Kastro Byblos"
+                }
+                b_gibelet = {
+                    bedouin_arabic = "Jebail"
+                    maghreb_arabic = "Jebail"
+                    levantine_arabic = "Jebail"
+                    egyptian_arabic = "Jebail"
+                    andalusian_arabic = "Jebail"
+                    sicilian_arabic = "Jebail"
+                    yemeni = "Jebail"
+                    hijazi = "Jebail"
+                    sanhaja = "Jebail"
+                    tagelmust = "Jebail"
+                    tuareg = "Jebail"
+                    masmuda = "Jebail"
+                    zanata = "Jebail"
+                    roman = "Byblus"
+                    greek = "Byblos"
+                }
+                b_boutron = {}
+                b_besmedin = {}
+                b_msheilfort = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        allow = {
+            religion_group = christian
+            title_king_basic_allow = yes
+        }
+    }
+    k_aljazira = {
+        color = { 255 2 36 }
+        color2 = { 255 255 255 }
+        capital = 697
+        culture = levantine_arabic
+        roman = "Assyria"
+        greek = "Assyria"
+        armenian = "Arvastan"
+        pahlavi = "Arbayistan"
+        orthodox = 200
+        muslim = 400
+        d_amida = {
+            color = { 102 78 57 }
+            color2 = { 255 255 255 }
+            armenian = "Aghdznik"
+            greek = "Arzanene"
+            oghuz = "Diyar-i Bekr"
+            turkmen = "Diyar-i Bekr"
+            turkish = "Diyar-i Bekr"
+            maghreb_arabic = "Diyar Bakr"
+            levantine_arabic = "Diyar Bakr"
+            egyptian_arabic = "Diyar Bakr"
+            andalusian_arabic = "Diyar Bakr"
+            sicilian_arabic = "Diyar Bakr"
+            bedouin_arabic = "Diyar Bakr"
+            yemeni = "Diyar Bakr"
+            hijazi = "Diyar Bakr"
+            kurdish = "Amed"
+            capital = 683
+            c_amida = {
+                color = { 129 166 48 }
+                color2 = { 255 255 255 }
+                armenian = "Tigranakert"
+                oghuz = "Diyar-i Bekr"
+                turkmen = "Diyar-i Bekr"
+                turkish = "Diyar-i Bekr"
+                maghreb_arabic = "Ámid"
+                levantine_arabic = "Ámid"
+                egyptian_arabic = "Ámid"
+                andalusian_arabic = "Ámid"
+                sicilian_arabic = "Ámid"
+                bedouin_arabic = "Ámid"
+                yemeni = "Ámid"
+                hijazi = "Ámid"
+                assyrian = "Amid"
+                kurdish = "Amed"
+                b_kiaburc = {
+                    greek = "Kastron Amida"
+                }
+                b_amida = {
+                    armenian = "Tigranakert"
+                    oghuz = "Diyar-i Bekr"
+                    turkmen = "Diyar-i Bekr"
+                    turkish = "Diyar-i Bekr"
+                    maghreb_arabic = "Ámid"
+                    levantine_arabic = "Ámid"
+                    egyptian_arabic = "Ámid"
+                    andalusian_arabic = "Ámid"
+                    sicilian_arabic = "Ámid"
+                    bedouin_arabic = "Ámid"
+                    yemeni = "Ámid"
+                    hijazi = "Ámid"
+                    assyrian = "Amid"
+                    kurdish = "Amed"
+                }
+                b_ulucamii = {
+                    armenian = "Surp Giragos"
+                    greek = "Monì tìs Agios Giragos"
+                }
+                b_suraamede = {}
+                b_hazretisuleymancamii = {}
+                b_egil = {}
+                b_idtodyolataloho = {}
+            }
+            c_hisn_kayf = {
+                color = { 162 191 44 }
+                color2 = { 255 255 255 }
+                greek = "Martyropolis"
+                maghreb_arabic = "Mayyafariqin"
+                levantine_arabic = "Mayyafariqin"
+                egyptian_arabic = "Mayyafariqin"
+                andalusian_arabic = "Mayyafariqin"
+                sicilian_arabic = "Mayyafariqin"
+                bedouin_arabic = "Mayyafariqin"
+                yemeni = "Mayyafariqin"
+                hijazi = "Mayyafariqin"
+                oghuz = "Hasankeyf"
+                turkmen = "Hasankeyf"
+                turkish = "Hasankeyf"
+                kurdish = "Heskîf"
+                armenian = "Nprkert"
+                assyrian = "Mayperqit"
+                b_mayyafarikin = {
+                    armenian = "Nprkert"
+                    greek = "Martyropolis"
+                    oghuz = "Meyafarikín"
+                    turkmen = "Meyafarikín"
+                    turkish = "Meyafarikín"
+                    maghreb_arabic = "Mayyafariqin"
+                    levantine_arabic = "Mayyafariqin"
+                    egyptian_arabic = "Mayyafariqin"
+                    andalusian_arabic = "Mayyafariqin"
+                    sicilian_arabic = "Mayyafariqin"
+                    bedouin_arabic = "Mayyafariqin"
+                    yemeni = "Mayyafariqin"
+                    hijazi = "Mayyafariqin"
+                    kurdish = "Farqîn"
+                    assyrian = "Mayperqit"
+                }
+                b_hisnkayf = {
+                    greek = "Kiphas"
+                    oghuz = "Hasankeyf"
+                    turkmen = "Hasankeyf"
+                    turkish = "Hasankeyf"
+                    kurdish = "Heskîf"
+                    armenian = "Harsenkev"
+                    assyrian = "Hésn Kayfa"
+                }
+                b_siird = {
+                    greek = "Sirte"
+                    oghuz = "Si'irt"
+                    turkmen = "Si'irt"
+                    turkish = "Si'irt"
+                    kurdish = "Sêrt"
+                    armenian = "Sgert"
+                    assyrian = "Si'reth"
+                }
+                b_arzan = {
+                    greek = "Nikephorion"
+                    oghuz = "Erzen"
+                    turkmen = "Erzen"
+                    turkish = "Erzen"
+                    maghreb_arabic = "Arzan"
+                    levantine_arabic = "Arzan"
+                    egyptian_arabic = "Arzan"
+                    andalusian_arabic = "Arzan"
+                    sicilian_arabic = "Arzan"
+                    bedouin_arabic = "Arzan"
+                    kurdish = "Arzan"
+                    assyrian = "Arzun"
+                }
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_jazira = {
+            color = { 96 115 255 }
+            color2 = { 255 255 255 }
+            capital = 709
+            roman = "Euphratensis"
+            greek = "Euphratensis"
+            c_asas = {
+                color = { 87 234 22 }
+                color2 = { 255 255 255 }
+                roman = "Callinicum"
+                greek = "Kallinikos"
+                assyrian = "Qaliniqos"
+                b_rakka = {
+                    roman = "Callinicum"
+                    greek = "Kallinikos"
+                    assyrian = "Qaliniqos"
+                }
+                b_qalatjabar = {
+                    roman = "Dausara"
+                    greek = "Dausara"
+                    oghuz = "Caber Hisar"
+                    turkmen = "Caber Hisar"
+                    turkish = "Caber Hisar"
+                }
+                b_talabyad = {}
+                b_resafa = {
+                    roman = "Sergiopolis"
+                    greek = "Sergioupolis"
+                }
+                b_ar-rafiqa = {}
+                b_bizunasyria = {}
+                b_zarzakka = {}
+            }
+            c_al_bichri = {
+                color = { 15 95 242 }
+                color2 = { 255 255 255 }
+                roman = "Circesium"
+                greek = "Kirkesion"
+                assyrian = "Qerqesin"
+                b_bichri = {}
+                b_deiralzur = {
+                    roman = "Deir"
+                    greek = "Deir"
+                    armenian = "Der Zor"
+                }
+                b_osrhoene = {
+                    roman = "Circesium"
+                    greek = "Kirkesion"
+                    assyrian = "Qerqesin"
+                }
+                b_abukamal = {}
+                b_shamiyya = {}
+                b_mayadin = {}
+                b_sirhi = {}
+                b_mhaymidah = {}
+            }
+            c_harran = {
+                color = { 153 255 5 }
+                color2 = { 255 255 255 }
+                roman = "Carrhae"
+                greek = "Karrai"
+                b_harran = {
+                    roman = "Carrhae"
+                    greek = "Karrai"
+                }
+                b_tallmazwan = {
+                    roman = "Constantina"
+                    greek = "Konstantina"
+                    assyrian = "Tella d'Mauzalath"
+                    oghuz = "Viransehir"
+                    turkmen = "Viransehir"
+                    turkish = "Viransehir"
+                }
+                b_akcakale = {}
+                b_ceylanpinar = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_diyareast = {
+            color = { 255 239 63 }
+            color2 = { 255 255 255 }
+            capital = 697
+            armenian = "Arvastan"
+            pahlavi = "Arbayistan"
+            c_mardin = {
+                color = { 129 166 48 }
+                color2 = { 255 255 255 }
+                greek = "Marida"
+                maghreb_arabic = "Máridín"
+                levantine_arabic = "Máridín"
+                egyptian_arabic = "Máridín"
+                andalusian_arabic = "Máridín"
+                sicilian_arabic = "Máridín"
+                bedouin_arabic = "Máridín"
+                kurdish = "Mêrdîn"
+                assyrian = "Merdô"
+                b_maridin = {
+                    greek = "Marida"
+                    armenian = "Marida"
+                    maghreb_arabic = "Máridín"
+                    levantine_arabic = "Máridín"
+                    egyptian_arabic = "Máridín"
+                    andalusian_arabic = "Máridín"
+                    sicilian_arabic = "Máridín"
+                    bedouin_arabic = "Máridín"
+                    kurdish = "Mêrdîn"
+                    assyrian = "Merdô"
+                }
+                b_resaina = {
+                    bedouin_arabic = "Ra's al-Ayn"
+                    maghreb_arabic = "Ra's al-Ayn"
+                    levantine_arabic = "Ra's al-Ayn"
+                    egyptian_arabic = "Ra's al-Ayn"
+                    andalusian_arabic = "Ra's al-Ayn"
+                    sicilian_arabic = "Ra's al-Ayn"
+                    oghuz = "Resulayn"
+                    turkmen = "Resulayn"
+                    turkish = "Resulayn"
+                    assyrian = "Reš Ayna"
+                }
+                b_dunaysir = {
+                    armenian = "Tyel-Armen"
+                    greek = "Margdis"
+                    oghuz = "Tell-Ermen"
+                    turkmen = "Tell-Ermen"
+                    turkish = "Tell-Ermen"
+                    maghreb_arabic = "Dunaysir"
+                    levantine_arabic = "Dunaysir"
+                    egyptian_arabic = "Dunaysir"
+                    andalusian_arabic = "Dunaysir"
+                    sicilian_arabic = "Dunaysir"
+                    bedouin_arabic = "Dunaysir"
+                    kurdish = "Qoser"
+                }
+                b_dairodmorhannanyo = {}
+                b_alsywaydaturkey = {
+                    oghuz = "Siverek"
+                    turkmen = "Siverek"
+                    turkish = "Siverek"
+                    armenian = "Sevaverak"
+                    greek = "Sevaverak"
+                    assyrian = "Sibaberek"
+                }
+            }
+            c_amadiya = {
+                color = { 133 170 52 }
+                color2 = { 255 255 255 }
+                greek = "Kordyene"
+                armenian = "Korchayk"
+                oghuz = "Amadiye"
+                turkmen = "Amadiye"
+                turkish = "Amadiye"
+                kurdish = "Kardox"
+                assyrian = "Amadiya"
+                b_amadiyah = {
+                    oghuz = "Amadiye"
+                    turkmen = "Amadiye"
+                    turkish = "Amadiye"
+                    kurdish = "Amêdî"
+                    assyrian = "Amadiya"
+                }
+                b_hakkari = {
+                    oghuz = "Çölemerik"
+                    turkmen = "Çölemerik"
+                    turkish = "Çölemerik"
+                    kurdish = "Colemêrg"
+                    armenian = "Ilmar"
+                }
+                b_alki = {
+                    oghuz = "Elki"
+                    turkmen = "Elki"
+                    turkish = "Elki"
+                    kurdish = "Elkê"
+                }
+            }
+            c_al_jazira = {
+                color = { 13 93 240 }
+                color2 = { 255 255 255 }
+                greek = "Bethzabde"
+                oghuz = "Cizre"
+                turkmen = "Cizre"
+                turkish = "Cizre"
+                kurdish = "Cizîr"
+                assyrian = "Gazarta"
+                b_jazirat = {
+                    greek = "Bethzabde"
+                    oghuz = "Cizre"
+                    turkmen = "Cizre"
+                    turkish = "Cizre"
+                    kurdish = "Cizîr"
+                    assyrian = "Gzira"
+                }
+                b_barqaid = {}
+                b_faysabur = {
+                    kurdish = "Faysh-Khabur"
+                    pahlavi = "Peroz Shapur"
+                }
+                b_fenek = {
+                    greek = "Penek"
+                    armenian = "Penek"
+                    assyrian = "Penek"
+                    oghuz = "Fenek Hisar"
+                    turkmen = "Fenek Hisar"
+                    turkish = "Fenek Hisar"
+                }
+            }
+            c_sinjar = {
+                color = { 17 97 244 }
+                color2 = { 255 255 255 }
+                roman = "Singara"
+                greek = "Singara"
+                assyrian = "Beth Arabaye"
+                kurdish = "Sengal"
+                b_sinjar = {
+                    roman = "Singara"
+                    greek = "Singara"
+                    assyrian = "Šiggar"
+                    kurdish = "Sengal"
+                }
+                b_tallafar = {
+                    oghuz = "Telafer"
+                    turkmen = "Telafer"
+                    turkish = "Telafer"
+                }
+                b_hayyal = {}
+                b_baaj = {}
+                b_makisin = {}
+            }
+            c_bira = {
+                color = { 19 99 246 }
+                color2 = { 255 255 255 }
+                armenian = "Mtsbin"
+                greek = "Nisibis"
+                oghuz = "Nusaybin"
+                turkmen = "Nusaybin"
+                turkish = "Nusaybin"
+                kurdish = "Nisêbîn"
+                assyrian = "Nsibin"
+                b_nasibin = {
+                    armenian = "Mtsbin"
+                    greek = "Nisibis"
+                    oghuz = "Nusaybin"
+                    turkmen = "Nusaybin"
+                    turkish = "Nusaybin"
+                    maghreb_arabic = "Nasíbín"
+                    levantine_arabic = "Nasíbín"
+                    egyptian_arabic = "Nasíbín"
+                    andalusian_arabic = "Nasíbín"
+                    sicilian_arabic = "Nasíbín"
+                    bedouin_arabic = "Nasíbín"
+                    kurdish = "Nisêbîn"
+                    assyrian = "Nsibin"
+                }
+                b_dara = {}
+                b_araban = {}
+                b_amuda = {
+                    kurdish = "Amûdê"
+                }
+            }
+            c_nineveh = {
+                color = { 11 91 238 }
+                color2 = { 255 255 255 }
+                assyrian = "Hadyab"
+                b_bartella = {}
+                b_karamlish = {}
+                b_bakhdida = {
+                    assyrian = "Beth Khdeda"
+                }
+                b_baqofah = {
+                    assyrian = "Beth Qopa"
+                }
+                b_duhok = {
+                    assyrian = "Nohadra"
+                    maghreb_arabic = "Nohidrah"
+                    levantine_arabic = "Nohidrah"
+                    egyptian_arabic = "Nohidrah"
+                    andalusian_arabic = "Nohidrah"
+                    sicilian_arabic = "Nohidrah"
+                    bedouin_arabic = "Nohidrah"
+                }
+                b_aqra = {
+                    kurdish = "Akrê"
+                }
+                b_maaltha = {}
+                b_marmattai = {}
+            }
+            c_erbil = {
+                color = { 9 89 236 }
+                color2 = { 255 255 255 }
+                maghreb_arabic = "Arbil"
+                levantine_arabic = "Arbil"
+                egyptian_arabic = "Arbil"
+                andalusian_arabic = "Arbil"
+                sicilian_arabic = "Arbil"
+                bedouin_arabic = "Arbil"
+                roman = "Arbela"
+                greek = "Arbela"
+                assyrian = "Arbel"
+                kurdish = "Erbil"
+                b_arbil = {
+                    roman = "Arbela"
+                    greek = "Arbela"
+                    assyrian = "Arbel"
+                    kurdish = "Erbil"
+                }
+                b_shaqlawa = {}
+                b_darabad = {
+                    assyrian = "Beth Wazik"
+                }
+                b_tellhaftun = {
+                    assyrian = "Hebton"
+                }
+            }
+            c_mosul = {
+                color = { 9 89 236 }
+                color2 = { 255 255 255 }
+                roman = "Mepsila"
+                greek = "Mepsila"
+                assyrian = "Nînwe"
+                kurdish = "Mûsil"
+                pahlavi = "Nod-Ardashir"
+                b_mosulcastle = {
+                    roman = "Castrum Mepsila"
+                    greek = "Kastron Mepsila"
+                }
+                b_mosul = {
+                    roman = "Mepsila"
+                    greek = "Mepsila"
+                    assyrian = "Nînwe"
+                    kurdish = "Mûsil"
+                    pahlavi = "Nod-Ardashir"
+                }
+                b_baladmosul = {}
+                b_bawazij = {
+                    assyrian = "Beth Wazik"
+                }
+                b_haditha = {
+                    assyrian = "Hdatta"
+                }
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        allow = {
+            title_king_basic_allow = yes
+        }
+    }
     allow = {
         title_emperor_basic_allow = yes
     }
@@ -50291,6 +52370,61 @@ e_persia = {
                 title_duke_basic_allow = yes
             }
         }
+        d_khottal = {
+            color = { 118 223 170 }
+            color2 = { 255 255 255 }
+            capital = 1556
+            pahlavi = "Kushanshahr"
+            c_badakhshan = {
+                color = { 18 2 170 }
+                color2 = { 255 255 255 }
+                b_badakhshan = {}
+                b_shughnan = {}
+                b_jerm = {}
+                b_rustaq = {}
+                b_sanglich = {}
+                b_ishkashim = {}
+                b_dar-i-tubbat = {}
+            }
+            c_khuttal = {
+                color = { 18 23 10 }
+                color2 = { 255 255 255 }
+                b_hulbuk = {}
+                b_pargar = {}
+                b_munk = {}
+                b_halavand = {}
+                b_qubadiyan = {}
+                b_livkand = {}
+            }
+            c_rasht = {
+                color = { 118 23 170 }
+                color2 = { 255 255 255 }
+                b_shuman = {}
+                b_vashgird = {}
+                b_afridhan = {}
+                b_rasht = {}
+            }
+            c_chaghaniyan = {
+                color = { 90 223 170 }
+                color2 = { 255 255 255 }
+                b_chaghaniyan = {}
+                b_charmangan = {}
+                b_basand = {}
+                b_darzangi = {}
+                b_hashimgird = {}
+                b_hamvaran = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        allow = {
+            title_king_basic_allow = yes
+        }
+    }
+    k_khwarezmia = {
+        color = { 255 67 20 }
+        capital = 626
         d_khwarazm = {
             color = { 174 192 91 }
             color2 = { 255 255 255 }
@@ -50660,6 +52794,357 @@ e_persia = {
                 }
                 b_tiranshah = {}
                 b_sine = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        allow = {
+            title_king_basic_allow = yes
+        }
+    }
+    k_caucasian_albania = {
+        color = { 60 126 98 }
+        color2 = { 255 255 255 }
+        culture = udi
+        udi = "Aghvank"
+        armenian = "Aghvank"
+        georgian = "Albaneti"
+        pahlavi = "Ardhan"
+        orthodox = 200
+        capital = 1092
+        d_albania = {
+            color = { 255 203 100 }
+            color2 = { 255 255 255 }
+            udi = "Aghvank"
+            armenian = "Aghvank"
+            georgian = "Albaneti"
+            pahlavi = "Ardhan"
+            capital = 1530
+            c_arran = {
+                color = { 253 176 176 }
+                color2 = { 255 255 255 }
+                udi = "Partaw"
+                armenian = "Partaw"
+                georgian = "Rani"
+                greek = "Albania"
+                pahlavi = "Ardhan"
+                b_barda = {
+                    udi = "Partaw"
+                    armenian = "Partaw"
+                    georgian = "Bardavi"
+                }
+                b_baylakan = {}
+            }
+            c_utik = {
+                color = { 253 176 176 }
+                color2 = { 255 255 255 }
+                maghreb_arabic = "Utiq"
+                levantine_arabic = "Utiq"
+                egyptian_arabic = "Utiq"
+                andalusian_arabic = "Utiq"
+                sicilian_arabic = "Utiq"
+                bedouin_arabic = "Utiq"
+                greek = "Otene"
+                oghuz = "Gence"
+                turkmen = "Gence"
+                turkish = "Gence"
+                b_ganja = {
+                    oghuz = "Gence"
+                    turkmen = "Gence"
+                    turkish = "Gence"
+                    udi = "Gandzak"
+                    armenian = "Gandzak"
+                    georgian = "Gandza"
+                }
+                b_shamkhor = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_derbent = {
+            color = { 155 25 65 }
+            color2 = { 255 255 255 }
+            capital = 674
+            c_derbent = {
+                color = { 253 147 179 }
+                color2 = { 255 255 255 }
+                b_narinkala = {}
+                b_derbent = {}
+                b_juma = {}
+                b_chikkulkan = {}
+                b_quba = {}
+                b_kuli = {}
+                b_tayus = {}
+            }
+            c_lekia = {
+                color = { 253 147 179 }
+                color2 = { 255 255 255 }
+                pahlavi = "al-Lakza"
+                persian = "al-Lakza"
+                tajik = "al-Lakza"
+                daylamite = "al-Lakza"
+                khalaj = "al-Lakza"
+                sogdian = "al-Lakza"
+                khwarezmi = "al-Lakza"
+                kurdish = "al-Lakza"
+                afghan = "al-Lakza"
+                qufs = "al-Lakza"
+                baloch = "al-Lakza"
+                khazar = "Lezgistan"
+                pecheneg = "Lezgistan"
+                oghuz = "Lezgistan"
+                turkmen = "Lezgistan"
+                kasogi = "Lezgistan"
+                avar = "Lezgistan"
+                bashkir = "Lezgistan"
+                karluk = "Lezgistan"
+                mongol = "Lezgistan"
+                cuman = "Lezgistan"
+                kirghiz = "Lezgistan"
+                bolghar = "Lezgistan"
+                uyghur = "Lezgistan"
+                turkish = "Lezgistan"
+                bedouin_arabic = "al-Lakza"
+                maghreb_arabic = "al-Lakza"
+                levantine_arabic = "al-Lakza"
+                egyptian_arabic = "al-Lakza"
+                andalusian_arabic = "al-Lakza"
+                sicilian_arabic = "al-Lakza"
+                sanhaja = "al-Lakza"
+                tagelmust = "al-Lakza"
+                tuareg = "al-Lakza"
+                masmuda = "al-Lakza"
+                zanata = "al-Lakza"
+                b_kumukh = {
+                    pahlavi = "Gumik"
+                    persian = "Gumik"
+                    tajik = "Gumik"
+                    daylamite = "Gumik"
+                    khalaj = "Gumik"
+                    sogdian = "Gumik"
+                    khwarezmi = "Gumik"
+                    kurdish = "Gumik"
+                    afghan = "Gumik"
+                    qufs = "Gumik"
+                    baloch = "Gumik"
+                    bedouin_arabic = "Gumik"
+                    maghreb_arabic = "Gumik"
+                    levantine_arabic = "Gumik"
+                    egyptian_arabic = "Gumik"
+                    andalusian_arabic = "Gumik"
+                    sicilian_arabic = "Gumik"
+                    sanhaja = "Gumik"
+                    tagelmust = "Gumik"
+                    tuareg = "Gumik"
+                    masmuda = "Gumik"
+                    zanata = "Gumik"
+                }
+                b_tsakhur = {}
+                b_tabarsaran = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_shirvan = {
+            color = { 97 147 60 }
+            color2 = { 255 255 255 }
+            capital = 1092
+            pahlavi = "Balasagan"
+            c_shirvan = {
+                color = { 23 179 176 }
+                color2 = { 255 255 255 }
+                b_gulistan = {}
+                b_ahemakha = {}
+                b_bardij = {}
+                b_agsu = {}
+                b_arabsaki = {}
+            }
+            c_absheron = {
+                color = { 162 234 22 }
+                color2 = { 255 255 255 }
+                b_baku = {}
+                b_lankaran = {}
+                b_absheron = {}
+                b_shirvan = {}
+                b_shakhriyar = {}
+                b_salyan = {}
+                b_khizirzinda = {}
+                b_altiagay = {}
+            }
+            c_maskat = {
+                color = { 168 240 28 }
+                color2 = { 255 255 255 }
+                pahlavi = "Shapuran"
+                b_shabaran = {
+                    pahlavi = "Shapuran"
+                }
+                b_shikhlar = {}
+                b_khachmaz = {}
+                b_chiraggala = {}
+                b_anig = {}
+                b_maraza = {}
+                b_khil = {}
+            }
+            c_albania = {
+                color = { 253 176 176 }
+                color2 = { 255 255 255 }
+                b_kaghankatuyk = {}
+                b_gish = {}
+                b_kabala = {}
+                b_martakert = {}
+                b_aghuen = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        allow = {
+            title_king_basic_allow = yes
+        }
+    }
+    k_sistan = {
+        color = { 120 190 90 }
+        color2 = { 255 255 255 }
+        capital = 637
+        pahlavi = "Sakastan"
+        muslim = 200
+        zoroastrian = 350
+        d_sistan = {
+            color = { 111 40 97 }
+            color2 = { 255 255 255 }
+            capital = 637
+            pahlavi = "Sakastan"
+            c_farah = {
+                color = { 140 173 84 }
+                color2 = { 255 255 255 }
+                roman = "Prophthasia"
+                greek = "Prophthasia"
+                pahlavi = "Phra"
+                assyrian = "Aprah"
+                b_farah = {
+                    roman = "Prophthasia"
+                    greek = "Prophthasia"
+                    pahlavi = "Phra"
+                    assyrian = "Aprah"
+                }
+                b_djuvayn = {}
+                b_djiza = {}
+                b_khvash = {}
+                b_qarnin = {}
+            }
+            c_rudbar = {
+                color = { 142 182 80 }
+                color2 = { 255 255 255 }
+                b_rudbar = {}
+                b_salakan = {}
+                b_kish = {}
+            }
+            c_sistan = {
+                color = { 102 122 67 }
+                color2 = { 255 255 255 }
+                b_zaranj = {
+                    pahlavi = "Zarang"
+                }
+                b_karkuya = {}
+                b_nih = {}
+                b_sibih = {}
+                b_ram = {}
+            }
+            c_zamindavar = {
+                color = { 142 175 86 }
+                color2 = { 255 255 255 }
+                pahlavi = "Zamin-i-datbar"
+                b_bust = {}
+                b_sarvan = {}
+                b_muaskar = {}
+                b_baghnin = {}
+                b_durghash = {}
+                b_bishlang = {}
+                b_till = {}
+            }
+            c_rukhadj = {
+                color = { 148 170 89 }
+                color2 = { 255 255 255 }
+                roman = "Arachosia"
+                greek = "Arachosia"
+                pahlavi = "Harauvatish"
+                b_kandahar = {}
+                b_pandjvay = {}
+                b_bakrabad = {}
+                b_kuhak = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_makran = {
+            color = { 136 169 80 }
+            color2 = { 255 255 255 }
+            capital = 899
+            roman = "Gedrosia"
+            greek = "Gedrosia"
+            pahlavi = "Makuran"
+            c_makran = {
+                color = { 146 169 80 }
+                color2 = { 255 255 255 }
+                pahlavi = "Paradan"
+                b_bampur = {}
+                b_fahraj = {}
+                b_tiz = {}
+                b_khwash = {}
+                b_rask = {}
+                b_iskaf = {}
+                b_bih = {}
+            }
+            c_mashkel = {
+                color = { 146 179 90 }
+                color2 = { 255 255 255 }
+                b_djalk = {}
+                b_dizak = {}
+                b_saravan = {}
+            }
+            c_pandjgur = {
+                color = { 148 181 92 }
+                color2 = { 255 255 255 }
+                b_pandjgur = {}
+                b_kiz = {}
+                b_khawr = {}
+                b_armabil = {}
+            }
+            c_turan = {
+                color = { 152 185 96 }
+                color2 = { 255 255 255 }
+                pahlavi = "Turestan"
+                b_kizkanan = {}
+                b_quzdar = {}
+                b_bodein = {}
+                b_sura = {}
+            }
+            allow = {
+                title_duke_basic_allow = yes
+            }
+        }
+        d_walishan = {
+            color = { 62 120 151 }
+            color2 = { 255 255 255 }
+            capital = 1611
+            c_wana = {
+                color = { 244 80 5 }
+                color2 = { 255 255 255 }
+                b_kushk = {}
+                b_bori = {}
+                b_asfanjay = {}
+            }
+            c_sibi = {
+                color = { 200 145 18 }
+                color2 = { 255 255 255 }
+                b_sibi_india = {}
+                b_mastanj = {}
+                b_dadhar = {}
+                b_walishtan = {}
             }
             allow = {
                 title_duke_basic_allow = yes
@@ -51670,2085 +54155,6 @@ e_null = {
                     }
                     destroy_landed_title = THIS
                 }
-            }
-        }
-        allow = {
-            title_king_basic_allow = yes
-        }
-    }
-    k_jerusalem = {
-        color = { 180 180 180 }
-        color2 = { 255 255 255 }
-        capital = 774
-        culture = levantine_arabic
-        assimilate = no
-        gain_effect = {
-            prestige = 5000
-            piety = 2000
-        }
-        christian = 1000
-        muslim = 125
-        sicilian_arabic = "Filastin"
-        bedouin_arabic = "Filastin"
-        maghreb_arabic = "Filastin"
-        levantine_arabic = "Filastin"
-        egyptian_arabic = "Filastin"
-        andalusian_arabic = "Filastin"
-        sanhaja = "Filastin"
-        tagelmust = "Filastin"
-        tuareg = "Filastin"
-        masmuda = "Filastin"
-        zanata = "Filastin"
-        greek = "Palaestina"
-        ethiopian = "Yerusalem"
-        d_jerusalem = {
-            color = { 223 224 199 }
-            color2 = { 255 255 255 }
-            christian = 500
-            muslim = 250
-            sicilian_arabic = "Filastin"
-            bedouin_arabic = "Filastin"
-            maghreb_arabic = "Filastin"
-            levantine_arabic = "Filastin"
-            egyptian_arabic = "Filastin"
-            andalusian_arabic = "Filastin"
-            sanhaja = "Filastin"
-            tagelmust = "Filastin"
-            tuareg = "Filastin"
-            masmuda = "Filastin"
-            zanata = "Filastin"
-            roman = "Palaestina Prima"
-            greek = "Palaestina Prima"
-            ethiopian = "Yerusalem"
-            capital = 774
-            c_jerusalem = {
-                color = { 45 251 69 }
-                color2 = { 255 255 255 }
-                christian = 1000
-                muslim = 500
-                maghreb_arabic = "Al-Quds"
-                levantine_arabic = "Al-Quds"
-                egyptian_arabic = "Al-Quds"
-                andalusian_arabic = "Al-Quds"
-                sicilian_arabic = "Al-Quds"
-                bedouin_arabic = "Al-Quds"
-                sanhaja = "Al-Quds"
-                tagelmust = "Al-Quds"
-                tuareg = "Al-Quds"
-                masmuda = "Al-Quds"
-                zanata = "Al-Quds"
-                oghuz = "Kudüs"
-                turkmen = "Kudüs"
-                turkish = "Kudüs"
-                roman = "Ierosolyma"
-                greek = "Hierosolyma"
-                nubian = "Ierousalmi"
-                ethiopian = "Yerusalem"
-                b_towerofdavid = {
-                    maghreb_arabic = "Burj Daud"
-                    levantine_arabic = "Burj Daud"
-                    egyptian_arabic = "Burj Daud"
-                    andalusian_arabic = "Burj Daud"
-                    sicilian_arabic = "Burj Daud"
-                    bedouin_arabic = "Burj Daud"
-                    sanhaja = "Burj Daud"
-                    tagelmust = "Burj Daud"
-                    tuareg = "Burj Daud"
-                    masmuda = "Burj Daud"
-                    zanata = "Burj Daud"
-                    greek = "Kastro David"
-                }
-                b_bethlehem = {
-                    ethiopian = "Bete Lihem"
-                }
-                b_jerusalem = {
-                    maghreb_arabic = "Al-Quds"
-                    levantine_arabic = "Al-Quds"
-                    egyptian_arabic = "Al-Quds"
-                    andalusian_arabic = "Al-Quds"
-                    sicilian_arabic = "Al-Quds"
-                    bedouin_arabic = "Al-Quds"
-                    sanhaja = "Al-Quds"
-                    tagelmust = "Al-Quds"
-                    tuareg = "Al-Quds"
-                    masmuda = "Al-Quds"
-                    zanata = "Al-Quds"
-                    oghuz = "Kudüs"
-                    turkmen = "Kudüs"
-                    turkish = "Kudüs"
-                    ethiopian = "Yerusalem"
-                }
-                b_rammala = {
-                    roman = "Rámla"
-                    greek = "Rámla"
-                }
-                b_blanchegarde = {
-                    greek = "Saphitha"
-                }
-                b_saintsamuel = {
-                    greek = "Monì tìs Agios Samuel"
-                }
-                b_syrbelmont = {}
-            }
-            c_beersheb = {
-                color = { 15 208 46 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Nablus"
-                maghreb_arabic = "Nablus"
-                levantine_arabic = "Nablus"
-                egyptian_arabic = "Nablus"
-                andalusian_arabic = "Nablus"
-                sicilian_arabic = "Nablus"
-                sanhaja = "Nablus"
-                tagelmust = "Nablus"
-                tuareg = "Nablus"
-                masmuda = "Nablus"
-                zanata = "Nablus"
-                roman = "Neapolis"
-                greek = "Neapolis"
-                b_bethsan = {
-                    roman = "Scythopolis"
-                    greek = "Skythopolis"
-                }
-                b_nablus = {
-                    roman = "Neapolis"
-                    greek = "Neapolis"
-                }
-                b_jericho = {
-                    roman = "Ierichó"
-                    greek = "Ierichó"
-                }
-                b_lafeve = {}
-                b_syrsebastia = {}
-                b_aynjalut = {}
-            }
-            c_hebron = {
-                color = { 49 255 73 }
-                color2 = { 255 255 255 }
-                maghreb_arabic = "El-Khail"
-                levantine_arabic = "El-Khail"
-                egyptian_arabic = "El-Khail"
-                andalusian_arabic = "El-Khail"
-                sicilian_arabic = "El-Khail"
-                bedouin_arabic = "El-Khail"
-                sanhaja = "El-Khail"
-                tagelmust = "El-Khail"
-                tuareg = "El-Khail"
-                masmuda = "El-Khail"
-                zanata = "El-Khail"
-                roman = "Hebron"
-                greek = "Hebrón"
-                b_hebron = {
-                    maghreb_arabic = "El-Khail"
-                    levantine_arabic = "El-Khail"
-                    egyptian_arabic = "El-Khail"
-                    andalusian_arabic = "El-Khail"
-                    sicilian_arabic = "El-Khail"
-                    bedouin_arabic = "El-Khail"
-                    sanhaja = "El-Khail"
-                    tagelmust = "El-Khail"
-                    tuareg = "El-Khail"
-                    masmuda = "El-Khail"
-                    zanata = "El-Khail"
-                    roman = "Hebron"
-                    greek = "Hebrón"
-                }
-                b_syrcarmel = {}
-                b_alsamoa = {}
-                b_bethgibelin = {
-                    roman = "Eleutheropolis"
-                    greek = "Eleutheroupolis"
-                }
-                b_syrsebbe = {}
-            }
-            c_darum = {
-                color = { 5 199 37 }
-                color2 = { 255 255 255 }
-                b_darum = {}
-                b_gaza = {}
-                b_radwan = {}
-                b_salqah = {}
-                b_abasan = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_acre = {
-            color = { 235 224 73 }
-            color2 = { 255 255 255 }
-            bedouin_arabic = "Akka"
-            maghreb_arabic = "Akka"
-            levantine_arabic = "Akka"
-            egyptian_arabic = "Akka"
-            andalusian_arabic = "Akka"
-            sicilian_arabic = "Akka"
-            sanhaja = "Akka"
-            tagelmust = "Akka"
-            tuareg = "Akka"
-            masmuda = "Akka"
-            zanata = "Akka"
-            roman = "Tyrus"
-            greek = "Tyros"
-            capital = 772
-            c_acre = {
-                color = { 47 253 71 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Akka"
-                maghreb_arabic = "Akka"
-                levantine_arabic = "Akka"
-                egyptian_arabic = "Akka"
-                andalusian_arabic = "Akka"
-                sicilian_arabic = "Akka"
-                sanhaja = "Akka"
-                tagelmust = "Akka"
-                tuareg = "Akka"
-                masmuda = "Akka"
-                zanata = "Akka"
-                roman = "Ptolemais"
-                greek = "Ptolemais"
-                b_acre = {
-                    bedouin_arabic = "Akka"
-                    maghreb_arabic = "Akka"
-                    levantine_arabic = "Akka"
-                    egyptian_arabic = "Akka"
-                    andalusian_arabic = "Akka"
-                    sicilian_arabic = "Akka"
-                    sanhaja = "Akka"
-                    tagelmust = "Akka"
-                    tuareg = "Akka"
-                    masmuda = "Akka"
-                    zanata = "Akka"
-                    roman = "Ptolemais"
-                    greek = "Ptolemais"
-                }
-                b_castellumregis = {
-                    greek = "Kastro Basileios"
-                    bedouin_arabic = "Qal'at Qurein"
-                    maghreb_arabic = "Qal'at Qurein"
-                    levantine_arabic = "Qal'at Qurein"
-                    egyptian_arabic = "Qal'at Qurein"
-                    andalusian_arabic = "Qal'at Qurein"
-                    sicilian_arabic = "Qal'at Qurein"
-                    german = "Starkenberg"
-                }
-                b_tyrus = {
-                    roman = "Tyrus"
-                    greek = "Tyros"
-                    bedouin_arabic = "Sur"
-                    maghreb_arabic = "Sur"
-                    levantine_arabic = "Sur"
-                    egyptian_arabic = "Sur"
-                    andalusian_arabic = "Sur"
-                    sicilian_arabic = "Sur"
-                    sanhaja = "Sur"
-                    tagelmust = "Sur"
-                    tuareg = "Sur"
-                    masmuda = "Sur"
-                    zanata = "Sur"
-                }
-                b_haifa = {
-                    roman = "Hepha"
-                    greek = "Hepha"
-                }
-                b_scandelon = {}
-                b_adelon = {
-                    bedouin_arabic = "Ad'loun"
-                    maghreb_arabic = "Ad'loun"
-                    levantine_arabic = "Ad'loun"
-                    egyptian_arabic = "Ad'loun"
-                    andalusian_arabic = "Ad'loun"
-                    sicilian_arabic = "Ad'loun"
-                }
-            }
-            c_tyrus = {
-                color = { 8 202 67 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Sayda"
-                maghreb_arabic = "Sayda"
-                levantine_arabic = "Sayda"
-                egyptian_arabic = "Sayda"
-                andalusian_arabic = "Sayda"
-                sicilian_arabic = "Sayda"
-                sanhaja = "Sayda"
-                tagelmust = "Sayda"
-                tuareg = "Sayda"
-                masmuda = "Sayda"
-                zanata = "Sayda"
-                oghuz = "Sayda"
-                turkmen = "Sayda"
-                turkish = "Sayda"
-                b_sarafand = {}
-                b_sidon = {
-                    bedouin_arabic = "Sayda"
-                    maghreb_arabic = "Sayda"
-                    levantine_arabic = "Sayda"
-                    egyptian_arabic = "Sayda"
-                    andalusian_arabic = "Sayda"
-                    sicilian_arabic = "Sayda"
-                    sanhaja = "Sayda"
-                    tagelmust = "Sayda"
-                    tuareg = "Sayda"
-                    masmuda = "Sayda"
-                    zanata = "Sayda"
-                    oghuz = "Sayda"
-                    turkmen = "Sayda"
-                    turkish = "Sayda"
-                }
-                b_syrbelfort = {}
-                b_schuf = {
-                    bedouin_arabic = "Chouf"
-                    maghreb_arabic = "Chouf"
-                    levantine_arabic = "Chouf"
-                    egyptian_arabic = "Chouf"
-                    andalusian_arabic = "Chouf"
-                    sicilian_arabic = "Chouf"
-                }
-            }
-            c_caesarea = {
-                color = { 47 253 71 }
-                color2 = { 255 255 255 }
-                roman = "Caesarea"
-                greek = "Parálios Kaisáreia"
-                b_caymont = {
-                    roman = "Cammona"
-                    greek = "Cammona"
-                }
-                b_arsuf = {
-                    roman = "Apollonia"
-                    greek = "Apollonia"
-                }
-                b_syrcaesarea = {
-                    roman = "Caesarea"
-                    greek = "Parálios Kaisáreia"
-                }
-                b_calansue = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_oultrejourdain = {
-            color = { 203 159 24 }
-            color2 = { 255 255 255 }
-            roman = "Palaestina Salutaris"
-            greek = "Palaestina Salutaris"
-            capital = 778
-            c_monreal = {
-                color = { 47 253 52 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Shobak"
-                maghreb_arabic = "Shobak"
-                levantine_arabic = "Shobak"
-                egyptian_arabic = "Shobak"
-                andalusian_arabic = "Shobak"
-                sicilian_arabic = "Shobak"
-                sanhaja = "Shobak"
-                tagelmust = "Shobak"
-                tuareg = "Shobak"
-                masmuda = "Shobak"
-                zanata = "Shobak"
-                b_monreal = {
-                    bedouin_arabic = "Shobak"
-                    maghreb_arabic = "Shobak"
-                    levantine_arabic = "Shobak"
-                    egyptian_arabic = "Shobak"
-                    andalusian_arabic = "Shobak"
-                    sicilian_arabic = "Shobak"
-                    sanhaja = "Shobak"
-                    tagelmust = "Shobak"
-                    tuareg = "Shobak"
-                    masmuda = "Shobak"
-                    zanata = "Shobak"
-                }
-                b_syrsegor = {}
-                b_alwuayra = {}
-                b_petra = {}
-                b_wadi_musa = {}
-                b_alhabis = {}
-            }
-            c_petra = {
-                color = { 133 208 14 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Aqabah"
-                maghreb_arabic = "Aqabah"
-                levantine_arabic = "Aqabah"
-                egyptian_arabic = "Aqabah"
-                andalusian_arabic = "Aqabah"
-                sicilian_arabic = "Aqabah"
-                roman = "Aila"
-                greek = "Aila"
-                b_pharaohosisland = {}
-                b_jordanaqba = {
-                    bedouin_arabic = "Aqabah"
-                    maghreb_arabic = "Aqabah"
-                    levantine_arabic = "Aqabah"
-                    egyptian_arabic = "Aqabah"
-                    andalusian_arabic = "Aqabah"
-                    sicilian_arabic = "Aqabah"
-                    roman = "Aila"
-                    greek = "Aila"
-                }
-                b_syrarandal = {}
-            }
-            c_kerak = {
-                color = { 49 255 54 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Al-Karak"
-                maghreb_arabic = "Al-Karak"
-                levantine_arabic = "Al-Karak"
-                egyptian_arabic = "Al-Karak"
-                andalusian_arabic = "Al-Karak"
-                sicilian_arabic = "Al-Karak"
-                sanhaja = "Al-Karak"
-                tagelmust = "Al-Karak"
-                tuareg = "Al-Karak"
-                masmuda = "Al-Karak"
-                zanata = "Al-Karak"
-                b_krakdemoab = {
-                    roman = "Characmoba"
-                    greek = "Characmoba"
-                    frankish = "Le Crac"
-                    norman = "Le Crac"
-                }
-                b_kerak = {
-                    bedouin_arabic = "Al-Karak"
-                    maghreb_arabic = "Al-Karak"
-                    levantine_arabic = "Al-Karak"
-                    egyptian_arabic = "Al-Karak"
-                    andalusian_arabic = "Al-Karak"
-                    sicilian_arabic = "Al-Karak"
-                    sanhaja = "Al-Karak"
-                    tagelmust = "Al-Karak"
-                    tuareg = "Al-Karak"
-                    masmuda = "Al-Karak"
-                    zanata = "Al-Karak"
-                    roman = "Harreketh"
-                    greek = "Harreketh"
-                }
-                b_syrdibban = {}
-                b_tafila = {
-                    frankish = "Taphila"
-                    norman = "Taphila"
-                    roman = "Taphila"
-                    greek = "Taphila"
-                }
-                b_syralrabbah = {
-                    roman = "Areopolis"
-                    greek = "Areopolis"
-                }
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_ascalon = {
-            color = { 225 65 34 }
-            color2 = { 255 255 255 }
-            capital = 780
-            c_jaffa = {
-                color = { 8 202 40 }
-                color2 = { 255 255 255 }
-                roman = "Ioppe"
-                greek = "Ioppa"
-                b_qula = {}
-                b_jaffa = {
-                    roman = "Ioppe"
-                    greek = "Ioppa"
-                }
-                b_lydda = {}
-                b_mirabel = {}
-                b_ramleh = {}
-                b_beitdejan = {}
-                b_kharruba = {}
-                b_yazur = {}
-            }
-            c_ascalon = {
-                color = { 12 205 43 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Asqalan"
-                maghreb_arabic = "Asqalan"
-                levantine_arabic = "Asqalan"
-                egyptian_arabic = "Asqalan"
-                andalusian_arabic = "Asqalan"
-                sicilian_arabic = "Asqalan"
-                sanhaja = "Asqalan"
-                tagelmust = "Asqalan"
-                tuareg = "Asqalan"
-                masmuda = "Asqalan"
-                zanata = "Asqalan"
-                greek = "Iamnia"
-                b_ascalon = {
-                    bedouin_arabic = "Asqalan"
-                    maghreb_arabic = "Asqalan"
-                    levantine_arabic = "Asqalan"
-                    egyptian_arabic = "Asqalan"
-                    andalusian_arabic = "Asqalan"
-                    sicilian_arabic = "Asqalan"
-                    sanhaja = "Asqalan"
-                    tagelmust = "Asqalan"
-                    tuareg = "Asqalan"
-                    masmuda = "Asqalan"
-                    zanata = "Asqalan"
-                }
-                b_ibelin = {
-                    bedouin_arabic = "Iamnia"
-                    maghreb_arabic = "Iamnia"
-                    levantine_arabic = "Iamnia"
-                    egyptian_arabic = "Iamnia"
-                    andalusian_arabic = "Iamnia"
-                    sicilian_arabic = "Iamnia"
-                    sanhaja = "Iamnia"
-                    tagelmust = "Iamnia"
-                    tuareg = "Iamnia"
-                    masmuda = "Iamnia"
-                    zanata = "Iamnia"
-                    greek = "Iamnia"
-                }
-                b_latrun = {}
-                b_montgisard = {}
-                b_karatiyya = {}
-                b_laforbie = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_galilee = {
-            color = { 41 45 138 }
-            color2 = { 255 255 255 }
-            short_name = yes
-            capital = 773
-            bedouin_arabic = "Al-Jalil"
-            maghreb_arabic = "Al-Jalil"
-            levantine_arabic = "Al-Jalil"
-            egyptian_arabic = "Al-Jalil"
-            andalusian_arabic = "Al-Jalil"
-            sicilian_arabic = "Al-Jalil"
-            sanhaja = "Al-Jalil"
-            tagelmust = "Al-Jalil"
-            tuareg = "Al-Jalil"
-            masmuda = "Al-Jalil"
-            zanata = "Al-Jalil"
-            roman = "Palaestina Secunda"
-            greek = "Palaestina Secunda"
-            frankish = "Principauté de Galilée"
-            norman = "Principauté de Galilée"
-            c_tiberias = {
-                color = { 5 199 64 }
-                color2 = { 255 255 255 }
-                b_tiberias = {}
-                b_belvoir = {}
-                b_cavedesueth = {
-                    bedouin_arabic = "Ain al-Habis"
-                    maghreb_arabic = "Ain al-Habis"
-                    levantine_arabic = "Ain al-Habis"
-                    egyptian_arabic = "Ain al-Habis"
-                    andalusian_arabic = "Ain al-Habis"
-                    sicilian_arabic = "Ain al-Habis"
-                    sanhaja = "Ain al-Habis"
-                    tagelmust = "Ain al-Habis"
-                    tuareg = "Ain al-Habis"
-                    masmuda = "Ain al-Habis"
-                    zanata = "Ain al-Habis"
-                }
-                b_sepphoria = {
-                    roman = "Sepphoris"
-                    greek = "Sepphoris"
-                    bedouin_arabic = "Safurriya"
-                    maghreb_arabic = "Safurriya"
-                    levantine_arabic = "Safurriya"
-                    egyptian_arabic = "Safurriya"
-                    andalusian_arabic = "Safurriya"
-                    sicilian_arabic = "Safurriya"
-                    sanhaja = "Safurriya"
-                    tagelmust = "Safurriya"
-                    tuareg = "Safurriya"
-                    masmuda = "Safurriya"
-                    zanata = "Safurriya"
-                }
-                b_nazareth = {
-                    bedouin_arabic = "An-Nasirah"
-                    maghreb_arabic = "An-Nasirah"
-                    levantine_arabic = "An-Nasirah"
-                    egyptian_arabic = "An-Nasirah"
-                    andalusian_arabic = "An-Nasirah"
-                    sicilian_arabic = "An-Nasirah"
-                    sanhaja = "An-Nasirah"
-                    tagelmust = "An-Nasirah"
-                    tuareg = "An-Nasirah"
-                    masmuda = "An-Nasirah"
-                    zanata = "An-Nasirah"
-                }
-                b_mnttabor = {}
-                b_forbelet = {}
-            }
-            c_beirut = {
-                color = { 11 205 70 }
-                color2 = { 255 255 255 }
-                roman = "Berytus"
-                greek = "Berytos"
-                b_beirut = {
-                    roman = "Berytus"
-                    greek = "Berytos"
-                }
-                b_beitkfeya = {}
-                b_chiyah = {}
-                b_choueir = {}
-            }
-            c_safed = {
-                color = { 14 208 73 }
-                color2 = { 255 255 255 }
-                roman = "Paneas"
-                greek = "Paneas"
-                ashkenazi = "Tsfat"
-                bedouin_arabic = "Safad"
-                maghreb_arabic = "Safad"
-                levantine_arabic = "Safad"
-                egyptian_arabic = "Safad"
-                andalusian_arabic = "Safad"
-                sicilian_arabic = "Safad"
-                b_safed = {
-                    roman = "Seph"
-                    greek = "Seph"
-                    ashkenazi = "Tsfat"
-                    bedouin_arabic = "Safad"
-                    maghreb_arabic = "Safad"
-                    levantine_arabic = "Safad"
-                    egyptian_arabic = "Safad"
-                    andalusian_arabic = "Safad"
-                    sicilian_arabic = "Safad"
-                }
-                b_banyas = {
-                    bedouin_arabic = "Banyas"
-                    maghreb_arabic = "Banyas"
-                    levantine_arabic = "Banyas"
-                    egyptian_arabic = "Banyas"
-                    andalusian_arabic = "Banyas"
-                    sicilian_arabic = "Banyas"
-                    roman = "Paneas"
-                    greek = "Paneas"
-                }
-                b_toron = {
-                    bedouin_arabic = "Tibnine"
-                    maghreb_arabic = "Tibnine"
-                    levantine_arabic = "Tibnine"
-                    egyptian_arabic = "Tibnine"
-                    andalusian_arabic = "Tibnine"
-                    sicilian_arabic = "Tibnine"
-                }
-                b_meronisreal = {}
-                b_chastelet = {
-                    bedouin_arabic = "Qasr al-'Atra"
-                    maghreb_arabic = "Qasr al-'Atra"
-                    levantine_arabic = "Qasr al-'Atra"
-                    egyptian_arabic = "Qasr al-'Atra"
-                    andalusian_arabic = "Qasr al-'Atra"
-                    sicilian_arabic = "Qasr al-'Atra"
-                }
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        allow = {
-            religion_group = christian
-            title_king_basic_allow = yes
-        }
-    }
-    k_antioch = {
-        color = { 50 76 150 }
-        color2 = { 255 255 255 }
-        culture = armenian
-        capital = 764
-        bedouin_arabic = "Awasim"
-        maghreb_arabic = "Awasim"
-        levantine_arabic = "Awasim"
-        egyptian_arabic = "Awasim"
-        andalusian_arabic = "Awasim"
-        sicilian_arabic = "Awasim"
-        sanhaja = "Awasim"
-        tagelmust = "Awasim"
-        tuareg = "Awasim"
-        masmuda = "Awasim"
-        zanata = "Awasim"
-        roman = "Principatus Antiochenus"
-        greek = "Antiócheias"
-        ethiopian = "Ansokya"
-        catholic = 300
-        orthodox = 300
-        muslim = 150
-        d_edessa = {
-            color = { 89 21 66 }
-            color2 = { 255 255 255 }
-            name_tier = count
-            capital = 699
-            bedouin_arabic = "Ar-Ruha"
-            maghreb_arabic = "Ar-Ruha"
-            levantine_arabic = "Ar-Ruha"
-            egyptian_arabic = "Ar-Ruha"
-            andalusian_arabic = "Ar-Ruha"
-            sicilian_arabic = "Ar-Ruha"
-            yemeni = "Ar-Ruha"
-            hijazi = "Ar-Ruha"
-            sanhaja = "Ar-Ruha"
-            tagelmust = "Ar-Ruha"
-            tuareg = "Ar-Ruha"
-            masmuda = "Ar-Ruha"
-            zanata = "Ar-Ruha"
-            oghuz = "Urfa"
-            turkmen = "Urfa"
-            turkish = "Urfa"
-            kurdish = "Riha"
-            assyrian = "Urhây"
-            greek = "Edesses"
-            c_edessa = {
-                color = { 153 255 5 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Ar-Ruha"
-                maghreb_arabic = "Ar-Ruha"
-                levantine_arabic = "Ar-Ruha"
-                egyptian_arabic = "Ar-Ruha"
-                andalusian_arabic = "Ar-Ruha"
-                sicilian_arabic = "Ar-Ruha"
-                yemeni = "Ar-Ruha"
-                hijazi = "Ar-Ruha"
-                sanhaja = "Ar-Ruha"
-                tagelmust = "Ar-Ruha"
-                tuareg = "Ar-Ruha"
-                masmuda = "Ar-Ruha"
-                zanata = "Ar-Ruha"
-                oghuz = "Urfa"
-                turkmen = "Urfa"
-                turkish = "Urfa"
-                kurdish = "Riha"
-                assyrian = "Urhây"
-                b_edessa = {
-                    bedouin_arabic = "Ar-Ruha"
-                    maghreb_arabic = "Ar-Ruha"
-                    levantine_arabic = "Ar-Ruha"
-                    egyptian_arabic = "Ar-Ruha"
-                    andalusian_arabic = "Ar-Ruha"
-                    sicilian_arabic = "Ar-Ruha"
-                    yemeni = "Ar-Ruha"
-                    hijazi = "Ar-Ruha"
-                    sanhaja = "Ar-Ruha"
-                    tagelmust = "Ar-Ruha"
-                    tuareg = "Ar-Ruha"
-                    masmuda = "Ar-Ruha"
-                    zanata = "Ar-Ruha"
-                    oghuz = "Urfa"
-                    turkmen = "Urfa"
-                    turkish = "Urfa"
-                    kurdish = "Riha"
-                    assyrian = "Urhây"
-                }
-                b_sruk = {
-                    bedouin_arabic = "Sarug"
-                    maghreb_arabic = "Sarug"
-                    levantine_arabic = "Sarug"
-                    egyptian_arabic = "Sarug"
-                    andalusian_arabic = "Sarug"
-                    sicilian_arabic = "Sarug"
-                    yemeni = "Sarug"
-                    hijazi = "Sarug"
-                    frankish = "Sorogia"
-                    norman = "Sorogia"
-                    oghuz = "Suruç"
-                    turkmen = "Suruç"
-                    turkish = "Suruç"
-                    kurdish = "Sirûc"
-                    roman = "Batnae"
-                    greek = "Batnai"
-                }
-                b_bile = {
-                    bedouin_arabic = "al-Birah"
-                    maghreb_arabic = "al-Birah"
-                    levantine_arabic = "al-Birah"
-                    egyptian_arabic = "al-Birah"
-                    andalusian_arabic = "al-Birah"
-                    sicilian_arabic = "al-Birah"
-                    oghuz = "Birecik"
-                    turkmen = "Birecik"
-                    turkish = "Birecik"
-                    kurdish = "Bêrecûg"
-                    greek = "Birtha"
-                }
-                b_hromgla = {
-                    bedouin_arabic = "Qal'at al-Rum"
-                    maghreb_arabic = "Qal'at al-Rum"
-                    levantine_arabic = "Qal'at al-Rum"
-                    egyptian_arabic = "Qal'at al-Rum"
-                    andalusian_arabic = "Qal'at al-Rum"
-                    sicilian_arabic = "Qal'at al-Rum"
-                    oghuz = "Rumkale"
-                    turkmen = "Rumkale"
-                    turkish = "Rumkale"
-                    kurdish = "Kela Zêrîn"
-                    armenian = "Hromkla"
-                    greek = "Romaion Koula"
-                    frankish = "Ranculat"
-                    norman = "Ranculat"
-                }
-                b_samsat = {
-                    bedouin_arabic = "Sumaysat"
-                    maghreb_arabic = "Sumaysat"
-                    levantine_arabic = "Sumaysat"
-                    egyptian_arabic = "Sumaysat"
-                    andalusian_arabic = "Sumaysat"
-                    armenian = "Šamšat"
-                    greek = "Samosata"
-                    oghuz = "Šimšat"
-                    turkmen = "Šimšat"
-                    turkish = "Šimšat"
-                }
-            }
-            c_tell_bashir = {
-                color = { 155 255 7 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Tell Bashir"
-                maghreb_arabic = "Tell Bashir"
-                levantine_arabic = "Tell Bashir"
-                egyptian_arabic = "Tell Bashir"
-                andalusian_arabic = "Tell Bashir"
-                sicilian_arabic = "Tell Bashir"
-                oghuz = "Tilbesar"
-                turkmen = "Tilbesar"
-                turkish = "Tilbesar"
-                b_turbessel = {
-                    bedouin_arabic = "Tell Bashir"
-                    maghreb_arabic = "Tell Bashir"
-                    levantine_arabic = "Tell Bashir"
-                    egyptian_arabic = "Tell Bashir"
-                    andalusian_arabic = "Tell Bashir"
-                    sicilian_arabic = "Tell Bashir"
-                    turkish = "Tilbesar"
-                }
-                b_trihalet = {
-                    bedouin_arabic = "Tell Halid"
-                    maghreb_arabic = "Tell Halid"
-                    levantine_arabic = "Tell Halid"
-                    egyptian_arabic = "Tell Halid"
-                    andalusian_arabic = "Tell Halid"
-                    sicilian_arabic = "Tell Halid"
-                }
-                b_kyrrhos = {
-                    bedouin_arabic = "Qurus"
-                    maghreb_arabic = "Qurus"
-                    levantine_arabic = "Qurus"
-                    egyptian_arabic = "Qurus"
-                    andalusian_arabic = "Qurus"
-                    sicilian_arabic = "Qurus"
-                    frankish = "Corice"
-                    norman = "Corice"
-                }
-                b_nizip = {
-                    greek = "Nisibina"
-                }
-            }
-            c_aintab = {
-                color = { 157 255 9 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Ayn Tab"
-                maghreb_arabic = "Ayn Tab"
-                levantine_arabic = "Ayn Tab"
-                egyptian_arabic = "Ayn Tab"
-                andalusian_arabic = "Ayn Tab"
-                sicilian_arabic = "Ayn Tab"
-                frankish = "Hamtab"
-                norman = "Hamtab"
-                greek = "Doliche"
-                b_aintab = {
-                    bedouin_arabic = "Ayn Tab"
-                    maghreb_arabic = "Ayn Tab"
-                    levantine_arabic = "Ayn Tab"
-                    egyptian_arabic = "Ayn Tab"
-                    andalusian_arabic = "Ayn Tab"
-                    sicilian_arabic = "Ayn Tab"
-                    frankish = "Hamtab"
-                    norman = "Hamtab"
-                }
-                b_tulupe = {}
-                b_killiz = {}
-                b_ravendan = {
-                    bedouin_arabic = "ar-Rawandan"
-                    maghreb_arabic = "ar-Rawandan"
-                    levantine_arabic = "ar-Rawandan"
-                    egyptian_arabic = "ar-Rawandan"
-                    andalusian_arabic = "ar-Rawandan"
-                    sicilian_arabic = "ar-Rawandan"
-                }
-                b_duluk = {
-                    bedouin_arabic = "Duluk"
-                    maghreb_arabic = "Duluk"
-                    levantine_arabic = "Duluk"
-                    egyptian_arabic = "Duluk"
-                    andalusian_arabic = "Duluk"
-                    sicilian_arabic = "Duluk"
-                    oghuz = "Dülük"
-                    turkmen = "Dülük"
-                    turkish = "Dülük"
-                    greek = "Doliche"
-                }
-            }
-            c_kaisun = {
-                color = { 157 255 9 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Kaisum"
-                maghreb_arabic = "Kaisum"
-                levantine_arabic = "Kaisum"
-                egyptian_arabic = "Kaisum"
-                andalusian_arabic = "Kaisum"
-                sicilian_arabic = "Kaisum"
-                greek = "Kaison"
-                b_kaisun = {
-                    bedouin_arabic = "Kaisum"
-                    maghreb_arabic = "Kaisum"
-                    levantine_arabic = "Kaisum"
-                    egyptian_arabic = "Kaisum"
-                    andalusian_arabic = "Kaisum"
-                    sicilian_arabic = "Kaisum"
-                    greek = "Kaison"
-                }
-                b_behetselin = {
-                    bedouin_arabic = "Hisn Mansur"
-                    maghreb_arabic = "Hisn Mansur"
-                    levantine_arabic = "Hisn Mansur"
-                    egyptian_arabic = "Hisn Mansur"
-                    andalusian_arabic = "Hisn Mansur"
-                    armenian = "Perre"
-                    greek = "Perre"
-                    oghuz = "Hisn-i Mansur"
-                    turkmen = "Hisn-i Mansur"
-                    turkish = "Hisn-i Mansur"
-                    kurdish = "Semsûr"
-                }
-                b_raban = {
-                    greek = "Rabaine"
-                }
-                b_hartanedessa = {
-                    bedouin_arabic = "Káhta"
-                    maghreb_arabic = "Káhta"
-                    levantine_arabic = "Káhta"
-                    egyptian_arabic = "Káhta"
-                    andalusian_arabic = "Káhta"
-                    greek = "Arsameia"
-                    oghuz = "Káhta"
-                    turkmen = "Káhta"
-                    turkish = "Káhta"
-                    kurdish = "Kolik"
-                }
-                b_karkaron = {
-                    armenian = "Gargar"
-                    bedouin_arabic = "Karkar"
-                    maghreb_arabic = "Karkar"
-                    levantine_arabic = "Karkar"
-                    egyptian_arabic = "Karkar"
-                    andalusian_arabic = "Karkar"
-                    oghuz = "Karkar"
-                    turkmen = "Karkar"
-                    turkish = "Karkar"
-                }
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_antioch = {
-            color = { 91 139 188 }
-            color2 = { 255 255 255 }
-            short_name = yes
-            capital = 764
-            christian = 400
-            muslim = 200
-            bedouin_arabic = "Jund 'Awasim"
-            maghreb_arabic = "Jund 'Awasim"
-            levantine_arabic = "Jund 'Awasim"
-            egyptian_arabic = "Jund 'Awasim"
-            andalusian_arabic = "Jund 'Awasim"
-            sicilian_arabic = "Jund 'Awasim"
-            yemeni = "Jund 'Awasim"
-            hijazi = "Jund 'Awasim"
-            sanhaja = "Jund 'Awasim"
-            tagelmust = "Jund 'Awasim"
-            tuareg = "Jund 'Awasim"
-            masmuda = "Jund 'Awasim"
-            zanata = "Jund 'Awasim"
-            greek = "Antiokeias"
-            alan = "Antiokeias"
-            arberian = "Antiokeias"
-            armenian = "Antiok"
-            georgian = "Antiok"
-            frankish = "Principauté d'Antioche"
-            norman = "Principauté d'Antioche"
-            ethiopian = "Ansokya"
-            c_antiocheia = {
-                color = { 106 191 44 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Antakiya"
-                maghreb_arabic = "Antakiya"
-                levantine_arabic = "Antakiya"
-                egyptian_arabic = "Antakiya"
-                andalusian_arabic = "Antakiya"
-                sicilian_arabic = "Antakiya"
-                yemeni = "Antakiya"
-                hijazi = "Antakiya"
-                sanhaja = "Antakiya"
-                tagelmust = "Antakiya"
-                tuareg = "Antakiya"
-                masmuda = "Antakiya"
-                zanata = "Antakiya"
-                oghuz = "Antakiya"
-                turkmen = "Antakiya"
-                turkish = "Antakiya"
-                armenian = "Antiok"
-                assyrian = "Antiokia"
-                ethiopian = "Ansokya"
-                b_antiocheia = {
-                    bedouin_arabic = "Antakiya"
-                    maghreb_arabic = "Antakiya"
-                    levantine_arabic = "Antakiya"
-                    egyptian_arabic = "Antakiya"
-                    andalusian_arabic = "Antakiya"
-                    sicilian_arabic = "Antakiya"
-                    yemeni = "Antakiya"
-                    hijazi = "Antakiya"
-                    sanhaja = "Antakiya"
-                    tagelmust = "Antakiya"
-                    tuareg = "Antakiya"
-                    masmuda = "Antakiya"
-                    zanata = "Antakiya"
-                    turkish = "Antakiya"
-                    armenian = "Antiok"
-                    assyrian = "Antiokia"
-                    ethiopian = "Ansokya"
-                }
-                b_stsymeon = {
-                    bedouin_arabic = "as-Suwaydiyah"
-                    maghreb_arabic = "as-Suwaydiyah"
-                    levantine_arabic = "as-Suwaydiyah"
-                    egyptian_arabic = "as-Suwaydiyah"
-                    andalusian_arabic = "as-Suwaydiyah"
-                    sicilian_arabic = "as-Suwaydiyah"
-                    greek = "Seleukeia Pieria"
-                    oghuz = "Süveydiye"
-                    turkmen = "Süveydiye"
-                    turkish = "Süveydiye"
-                    armenian = "Svedia"
-                }
-                b_darbsak = {
-                    bedouin_arabic = "ad-Darbasak"
-                    maghreb_arabic = "ad-Darbasak"
-                    levantine_arabic = "ad-Darbasak"
-                    egyptian_arabic = "ad-Darbasak"
-                    andalusian_arabic = "ad-Darbasak"
-                    sicilian_arabic = "ad-Darbasak"
-                    frankish = "Trapesac"
-                    norman = "Trapesac"
-                    greek = "Trapezon"
-                }
-                b_harenc = {
-                    bedouin_arabic = "Qalat Antakiya"
-                    maghreb_arabic = "Qalat Antakiya"
-                    levantine_arabic = "Qalat Antakiya"
-                    egyptian_arabic = "Qalat Antakiya"
-                    andalusian_arabic = "Qalat Antakiya"
-                    sicilian_arabic = "Qalat Antakiya"
-                    yemeni = "Qalat Antakiya"
-                    hijazi = "Qalat Antakiya"
-                    sanhaja = "Qalat Antakiya"
-                    tagelmust = "Qalat Antakiya"
-                    tuareg = "Qalat Antakiya"
-                    masmuda = "Qalat Antakiya"
-                    zanata = "Qalat Antakiya"
-                    oghuz = "Antakiya Hisar"
-                    turkmen = "Antakiya Hisar"
-                    turkish = "Antakiya Hisar"
-                    armenian = "Antiokla"
-                    greek = "Kastro Antiokheia"
-                }
-                b_baghras = {
-                    oghuz = "Bakras"
-                    turkmen = "Bakras"
-                    turkish = "Bakras"
-                    greek = "Pagrai"
-                    armenian = "Pagrai"
-                    frankish = "Gaston"
-                    norman = "Gaston"
-                }
-                b_artasium = {
-                    bedouin_arabic = "Artah"
-                    maghreb_arabic = "Artah"
-                    levantine_arabic = "Artah"
-                    egyptian_arabic = "Artah"
-                    andalusian_arabic = "Artah"
-                    sicilian_arabic = "Artah"
-                    frankish = "Artasia"
-                    norman = "Artasia"
-                }
-            }
-            c_hazart = {
-                color = { 106 191 44 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Azaz"
-                maghreb_arabic = "Azaz"
-                levantine_arabic = "Azaz"
-                egyptian_arabic = "Azaz"
-                andalusian_arabic = "Azaz"
-                sicilian_arabic = "Azaz"
-                b_hazart = {
-                    bedouin_arabic = "Azaz"
-                    maghreb_arabic = "Azaz"
-                    levantine_arabic = "Azaz"
-                    egyptian_arabic = "Azaz"
-                    andalusian_arabic = "Azaz"
-                    sicilian_arabic = "Azaz"
-                }
-                b_harimantiochia = {
-                    frankish = "Harenc"
-                    norman = "Harenc"
-                }
-                b_zerdana = {
-                    bedouin_arabic = "Zaradna"
-                    maghreb_arabic = "Zaradna"
-                    levantine_arabic = "Zaradna"
-                    egyptian_arabic = "Zaradna"
-                    andalusian_arabic = "Zaradna"
-                    sicilian_arabic = "Zaradna"
-                    frankish = "Sardona"
-                    norman = "Sardona"
-                }
-                b_sarmada = {
-                    frankish = "Samarta"
-                    norman = "Samarta"
-                }
-            }
-            c_saone = {
-                color = { 106 191 44 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "al-Ladiqiya"
-                maghreb_arabic = "al-Ladiqiya"
-                levantine_arabic = "al-Ladiqiya"
-                egyptian_arabic = "al-Ladiqiya"
-                andalusian_arabic = "al-Ladiqiya"
-                sicilian_arabic = "al-Ladiqiya"
-                yemeni = "al-Ladiqiya"
-                hijazi = "al-Ladiqiya"
-                greek = "Laodikeia"
-                b_latakiah = {
-                    bedouin_arabic = "al-Ladiqiya"
-                    maghreb_arabic = "al-Ladiqiya"
-                    levantine_arabic = "al-Ladiqiya"
-                    egyptian_arabic = "al-Ladiqiya"
-                    andalusian_arabic = "al-Ladiqiya"
-                    sicilian_arabic = "al-Ladiqiya"
-                    yemeni = "al-Ladiqiya"
-                    hijazi = "al-Ladiqiya"
-                    frankish = "Laodicée"
-                    norman = "Laodicée"
-                    greek = "Laodikeia"
-                }
-                b_hisnaddair = {}
-                b_stdanielsyria = {}
-                b_saone = {
-                    bedouin_arabic = "Sahyun"
-                    maghreb_arabic = "Sahyun"
-                    levantine_arabic = "Sahyun"
-                    egyptian_arabic = "Sahyun"
-                    andalusian_arabic = "Sahyun"
-                    sicilian_arabic = "Sahyun"
-                    yemeni = "Sahyun"
-                    hijazi = "Sahyun"
-                    greek = "Sigon"
-                }
-                b_jabala = {
-                    bedouin_arabic = "Gabla"
-                    maghreb_arabic = "Gabla"
-                    levantine_arabic = "Gabla"
-                    egyptian_arabic = "Gabla"
-                    andalusian_arabic = "Gabla"
-                    sicilian_arabic = "Gabla"
-                    frankish = "Gabula"
-                    norman = "Gabula"
-                    greek = "Gabala"
-                }
-                b_balatanos = {
-                    bedouin_arabic = "Ablatunus"
-                    maghreb_arabic = "Ablatunus"
-                    levantine_arabic = "Ablatunus"
-                    egyptian_arabic = "Ablatunus"
-                    andalusian_arabic = "Ablatunus"
-                    sicilian_arabic = "Ablatunus"
-                }
-                b_gibellum = {}
-            }
-            c_archa = {
-                color = { 109 194 47 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Fámieh"
-                maghreb_arabic = "Fámieh"
-                levantine_arabic = "Fámieh"
-                egyptian_arabic = "Fámieh"
-                andalusian_arabic = "Fámieh"
-                sicilian_arabic = "Fámieh"
-                yemeni = "Fámieh"
-                hijazi = "Fámieh"
-                frankish = "Apamée"
-                norman = "Apamée"
-                greek = "Apameia"
-                b_sarmeniasyria = {
-                    bedouin_arabic = "Sarmin"
-                    maghreb_arabic = "Sarmin"
-                    levantine_arabic = "Sarmin"
-                    egyptian_arabic = "Sarmin"
-                    andalusian_arabic = "Sarmin"
-                    sicilian_arabic = "Sarmin"
-                }
-                b_albarasyria = {
-                    bedouin_arabic = "al-Bara"
-                    maghreb_arabic = "al-Bara"
-                    levantine_arabic = "al-Bara"
-                    egyptian_arabic = "al-Bara"
-                    andalusian_arabic = "al-Bara"
-                    sicilian_arabic = "al-Bara"
-                }
-                b_famia = {
-                    bedouin_arabic = "Fámieh"
-                    maghreb_arabic = "Fámieh"
-                    levantine_arabic = "Fámieh"
-                    egyptian_arabic = "Fámieh"
-                    andalusian_arabic = "Fámieh"
-                    sicilian_arabic = "Fámieh"
-                    yemeni = "Fámieh"
-                    hijazi = "Fámieh"
-                    frankish = "Apamée"
-                    norman = "Apamée"
-                    greek = "Apameia"
-                }
-                b_bourzeycastle = {
-                    bedouin_arabic = "Barzuya"
-                    maghreb_arabic = "Barzuya"
-                    levantine_arabic = "Barzuya"
-                    egyptian_arabic = "Barzuya"
-                    andalusian_arabic = "Barzuya"
-                    sicilian_arabic = "Barzuya"
-                    frankish = "Rochefort"
-                    norman = "Rochefort"
-                    greek = "Lysias"
-                }
-                b_treiz = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_tripoli = {
-            color = { 154 39 39 }
-            color2 = { 255 255 255 }
-            name_tier = count
-            capital = 767
-            bedouin_arabic = "Tarabulus"
-            maghreb_arabic = "Tarabulus"
-            levantine_arabic = "Tarabulus"
-            egyptian_arabic = "Tarabulus"
-            andalusian_arabic = "Tarabulus"
-            sicilian_arabic = "Tarabulus"
-            sanhaja = "Tarabulus"
-            tagelmust = "Tarabulus"
-            tuareg = "Tarabulus"
-            masmuda = "Tarabulus"
-            zanata = "Tarabulus"
-            roman = "Phoenice"
-            greek = "Phoiníkes"
-            c_tortosa = {
-                color = { 73 152 34 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Antartus"
-                maghreb_arabic = "Antartus"
-                levantine_arabic = "Antartus"
-                egyptian_arabic = "Antartus"
-                andalusian_arabic = "Antartus"
-                sicilian_arabic = "Antartus"
-                yemeni = "Antartus"
-                hijazi = "Antartus"
-                sanhaja = "Antartus"
-                tagelmust = "Antartus"
-                tuareg = "Antartus"
-                masmuda = "Antartus"
-                zanata = "Antartus"
-                greek = "Antarados"
-                b_tortosa = {
-                    bedouin_arabic = "Antartus"
-                    maghreb_arabic = "Antartus"
-                    levantine_arabic = "Antartus"
-                    egyptian_arabic = "Antartus"
-                    andalusian_arabic = "Antartus"
-                    sicilian_arabic = "Antartus"
-                    yemeni = "Antartus"
-                    hijazi = "Antartus"
-                    sanhaja = "Antartus"
-                    tagelmust = "Antartus"
-                    tuareg = "Antartus"
-                    masmuda = "Antartus"
-                    zanata = "Antartus"
-                    greek = "Antarados"
-                }
-                b_maraclea = {
-                    bedouin_arabic = "Maraqiya"
-                    maghreb_arabic = "Maraqiya"
-                    levantine_arabic = "Maraqiya"
-                    egyptian_arabic = "Maraqiya"
-                    andalusian_arabic = "Maraqiya"
-                    sicilian_arabic = "Maraqiya"
-                    yemeni = "Maraqiya"
-                    hijazi = "Maraqiya"
-                    greek = "Marakleia"
-                }
-                b_valania = {
-                    bedouin_arabic = "Bulunyas"
-                    maghreb_arabic = "Bulunyas"
-                    levantine_arabic = "Bulunyas"
-                    egyptian_arabic = "Bulunyas"
-                    andalusian_arabic = "Bulunyas"
-                    sicilian_arabic = "Bulunyas"
-                    greek = "Balanias"
-                }
-                b_margat = {
-                    bedouin_arabic = "al-Marqab"
-                    maghreb_arabic = "al-Marqab"
-                    levantine_arabic = "al-Marqab"
-                    egyptian_arabic = "al-Marqab"
-                    andalusian_arabic = "al-Marqab"
-                    sicilian_arabic = "al-Marqab"
-                }
-                b_ruad = {}
-                b_alkhawabi = {
-                    frankish = "La Coïble"
-                    norman = "La Coïble"
-                }
-            }
-            c_monferrand = {
-                color = { 73 152 34 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Hisn -al Akrad"
-                maghreb_arabic = "Hisn -al Akrad"
-                levantine_arabic = "Hisn -al Akrad"
-                egyptian_arabic = "Hisn -al Akrad"
-                andalusian_arabic = "Hisn -al Akrad"
-                sicilian_arabic = "Hisn -al Akrad"
-                yemeni = "Hisn -al Akrad"
-                hijazi = "Hisn -al Akrad"
-                sanhaja = "Hisn -al Akrad"
-                tagelmust = "Hisn -al Akrad"
-                tuareg = "Hisn -al Akrad"
-                masmuda = "Hisn -al Akrad"
-                zanata = "Hisn -al Akrad"
-                greek = "Raphaniai"
-                b_chastelrouge = {
-                    bedouin_arabic = "Qalat Yahmur"
-                    maghreb_arabic = "Qalat Yahmur"
-                    levantine_arabic = "Qalat Yahmur"
-                    egyptian_arabic = "Qalat Yahmur"
-                    andalusian_arabic = "Qalat Yahmur"
-                    sicilian_arabic = "Qalat Yahmur"
-                    sanhaja = "Qalat Yahmur"
-                    tagelmust = "Qalat Yahmur"
-                    tuareg = "Qalat Yahmur"
-                    masmuda = "Qalat Yahmur"
-                    zanata = "Qalat Yahmur"
-                }
-                b_zweitina = {}
-                b_chastelblanc = {
-                    bedouin_arabic = "Burj Safita"
-                    maghreb_arabic = "Burj Safita"
-                    levantine_arabic = "Burj Safita"
-                    egyptian_arabic = "Burj Safita"
-                    andalusian_arabic = "Burj Safita"
-                    sicilian_arabic = "Burj Safita"
-                    sanhaja = "Burj Safita"
-                    tagelmust = "Burj Safita"
-                    tuareg = "Burj Safita"
-                    masmuda = "Burj Safita"
-                    zanata = "Burj Safita"
-                }
-                b_krakdeschevaliers = {
-                    bedouin_arabic = "Hisn -al Akrad"
-                    maghreb_arabic = "Hisn -al Akrad"
-                    levantine_arabic = "Hisn -al Akrad"
-                    egyptian_arabic = "Hisn -al Akrad"
-                    andalusian_arabic = "Hisn -al Akrad"
-                    sicilian_arabic = "Hisn -al Akrad"
-                    yemeni = "Hisn -al Akrad"
-                    hijazi = "Hisn -al Akrad"
-                    sanhaja = "Hisn -al Akrad"
-                    tagelmust = "Hisn -al Akrad"
-                    tuareg = "Hisn -al Akrad"
-                    masmuda = "Hisn -al Akrad"
-                    zanata = "Hisn -al Akrad"
-                }
-                b_raphania = {
-                    bedouin_arabic = "Rafaniya"
-                    maghreb_arabic = "Rafaniya"
-                    levantine_arabic = "Rafaniya"
-                    egyptian_arabic = "Rafaniya"
-                    andalusian_arabic = "Rafaniya"
-                    sicilian_arabic = "Rafaniya"
-                    yemeni = "Rafaniya"
-                    hijazi = "Rafaniya"
-                    roman = "Raphaneae"
-                    greek = "Raphaniai"
-                }
-            }
-            c_masyaf = {
-                color = { 73 152 34 }
-                color2 = { 255 255 255 }
-                roman = "Marsyas"
-                greek = "Marsyas"
-                b_alkahf = {}
-                b_masyaf = {
-                    roman = "Marsyas"
-                    greek = "Marsyas"
-                }
-                b_alqadamus = {}
-            }
-            c_tripoli = {
-                color = { 75 154 36 }
-                color2 = { 255 255 255 }
-                bedouin_arabic = "Tarabulus"
-                maghreb_arabic = "Tarabulus"
-                levantine_arabic = "Tarabulus"
-                egyptian_arabic = "Tarabulus"
-                andalusian_arabic = "Tarabulus"
-                sicilian_arabic = "Tarabulus"
-                yemeni = "Tarabulus"
-                hijazi = "Tarabulus"
-                sanhaja = "Tarabulus"
-                tagelmust = "Tarabulus"
-                tuareg = "Tarabulus"
-                masmuda = "Tarabulus"
-                zanata = "Tarabulus"
-                b_syrtripoli = {
-                    bedouin_arabic = "Tarabulus"
-                    maghreb_arabic = "Tarabulus"
-                    levantine_arabic = "Tarabulus"
-                    egyptian_arabic = "Tarabulus"
-                    andalusian_arabic = "Tarabulus"
-                    sicilian_arabic = "Tarabulus"
-                    yemeni = "Tarabulus"
-                    hijazi = "Tarabulus"
-                    sanhaja = "Tarabulus"
-                    tagelmust = "Tarabulus"
-                    tuareg = "Tarabulus"
-                    masmuda = "Tarabulus"
-                    zanata = "Tarabulus"
-                }
-                b_citadeloftripoli = {
-                    bedouin_arabic = "Qalat Tarabulus"
-                    maghreb_arabic = "Qalat Tarabulus"
-                    levantine_arabic = "Qalat Tarabulus"
-                    egyptian_arabic = "Qalat Tarabulus"
-                    andalusian_arabic = "Qalat Tarabulus"
-                    sicilian_arabic = "Qalat Tarabulus"
-                    yemeni = "Qalat Tarabulus"
-                    hijazi = "Qalat Tarabulus"
-                    sanhaja = "Qalat Tarabulus"
-                    tagelmust = "Qalat Tarabulus"
-                    tuareg = "Qalat Tarabulus"
-                    masmuda = "Qalat Tarabulus"
-                    zanata = "Qalat Tarabulus"
-                    greek = "Kastro Tripolis"
-                }
-                b_citdaelofsaintgilles = {
-                    bedouin_arabic = "Qalat Sanjil"
-                    maghreb_arabic = "Qalat Sanjil"
-                    levantine_arabic = "Qalat Sanjil"
-                    egyptian_arabic = "Qalat Sanjil"
-                    andalusian_arabic = "Qalat Sanjil"
-                    sicilian_arabic = "Qalat Sanjil"
-                    sanhaja = "Qalat Sanjil"
-                    tagelmust = "Qalat Sanjil"
-                    tuareg = "Qalat Sanjil"
-                    masmuda = "Qalat Sanjil"
-                    zanata = "Qalat Sanjil"
-                }
-                b_buissera = {
-                    frankish = "Buissera"
-                    norman = "Buissera"
-                }
-                b_archa = {
-                    bedouin_arabic = "Arqa"
-                    maghreb_arabic = "Arqa"
-                    levantine_arabic = "Arqa"
-                    egyptian_arabic = "Arqa"
-                    andalusian_arabic = "Arqa"
-                    sicilian_arabic = "Arqa"
-                    greek = "Archa"
-                }
-                b_amiountripoli = {}
-                b_nephin = {
-                    bedouin_arabic = "Hisn Anaf"
-                    maghreb_arabic = "Hisn Anaf"
-                    levantine_arabic = "Hisn Anaf"
-                    egyptian_arabic = "Hisn Anaf"
-                    andalusian_arabic = "Hisn Anaf"
-                    sicilian_arabic = "Hisn Anaf"
-                    greek = "Nephioun"
-                }
-            }
-            c_gibelet = {
-                color = { 75 154 36 }
-                color2 = { 255 255 255 }
-                name_tier = baron
-                bedouin_arabic = "Jebail"
-                maghreb_arabic = "Jebail"
-                levantine_arabic = "Jebail"
-                egyptian_arabic = "Jebail"
-                andalusian_arabic = "Jebail"
-                sicilian_arabic = "Jebail"
-                yemeni = "Jebail"
-                hijazi = "Jebail"
-                sanhaja = "Jebail"
-                tagelmust = "Jebail"
-                tuareg = "Jebail"
-                masmuda = "Jebail"
-                zanata = "Jebail"
-                roman = "Byblus"
-                greek = "Byblos"
-                b_gibeletcastle = {
-                    bedouin_arabic = "Qalat Jebail"
-                    maghreb_arabic = "Qalat Jebail"
-                    levantine_arabic = "Qalat Jebail"
-                    egyptian_arabic = "Qalat Jebail"
-                    andalusian_arabic = "Qalat Jebail"
-                    sicilian_arabic = "Qalat Jebail"
-                    sanhaja = "Qalat Jebail"
-                    tagelmust = "Qalat Jebail"
-                    tuareg = "Qalat Jebail"
-                    masmuda = "Qalat Jebail"
-                    zanata = "Qalat Jebail"
-                    roman = "Castrum Byblus"
-                    greek = "Kastro Byblos"
-                }
-                b_gibelet = {
-                    bedouin_arabic = "Jebail"
-                    maghreb_arabic = "Jebail"
-                    levantine_arabic = "Jebail"
-                    egyptian_arabic = "Jebail"
-                    andalusian_arabic = "Jebail"
-                    sicilian_arabic = "Jebail"
-                    yemeni = "Jebail"
-                    hijazi = "Jebail"
-                    sanhaja = "Jebail"
-                    tagelmust = "Jebail"
-                    tuareg = "Jebail"
-                    masmuda = "Jebail"
-                    zanata = "Jebail"
-                    roman = "Byblus"
-                    greek = "Byblos"
-                }
-                b_boutron = {}
-                b_besmedin = {}
-                b_msheilfort = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        allow = {
-            religion_group = christian
-            title_king_basic_allow = yes
-        }
-    }
-    k_aljazira = {
-        color = { 255 2 36 }
-        color2 = { 255 255 255 }
-        capital = 697
-        culture = levantine_arabic
-        roman = "Assyria"
-        greek = "Assyria"
-        armenian = "Arvastan"
-        pahlavi = "Arbayistan"
-        orthodox = 200
-        muslim = 400
-        d_amida = {
-            color = { 102 78 57 }
-            color2 = { 255 255 255 }
-            armenian = "Aghdznik"
-            greek = "Arzanene"
-            oghuz = "Diyar-i Bekr"
-            turkmen = "Diyar-i Bekr"
-            turkish = "Diyar-i Bekr"
-            maghreb_arabic = "Diyar Bakr"
-            levantine_arabic = "Diyar Bakr"
-            egyptian_arabic = "Diyar Bakr"
-            andalusian_arabic = "Diyar Bakr"
-            sicilian_arabic = "Diyar Bakr"
-            bedouin_arabic = "Diyar Bakr"
-            yemeni = "Diyar Bakr"
-            hijazi = "Diyar Bakr"
-            kurdish = "Amed"
-            capital = 683
-            c_amida = {
-                color = { 129 166 48 }
-                color2 = { 255 255 255 }
-                armenian = "Tigranakert"
-                oghuz = "Diyar-i Bekr"
-                turkmen = "Diyar-i Bekr"
-                turkish = "Diyar-i Bekr"
-                maghreb_arabic = "Ámid"
-                levantine_arabic = "Ámid"
-                egyptian_arabic = "Ámid"
-                andalusian_arabic = "Ámid"
-                sicilian_arabic = "Ámid"
-                bedouin_arabic = "Ámid"
-                yemeni = "Ámid"
-                hijazi = "Ámid"
-                assyrian = "Amid"
-                kurdish = "Amed"
-                b_kiaburc = {
-                    greek = "Kastron Amida"
-                }
-                b_amida = {
-                    armenian = "Tigranakert"
-                    oghuz = "Diyar-i Bekr"
-                    turkmen = "Diyar-i Bekr"
-                    turkish = "Diyar-i Bekr"
-                    maghreb_arabic = "Ámid"
-                    levantine_arabic = "Ámid"
-                    egyptian_arabic = "Ámid"
-                    andalusian_arabic = "Ámid"
-                    sicilian_arabic = "Ámid"
-                    bedouin_arabic = "Ámid"
-                    yemeni = "Ámid"
-                    hijazi = "Ámid"
-                    assyrian = "Amid"
-                    kurdish = "Amed"
-                }
-                b_ulucamii = {
-                    armenian = "Surp Giragos"
-                    greek = "Monì tìs Agios Giragos"
-                }
-                b_suraamede = {}
-                b_hazretisuleymancamii = {}
-                b_egil = {}
-                b_idtodyolataloho = {}
-            }
-            c_hisn_kayf = {
-                color = { 162 191 44 }
-                color2 = { 255 255 255 }
-                greek = "Martyropolis"
-                maghreb_arabic = "Mayyafariqin"
-                levantine_arabic = "Mayyafariqin"
-                egyptian_arabic = "Mayyafariqin"
-                andalusian_arabic = "Mayyafariqin"
-                sicilian_arabic = "Mayyafariqin"
-                bedouin_arabic = "Mayyafariqin"
-                yemeni = "Mayyafariqin"
-                hijazi = "Mayyafariqin"
-                oghuz = "Hasankeyf"
-                turkmen = "Hasankeyf"
-                turkish = "Hasankeyf"
-                kurdish = "Heskîf"
-                armenian = "Nprkert"
-                assyrian = "Mayperqit"
-                b_mayyafarikin = {
-                    armenian = "Nprkert"
-                    greek = "Martyropolis"
-                    oghuz = "Meyafarikín"
-                    turkmen = "Meyafarikín"
-                    turkish = "Meyafarikín"
-                    maghreb_arabic = "Mayyafariqin"
-                    levantine_arabic = "Mayyafariqin"
-                    egyptian_arabic = "Mayyafariqin"
-                    andalusian_arabic = "Mayyafariqin"
-                    sicilian_arabic = "Mayyafariqin"
-                    bedouin_arabic = "Mayyafariqin"
-                    yemeni = "Mayyafariqin"
-                    hijazi = "Mayyafariqin"
-                    kurdish = "Farqîn"
-                    assyrian = "Mayperqit"
-                }
-                b_hisnkayf = {
-                    greek = "Kiphas"
-                    oghuz = "Hasankeyf"
-                    turkmen = "Hasankeyf"
-                    turkish = "Hasankeyf"
-                    kurdish = "Heskîf"
-                    armenian = "Harsenkev"
-                    assyrian = "Hésn Kayfa"
-                }
-                b_siird = {
-                    greek = "Sirte"
-                    oghuz = "Si'irt"
-                    turkmen = "Si'irt"
-                    turkish = "Si'irt"
-                    kurdish = "Sêrt"
-                    armenian = "Sgert"
-                    assyrian = "Si'reth"
-                }
-                b_arzan = {
-                    greek = "Nikephorion"
-                    oghuz = "Erzen"
-                    turkmen = "Erzen"
-                    turkish = "Erzen"
-                    maghreb_arabic = "Arzan"
-                    levantine_arabic = "Arzan"
-                    egyptian_arabic = "Arzan"
-                    andalusian_arabic = "Arzan"
-                    sicilian_arabic = "Arzan"
-                    bedouin_arabic = "Arzan"
-                    kurdish = "Arzan"
-                    assyrian = "Arzun"
-                }
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_jazira = {
-            color = { 96 115 255 }
-            color2 = { 255 255 255 }
-            capital = 709
-            roman = "Euphratensis"
-            greek = "Euphratensis"
-            c_asas = {
-                color = { 87 234 22 }
-                color2 = { 255 255 255 }
-                roman = "Callinicum"
-                greek = "Kallinikos"
-                assyrian = "Qaliniqos"
-                b_rakka = {
-                    roman = "Callinicum"
-                    greek = "Kallinikos"
-                    assyrian = "Qaliniqos"
-                }
-                b_qalatjabar = {
-                    roman = "Dausara"
-                    greek = "Dausara"
-                    oghuz = "Caber Hisar"
-                    turkmen = "Caber Hisar"
-                    turkish = "Caber Hisar"
-                }
-                b_talabyad = {}
-                b_resafa = {
-                    roman = "Sergiopolis"
-                    greek = "Sergioupolis"
-                }
-                b_ar-rafiqa = {}
-                b_bizunasyria = {}
-                b_zarzakka = {}
-            }
-            c_al_bichri = {
-                color = { 15 95 242 }
-                color2 = { 255 255 255 }
-                roman = "Circesium"
-                greek = "Kirkesion"
-                assyrian = "Qerqesin"
-                b_bichri = {}
-                b_deiralzur = {
-                    roman = "Deir"
-                    greek = "Deir"
-                    armenian = "Der Zor"
-                }
-                b_osrhoene = {
-                    roman = "Circesium"
-                    greek = "Kirkesion"
-                    assyrian = "Qerqesin"
-                }
-                b_abukamal = {}
-                b_shamiyya = {}
-                b_mayadin = {}
-                b_sirhi = {}
-                b_mhaymidah = {}
-            }
-            c_harran = {
-                color = { 153 255 5 }
-                color2 = { 255 255 255 }
-                roman = "Carrhae"
-                greek = "Karrai"
-                b_harran = {
-                    roman = "Carrhae"
-                    greek = "Karrai"
-                }
-                b_tallmazwan = {
-                    roman = "Constantina"
-                    greek = "Konstantina"
-                    assyrian = "Tella d'Mauzalath"
-                    oghuz = "Viransehir"
-                    turkmen = "Viransehir"
-                    turkish = "Viransehir"
-                }
-                b_akcakale = {}
-                b_ceylanpinar = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_diyareast = {
-            color = { 255 239 63 }
-            color2 = { 255 255 255 }
-            capital = 697
-            armenian = "Arvastan"
-            pahlavi = "Arbayistan"
-            c_mardin = {
-                color = { 129 166 48 }
-                color2 = { 255 255 255 }
-                greek = "Marida"
-                maghreb_arabic = "Máridín"
-                levantine_arabic = "Máridín"
-                egyptian_arabic = "Máridín"
-                andalusian_arabic = "Máridín"
-                sicilian_arabic = "Máridín"
-                bedouin_arabic = "Máridín"
-                kurdish = "Mêrdîn"
-                assyrian = "Merdô"
-                b_maridin = {
-                    greek = "Marida"
-                    armenian = "Marida"
-                    maghreb_arabic = "Máridín"
-                    levantine_arabic = "Máridín"
-                    egyptian_arabic = "Máridín"
-                    andalusian_arabic = "Máridín"
-                    sicilian_arabic = "Máridín"
-                    bedouin_arabic = "Máridín"
-                    kurdish = "Mêrdîn"
-                    assyrian = "Merdô"
-                }
-                b_resaina = {
-                    bedouin_arabic = "Ra's al-Ayn"
-                    maghreb_arabic = "Ra's al-Ayn"
-                    levantine_arabic = "Ra's al-Ayn"
-                    egyptian_arabic = "Ra's al-Ayn"
-                    andalusian_arabic = "Ra's al-Ayn"
-                    sicilian_arabic = "Ra's al-Ayn"
-                    oghuz = "Resulayn"
-                    turkmen = "Resulayn"
-                    turkish = "Resulayn"
-                    assyrian = "Reš Ayna"
-                }
-                b_dunaysir = {
-                    armenian = "Tyel-Armen"
-                    greek = "Margdis"
-                    oghuz = "Tell-Ermen"
-                    turkmen = "Tell-Ermen"
-                    turkish = "Tell-Ermen"
-                    maghreb_arabic = "Dunaysir"
-                    levantine_arabic = "Dunaysir"
-                    egyptian_arabic = "Dunaysir"
-                    andalusian_arabic = "Dunaysir"
-                    sicilian_arabic = "Dunaysir"
-                    bedouin_arabic = "Dunaysir"
-                    kurdish = "Qoser"
-                }
-                b_dairodmorhannanyo = {}
-                b_alsywaydaturkey = {
-                    oghuz = "Siverek"
-                    turkmen = "Siverek"
-                    turkish = "Siverek"
-                    armenian = "Sevaverak"
-                    greek = "Sevaverak"
-                    assyrian = "Sibaberek"
-                }
-            }
-            c_amadiya = {
-                color = { 133 170 52 }
-                color2 = { 255 255 255 }
-                greek = "Kordyene"
-                armenian = "Korchayk"
-                oghuz = "Amadiye"
-                turkmen = "Amadiye"
-                turkish = "Amadiye"
-                kurdish = "Kardox"
-                assyrian = "Amadiya"
-                b_amadiyah = {
-                    oghuz = "Amadiye"
-                    turkmen = "Amadiye"
-                    turkish = "Amadiye"
-                    kurdish = "Amêdî"
-                    assyrian = "Amadiya"
-                }
-                b_hakkari = {
-                    oghuz = "Çölemerik"
-                    turkmen = "Çölemerik"
-                    turkish = "Çölemerik"
-                    kurdish = "Colemêrg"
-                    armenian = "Ilmar"
-                }
-                b_alki = {
-                    oghuz = "Elki"
-                    turkmen = "Elki"
-                    turkish = "Elki"
-                    kurdish = "Elkê"
-                }
-            }
-            c_al_jazira = {
-                color = { 13 93 240 }
-                color2 = { 255 255 255 }
-                greek = "Bethzabde"
-                oghuz = "Cizre"
-                turkmen = "Cizre"
-                turkish = "Cizre"
-                kurdish = "Cizîr"
-                assyrian = "Gazarta"
-                b_jazirat = {
-                    greek = "Bethzabde"
-                    oghuz = "Cizre"
-                    turkmen = "Cizre"
-                    turkish = "Cizre"
-                    kurdish = "Cizîr"
-                    assyrian = "Gzira"
-                }
-                b_barqaid = {}
-                b_faysabur = {
-                    kurdish = "Faysh-Khabur"
-                    pahlavi = "Peroz Shapur"
-                }
-                b_fenek = {
-                    greek = "Penek"
-                    armenian = "Penek"
-                    assyrian = "Penek"
-                    oghuz = "Fenek Hisar"
-                    turkmen = "Fenek Hisar"
-                    turkish = "Fenek Hisar"
-                }
-            }
-            c_sinjar = {
-                color = { 17 97 244 }
-                color2 = { 255 255 255 }
-                roman = "Singara"
-                greek = "Singara"
-                assyrian = "Beth Arabaye"
-                kurdish = "Sengal"
-                b_sinjar = {
-                    roman = "Singara"
-                    greek = "Singara"
-                    assyrian = "Šiggar"
-                    kurdish = "Sengal"
-                }
-                b_tallafar = {
-                    oghuz = "Telafer"
-                    turkmen = "Telafer"
-                    turkish = "Telafer"
-                }
-                b_hayyal = {}
-                b_baaj = {}
-                b_makisin = {}
-            }
-            c_bira = {
-                color = { 19 99 246 }
-                color2 = { 255 255 255 }
-                armenian = "Mtsbin"
-                greek = "Nisibis"
-                oghuz = "Nusaybin"
-                turkmen = "Nusaybin"
-                turkish = "Nusaybin"
-                kurdish = "Nisêbîn"
-                assyrian = "Nsibin"
-                b_nasibin = {
-                    armenian = "Mtsbin"
-                    greek = "Nisibis"
-                    oghuz = "Nusaybin"
-                    turkmen = "Nusaybin"
-                    turkish = "Nusaybin"
-                    maghreb_arabic = "Nasíbín"
-                    levantine_arabic = "Nasíbín"
-                    egyptian_arabic = "Nasíbín"
-                    andalusian_arabic = "Nasíbín"
-                    sicilian_arabic = "Nasíbín"
-                    bedouin_arabic = "Nasíbín"
-                    kurdish = "Nisêbîn"
-                    assyrian = "Nsibin"
-                }
-                b_dara = {}
-                b_araban = {}
-                b_amuda = {
-                    kurdish = "Amûdê"
-                }
-            }
-            c_nineveh = {
-                color = { 11 91 238 }
-                color2 = { 255 255 255 }
-                assyrian = "Hadyab"
-                b_bartella = {}
-                b_karamlish = {}
-                b_bakhdida = {
-                    assyrian = "Beth Khdeda"
-                }
-                b_baqofah = {
-                    assyrian = "Beth Qopa"
-                }
-                b_duhok = {
-                    assyrian = "Nohadra"
-                    maghreb_arabic = "Nohidrah"
-                    levantine_arabic = "Nohidrah"
-                    egyptian_arabic = "Nohidrah"
-                    andalusian_arabic = "Nohidrah"
-                    sicilian_arabic = "Nohidrah"
-                    bedouin_arabic = "Nohidrah"
-                }
-                b_aqra = {
-                    kurdish = "Akrê"
-                }
-                b_maaltha = {}
-                b_marmattai = {}
-            }
-            c_erbil = {
-                color = { 9 89 236 }
-                color2 = { 255 255 255 }
-                maghreb_arabic = "Arbil"
-                levantine_arabic = "Arbil"
-                egyptian_arabic = "Arbil"
-                andalusian_arabic = "Arbil"
-                sicilian_arabic = "Arbil"
-                bedouin_arabic = "Arbil"
-                roman = "Arbela"
-                greek = "Arbela"
-                assyrian = "Arbel"
-                kurdish = "Erbil"
-                b_arbil = {
-                    roman = "Arbela"
-                    greek = "Arbela"
-                    assyrian = "Arbel"
-                    kurdish = "Erbil"
-                }
-                b_shaqlawa = {}
-                b_darabad = {
-                    assyrian = "Beth Wazik"
-                }
-                b_tellhaftun = {
-                    assyrian = "Hebton"
-                }
-            }
-            c_mosul = {
-                color = { 9 89 236 }
-                color2 = { 255 255 255 }
-                roman = "Mepsila"
-                greek = "Mepsila"
-                assyrian = "Nînwe"
-                kurdish = "Mûsil"
-                pahlavi = "Nod-Ardashir"
-                b_mosulcastle = {
-                    roman = "Castrum Mepsila"
-                    greek = "Kastron Mepsila"
-                }
-                b_mosul = {
-                    roman = "Mepsila"
-                    greek = "Mepsila"
-                    assyrian = "Nînwe"
-                    kurdish = "Mûsil"
-                    pahlavi = "Nod-Ardashir"
-                }
-                b_baladmosul = {}
-                b_bawazij = {
-                    assyrian = "Beth Wazik"
-                }
-                b_haditha = {
-                    assyrian = "Hdatta"
-                }
-            }
-            allow = {
-                title_duke_basic_allow = yes
             }
         }
         allow = {
@@ -60356,203 +60762,6 @@ e_null = {
                 title_duke_basic_allow = yes
             }
         }
-        d_khottal = {
-            color = { 118 223 170 }
-            color2 = { 255 255 255 }
-            capital = 1556
-            pahlavi = "Kushanshahr"
-            c_badakhshan = {
-                color = { 18 2 170 }
-                color2 = { 255 255 255 }
-                b_badakhshan = {}
-                b_shughnan = {}
-                b_jerm = {}
-                b_rustaq = {}
-                b_sanglich = {}
-                b_ishkashim = {}
-                b_dar-i-tubbat = {}
-            }
-            c_khuttal = {
-                color = { 18 23 10 }
-                color2 = { 255 255 255 }
-                b_hulbuk = {}
-                b_pargar = {}
-                b_munk = {}
-                b_halavand = {}
-                b_qubadiyan = {}
-                b_livkand = {}
-            }
-            c_rasht = {
-                color = { 118 23 170 }
-                color2 = { 255 255 255 }
-                b_shuman = {}
-                b_vashgird = {}
-                b_afridhan = {}
-                b_rasht = {}
-            }
-            c_chaghaniyan = {
-                color = { 90 223 170 }
-                color2 = { 255 255 255 }
-                b_chaghaniyan = {}
-                b_charmangan = {}
-                b_basand = {}
-                b_darzangi = {}
-                b_hashimgird = {}
-                b_hamvaran = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        allow = {
-            title_king_basic_allow = yes
-        }
-    }
-    k_sistan = {
-        color = { 120 190 90 }
-        color2 = { 255 255 255 }
-        capital = 637
-        pahlavi = "Sakastan"
-        muslim = 200
-        zoroastrian = 350
-        d_sistan = {
-            color = { 111 40 97 }
-            color2 = { 255 255 255 }
-            capital = 637
-            pahlavi = "Sakastan"
-            c_farah = {
-                color = { 140 173 84 }
-                color2 = { 255 255 255 }
-                roman = "Prophthasia"
-                greek = "Prophthasia"
-                pahlavi = "Phra"
-                assyrian = "Aprah"
-                b_farah = {
-                    roman = "Prophthasia"
-                    greek = "Prophthasia"
-                    pahlavi = "Phra"
-                    assyrian = "Aprah"
-                }
-                b_djuvayn = {}
-                b_djiza = {}
-                b_khvash = {}
-                b_qarnin = {}
-            }
-            c_rudbar = {
-                color = { 142 182 80 }
-                color2 = { 255 255 255 }
-                b_rudbar = {}
-                b_salakan = {}
-                b_kish = {}
-            }
-            c_sistan = {
-                color = { 102 122 67 }
-                color2 = { 255 255 255 }
-                b_zaranj = {
-                    pahlavi = "Zarang"
-                }
-                b_karkuya = {}
-                b_nih = {}
-                b_sibih = {}
-                b_ram = {}
-            }
-            c_zamindavar = {
-                color = { 142 175 86 }
-                color2 = { 255 255 255 }
-                pahlavi = "Zamin-i-datbar"
-                b_bust = {}
-                b_sarvan = {}
-                b_muaskar = {}
-                b_baghnin = {}
-                b_durghash = {}
-                b_bishlang = {}
-                b_till = {}
-            }
-            c_rukhadj = {
-                color = { 148 170 89 }
-                color2 = { 255 255 255 }
-                roman = "Arachosia"
-                greek = "Arachosia"
-                pahlavi = "Harauvatish"
-                b_kandahar = {}
-                b_pandjvay = {}
-                b_bakrabad = {}
-                b_kuhak = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_makran = {
-            color = { 136 169 80 }
-            color2 = { 255 255 255 }
-            capital = 899
-            roman = "Gedrosia"
-            greek = "Gedrosia"
-            pahlavi = "Makuran"
-            c_makran = {
-                color = { 146 169 80 }
-                color2 = { 255 255 255 }
-                pahlavi = "Paradan"
-                b_bampur = {}
-                b_fahraj = {}
-                b_tiz = {}
-                b_khwash = {}
-                b_rask = {}
-                b_iskaf = {}
-                b_bih = {}
-            }
-            c_mashkel = {
-                color = { 146 179 90 }
-                color2 = { 255 255 255 }
-                b_djalk = {}
-                b_dizak = {}
-                b_saravan = {}
-            }
-            c_pandjgur = {
-                color = { 148 181 92 }
-                color2 = { 255 255 255 }
-                b_pandjgur = {}
-                b_kiz = {}
-                b_khawr = {}
-                b_armabil = {}
-            }
-            c_turan = {
-                color = { 152 185 96 }
-                color2 = { 255 255 255 }
-                pahlavi = "Turestan"
-                b_kizkanan = {}
-                b_quzdar = {}
-                b_bodein = {}
-                b_sura = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_walishan = {
-            color = { 62 120 151 }
-            color2 = { 255 255 255 }
-            capital = 1611
-            c_wana = {
-                color = { 244 80 5 }
-                color2 = { 255 255 255 }
-                b_kushk = {}
-                b_bori = {}
-                b_asfanjay = {}
-            }
-            c_sibi = {
-                color = { 200 145 18 }
-                color2 = { 255 255 255 }
-                b_sibi_india = {}
-                b_mastanj = {}
-                b_dadhar = {}
-                b_walishtan = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
         allow = {
             title_king_basic_allow = yes
         }
@@ -64398,208 +64607,6 @@ e_null = {
             title_king_basic_allow = yes
         }
     }
-    k_caucasian_albania = {
-        color = { 60 126 98 }
-        color2 = { 255 255 255 }
-        culture = udi
-        udi = "Aghvank"
-        armenian = "Aghvank"
-        georgian = "Albaneti"
-        pahlavi = "Ardhan"
-        orthodox = 200
-        capital = 1092
-        d_albania = {
-            color = { 255 203 100 }
-            color2 = { 255 255 255 }
-            udi = "Aghvank"
-            armenian = "Aghvank"
-            georgian = "Albaneti"
-            pahlavi = "Ardhan"
-            capital = 1530
-            c_arran = {
-                color = { 253 176 176 }
-                color2 = { 255 255 255 }
-                udi = "Partaw"
-                armenian = "Partaw"
-                georgian = "Rani"
-                greek = "Albania"
-                pahlavi = "Ardhan"
-                b_barda = {
-                    udi = "Partaw"
-                    armenian = "Partaw"
-                    georgian = "Bardavi"
-                }
-                b_baylakan = {}
-            }
-            c_utik = {
-                color = { 253 176 176 }
-                color2 = { 255 255 255 }
-                maghreb_arabic = "Utiq"
-                levantine_arabic = "Utiq"
-                egyptian_arabic = "Utiq"
-                andalusian_arabic = "Utiq"
-                sicilian_arabic = "Utiq"
-                bedouin_arabic = "Utiq"
-                greek = "Otene"
-                oghuz = "Gence"
-                turkmen = "Gence"
-                turkish = "Gence"
-                b_ganja = {
-                    oghuz = "Gence"
-                    turkmen = "Gence"
-                    turkish = "Gence"
-                    udi = "Gandzak"
-                    armenian = "Gandzak"
-                    georgian = "Gandza"
-                }
-                b_shamkhor = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_derbent = {
-            color = { 155 25 65 }
-            color2 = { 255 255 255 }
-            capital = 674
-            c_derbent = {
-                color = { 253 147 179 }
-                color2 = { 255 255 255 }
-                b_narinkala = {}
-                b_derbent = {}
-                b_juma = {}
-                b_chikkulkan = {}
-                b_quba = {}
-                b_kuli = {}
-                b_tayus = {}
-            }
-            c_lekia = {
-                color = { 253 147 179 }
-                color2 = { 255 255 255 }
-                pahlavi = "al-Lakza"
-                persian = "al-Lakza"
-                tajik = "al-Lakza"
-                daylamite = "al-Lakza"
-                khalaj = "al-Lakza"
-                sogdian = "al-Lakza"
-                khwarezmi = "al-Lakza"
-                kurdish = "al-Lakza"
-                afghan = "al-Lakza"
-                qufs = "al-Lakza"
-                baloch = "al-Lakza"
-                khazar = "Lezgistan"
-                pecheneg = "Lezgistan"
-                oghuz = "Lezgistan"
-                turkmen = "Lezgistan"
-                kasogi = "Lezgistan"
-                avar = "Lezgistan"
-                bashkir = "Lezgistan"
-                karluk = "Lezgistan"
-                mongol = "Lezgistan"
-                cuman = "Lezgistan"
-                kirghiz = "Lezgistan"
-                bolghar = "Lezgistan"
-                uyghur = "Lezgistan"
-                turkish = "Lezgistan"
-                bedouin_arabic = "al-Lakza"
-                maghreb_arabic = "al-Lakza"
-                levantine_arabic = "al-Lakza"
-                egyptian_arabic = "al-Lakza"
-                andalusian_arabic = "al-Lakza"
-                sicilian_arabic = "al-Lakza"
-                sanhaja = "al-Lakza"
-                tagelmust = "al-Lakza"
-                tuareg = "al-Lakza"
-                masmuda = "al-Lakza"
-                zanata = "al-Lakza"
-                b_kumukh = {
-                    pahlavi = "Gumik"
-                    persian = "Gumik"
-                    tajik = "Gumik"
-                    daylamite = "Gumik"
-                    khalaj = "Gumik"
-                    sogdian = "Gumik"
-                    khwarezmi = "Gumik"
-                    kurdish = "Gumik"
-                    afghan = "Gumik"
-                    qufs = "Gumik"
-                    baloch = "Gumik"
-                    bedouin_arabic = "Gumik"
-                    maghreb_arabic = "Gumik"
-                    levantine_arabic = "Gumik"
-                    egyptian_arabic = "Gumik"
-                    andalusian_arabic = "Gumik"
-                    sicilian_arabic = "Gumik"
-                    sanhaja = "Gumik"
-                    tagelmust = "Gumik"
-                    tuareg = "Gumik"
-                    masmuda = "Gumik"
-                    zanata = "Gumik"
-                }
-                b_tsakhur = {}
-                b_tabarsaran = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        d_shirvan = {
-            color = { 97 147 60 }
-            color2 = { 255 255 255 }
-            capital = 1092
-            pahlavi = "Balasagan"
-            c_shirvan = {
-                color = { 23 179 176 }
-                color2 = { 255 255 255 }
-                b_gulistan = {}
-                b_ahemakha = {}
-                b_bardij = {}
-                b_agsu = {}
-                b_arabsaki = {}
-            }
-            c_absheron = {
-                color = { 162 234 22 }
-                color2 = { 255 255 255 }
-                b_baku = {}
-                b_lankaran = {}
-                b_absheron = {}
-                b_shirvan = {}
-                b_shakhriyar = {}
-                b_salyan = {}
-                b_khizirzinda = {}
-                b_altiagay = {}
-            }
-            c_maskat = {
-                color = { 168 240 28 }
-                color2 = { 255 255 255 }
-                pahlavi = "Shapuran"
-                b_shabaran = {
-                    pahlavi = "Shapuran"
-                }
-                b_shikhlar = {}
-                b_khachmaz = {}
-                b_chiraggala = {}
-                b_anig = {}
-                b_maraza = {}
-                b_khil = {}
-            }
-            c_albania = {
-                color = { 253 176 176 }
-                color2 = { 255 255 255 }
-                b_kaghankatuyk = {}
-                b_gish = {}
-                b_kabala = {}
-                b_martakert = {}
-                b_aghuen = {}
-            }
-            allow = {
-                title_duke_basic_allow = yes
-            }
-        }
-        allow = {
-            title_king_basic_allow = yes
-        }
-    }
     k_guge = {
         color = { 137 168 188 }
         color2 = { 255 255 255 }
@@ -65692,13 +65699,6 @@ k_blemmyes = {
     color = { 255 67 20 }
     culture = beja
     capital = 1593
-    allow = {
-        title_king_basic_allow = yes
-    }
-}
-k_khwarezmia = {
-    color = { 255 67 20 }
-    capital = 626
     allow = {
         title_king_basic_allow = yes
     }
