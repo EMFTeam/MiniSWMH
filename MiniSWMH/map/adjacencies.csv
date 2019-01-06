@@ -32,7 +32,6 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 495;744;sea;1720;-1;-1;-1;-1;Kaliopolis-Abydos
 562;598;sea;1723;-1;-1;-1;-1;Korchev-Tmutarakan
 826;827;sea;1799;-1;-1;-1;-1;Menorca-Mallorca
-967;827;sea;1799;-1;-1;-1;-1;Eivissa-Mallorca
 472;1014;sea;1705;-1;-1;-1;-1;Epeiros-Corfu
 1304;1043;sea;1820;-1;-1;-1;-1;Sydsjælland-Lolland
 64;1183;sea;1797;-1;-1;-1;-1;Gweynd-Anglesey
@@ -40,7 +39,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1419;45;sea;1766;-1;-1;-1;-1;Muile-Argyll
 1420;45;sea;1766;-1;-1;-1;-1;Ile-Argyll
 1426;1427;sea;1766;-1;-1;-1;-1;Leodhas-Uibhist
-459;1312;sea;1707;-1;-1;-1;-1;Krk-Modrus
+459;1312;sea;2006;-1;-1;-1;-1;Krk-Modrus
 468;1295;sea;1706;-1;-1;-1;-1;Ragusa-Korcula
 936;1295;sea;1706;-1;-1;-1;-1;Hvar-Korcula
 485;482;sea;1715;-1;-1;-1;-1;Euboia-Athens
@@ -49,6 +48,8 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 641;1592;sea;1935;-1;-1;-1;-1;Hormuz-Suhar
 651;653;sea;1936;-1;-1;-1;-1;Qatif-Bahrein
 784;653;sea;1936;-1;-1;-1;-1;Qatar-Bahrein
+814;813;sea;1700;-1;-1;-1;-1;Gabes-Djerba
+1349;813;sea;1700;-1;-1;-1;-1;Sabrata-Djerba
 730;728;;1483;-1;-1;-1;-1;Palmyra-Damascus
 722;785;;782;-1;-1;-1;-1;Elim-Nekhel
 724;716;;1483;-1;-1;-1;-1;Amman-Dumat al-Jundal
@@ -109,4 +110,4 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1885;1859;portage;569;-1;-1;-1;-1;Smolnya A -Volga A
 1875;1899;portage;1277;-1;-1;-1;-1;Oka E-Sejm A
 1880;1881;portage;577;-1;-1;-1;-1;Pronya-Don A
-1883;1869;portage;619;-1;-1;-1;-1;Don C- Volga K
+1883;1869;portage;619;-1;-1;-1;-1;Don C-Volga K

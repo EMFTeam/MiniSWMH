@@ -86,3 +86,8 @@ region_socotra = {
         1552 
     }
 }
+region_djerba = {
+    provinces = {
+        813 
+    }
+}
