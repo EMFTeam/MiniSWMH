@@ -53388,7 +53388,16 @@ e_persia = {
                 b_arrajan = {
                     pahlavi = "Veh-az-Amid-Kavad"
                 }
-                b_ganava = {}
+                b_ganava = {
+                    maghreb_arabic = "Jannába"
+                    levantine_arabic = "Jannába"
+                    egyptian_arabic = "Jannába"
+                    andalusian_arabic = "Jannába"
+                    sicilian_arabic = "Jannába"
+                    bedouin_arabic = "Jannába"
+                    hijazi = "Jannába"
+                    yemeni = "Jannába"
+                }
                 b_kazarun = {}
                 b_khubdhan = {}
                 b_siniz = {}
