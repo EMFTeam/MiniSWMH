@@ -39394,7 +39394,7 @@ e_italy = {
             title_king_basic_allow = yes
         }
     }
-    k_patrimoniumpetri = {
+    k_papacy = {
         color = { 171 30 30 }
         color2 = { 255 255 255 }
         capital = 333
