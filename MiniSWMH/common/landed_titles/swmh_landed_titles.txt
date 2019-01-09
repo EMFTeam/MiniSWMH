@@ -2039,8 +2039,54 @@ e_hre = {
     culture = german
     short_name = yes
     bohemian = "Swatá Rzímská Rzísse"
+    k_austria = {
+        color = { 188 0 7 }
+        culture = german
+        capital = 449
+        title = ADA
+        foa = ADA_FOA
+        title_prefix = ADA_OF
+        allow = {
+            hidden_tooltip = {
+                OR = {
+                    ai = no
+                    culture_group = central_germanic
+                    FROM = {
+                        is_de_jure_title = yes
+                    }
+                }
+            }
+            OR = {
+                religion_group = christian
+                FROM = {
+                    is_de_jure_title = yes
+                }
+            }
+            has_landed_title = d_osterreich
+            has_landed_title = d_carinthia
+            title_king_basic_allow = yes
+        }
+    }
+    k_eastern_marches = {
+        color = { 240 240 240 }
+        color2 = { 255 255 255 }
+        capital = 449
+        allow = {
+            trigger_if = {
+                limit = {
+                    FROM = {
+                        is_de_jure_title = no
+                    }
+                }
+                FROM = {
+                    is_de_jure_title = yes
+                }
+            }
+            title_king_basic_allow = yes
+        }
+    }
     k_hansa = {
-        color = { 142 142 142 }
+        color = { 210 210 210 }
         color2 = { 255 255 255 }
         capital = 262
         dignity = 200
@@ -15422,6 +15468,26 @@ e_byzantium = {
         }
     }
     allow = {
+        trigger_if = {
+            limit = {
+                e_roman_empire = {
+                    has_holder = yes
+                }
+            }
+            e_roman_empire = {
+                has_holder = no
+            }
+        }
+        trigger_if = {
+            limit = {
+                e_latin_empire = {
+                    has_holder = yes
+                }
+            }
+            e_latin_empire = {
+                has_holder = no
+            }
+        }
         e_roman_empire = {
             has_holder = no
         }
@@ -16059,6 +16125,18 @@ e_scandinavia = {
             c_skara = {
                 color = { 5 155 255 }
                 color2 = { 255 255 255 }
+                pagan_coa = {
+                    template = 0
+                    layer = {
+                        texture = 3
+                        texture_internal = 2
+                        emblem = 0
+                        color = 0
+                        color = 0
+                        color = 0
+                    }
+                    religion = norse_pagan
+                }
                 b_galakvist = {
                     norwegian = "Gælakvist"
                     danish = "Gælakvist"
@@ -16648,6 +16726,18 @@ e_russia = {
         color = { 24 78 39 }
         color2 = { 255 255 255 }
         capital = 582
+        pagan_coa = {
+            template = 0
+            layer = {
+                texture = 3
+                texture_internal = 6
+                emblem = 0
+                color = 0
+                color = 0
+                color = 0
+            }
+            religion = slavic_pagan
+        }
         slavic_pagan_reformed = 350
         baltic_pagan_reformed = 100
         tengri_pagan_reformed = 100
@@ -17123,6 +17213,18 @@ e_russia = {
             color2 = { 255 255 255 }
             capital = 547
             dignity = 10
+            pagan_coa = {
+                template = 0
+                layer = {
+                    texture = 2
+                    texture_internal = 1
+                    emblem = 0
+                    color = 0
+                    color = 0
+                    color = 0
+                }
+                religion = norse_pagan
+            }
             danish = "Kœnugarðr"
             norse = "Kœnugarðr"
             swedish = "Kœnugarðr"
@@ -17514,6 +17616,18 @@ e_russia = {
             color2 = { 255 255 255 }
             capital = 414
             dignity = 10
+            pagan_coa = {
+                template = 0
+                layer = {
+                    texture = 2
+                    texture_internal = 4
+                    emblem = 0
+                    color = 0
+                    color = 0
+                    color = 0
+                }
+                religion = norse_pagan
+            }
             danish = "Holmgarðr"
             norse = "Holmgarðr"
             swedish = "Holmgarðr"
@@ -23729,6 +23843,16 @@ e_carpathia = {
             }
         }
         allow = {
+            trigger_if = {
+                limit = {
+                    FROM = {
+                        is_de_jure_title = no
+                    }
+                }
+                FROM = {
+                    is_de_jure_title = yes
+                }
+            }
             title_king_basic_allow = yes
         }
     }
@@ -29855,6 +29979,24 @@ e_britannia = {
         roman = "Britanniae"
         greek = "Britannia"
         catholic = 300
+        d_durham_palatine = {
+            color = { 251 33 12 }
+            color2 = { 220 220 0 }
+            capital = 56
+            title = PRINCE_BISHOP
+            foa = PRINCE_BISHOP_FOA
+            short_name = yes
+            location_ruler_title = yes
+            religion = catholic
+            primary = yes
+            assimilate = no
+            dynasty_title_names = no
+            dignity = 20
+            allow = {
+                is_theocracy = yes
+                title_duke_basic_allow = yes
+            }
+        }
         d_somerset = {
             color = { 68 140 48 }
             color2 = { 255 255 255 }
@@ -35873,6 +36015,7 @@ e_britannia = {
         gothic = "Skotlandi"
         norse = "Skotlandi"
         icelandic = "Skotlandi"
+        roman = "Caledonia"
         catholic = 300
         d_galloway = {
             color = { 24 58 121 }
@@ -38066,6 +38209,16 @@ e_italy = {
         culture = ligurian
         dignity = 200
         allow = {
+            trigger_if = {
+                limit = {
+                    FROM = {
+                        is_de_jure_title = no
+                    }
+                }
+                FROM = {
+                    is_de_jure_title = yes
+                }
+            }
             is_republic = yes
             title_king_basic_allow = yes
         }
@@ -38077,7 +38230,74 @@ e_italy = {
         culture = tuscan
         dignity = 200
         allow = {
+            trigger_if = {
+                limit = {
+                    FROM = {
+                        is_de_jure_title = no
+                    }
+                }
+                FROM = {
+                    is_de_jure_title = yes
+                }
+            }
             is_republic = yes
+            title_king_basic_allow = yes
+        }
+    }
+    k_amalfi = {
+        color = { 140 200 230 }
+        capital = 935
+        dignity = 20
+        allow = {
+            trigger_if = {
+                limit = {
+                    FROM = {
+                        is_de_jure_title = no
+                    }
+                }
+                FROM = {
+                    is_de_jure_title = yes
+                }
+            }
+            is_republic = yes
+            title_king_basic_allow = yes
+        }
+    }
+    k_romagna = {
+        color = { 215 141 152 }
+        color2 = { 255 255 255 }
+        capital = 351
+        greek = "Ravenna"
+        christian = 10000
+        allow = {
+            trigger_if = {
+                limit = {
+                    FROM = {
+                        is_de_jure_title = no
+                    }
+                }
+                FROM = {
+                    is_de_jure_title = yes
+                }
+            }
+            OR = {
+                AND = {
+                    has_landed_title = d_latium
+                    has_landed_title = c_roma
+                }
+                trigger_if = {
+                    limit = {
+                        FROM = {
+                            owner = {
+                                has_landed_title = k_papal_state
+                            }
+                        }
+                    }
+                    NOT = {
+                        religion = catholic
+                    }
+                }
+            }
             title_king_basic_allow = yes
         }
     }
@@ -40668,15 +40888,71 @@ e_italy = {
         }
     }
     allow = {
-        OR = {
-            religion_group = christian
+        trigger_if = {
+            limit = {
+                NOT = {
+                    religion_group = christian
+                }
+            }
             FROM = {
                 is_de_jure_title = yes
             }
         }
         has_landed_title = k_italy
         has_landed_title = k_sicily
+        trigger_if = {
+            limit = {
+                k_naples = {
+                    is_de_jure_title = yes
+                }
+                NOT = {
+                    de_jure_liege = FROM
+                }
+            }
+            has_landed_title = k_naples
+        }
+        trigger_if = {
+            limit = {
+                k_trinacria = {
+                    is_de_jure_title = yes
+                }
+                NOT = {
+                    de_jure_liege = FROM
+                }
+            }
+            has_landed_title = k_trinacria
+        }
         title_emperor_basic_allow = yes
+    }
+    gain_effect = {
+        if = {
+            limit = {
+                k_naples = {
+                    is_de_jure_title = yes
+                }
+                NOT = {
+                    de_jure_liege = FROM
+                }
+            }
+            k_naples = {
+                show_scope_change = no
+                de_jure_liege = FROM
+            }
+        }
+        if = {
+            limit = {
+                k_trinacria = {
+                    is_de_jure_title = yes
+                }
+                NOT = {
+                    de_jure_liege = FROM
+                }
+            }
+            k_trinacria = {
+                show_scope_change = no
+                de_jure_liege = FROM
+            }
+        }
     }
 }
 e_france = {
@@ -52345,7 +52621,54 @@ e_spain = {
                 culture = andalusian_arabic
             }
         }
+        conditional_tooltip = {
+            trigger = {
+                FROM = {
+                    any_direct_de_jure_vassal_title = {
+                        owner = {
+                            NOT = {
+                                religion_group = ROOT
+                            }
+                        }
+                    }
+                }
+                has_dlc = "Holy Fury"
+            }
+            custom_tooltip = {
+                text = e_spain_allow_TT
+                always = no
+            }
+        }
+        conditional_tooltip = {
+            trigger = {
+                has_global_flag = active_reconquista
+            }
+            custom_tooltip = {
+                text = active_reconquista_condition_TT
+                always = no
+            }
+        }
         title_emperor_basic_allow = yes
+    }
+    gain_effect = {
+        if = {
+            limit = {
+                NOT = {
+                    has_global_flag = reconquista_finished
+                }
+            }
+            any_playable_ruler = {
+                narrative_event = {
+                    id = HF.49451
+                }
+            }
+            ROOT = {
+                narrative_event = {
+                    id = HF.49451
+                }
+            }
+            set_global_flag = reconquista_finished
+        }
     }
 }
 e_africa = {
@@ -67724,6 +68047,16 @@ d_swiss = {
     color = { 255 1 1 }
     capital = 244
     allow = {
+        trigger_if = {
+            limit = {
+                FROM = {
+                    is_de_jure_title = no
+                }
+            }
+            FROM = {
+                is_de_jure_title = yes
+            }
+        }
         title_duke_basic_allow = yes
     }
 }
@@ -68007,11 +68340,55 @@ d_hormuz = {
         title_duke_basic_allow = yes
     }
 }
+d_thessalia = {
+    color = { 198 28 139 }
+    color2 = { 255 255 20 }
+    allow = {
+        trigger_if = {
+            limit = {
+                FROM = {
+                    is_de_jure_title = no
+                }
+            }
+            FROM = {
+                is_de_jure_title = yes
+            }
+        }
+        title_duke_basic_allow = yes
+    }
+}
+d_peloponnese = {
+    color = { 196 35 140 }
+    color2 = { 255 255 20 }
+    allow = {
+        trigger_if = {
+            limit = {
+                FROM = {
+                    is_de_jure_title = no
+                }
+            }
+            FROM = {
+                is_de_jure_title = yes
+            }
+        }
+        title_duke_basic_allow = yes
+    }
+}
 k_moravia = {
     color = { 125 25 65 }
     culture = moravian
     capital = 441
     allow = {
+        trigger_if = {
+            limit = {
+                FROM = {
+                    is_de_jure_title = no
+                }
+            }
+            FROM = {
+                is_de_jure_title = yes
+            }
+        }
         title_king_basic_allow = yes
         hidden_tooltip = {
             OR = {
@@ -68361,6 +68738,22 @@ k_trinacria = {
             is_heresy_of = catholic
             FROM = {
                 is_de_jure_title = yes
+            }
+        }
+        trigger_if = {
+            limit = {
+                FROM = {
+                    NOT = {
+                        any_previous_holder = {
+                            always = yes
+                        }
+                    }
+                }
+            }
+            FROM = {
+                any_previous_holder = {
+                    always = yes
+                }
             }
         }
         title_king_basic_allow = yes
