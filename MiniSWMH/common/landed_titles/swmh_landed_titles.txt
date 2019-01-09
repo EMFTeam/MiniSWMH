@@ -28,6 +28,33 @@ d_teutonic_order = {
     religion = catholic
     culture = german
     primary = yes
+    monthly_income = 8
+}
+k_teutonic_state = {
+    color = { 50 50 50 }
+    color2 = { 255 255 255 }
+    graphical_culture = holygfx
+    title = HOCHMEISTER
+    foa = HOCHMEISTER_FOA
+    holy_order = yes
+    mercenary_type = teutonic_order_composition
+    short_name = yes
+    assimilate = no
+    religion = catholic
+    culture = german
+    primary = yes
+    monthly_income = 12
+}
+d_livonian_order = {
+    color = { 40 60 40 }
+    color2 = { 255 255 255 }
+    graphical_culture = holygfx
+    holy_order = yes
+    mercenary_type = livonian_order_composition
+    short_name = yes
+    religion = catholic
+    culture = german
+    primary = yes
     monthly_income = 4
 }
 d_livonian_brothers_of_the_sword = {
@@ -332,6 +359,20 @@ d_ashokas_chosen = {
     monthly_income = 2
     mercenary_type = ashokas_chosen_composition
 }
+d_dralhas_children = {
+    color = { 205 100 0 }
+    color2 = { 255 255 255 }
+    capital = 1983
+    title = GRANDMASTER
+    foa = GRANDMASTER_FOA
+    landless = yes
+    holy_order = yes
+    culture = bodpa
+    religion = bon_reformed
+    primary = yes
+    monthly_income = 2
+    mercenary_type = dralhas_children_composition
+}
 d_bulls_rishabha = {
     color = { 255 100 0 }
     color2 = { 255 255 255 }
@@ -358,6 +399,20 @@ d_zun_warriors = {
     primary = yes
     monthly_income = 2
     mercenary_type = zun_warriors_composition
+}
+d_myrmidons = {
+    color = { 224 125 8 }
+    capital = 482
+    title = MEGASTRATEGOS
+    title_female = MEGASTRATEGISSA
+    foa = GRANDMASTER_FOA
+    landless = yes
+    holy_order = yes
+    culture = greek
+    religion = hellenic_pagan_reformed
+    primary = yes
+    monthly_income = 2
+    mercenary_type = myrmidons_composition
 }
 d_sunni_turkic_company = {
     color = { 130 173 70 }
@@ -389,9 +444,16 @@ d_sunni_cuman_company = {
     strength_growth_per_century = 1
     mercenary_type = muslim_cuman_company_composition
     allow = {
-        OR = {
-            religion_group = muslim
-            religion_group = zoroastrian_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion_group = muslim
+                religion_group = zoroastrian_group
+            }
         }
     }
 }
@@ -410,9 +472,16 @@ d_sunni_berber_company = {
     strength_growth_per_century = 1
     mercenary_type = berber_company_composition
     allow = {
-        OR = {
-            religion_group = muslim
-            religion_group = zoroastrian_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion_group = muslim
+                religion_group = zoroastrian_group
+            }
         }
     }
 }
@@ -431,9 +500,16 @@ d_sunni_bedouin_company = {
     strength_growth_per_century = 1
     mercenary_type = bedouin_company_composition
     allow = {
-        OR = {
-            religion_group = muslim
-            religion_group = zoroastrian_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion_group = muslim
+                religion_group = zoroastrian_group
+            }
         }
     }
 }
@@ -467,9 +543,16 @@ d_shiite_cuman_company = {
     strength_growth_per_century = 1
     mercenary_type = muslim_cuman_company_composition
     allow = {
-        OR = {
-            religion_group = muslim
-            religion_group = zoroastrian_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion_group = muslim
+                religion_group = zoroastrian_group
+            }
         }
     }
 }
@@ -488,9 +571,16 @@ d_shiite_berber_company = {
     strength_growth_per_century = 1
     mercenary_type = berber_company_composition
     allow = {
-        OR = {
-            religion_group = muslim
-            religion_group = zoroastrian_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion_group = muslim
+                religion_group = zoroastrian_group
+            }
         }
     }
 }
@@ -509,9 +599,16 @@ d_shiite_bedouin_company = {
     strength_growth_per_century = 1
     mercenary_type = bedouin_company_composition
     allow = {
-        OR = {
-            religion_group = muslim
-            religion_group = zoroastrian_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion_group = muslim
+                religion_group = zoroastrian_group
+            }
         }
     }
 }
@@ -529,7 +626,14 @@ d_white_company = {
     strength_growth_per_century = 1
     mercenary_type = white_company_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_great_company = {
@@ -546,7 +650,14 @@ d_great_company = {
     strength_growth_per_century = 1
     mercenary_type = great_company_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_company_of_st_george = {
@@ -563,7 +674,14 @@ d_company_of_st_george = {
     strength_growth_per_century = 1
     mercenary_type = company_of_st_george_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_star_company = {
@@ -580,7 +698,14 @@ d_star_company = {
     strength_growth_per_century = 1
     mercenary_type = star_company_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_little_hat_company = {
@@ -597,7 +722,14 @@ d_little_hat_company = {
     strength_growth_per_century = 1
     mercenary_type = little_hat_company_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_rose_company = {
@@ -614,7 +746,14 @@ d_rose_company = {
     strength_growth_per_century = 1
     mercenary_type = rose_company_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_catalan_company = {
@@ -632,7 +771,14 @@ d_catalan_company = {
     strength_growth_per_century = 1
     mercenary_type = catalan_company_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_navarrese_company = {
@@ -650,7 +796,14 @@ d_navarrese_company = {
     strength_growth_per_century = 1
     mercenary_type = navarrese_company_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_swiss_company = {
@@ -667,7 +820,14 @@ d_swiss_company = {
     strength_growth_per_century = 1
     mercenary_type = swiss_company_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_breton_company = {
@@ -685,8 +845,65 @@ d_breton_company = {
     strength_growth_per_century = 1
     mercenary_type = breton_company_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
+}
+d_sardinian_company = {
+    color = { 210 165 165 }
+    color2 = { 255 255 255 }
+    capital = 326
+    allow = {
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
+    }
+    religion = catholic
+    culture = sardinian
+    mercenary = yes
+    title = CAPTAIN
+    foa = CAPTAIN_FOA
+    landless = yes
+    primary = yes
+    independent = yes
+    strength_growth_per_century = 1
+    mercenary_type = sardinian_company_composition
+}
+d_sardinian_band = {
+    color = { 210 65 65 }
+    color2 = { 255 255 255 }
+    capital = 325
+    allow = {
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
+    }
+    religion = catholic
+    culture = sardinian
+    mercenary = yes
+    title = CAPTAIN
+    foa = CAPTAIN_FOA
+    landless = yes
+    primary = yes
+    independent = yes
+    strength_growth_per_century = 1
+    mercenary_type = sardinian_band_composition
 }
 d_victual_brothers = {
     color = { 160 160 160 }
@@ -702,14 +919,21 @@ d_victual_brothers = {
     independent = yes
     strength_growth_per_century = 0.250
     allow = {
-        OR = {
-            religion = norse_pagan
-            religion = norse_pagan_reformed
-            religion = baltic_pagan
-            religion = baltic_pagan_reformed
-            religion = finnish_pagan
-            religion = finnish_pagan_reformed
-            religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion = norse_pagan
+                religion = norse_pagan_reformed
+                religion = baltic_pagan
+                religion = baltic_pagan_reformed
+                religion = finnish_pagan
+                religion = finnish_pagan_reformed
+                religion_group = christian
+            }
         }
     }
 }
@@ -758,9 +982,17 @@ d_rus_company = {
     strength_growth_per_century = 1
     mercenary_type = rus_company_composition
     allow = {
-        OR = {
-            religion_group = pagan_group
-            religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            year = 950
+            OR = {
+                religion_group = pagan_group
+                religion_group = christian
+            }
         }
     }
 }
@@ -823,7 +1055,14 @@ d_lombard_band = {
     strength_growth_per_century = 1
     mercenary_type = lombard_band_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_swiss_band = {
@@ -840,7 +1079,14 @@ d_swiss_band = {
     strength_growth_per_century = 1
     mercenary_type = swiss_band_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_breton_band = {
@@ -858,7 +1104,14 @@ d_breton_band = {
     strength_growth_per_century = 1
     mercenary_type = breton_band_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_catalan_band = {
@@ -876,7 +1129,14 @@ d_catalan_band = {
     strength_growth_per_century = 1
     mercenary_type = catalan_band_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_saxon_band = {
@@ -894,7 +1154,22 @@ d_saxon_band = {
     strength_growth_per_century = 1
     mercenary_type = saxon_band_composition
     allow = {
-        religion_group = christian
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                NOT = {
+                    year = 1100
+                }
+                any_independent_ruler = {
+                    culture = saxon
+                }
+            }
+            religion_group = christian
+        }
     }
 }
 d_cuman_band = {
@@ -927,9 +1202,17 @@ d_rus_band = {
     strength_growth_per_century = 1
     mercenary_type = rus_band_composition
     allow = {
-        OR = {
-            religion_group = christian
-            religion_group = pagan_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            year = 950
+            OR = {
+                religion_group = christian
+                religion_group = pagan_group
+            }
         }
     }
 }
@@ -948,9 +1231,16 @@ d_finnish_band = {
     strength_growth_per_century = 1
     mercenary_type = finnish_band_composition
     allow = {
-        OR = {
-            religion_group = christian
-            religion_group = pagan_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion_group = christian
+                religion_group = pagan_group
+            }
         }
     }
 }
@@ -969,9 +1259,16 @@ d_lappish_band = {
     strength_growth_per_century = 1
     mercenary_type = lappish_band_composition
     allow = {
-        OR = {
-            religion_group = christian
-            religion_group = pagan_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion_group = christian
+                religion_group = pagan_group
+            }
         }
     }
 }
@@ -990,9 +1287,16 @@ d_lithuanian_band = {
     strength_growth_per_century = 1
     mercenary_type = lithuanian_band_composition
     allow = {
-        OR = {
-            religion_group = christian
-            religion_group = pagan_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion_group = christian
+                religion_group = pagan_group
+            }
         }
     }
 }
@@ -1011,9 +1315,16 @@ d_abyssinian_band = {
     strength_growth_per_century = 1
     mercenary_type = abyssinian_band_composition
     allow = {
-        OR = {
-            religion_group = christian
-            religion_group = jewish_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion_group = christian
+                religion_group = jewish_group
+            }
         }
     }
 }
@@ -1032,9 +1343,16 @@ d_nubian_band = {
     strength_growth_per_century = 1
     mercenary_type = nubian_band_composition
     allow = {
-        OR = {
-            religion_group = christian
-            religion_group = jewish_group
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            OR = {
+                religion_group = christian
+                religion_group = jewish_group
+            }
         }
     }
 }
@@ -1053,7 +1371,13 @@ d_scottish_band = {
     strength_growth_per_century = 1
     mercenary_type = scottish_band_composition
     allow = {
-        always = yes
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+        }
     }
 }
 d_irish_band = {
@@ -1151,7 +1475,14 @@ d_mamluks = {
     strength_growth_per_century = 1
     mercenary_type = mamluks_composition
     allow = {
-        religion_group = muslim
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = muslim
+        }
     }
 }
 d_venetian_navy = {
@@ -1168,8 +1499,15 @@ d_venetian_navy = {
     independent = yes
     mercenary_type = naval_merc_composition
     allow = {
-        religion_group = christian
-        year = 1066
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+            year = 955
+        }
     }
 }
 d_genoese_navy = {
@@ -1186,8 +1524,15 @@ d_genoese_navy = {
     independent = yes
     mercenary_type = naval_merc_composition
     allow = {
-        religion_group = christian
-        year = 1066
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+            year = 955
+        }
     }
 }
 d_hanseatic_navy = {
@@ -1204,8 +1549,15 @@ d_hanseatic_navy = {
     independent = yes
     mercenary_type = naval_merc_composition
     allow = {
-        religion_group = christian
-        year = 1066
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+            year = 955
+        }
     }
 }
 d_frisian_navy = {
@@ -1222,8 +1574,15 @@ d_frisian_navy = {
     independent = yes
     mercenary_type = naval_merc_composition
     allow = {
-        religion_group = christian
-        year = 1066
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = christian
+            year = 955
+        }
     }
 }
 d_maghreb_corsairs = {
@@ -1241,8 +1600,15 @@ d_maghreb_corsairs = {
     independent = yes
     mercenary_type = naval_merc_composition
     allow = {
-        religion_group = muslim
-        year = 1066
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = muslim
+            year = 955
+        }
     }
 }
 d_ghilman = {
@@ -1260,7 +1626,14 @@ d_ghilman = {
     strength_growth_per_century = 1
     mercenary_type = ghilman_composition
     allow = {
-        religion_group = muslim
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            religion_group = muslim
+        }
     }
 }
 d_ghanan_band = {
@@ -1278,7 +1651,14 @@ d_ghanan_band = {
     strength_growth_per_century = 1
     mercenary_type = ghanan_band_composition
     allow = {
-        culture_group = west_african
+        conditional_tooltip = {
+            trigger = {
+                NOT = {
+                    is_alternate_start = yes
+                }
+            }
+            culture_group = west_african
+        }
     }
 }
 d_han_mid = {
@@ -1600,6 +1980,136 @@ d_turkic_guard = {
     independent = yes
     strength_growth_per_century = 1
     mercenary_type = turkic_guards_composition
+}
+d_african_massive = {
+    color = { 60 165 80 }
+    color2 = { 255 255 255 }
+    graphical_culture = westafricanholygfx
+    capital = 925
+    hire_range = 900
+    religion = west_african_pagan
+    culture = manden
+    mercenary = yes
+    title = WARCHIEF
+    foa = WARCHIEF_FOA
+    landless = yes
+    primary = yes
+    independent = yes
+    strength_growth_per_century = 1
+    mercenary_type = african_massive_composition
+}
+d_african_large = {
+    color = { 235 235 235 }
+    color2 = { 255 255 255 }
+    capital = 1329
+    hire_range = 900
+    religion = west_african_pagan
+    culture = soninke
+    mercenary = yes
+    title = WARCHIEF
+    foa = WARCHIEF_FOA
+    landless = yes
+    primary = yes
+    independent = yes
+    strength_growth_per_century = 1
+    mercenary_type = african_large_composition
+}
+d_african_mid = {
+    color = { 150 80 40 }
+    color2 = { 255 255 255 }
+    graphical_culture = africangfx
+    capital = 880
+    hire_range = 900
+    religion = west_african_pagan
+    culture = nubian
+    mercenary = yes
+    title = WARCHIEF
+    foa = WARCHIEF_FOA
+    landless = yes
+    primary = yes
+    independent = yes
+    strength_growth_per_century = 1
+    mercenary_type = african_mid_composition
+}
+d_african_mid_low_1 = {
+    color = { 30 150 50 }
+    color2 = { 255 255 255 }
+    capital = 913
+    hire_range = 900
+    religion = west_african_pagan
+    culture = soninke
+    mercenary = yes
+    title = WARCHIEF
+    foa = WARCHIEF_FOA
+    landless = yes
+    primary = yes
+    independent = yes
+    strength_growth_per_century = 1
+    mercenary_type = african_mid_low_1_composition
+}
+d_african_mid_low_2 = {
+    color = { 66 66 66 }
+    color2 = { 255 255 255 }
+    capital = 925
+    hire_range = 900
+    religion = west_african_pagan
+    culture = hausa
+    mercenary = yes
+    title = CAPTAIN
+    foa = CAPTAIN_FOA
+    landless = yes
+    primary = yes
+    independent = yes
+    strength_growth_per_century = 1
+    mercenary_type = african_mid_low_2_composition
+}
+d_african_low = {
+    color = { 30 170 50 }
+    color2 = { 255 255 255 }
+    capital = 914
+    hire_range = 900
+    religion = west_african_pagan
+    culture = songhay
+    mercenary = yes
+    title = WARCHIEF
+    foa = WARCHIEF_FOA
+    landless = yes
+    primary = yes
+    independent = yes
+    strength_growth_per_century = 1
+    mercenary_type = african_low_composition
+}
+d_african_tiny = {
+    color = { 38 120 51 }
+    color2 = { 255 255 255 }
+    capital = 1225
+    hire_range = 900
+    religion = west_african_pagan
+    culture = maghreb_arabic
+    mercenary = yes
+    title = WARCHIEF
+    foa = WARCHIEF_FOA
+    landless = yes
+    primary = yes
+    independent = yes
+    strength_growth_per_century = 1
+    mercenary_type = african_tiny_composition_1
+}
+d_papal_guards = {
+    color = { 255 240 240 }
+    color2 = { 220 220 0 }
+    capital = 333
+    title = CAPTAIN
+    foa = CAPTAIN_FOA
+    allow = {
+        has_landed_title = k_papal_state
+    }
+    landless = yes
+    mercenary = yes
+    mercenary_type = papal_guard_composition
+    strength_growth_per_century = 1
+    religion = catholic
+    primary = yes
 }
 e_hre = {
     color = { 224 195 65 }
