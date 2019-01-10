@@ -8,8 +8,9 @@ c_karnten = {
     holy_site = slavic_pagan
     holy_site = slavic_pagan_reformed
 }
-c_abydos = {
+c_siracusa = {
     holy_site = hellenic_pagan
+    holy_site = hellenic_pagan_reformed
 }
 c_byzantion = {
     holy_site = orthodox
@@ -27,9 +28,11 @@ c_chalkidike = {
 }
 c_thessalonike = {
     holy_site = hellenic_pagan
+    holy_site = hellenic_pagan_reformed
 }
 c_atheniai = {
     holy_site = hellenic_pagan
+    holy_site = hellenic_pagan_reformed
     holy_site = druze
 }
 c_ephesos = {
@@ -124,6 +127,7 @@ c_alexandria = {
     holy_site = monophysite
     holy_site = nestorian
     holy_site = hellenic_pagan
+    holy_site = hellenic_pagan_reformed
     holy_site = paulician
     holy_site = apostolic
     holy_site = maronite
@@ -198,6 +202,7 @@ c_asti = {
 c_roma = {
     holy_site = catholic
     holy_site = hellenic_pagan
+    holy_site = hellenic_pagan_reformed
     holy_site = pagan
     holy_site = aztec
     holy_site = aztec_reformed
@@ -438,16 +443,20 @@ c_khotan = {
 }
 c_badakhshan = {
     holy_site = bon
+    holy_site = bon_reformed
 }
 c_gilgit = {
     holy_site = bon
+    holy_site = bon_reformed
 }
 c_purang = {
     holy_site = hindu
     holy_site = jain
     holy_site = bon
+    holy_site = bon_reformed
 }
 c_kunlun = {
     holy_site = taoist
     holy_site = bon
+    holy_site = bon_reformed
 }
