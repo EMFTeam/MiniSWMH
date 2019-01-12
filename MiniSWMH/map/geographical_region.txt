@@ -22,16 +22,15 @@ world_europe_west_brittania = {
         d_meath
         d_leinster
         d_munster
-        d_galloway
         d_lothian
         d_albany
         d_moray
         d_aberdeen
         d_sutherland
+        d_galloway
         d_strathclyde
         d_ellan_vannin
         d_hebrides
-        d_orkney
         d_western_isles
     }
 }
@@ -125,7 +124,6 @@ world_europe_west_francia = {
 world_europe_west_iberia = {
     duchies = {
         d_barcelona
-        d_urgell
         d_castilla
         d_segovia
         d_najera
@@ -135,6 +133,7 @@ world_europe_west_iberia = {
         d_salamanca
         d_aragon
         d_zaragoza
+        d_urgell
         d_catalunya_nova
         d_teruel
         d_ribatejo
@@ -184,6 +183,7 @@ world_europe_north = {
         d_halogaland
         d_jamtland
         d_faereyar
+        d_orkney
         d_finland
         d_viipuri
         d_norrland
@@ -356,7 +356,6 @@ world_asia_minor = {
         d_anatolia
         d_melitene
         d_trebizond
-        d_cherson
         d_armeniacon
         d_armenia_minor
         d_seleukeia
@@ -441,13 +440,13 @@ world_persia = {
         d_ustrushana
         d_ferghana
         d_shash
-        d_khwarazm
-        d_zabolestan
-        d_kabul
         d_khottal
-        d_walishtan
+        d_khwarazm
         d_sistan
         d_makran
+        d_walishtan
+        d_zabolestan
+        d_kabul
     }
 }
 world_africa_north = {
@@ -503,12 +502,13 @@ world_africa = {
 world_steppe_tarim = {
     duchies = {
         d_kashgar
-        d_karashar
         d_khotan
+        d_karashar
     }
 }
 world_steppe_west = {
     duchies = {
+        d_cherson
         d_crimea
         d_sarkel
         d_zaporizhia
@@ -658,9 +658,9 @@ custom_castillian = {
 custom_catalan = {
     duchies = {
         d_barcelona
-        d_urgell
         d_aragon
         d_zaragoza
+        d_urgell
         d_catalunya_nova
         d_teruel
         d_valencia
@@ -721,12 +721,12 @@ custom_norwegian = {
 }
 custom_scotland = {
     duchies = {
-        d_galloway
         d_lothian
         d_albany
         d_moray
         d_aberdeen
         d_sutherland
+        d_galloway
         d_strathclyde
         d_hebrides
     }
@@ -741,21 +741,24 @@ custom_historical_plague_free_zone = {
         d_mazovia
         d_sandomierz
         d_kuyavia
-        d_lithuanians
+        d_trakai
         d_volhynia
         d_podlaise
         d_belz
         d_lombardia
         d_foix
         d_aragon
+        d_urgell
     }
     counties = {
+        c_schwyz
         c_chur
+        c_aukshayts
+        c_asmena
+        c_lida
         c_peremyshl
         c_lutsk
         c_valais
-        c_armagnac
-        c_urgell
     }
 }
 custom_eastern_edge_of_map = {
@@ -799,43 +802,45 @@ custom_leon = {
 custom_galicia = {
     duchies = {
         d_galicia
-        d_porto
         d_beira
+        d_porto
     }
 }
 custom_beja = {
     duchies = {
+        d_ribatejo
         d_beja
         d_algarve
-        d_ribatejo
     }
 }
 custom_granada = {
     duchies = {
-        d_granada
         d_sevilla
+        d_granada
     }
 }
 custom_castille = {
     duchies = {
         d_castilla
-        d_toledo
         d_segovia
+        d_najera
+        d_toledo
     }
 }
 custom_aragon = {
     duchies = {
-        d_aragon
         d_barcelona
+        d_aragon
         d_zaragoza
+        d_urgell
         d_catalunya_nova
         d_teruel
     }
 }
 custom_cordoba = {
     duchies = {
-        d_cordoba
         d_badajoz
+        d_cordoba
         d_la_mancha
     }
 }
