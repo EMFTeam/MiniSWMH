@@ -7371,7 +7371,7 @@ e_byzantium = {
                     turkish = "Ayvansaray"
                     pecheneg = "Ayvansaray"
                 }
-                b_phanarion = {
+                b_hieron = {
                     oghuz = "Fener"
                     turkmen = "Fener"
                     turkish = "Fener"
