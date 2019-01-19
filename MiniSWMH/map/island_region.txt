@@ -68,7 +68,7 @@ region_malta = {
 }
 region_mallorca = {
     provinces = {
-        826 827 967 
+        826 827 
     }
 }
 region_channel_islands = {
@@ -84,10 +84,5 @@ region_western_isles = {
 region_socotra = {
     provinces = {
         1552 
-    }
-}
-region_djerba = {
-    provinces = {
-        813 
     }
 }
