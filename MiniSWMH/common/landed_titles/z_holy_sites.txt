@@ -137,13 +137,7 @@ b_alexandria = {
     pentarchy = yes
 }
 c_cairo = {
-    holy_site = east_african_pagan
-    holy_site = east_african_pagan_reformed
     holy_site = druze
-}
-c_benghazi = {
-    holy_site = east_african_pagan
-    holy_site = east_african_pagan_reformed
 }
 c_eilat = {
     holy_site = jewish
@@ -165,21 +159,9 @@ c_aksum = {
     holy_site = miaphysite
     holy_site = monophysite
 }
-c_ankober = {
-    holy_site = east_african_pagan
-    holy_site = east_african_pagan_reformed
-}
-c_makuria = {
-    holy_site = east_african_pagan
-    holy_site = east_african_pagan_reformed
-}
 c_dongola = {
     holy_site = miaphysite
     holy_site = monophysite
-}
-c_sennar = {
-    holy_site = east_african_pagan
-    holy_site = east_african_pagan_reformed
 }
 c_kent = {
     holy_site = catholic
