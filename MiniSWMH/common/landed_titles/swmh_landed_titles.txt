@@ -33387,20 +33387,20 @@ e_britannia = {
             }
         }
         allow = {
-            OR = {
-                FROM = {
-                    is_de_jure_title = yes
+            trigger_if = {
+                limit = {
+                    FROM = {
+                        is_de_jure_title = no
+                    }
                 }
-                AND = {
-                    independent = yes
-                    custom_tooltip = {
-                        text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
-                        hidden_tooltip = {
-                            ai = no
-                            any_realm_province = {
-                                count = 22
-                                region = custom_england
-                            }
+                independent = yes
+                custom_tooltip = {
+                    text = CONTROLS_HALF_OF_ENGLISH_REGION_TT
+                    hidden_tooltip = {
+                        ai = no
+                        any_realm_province = {
+                            count = 22
+                            region = custom_england
                         }
                     }
                 }
