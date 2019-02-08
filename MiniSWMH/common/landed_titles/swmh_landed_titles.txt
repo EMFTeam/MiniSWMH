@@ -17253,8 +17253,6 @@ e_russia = {
                 gothic = "Kœnugarðr"
                 norsegaelic = "Kœnugarðr"
                 anglonorse = "Kœnugarðr"
-                b_kievkremlin = {}
-                b_bilohorodka = {}
                 b_kiev = {
                     danish = "Kœnugarðr"
                     norse = "Kœnugarðr"
@@ -17264,6 +17262,8 @@ e_russia = {
                     norsegaelic = "Kœnugarðr"
                     anglonorse = "Kœnugarðr"
                 }
+                b_bilohorodka = {}
+                b_podol = {}
                 b_kanevkievskij = {}
                 b_vasylkiv = {}
                 b_vyshhorod = {}
