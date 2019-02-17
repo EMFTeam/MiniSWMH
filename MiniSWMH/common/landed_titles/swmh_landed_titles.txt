@@ -15499,9 +15499,6 @@ e_byzantium = {
                 has_holder = no
             }
         }
-        e_roman_empire = {
-            has_holder = no
-        }
         c_byzantion = {
             owner_under_ROOT = yes
         }
@@ -68867,11 +68864,25 @@ e_latin_empire = {
                 is_de_jure_title = yes
             }
         }
-        e_byzantium = {
-            has_holder = no
+        trigger_if = {
+            limit = {
+                e_roman_empire = {
+                    has_holder = yes
+                }
+            }
+            e_roman_empire = {
+                has_holder = no
+            }
         }
-        e_roman_empire = {
-            has_holder = no
+        trigger_if = {
+            limit = {
+                e_byzantium = {
+                    has_holder = yes
+                }
+            }
+            e_byzantium = {
+                has_holder = no
+            }
         }
         custom_tooltip = {
             text = controls_kaliopolis_thrake
@@ -68883,6 +68894,9 @@ e_latin_empire = {
                     owner_under_ROOT = yes
                 }
             }
+        }
+        c_byzantion = {
+            owner_under_ROOT = yes
         }
         title_emperor_basic_allow = yes
     }
