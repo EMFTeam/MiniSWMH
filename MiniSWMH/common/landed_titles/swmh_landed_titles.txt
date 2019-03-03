@@ -26136,6 +26136,14 @@ e_arabia = {
                 b_farfarun = {
                     roman = "Trinytheos"
                     greek = "Trinytheos"
+                    levantine_arabic = "Farfárun"
+                    egyptian_arabic = "Farfárun"
+                    sicilian_arabic = "Farfárun"
+                    maghreb_arabic = "Farfárun"
+                    andalusian_arabic = "Farfárun"
+                    bedouin_arabic = "Farfárun"
+                    yemeni = "Farfárun"
+                    hijazi = "Farfárun"
                 }
             }
             c_bahriya = {
