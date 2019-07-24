@@ -25349,6 +25349,7 @@ e_arabia = {
     color2 = { 255 255 255 }
     capital = 719
     culture = bedouin_arabic
+    short_name = yes
     k_arabia = {
         color = { 45 169 12 }
         color2 = { 255 255 255 }
