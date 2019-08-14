@@ -827,14 +827,6 @@ d_sardinian_company = {
     color = { 210 165 165 }
     color2 = { 255 255 255 }
     capital = 326
-    allow = {
-        conditional_tooltip = {
-            trigger = {
-                is_alternate_start = no
-            }
-            religion_group = christian
-        }
-    }
     religion = catholic
     culture = sardinian
     mercenary = yes
@@ -845,11 +837,6 @@ d_sardinian_company = {
     independent = yes
     strength_growth_per_century = 1
     mercenary_type = sardinian_company_composition
-}
-d_sardinian_band = {
-    color = { 210 65 65 }
-    color2 = { 255 255 255 }
-    capital = 325
     allow = {
         conditional_tooltip = {
             trigger = {
@@ -858,6 +845,11 @@ d_sardinian_band = {
             religion_group = christian
         }
     }
+}
+d_sardinian_band = {
+    color = { 210 65 65 }
+    color2 = { 255 255 255 }
+    capital = 325
     religion = catholic
     culture = sardinian
     mercenary = yes
@@ -868,6 +860,14 @@ d_sardinian_band = {
     independent = yes
     strength_growth_per_century = 1
     mercenary_type = sardinian_band_composition
+    allow = {
+        conditional_tooltip = {
+            trigger = {
+                is_alternate_start = no
+            }
+            religion_group = christian
+        }
+    }
 }
 d_victual_brothers = {
     color = { 160 160 160 }
@@ -2021,15 +2021,15 @@ d_papal_guards = {
     capital = 333
     title = CAPTAIN
     foa = CAPTAIN_FOA
-    allow = {
-        has_landed_title = k_papal_state
-    }
     landless = yes
     mercenary = yes
     mercenary_type = papal_guard_composition
     strength_growth_per_century = 1
     religion = catholic
     primary = yes
+    allow = {
+        has_landed_title = k_papal_state
+    }
 }
 d_scholae_palatinae = {
     color = { 178 34 34 }
@@ -40954,6 +40954,36 @@ e_italy = {
             title_king_basic_allow = yes
         }
     }
+    gain_effect = {
+        if = {
+            limit = {
+                k_naples = {
+                    is_de_jure_title = yes
+                }
+                NOT = {
+                    de_jure_liege = FROM
+                }
+            }
+            k_naples = {
+                show_scope_change = no
+                de_jure_liege = FROM
+            }
+        }
+        if = {
+            limit = {
+                k_trinacria = {
+                    is_de_jure_title = yes
+                }
+                NOT = {
+                    de_jure_liege = FROM
+                }
+            }
+            k_trinacria = {
+                show_scope_change = no
+                de_jure_liege = FROM
+            }
+        }
+    }
     allow = {
         trigger_if = {
             limit = {
@@ -40990,36 +41020,6 @@ e_italy = {
             has_landed_title = k_trinacria
         }
         title_emperor_basic_allow = yes
-    }
-    gain_effect = {
-        if = {
-            limit = {
-                k_naples = {
-                    is_de_jure_title = yes
-                }
-                NOT = {
-                    de_jure_liege = FROM
-                }
-            }
-            k_naples = {
-                show_scope_change = no
-                de_jure_liege = FROM
-            }
-        }
-        if = {
-            limit = {
-                k_trinacria = {
-                    is_de_jure_title = yes
-                }
-                NOT = {
-                    de_jure_liege = FROM
-                }
-            }
-            k_trinacria = {
-                show_scope_change = no
-                de_jure_liege = FROM
-            }
-        }
     }
 }
 e_france = {
@@ -52680,6 +52680,26 @@ e_spain = {
             title_king_basic_allow = yes
         }
     }
+    gain_effect = {
+        if = {
+            limit = {
+                NOT = {
+                    has_global_flag = reconquista_finished
+                }
+            }
+            any_playable_ruler = {
+                narrative_event = {
+                    id = HF.49451
+                }
+            }
+            ROOT = {
+                narrative_event = {
+                    id = HF.49451
+                }
+            }
+            set_global_flag = reconquista_finished
+        }
+    }
     allow = {
         hidden_tooltip = {
             OR = {
@@ -52716,26 +52736,6 @@ e_spain = {
             }
         }
         title_emperor_basic_allow = yes
-    }
-    gain_effect = {
-        if = {
-            limit = {
-                NOT = {
-                    has_global_flag = reconquista_finished
-                }
-            }
-            any_playable_ruler = {
-                narrative_event = {
-                    id = HF.49451
-                }
-            }
-            ROOT = {
-                narrative_event = {
-                    id = HF.49451
-                }
-            }
-            set_global_flag = reconquista_finished
-        }
     }
 }
 e_africa = {
