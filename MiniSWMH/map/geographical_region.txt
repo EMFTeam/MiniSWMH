@@ -409,7 +409,6 @@ world_middle_east_arabia = {
         d_sinai
         d_tigris
         d_kufa
-        d_kermanshah
         d_baghdad
         d_samarra
         d_kurdistan
@@ -425,6 +424,7 @@ world_persia = {
         d_fars
         d_kerman
         d_ahwaz
+        d_luristan
         d_tabarestan
         d_gilan
         d_gurgan
@@ -445,7 +445,7 @@ world_persia = {
         d_sistan
         d_makran
         d_walishtan
-        d_zabolestan
+        d_zabulistan
         d_kabul
     }
 }
