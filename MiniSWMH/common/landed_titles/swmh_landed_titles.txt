@@ -24034,7 +24034,7 @@ e_carpathia = {
                     romanian = "Brashov"
                 }
                 b_torcsvar = {
-                    old_hungarian = "Torccar"
+                    old_hungarian = "Torcvar"
                     german = "Törzburg"
                     thuringian = "Törzburg"
                     swabian = "Törzburg"
