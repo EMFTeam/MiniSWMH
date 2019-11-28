@@ -22335,7 +22335,7 @@ e_carpathia = {
                     german = "Weissenburg"
                 }
                 b_szentmaratonhegy = {
-                    old_hungarian = "Gor Zent Marton"
+                    old_hungarian = "Gor Zentemarton"
                 }
                 b_gyorvar = {
                     old_hungarian = "Gor"
@@ -22539,7 +22539,7 @@ e_carpathia = {
                     german = "Priwitz"
                 }
                 b_garamszentbenedek = {
-                    old_hungarian = "Grana Zentbeneduk"
+                    old_hungarian = "Grana Zentebeneduk"
                     slovieni = "Svätý Benadik"
                     bohemian = "Svatý Benedikt"
                     german = "Sankt Benedikt"
@@ -22595,7 +22595,7 @@ e_carpathia = {
                     german = "Tschadsa"
                 }
                 b_liptoszentmiklos = {
-                    old_hungarian = "Lipto Zentmiklos"
+                    old_hungarian = "Lipto Zentemiklos"
                     bohemian = "Liptovský sv.Mikuláš"
                     slovieni = "Liptovský sv.Mikuláš"
                     german = "Liptau-Sankt-Nikolaus"
@@ -22766,7 +22766,7 @@ e_carpathia = {
                 german = "Eisenburg"
                 croatian = "Zelezna"
                 b_szentgrot = {
-                    old_hungarian = "Zentgrot"
+                    old_hungarian = "Zentegrot"
                 }
                 b_sumeg = {
                     old_hungarian = "Sumeg"
@@ -22795,7 +22795,7 @@ e_carpathia = {
                     old_hungarian = "Fonold"
                 }
                 b_zselicszentjakab = {
-                    old_hungarian = "Selic Zentjakab"
+                    old_hungarian = "Selic Zenteiakab"
                 }
                 b_somogyvar = {
                     old_hungarian = "Somogvar"
@@ -23524,7 +23524,7 @@ e_carpathia = {
                     turkmen = "Dimitrofca"
                     oghuz = "Dimitrofca"
                     pecheneg = "Dimitrofca"
-                    old_hungarian = "Zava Zentdemeter"
+                    old_hungarian = "Zava Zentedemeter"
                     hungarian = "Szávaszentdemeter"
                     szekely = "Szávaszentdemeter"
                     german = "Mitrowitz"
