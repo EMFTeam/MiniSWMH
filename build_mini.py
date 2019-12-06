@@ -9,8 +9,8 @@ from pathlib import Path
 from localpaths import rootpath
 
 
-version = 'v1.6.4-BETA'
-cut_titles = ['e_rajastan', 'e_mali', 'k_sahara', 'k_fezzan', 'k_kanem', 'k_hausaland', 'k_canarias']
+version = 'v1.7.0-BETA'
+cut_titles = ['e_rajastan', 'e_deccan', 'e_mali', 'k_sahara', 'k_fezzan', 'k_kanem', 'k_hausaland', 'k_canarias']
 scons_bin_path = Path('/usr/bin/scons')
 mapcut_bin_path_default = Path('/usr/local/bin/mapcut')
 
