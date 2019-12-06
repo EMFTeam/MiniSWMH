@@ -418,6 +418,23 @@ world_middle_east_arabia = {
         d_diyareast
     }
 }
+world_india_deccan = {
+    duchies = {
+        d_vidharba
+        d_konkana
+        d_nasikya
+        d_devagiri
+        d_rattapadi
+        d_kalyani
+        d_gangavadi
+        d_nulambavadi
+        d_raichur_doab
+        d_pandya_nadu
+        d_chera_nadu
+        d_warangal
+        d_racakonda
+    }
+}
 world_persia = {
     duchies = {
         d_jebal
@@ -563,6 +580,11 @@ world_middle_east = {
     regions = {
         world_middle_east_arabia
         world_middle_east_jerusalem
+    }
+}
+world_india = {
+    regions = {
+        world_india_deccan
     }
 }
 world_himalayas = {
