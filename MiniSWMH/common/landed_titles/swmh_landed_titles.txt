@@ -47245,14 +47245,14 @@ e_spain = {
                     basque = "Txabes"
                 }
                 b_torredemoncorvo = {
-                    bedouin_arabic = "al-Burj al-Djabal al-Ghurab"
-                    hijazi = "al-Burj al-Djabal al-Ghurab"
-                    yemeni = "al-Burj al-Djabal al-Ghurab"
-                    maghreb_arabic = "al-Burj al-Djabal al-Ghurab"
-                    levantine_arabic = "al-Burj al-Djabal al-Ghurab"
-                    egyptian_arabic = "al-Burj al-Djabal al-Ghurab"
-                    andalusian_arabic = "al-Burj al-Djabal al-Ghurab"
-                    sicilian_arabic = "al-Burj al-Djabal al-Ghurab"
+                    bedouin_arabic = "al-Burj al-Jabal al-Ghurab"
+                    hijazi = "al-Burj al-Jabal al-Ghurab"
+                    yemeni = "al-Burj al-Jabal al-Ghurab"
+                    maghreb_arabic = "al-Burj al-Jabal al-Ghurab"
+                    levantine_arabic = "al-Burj al-Jabal al-Ghurab"
+                    egyptian_arabic = "al-Burj al-Jabal al-Ghurab"
+                    andalusian_arabic = "al-Burj al-Jabal al-Ghurab"
+                    sicilian_arabic = "al-Burj al-Jabal al-Ghurab"
                     leonese = "Torre de Moncuervu"
                     castillan = "Torre de Moncuervo"
                     basque = "Dorrea Erroimendi"
@@ -53799,6 +53799,14 @@ e_africa = {
                 color2 = { 255 255 255 }
                 roman = "Hadrumetum"
                 greek = "Adroúmetos"
+                b_mahdia = {
+                    roman = "Thapsus"
+                    greek = "Thapsos"
+                }
+                b_salakta = {
+                    roman = "Sullecthum"
+                    greek = "Sullecthum"
+                }
                 b_monastir = {
                     roman = "Ruspina"
                     greek = "Rouspína"
@@ -53815,8 +53823,6 @@ e_africa = {
                 b_akuda = {}
                 b_siliana = {}
                 b_lekef = {}
-                b_kasserine = {}
-                b_sidimubarak = {}
             }
             c_bizerte = {
                 color = { 29 241 104 }
@@ -53931,18 +53937,24 @@ e_africa = {
                     masmuda = "Sifaks"
                     zanata = "Sifaks"
                 }
-                b_mahdia = {
-                    roman = "Thapsus"
-                    greek = "Thapsos"
-                }
-                b_haydaran = {}
-                b_salakta = {
-                    roman = "Sullecthum"
-                    greek = "Sullecthum"
-                }
                 b_chebba = {
                     roman = "Caput Vada"
                     greek = "Caput Vada"
+                }
+                b_kerkennah = {
+                    bedouin_arabic = "Qarqana"
+                    andalusian_arabic = "Qarqana"
+                    sicilian_arabic = "Qarqana"
+                    hijazi = "Qarqana"
+                    yemeni = "Qarqana"
+                    maghreb_arabic = "Qarqana"
+                    egyptian_arabic = "Qarqana"
+                    levantine_arabic = "Qarqana"
+                    sanhaja = "Qarqana"
+                    tagelmust = "Qarqana"
+                    tuareg = "Qarqana"
+                    masmuda = "Qarqana"
+                    zanata = "Qarqana"
                 }
             }
             allow = {
@@ -53972,6 +53984,7 @@ e_africa = {
                     roman = "Thaenae"
                     greek = "Thaenae"
                 }
+                b_haydaran = {}
                 b_tataouine = {
                     roman = "Tabalati"
                     greek = "Tabalati"
