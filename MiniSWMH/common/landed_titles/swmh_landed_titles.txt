@@ -10475,6 +10475,8 @@ e_byzantium = {
                     turkish = "Aydin"
                 }
                 b_melanoudion = {}
+                b_herakleia_latmos = {}
+                b_priene_sampson = {}
             }
             c_smyrna = {
                 color = { 240 45 174 }
@@ -10617,15 +10619,35 @@ e_byzantium = {
                     turkmen = "Ladik"
                     turkish = "Ladik"
                 }
-                b_harpasa = {
-                    oghuz = "Arpaz"
-                    turkmen = "Arpaz"
-                    turkish = "Arpaz"
-                }
                 b_kibyra = {
                     oghuz = "Gölhisar"
                     turkmen = "Gölhisar"
                     turkish = "Gölhisar"
+                }
+                b_tabai = {
+                    oghuz = "Tavas"
+                    turkmen = "Tavas"
+                    turkish = "Tavas"
+                }
+                b_antioch_on_the_meander = {
+                    oghuz = "Kuyucak"
+                    turkmen = "Kuyucak"
+                    turkish = "Kuyucak"
+                }
+                b_stauropolis = {
+                    oghuz = "Geyre"
+                    turkmen = "Geyre"
+                    turkish = "Geyre"
+                }
+                b_attouda = {
+                    oghuz = "Denizli"
+                    turkmen = "Denizli"
+                    turkish = "Denizli"
+                }
+                b_harpasa = {
+                    oghuz = "Arpaz"
+                    turkmen = "Arpaz"
+                    turkish = "Arpaz"
                 }
             }
             c_philadelphia = {
@@ -10677,15 +10699,20 @@ e_byzantium = {
                     turkmen = "Birgi"
                     turkish = "Birgi"
                 }
-                b_thyraia = {
-                    oghuz = "Tíra"
-                    turkmen = "Tíra"
-                    turkish = "Tíra"
+                b_tripolis_meander = {
+                    oghuz = "Yeniji"
+                    turkmen = "Yeniji"
+                    turkish = "Yeniji"
                 }
                 b_nysa = {
                     oghuz = "Sultan Hisar"
                     turkmen = "Sultan Hisar"
                     turkish = "Sultan Hisar"
+                }
+                b_thyraia = {
+                    oghuz = "Tíra"
+                    turkmen = "Tíra"
+                    turkish = "Tíra"
                 }
             }
             c_thyateira = {
@@ -11288,20 +11315,22 @@ e_byzantium = {
                     turkmen = "Ala'iye"
                     turkish = "Ala'iye"
                 }
+                b_alara = {}
+                b_syllaion = {}
                 b_aspendos = {
                     oghuz = "Serik"
                     turkmen = "Serik"
                     turkish = "Serik"
                 }
-                b_side = {
-                    oghuz = "Manavgat"
-                    turkmen = "Manavgat"
-                    turkish = "Manavgat"
-                }
                 b_perge = {
                     oghuz = "Murtana"
                     turkmen = "Murtana"
                     turkish = "Murtana"
+                }
+                b_side = {
+                    oghuz = "Manavgat"
+                    turkmen = "Manavgat"
+                    turkish = "Manavgat"
                 }
             }
             c_rhodos = {
@@ -11903,6 +11932,11 @@ e_byzantium = {
                     turkmen = "Isparta"
                     turkish = "Isparta"
                 }
+                b_akrotiri = {
+                    oghuz = "Egridir"
+                    turkmen = "Egridir"
+                    turkish = "Egridir"
+                }
                 b_polydorion = {
                     oghuz = "Burdur"
                     turkmen = "Burdur"
@@ -11912,6 +11946,11 @@ e_byzantium = {
                     oghuz = "Siblia"
                     turkmen = "Siblia"
                     turkish = "Siblia"
+                }
+                b_apameia_cibotus = {
+                    oghuz = "Dinar"
+                    turkmen = "Dinar"
+                    turkish = "Dinar"
                 }
             }
             c_amorion = {
@@ -11962,6 +12001,12 @@ e_byzantium = {
                     turkmen = "Bolvadin"
                     turkish = "Bolvadin"
                 }
+                b_aizanoi = {
+                    oghuz = "Cavdarhisar"
+                    turkmen = "Cavdarhisar"
+                    turkish = "Cavdarhisar"
+                }
+                b_bageis = {}
                 b_temenothyrai = {
                     oghuz = "Usak"
                     turkmen = "Usak"
