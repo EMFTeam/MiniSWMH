@@ -6828,33 +6828,33 @@ e_hre = {
         FROM = {
             is_de_jure_title = yes
         }
-        conditional_tooltip = {
-            trigger = {
+        trigger_if = {
+            limit = {
                 has_global_flag = EMF
-            }
-            FROM = {
-                has_holder = yes
+                FROM = {
+                    has_holder = yes
+                }
             }
             OR = {
                 realm_size = 320
-                AND = {
-                    realm_size = 120
+                FROM = {
+                    has_law = crown_authority_4
+                }
+            }
+        }
+        trigger_else_if = {
+            limit = {
+                has_global_flag = EMF
+                FROM = {
+                    has_holder = no
+                }
+            }
+            OR = {
+                realm_size = 320
+                primary_title = {
                     OR = {
-                        FROM = {
-                            has_holder = yes
-                            has_law = crown_authority_4
-                        }
-                        AND = {
-                            FROM = {
-                                has_holder = no
-                            }
-                            primary_title = {
-                                OR = {
-                                    has_law = crown_authority_3
-                                    has_law = crown_authority_4
-                                }
-                            }
-                        }
+                        has_law = crown_authority_3
+                        has_law = crown_authority_4
                     }
                 }
             }
@@ -6895,30 +6895,33 @@ e_roman_empire = {
         FROM = {
             is_de_jure_title = yes
         }
-        conditional_tooltip = {
-            trigger = {
+        trigger_if = {
+            limit = {
                 has_global_flag = EMF
+                FROM = {
+                    has_holder = yes
+                }
             }
             OR = {
                 realm_size = 420
-                AND = {
-                    realm_size = 120
+                FROM = {
+                    has_law = crown_authority_4
+                }
+            }
+        }
+        trigger_else_if = {
+            limit = {
+                has_global_flag = EMF
+                FROM = {
+                    has_holder = no
+                }
+            }
+            OR = {
+                realm_size = 420
+                primary_title = {
                     OR = {
-                        FROM = {
-                            has_holder = yes
-                            has_law = crown_authority_4
-                        }
-                        AND = {
-                            FROM = {
-                                has_holder = no
-                            }
-                            primary_title = {
-                                OR = {
-                                    has_law = crown_authority_3
-                                    has_law = crown_authority_4
-                                }
-                            }
-                        }
+                        has_law = crown_authority_3
+                        has_law = crown_authority_4
                     }
                 }
             }
@@ -15573,6 +15576,18 @@ e_byzantium = {
         }
         c_byzantion = {
             owner_under_ROOT = yes
+            trigger_if = {
+                limit = {
+                    NOT = {
+                        empire = {
+                            title = FROM
+                        }
+                    }
+                }
+                empire = {
+                    title = FROM
+                }
+            }
         }
         title_emperor_basic_allow = yes
     }
@@ -29363,30 +29378,33 @@ e_arabia = {
         }
     }
     allow = {
-        conditional_tooltip = {
-            trigger = {
+        trigger_if = {
+            limit = {
                 has_global_flag = EMF
+                FROM = {
+                    has_holder = yes
+                }
             }
             OR = {
                 realm_size = 220
-                AND = {
-                    realm_size = 120
+                FROM = {
+                    has_law = crown_authority_4
+                }
+            }
+        }
+        trigger_else_if = {
+            limit = {
+                has_global_flag = EMF
+                FROM = {
+                    has_holder = no
+                }
+            }
+            OR = {
+                realm_size = 220
+                primary_title = {
                     OR = {
-                        FROM = {
-                            has_holder = yes
-                            has_law = crown_authority_4
-                        }
-                        AND = {
-                            FROM = {
-                                has_holder = no
-                            }
-                            primary_title = {
-                                OR = {
-                                    has_law = crown_authority_3
-                                    has_law = crown_authority_4
-                                }
-                            }
-                        }
+                        has_law = crown_authority_3
+                        has_law = crown_authority_4
                     }
                 }
             }
@@ -56045,30 +56063,33 @@ e_persia = {
         }
     }
     allow = {
-        conditional_tooltip = {
-            trigger = {
+        trigger_if = {
+            limit = {
                 has_global_flag = EMF
+                FROM = {
+                    has_holder = yes
+                }
             }
             OR = {
                 realm_size = 220
-                AND = {
-                    realm_size = 120
+                FROM = {
+                    has_law = crown_authority_4
+                }
+            }
+        }
+        trigger_else_if = {
+            limit = {
+                has_global_flag = EMF
+                FROM = {
+                    has_holder = no
+                }
+            }
+            OR = {
+                realm_size = 220
+                primary_title = {
                     OR = {
-                        FROM = {
-                            has_holder = yes
-                            has_law = crown_authority_4
-                        }
-                        AND = {
-                            FROM = {
-                                has_holder = no
-                            }
-                            primary_title = {
-                                OR = {
-                                    has_law = crown_authority_3
-                                    has_law = crown_authority_4
-                                }
-                            }
-                        }
+                        has_law = crown_authority_3
+                        has_law = crown_authority_4
                     }
                 }
             }
