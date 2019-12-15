@@ -22293,13 +22293,13 @@ e_carpathia = {
                 old_hungarian = "Feier"
                 b_rackeve = {}
                 b_dunafoldvar = {
-                    old_hungarian = "Feldvar"
+                    old_hungarian = "Feldvaru"
                 }
                 b_adony = {
                     old_hungarian = "Odon"
                 }
                 b_szekesfehervar = {
-                    old_hungarian = "Kirali Feier"
+                    old_hungarian = "Fehervaru"
                     bohemian = "Stolicný Belehrad"
                     slovieni = "Stolicný Belehrad"
                     german = "Stuhlweißenburg"
@@ -22422,10 +22422,10 @@ e_carpathia = {
                     german = "Weissenburg"
                 }
                 b_gyorszentmarton = {
-                    old_hungarian = "Gor Zentemarton"
+                    old_hungarian = "Dur Tatos"
                 }
                 b_gyor = {
-                    old_hungarian = "Gor"
+                    old_hungarian = "Dur"
                     slovieni = "Ráb"
                     bohemian = "Ráb"
                     croatian = "Jura"
@@ -22435,11 +22435,11 @@ e_carpathia = {
                     greek = "Arrabona"
                 }
                 b_magyarovar = {
-                    old_hungarian = "Avovar"
+                    old_hungarian = "Avovaru"
                     german = "Altenburg"
                 }
                 b_oroszvar = {
-                    old_hungarian = "Ruzvar"
+                    old_hungarian = "Ruzvaru"
                     slovieni = "Rusovce"
                     bohemian = "Rusovce"
                     croatian = "Rosvar"
@@ -22449,7 +22449,7 @@ e_carpathia = {
                     greek = "Gerulata"
                 }
                 b_hedervar = {
-                    old_hungarian = "Hedervar"
+                    old_hungarian = "Hedervaru"
                 }
             }
             c_sopron = {
@@ -22463,13 +22463,13 @@ e_carpathia = {
                     old_hungarian = "Monýorokerek"
                 }
                 b_nemetujvar = {
-                    old_hungarian = "Uianvar"
+                    old_hungarian = "Uianvaru"
                 }
                 b_vasvar = {
-                    old_hungarian = "Vosvar"
+                    old_hungarian = "Vosvaru"
                 }
                 b_ikervar = {
-                    old_hungarian = "Ierkivar"
+                    old_hungarian = "Ierkivaru"
                 }
                 b_sopron = {
                     old_hungarian = "Suprun"
@@ -22492,7 +22492,7 @@ e_carpathia = {
                     old_hungarian = "Bakonbel"
                 }
                 b_somlyovar = {
-                    old_hungarian = "Somlovar"
+                    old_hungarian = "Somlovaru"
                 }
                 b_zirc = {}
                 b_veszprem = {
@@ -22626,7 +22626,7 @@ e_carpathia = {
                     german = "Priwitz"
                 }
                 b_garamszentbenedek = {
-                    old_hungarian = "Grana Zentebeneduk"
+                    old_hungarian = "Grana Tatos"
                     slovieni = "Svätý Benadik"
                     bohemian = "Svatý Benedikt"
                     german = "Sankt Benedikt"
@@ -22683,7 +22683,7 @@ e_carpathia = {
                     polish = "Czadca"
                 }
                 b_liptoszentmiklos = {
-                    old_hungarian = "Lipto Zentemiklos"
+                    old_hungarian = "Lipto Tatos"
                     bohemian = "Liptovský sv.Mikuláš"
                     slovieni = "Liptovský sv.Mikuláš"
                     german = "Liptau-Sankt-Nikolaus"
@@ -22771,7 +22771,7 @@ e_carpathia = {
                     old_hungarian = "Pazto"
                 }
                 b_hontvar = {
-                    old_hungarian = "Hontvar"
+                    old_hungarian = "Hontvaru"
                 }
                 b_balassagyarmat = {
                     old_hungarian = "Balassa Garamat"
@@ -22840,7 +22840,7 @@ e_carpathia = {
                     old_hungarian = "Pecvarad"
                 }
                 b_tolnavar = {
-                    old_hungarian = "Tolnavar"
+                    old_hungarian = "Tolnavaru"
                 }
                 b_mohacs = {
                     old_hungarian = "Mohac"
@@ -22856,7 +22856,7 @@ e_carpathia = {
                 german = "Eisenburg"
                 croatian = "Zelezna"
                 b_szentgrot = {
-                    old_hungarian = "Zentegrot"
+                    old_hungarian = "Tatos"
                 }
                 b_sumeg = {
                     old_hungarian = "Sumeg"
@@ -22865,7 +22865,7 @@ e_carpathia = {
                     old_hungarian = "Kezthel"
                 }
                 b_zalavar = {
-                    old_hungarian = "Kolonvar"
+                    old_hungarian = "Kolonvaru"
                 }
                 b_csobanc = {
                     old_hungarian = "Cobanc"
@@ -22885,16 +22885,16 @@ e_carpathia = {
                     old_hungarian = "Fonold"
                 }
                 b_zselicszentjakab = {
-                    old_hungarian = "Selic Zenteiakab"
+                    old_hungarian = "Selic Tatos"
                 }
                 b_somogyvar = {
-                    old_hungarian = "Somogvar"
+                    old_hungarian = "Somogvaru"
                 }
                 b_szigetvar = {
-                    old_hungarian = "Zegetvar"
+                    old_hungarian = "Zegetvaru"
                 }
                 b_kaposvar = {
-                    old_hungarian = "Kaposvar"
+                    old_hungarian = "Kaposvaru"
                 }
                 b_siofok = {}
                 b_csurgo = {
@@ -23035,7 +23035,7 @@ e_carpathia = {
                     russian = "Borzsava"
                 }
                 b_ungvar = {
-                    old_hungarian = "Ungvar"
+                    old_hungarian = "Ungvaru"
                     bohemian = "Užgorod"
                     slovieni = "Užgorod"
                     russian = "Uzgorod"
@@ -23067,11 +23067,11 @@ e_carpathia = {
             capital = 538
             culture = hungarian
             name_tier = count
-            old_hungarian = "Uianvar"
+            old_hungarian = "Uianvaru"
             c_abauj = {
                 color = { 162 21 21 }
                 color2 = { 255 255 255 }
-                old_hungarian = "Aba Uianvar"
+                old_hungarian = "Aba Uianvaru"
                 slovieni = "Abov"
                 bohemian = "Abov"
                 german = "Abaujwar"
@@ -23084,7 +23084,7 @@ e_carpathia = {
                     german = "Kaschau"
                 }
                 b_abaujvar = {
-                    old_hungarian = "Aba Uianvar"
+                    old_hungarian = "Aba Uianvaru"
                     slovieni = "Abov"
                     bohemian = "Abov"
                     german = "Abaujwar"
@@ -23101,7 +23101,7 @@ e_carpathia = {
                     russian = "Pryashiv"
                 }
                 b_totsovar = {
-                    old_hungarian = "Savavar"
+                    old_hungarian = "Savavaru"
                     slovieni = "Solivar"
                     bohemian = "Solivar"
                     german = "Salzburg"
@@ -23330,7 +23330,7 @@ e_carpathia = {
                     croatian = "Kovin"
                 }
                 b_temesvar = {
-                    old_hungarian = "Temesvar"
+                    old_hungarian = "Temesvaru"
                     slovieni = "Temešvár"
                     german = "Temeswar"
                     thuringian = "Temeswar"
@@ -23614,7 +23614,7 @@ e_carpathia = {
                     turkmen = "Dimitrofca"
                     oghuz = "Dimitrofca"
                     pecheneg = "Dimitrofca"
-                    old_hungarian = "Zava Zentedemeter"
+                    old_hungarian = "Zava Tatos"
                     hungarian = "Szávaszentdemeter"
                     szekely = "Szávaszentdemeter"
                     german = "Mitrowitz"
@@ -23660,7 +23660,7 @@ e_carpathia = {
                 low_german = "Wukowar"
                 low_frankish = "Wukowar"
                 dutch = "Wukowar"
-                old_hungarian = "Vukovar"
+                old_hungarian = "Vukovaru"
                 hungarian = "Vukovár"
                 szekely = "Vukovár"
                 roman = "Mursa"
@@ -23675,7 +23675,7 @@ e_carpathia = {
                     low_german = "Diakowar"
                     low_frankish = "Diakowar"
                     dutch = "Diakowar"
-                    old_hungarian = "Diakovar"
+                    old_hungarian = "Diakovaru"
                     hungarian = "Diakovár"
                     szekely = "Diakovár"
                 }
@@ -23729,7 +23729,7 @@ e_carpathia = {
                     low_german = "Wukowar"
                     low_frankish = "Wukowar"
                     dutch = "Wukowar"
-                    old_hungarian = "Vukovar"
+                    old_hungarian = "Vukovaru"
                     hungarian = "Vukovár"
                     szekely = "Vukovár"
                 }
@@ -23822,7 +23822,7 @@ e_carpathia = {
                     pecheneg = "Sengevi"
                 }
                 b_valkovar = {
-                    old_hungarian = "Valkovar"
+                    old_hungarian = "Valkovaru"
                     romanian = "Valcau de Jos"
                 }
                 b_varad = {
@@ -23845,7 +23845,7 @@ e_carpathia = {
                     bohemian = "Varadín"
                 }
                 b_krasznavar = {
-                    old_hungarian = "Kraznavar"
+                    old_hungarian = "Kraznavaru"
                     romanian = "Crasna"
                 }
                 b_bihar = {
@@ -23889,7 +23889,7 @@ e_carpathia = {
                     slovieni = "Chaba"
                 }
                 b_gyula = {
-                    old_hungarian = "Gula"
+                    old_hungarian = "Dsula"
                     german = "Jula"
                     thuringian = "Jula"
                     swabian = "Jula"
@@ -23969,7 +23969,7 @@ e_carpathia = {
                 dutch = "Thorenburg"
                 romanian = "Turda"
                 b_kukullovar = {
-                    old_hungarian = "Kukullovar"
+                    old_hungarian = "Kukullovaru"
                     german = "Klausenburg"
                     thuringian = "Klausenburg"
                     swabian = "Klausenburg"
@@ -23995,7 +23995,7 @@ e_carpathia = {
                     romanian = "Turda"
                 }
                 b_kolozsvar = {
-                    old_hungarian = "Kolosvar"
+                    old_hungarian = "Kolosvaru"
                     german = "Kokelburg"
                     thuringian = "Kokelburg"
                     swabian = "Kokelburg"
@@ -24079,7 +24079,7 @@ e_carpathia = {
                     romanian = "Huniazi"
                 }
                 b_gyulafehervar = {
-                    old_hungarian = "Gula Feiervar"
+                    old_hungarian = "Dsulafehervaru"
                     german = "Weißenburg"
                     thuringian = "Weißenburg"
                     swabian = "Weißenburg"
@@ -24124,7 +24124,7 @@ e_carpathia = {
                     romanian = "Brashov"
                 }
                 b_torcsvar = {
-                    old_hungarian = "Torcvar"
+                    old_hungarian = "Torcvaru"
                     german = "Törzburg"
                     thuringian = "Törzburg"
                     swabian = "Törzburg"
@@ -26229,7 +26229,6 @@ e_arabia = {
                     roman = "Eudaemon"
                     greek = "Eudaimon"
                 }
-                b_ahwar = {}
                 b_lahej = {}
                 b_khadra = {}
                 b_zinjibar = {}
@@ -55199,6 +55198,22 @@ e_persia = {
                 b_alamut = {}
                 b_lambassar = {}
             }
+            c_kharraqan = {
+                color = { 64 89 136 }
+                color2 = { 255 255 255 }
+                pahlavi = "Apahr"
+                b_zanjan = {
+                    pahlavi = "Shahin"
+                }
+                b_abhar = {
+                    pahlavi = "Apahr"
+                }
+                b_shamiran = {}
+                b_suhravard = {}
+                b_sharuyaz = {}
+                b_khunaj = {}
+                b_aba = {}
+            }
             allow = {
                 title_duke_basic_allow = yes
             }
@@ -55534,22 +55549,6 @@ e_persia = {
                 b_lahidjan = {}
                 b_fumin = {}
                 b_kutum = {}
-            }
-            c_kharraqan = {
-                color = { 64 89 136 }
-                color2 = { 255 255 255 }
-                pahlavi = "Apahr"
-                b_zanjan = {
-                    pahlavi = "Shahin"
-                }
-                b_abhar = {
-                    pahlavi = "Apahr"
-                }
-                b_shamiran = {}
-                b_suhravard = {}
-                b_sharuyaz = {}
-                b_khunaj = {}
-                b_aba = {}
             }
             allow = {
                 title_duke_basic_allow = yes
@@ -56098,6 +56097,7 @@ e_persia = {
                 b_bezda = {}
                 b_subakh = {}
                 b_kandak = {}
+                b_qarshi = {}
             }
             allow = {
                 title_duke_basic_allow = yes
@@ -62338,6 +62338,7 @@ e_null = {
             capital = 594
             szekely = "Levédia"
             hungarian = "Levédia"
+            old_hungarian = "Levedia"
             norwegian = "Levedia"
             gothic = "Levedia"
             swedish = "Levedia"
@@ -63062,7 +63063,9 @@ e_null = {
             color2 = { 255 255 255 }
             capital = 620
             old_hungarian = "Etel"
+            hungarian = "Etel"
             bashkir = "Idhel"
+            szekely = "Etel"
             mordvin = "Jul"
             karelian = "Jul"
             samoyed = "Jul"
@@ -63164,7 +63167,9 @@ e_null = {
                 color = { 155 122 34 }
                 color2 = { 255 255 255 }
                 old_hungarian = "Etel"
+                hungarian = "Etel"
                 bashkir = "Idhel"
+                szekely = "Etel"
                 mordvin = "Jul"
                 karelian = "Jul"
                 samoyed = "Jul"
@@ -63390,7 +63395,9 @@ e_null = {
                 }
                 b_atil = {
                     old_hungarian = "Etel"
+                    hungarian = "Etel"
                     bashkir = "Idhel"
+                    szekely = "Etel"
                     mordvin = "Jul"
                     karelian = "Jul"
                     samoyed = "Jul"
@@ -64710,6 +64717,7 @@ e_null = {
             langobardisch = "Zichia"
             venetian = "Zichia"
             roman = "Sicia"
+            old_hungarian = "Zicia"
             hungarian = "Szícsia"
             szekely = "Szícsia"
             georgian = "Jiket'i"
@@ -65218,6 +65226,7 @@ e_null = {
                 b_almaliq = {}
                 b_pulad = {}
                 b_quyash = {}
+                b_quchlug = {}
                 b_sarbulaq = {}
             }
             c_barskhan = {
@@ -69213,13 +69222,79 @@ e_null = {
         color = { 204 180 30 }
         color2 = { 255 255 255 }
         capital = 1628
+        maghreb_arabic = "Kashmír"
+        levantine_arabic = "Kashmír"
+        egyptian_arabic = "Kashmír"
+        andalusian_arabic = "Kashmír"
+        sicilian_arabic = "Kashmír"
+        bedouin_arabic = "Kashmír"
+        hijazi = "Kashmír"
+        yemeni = "Kashmír"
+        turkmen = "Kashmír"
+        pahlavi = "Kashmír"
+        persian = "Kashmír"
+        adhari = "Kashmír"
+        khorasani = "Kashmír"
+        tajik = "Kashmír"
+        daylamite = "Kashmír"
+        khalaj = "Kashmír"
+        sogdian = "Kashmír"
+        khwarezmi = "Kashmír"
+        kurdish = "Kashmír"
+        afghan = "Kashmír"
+        qufs = "Kashmír"
+        baloch = "Kashmír"
         d_kashmir = {
             color = { 204 180 30 }
             color2 = { 255 255 255 }
             capital = 1628
+            maghreb_arabic = "Kashmír"
+            levantine_arabic = "Kashmír"
+            egyptian_arabic = "Kashmír"
+            andalusian_arabic = "Kashmír"
+            sicilian_arabic = "Kashmír"
+            bedouin_arabic = "Kashmír"
+            hijazi = "Kashmír"
+            yemeni = "Kashmír"
+            turkmen = "Kashmír"
+            pahlavi = "Kashmír"
+            persian = "Kashmír"
+            adhari = "Kashmír"
+            khorasani = "Kashmír"
+            tajik = "Kashmír"
+            daylamite = "Kashmír"
+            khalaj = "Kashmír"
+            sogdian = "Kashmír"
+            khwarezmi = "Kashmír"
+            kurdish = "Kashmír"
+            afghan = "Kashmír"
+            qufs = "Kashmír"
+            baloch = "Kashmír"
             c_kasmira = {
                 color = { 245 160 31 }
                 color2 = { 255 255 255 }
+                maghreb_arabic = "Kashmír"
+                levantine_arabic = "Kashmír"
+                egyptian_arabic = "Kashmír"
+                andalusian_arabic = "Kashmír"
+                sicilian_arabic = "Kashmír"
+                bedouin_arabic = "Kashmír"
+                hijazi = "Kashmír"
+                yemeni = "Kashmír"
+                turkmen = "Kashmír"
+                pahlavi = "Kashmír"
+                persian = "Kashmír"
+                adhari = "Kashmír"
+                khorasani = "Kashmír"
+                tajik = "Kashmír"
+                daylamite = "Kashmír"
+                khalaj = "Kashmír"
+                sogdian = "Kashmír"
+                khwarezmi = "Kashmír"
+                kurdish = "Kashmír"
+                afghan = "Kashmír"
+                qufs = "Kashmír"
+                baloch = "Kashmír"
                 b_srinagara = {}
                 b_shankaracharya = {}
                 b_parihasapura = {}
