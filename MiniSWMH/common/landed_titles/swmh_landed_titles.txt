@@ -65278,10 +65278,8 @@ e_null = {
                 uyghur = "Quz-Ulush"
                 khazar = "Quz-Ulush"
                 khavar = "Quz-Ulush"
+                khitan = "Khosun-Ordu"
                 mongol = "Gobalik"
-                b_quzordu = {
-                    khitan = "Khosun-Ordu"
-                }
                 b_suyab = {}
                 b_balasaghun = {
                     pecheneg = "Quz-Ulush"
@@ -65297,9 +65295,12 @@ e_null = {
                     uyghur = "Quz-Ulush"
                     khazar = "Quz-Ulush"
                     khavar = "Quz-Ulush"
+                    khitan = "Khosun-Ordu"
                     mongol = "Gobalik"
                 }
-                b_akbeshim = {}
+                b_saryg = {}
+                b_dzhul = {}
+                b_nevaket = {}
             }
             c_talas = {
                 color = { 215 145 35 }
