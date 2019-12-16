@@ -382,7 +382,7 @@ c_ghazna = {
     holy_site = zun_pagan_reformed
     holy_site = buddhist
 }
-c_zamindavar = {
+c_zamindawar = {
     holy_site = zun_pagan
     holy_site = zun_pagan_reformed
 }
