@@ -70370,11 +70370,11 @@ e_nicaea = {
     short_name = yes
     has_top_de_jure_capital = yes
     allow = {
+        NOT = {
+            has_global_flag = EMF
+        }
         conditional_tooltip = {
             trigger = {
-                NOT = {
-                    has_global_flag = EMF
-                }
                 e_nicaea = {
                     is_titular = yes
                 }
