@@ -57079,7 +57079,7 @@ e_persia = {
                 title_duke_basic_allow = yes
             }
         }
-        d_makran = {
+        d_baluchistan = {
             color = { 136 169 80 }
             color2 = { 255 255 255 }
             capital = 854

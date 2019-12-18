@@ -444,7 +444,7 @@ world_persia = {
         d_khottal
         d_khwarazm
         d_sistan
-        d_makran
+        d_baluchistan
         d_walishtan
         d_zabulistan
         d_kabul
