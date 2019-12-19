@@ -30754,10 +30754,12 @@ e_abyssinia = {
             c_suakin = {
                 color = { 242 57 18 }
                 color2 = { 255 255 255 }
+                beja = "u-Sok"
                 roman = "Limen Evangelis"
                 greek = "Limen Evangelis"
                 b_sinkat = {}
                 b_sawakin = {
+                    beja = "u-Sok"
                     roman = "Limen Evangelis"
                     greek = "Limen Evangelis"
                 }
