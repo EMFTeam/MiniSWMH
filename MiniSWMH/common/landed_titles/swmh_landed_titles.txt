@@ -54845,9 +54845,12 @@ e_africa = {
             c_infa = {
                 color = { 48 255 6 }
                 color2 = { 255 255 255 }
-                roman = "Anfa"
-                greek = "Anfa"
-                b_chella = {}
+                roman = "Sala Colonia"
+                greek = "Sala Colonia"
+                b_chella = {
+                    roman = "Sala Colonia"
+                    greek = "Sala Colonia"
+                }
                 b_infa = {
                     roman = "Anfa"
                     greek = "Anfa"
@@ -54869,12 +54872,7 @@ e_africa = {
             c_sala = {
                 color = { 48 255 6 }
                 color2 = { 255 255 255 }
-                roman = "Sala Colonia"
-                greek = "Sala Colonia"
-                b_sale = {
-                    roman = "Sala Colonia"
-                    greek = "Sala Colonia"
-                }
+                b_sale = {}
                 b_albasra = {}
             }
             c_el_rif = {
@@ -69943,8 +69941,6 @@ d_karaman = {
 }
 k_magyar = {
     color = { 187 70 70 }
-    short_name = yes
-    name_tier = duke
     culture = old_hungarian
     capital = 522
     hungarian = "Hét Magyar"
