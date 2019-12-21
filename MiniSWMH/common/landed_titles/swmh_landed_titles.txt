@@ -69943,6 +69943,8 @@ d_karaman = {
 }
 k_magyar = {
     color = { 187 70 70 }
+    short_name = yes
+    name_tier = duke
     culture = old_hungarian
     capital = 522
     hungarian = "Hét Magyar"
