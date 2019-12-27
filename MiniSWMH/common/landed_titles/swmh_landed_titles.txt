@@ -14645,6 +14645,7 @@ e_byzantium = {
                     dutch = "Taubenberg"
                     romanian = "Golumbei"
                 }
+                b_zdrelo = {}
             }
             allow = {
                 title_duke_basic_allow = yes
