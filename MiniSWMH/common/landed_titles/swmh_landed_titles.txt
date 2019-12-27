@@ -22597,8 +22597,8 @@ e_carpathia = {
                 }
                 b_turoc = {
                     old_hungarian = "Turoc"
-                    slovieni = "Turcian"
-                    bohemian = "Turcian"
+                    slovieni = "Turc"
+                    bohemian = "Turc"
                 }
             }
             c_bars = {
@@ -22938,13 +22938,11 @@ e_carpathia = {
                     german = "Gömör"
                 }
                 b_borsod = {
-                    old_hungarian = "Borsod"
                     slovieni = "Boršograd"
                     bohemian = "Boršograd"
                     german = "Borschod"
                 }
                 b_kazinc = {
-                    old_hungarian = "Kazinc"
                     slovieni = "Kazincz"
                     bohemian = "Kazincz"
                 }
@@ -69941,6 +69939,8 @@ d_karaman = {
 }
 k_magyar = {
     color = { 187 70 70 }
+    short_name = yes
+    name_tier = duke
     culture = old_hungarian
     capital = 522
     hungarian = "Hét Magyar"

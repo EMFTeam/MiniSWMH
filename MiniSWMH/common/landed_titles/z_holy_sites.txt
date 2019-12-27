@@ -159,7 +159,7 @@ c_aksum = {
     holy_site = miaphysite
     holy_site = monophysite
 }
-c_dongola = {
+c_makuria = {
     holy_site = miaphysite
     holy_site = monophysite
 }
