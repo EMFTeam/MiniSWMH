@@ -3833,7 +3833,7 @@ e_hre = {
                 b_stauf = {}
             }
             c_sponheim = {
-                color = { 41 181 141 }
+                color = { 63 154 194 }
                 color2 = { 255 255 255 }
                 dutch = "Spanheim"
                 german = "Spanheim"
@@ -27123,7 +27123,7 @@ e_arabia = {
                 b_buzayman = {}
             }
             c_ajadabiya = {
-                color = { 38 156 69 }
+                color = { 46 173 43 }
                 color2 = { 255 255 255 }
                 roman = "Corniclanum"
                 greek = "Corniclanum"
@@ -28112,7 +28112,7 @@ e_arabia = {
                 }
             }
             c_caesarea = {
-                color = { 47 253 71 }
+                color = { 77 217 86 }
                 color2 = { 255 255 255 }
                 roman = "Caesarea"
                 greek = "Parálios Kaisáreia"
@@ -30017,7 +30017,7 @@ e_arabia = {
                 b_marmattai = {}
             }
             c_erbil = {
-                color = { 9 89 236 }
+                color = { 39 149 176 }
                 color2 = { 255 255 255 }
                 maghreb_arabic = "Arbil"
                 levantine_arabic = "Arbil"
@@ -34169,7 +34169,7 @@ e_britannia = {
                 }
             }
             c_cumberland = {
-                color = { 30 185 243 }
+                color = { 53 198 228 }
                 color2 = { 255 255 255 }
                 culture = cumbric
                 norwegian = "Cumbraland"
@@ -42701,7 +42701,7 @@ e_france = {
                 }
             }
             c_saintpol = {
-                color = { 43 76 216 }
+                color = { 74 84 231 }
                 color2 = { 255 255 255 }
                 dutch = "Ternas"
                 b_auchyleshesdin = {}
@@ -42716,7 +42716,7 @@ e_france = {
                 b_heuchin = {}
             }
             c_ponthieu = {
-                color = { 43 76 216 }
+                color = { 53 87 198 }
                 color2 = { 255 255 255 }
                 b_montreuil = {}
                 b_lecrotoy = {}
@@ -43378,7 +43378,7 @@ e_france = {
                 b_compiegne = {}
             }
             c_valois = {
-                color = { 41 147 214 }
+                color = { 54 115 187 }
                 color2 = { 255 255 255 }
                 b_laon = {}
                 b_crepy = {}
@@ -43430,7 +43430,7 @@ e_france = {
                 b_montdidier = {}
             }
             c_beauvais = {
-                color = { 44 151 217 }
+                color = { 66 131 199 }
                 color2 = { 255 255 255 }
                 roman = "Caesaromagus"
                 greek = "Kaisaromagos"
@@ -43607,7 +43607,7 @@ e_france = {
                 b_oloron = {}
             }
             c_bigorre = {
-                color = { 27 16 249 }
+                color = { 53 46 213 }
                 color2 = { 255 255 255 }
                 b_lourdes = {}
                 b_vicenbigorre = {}
@@ -43670,7 +43670,7 @@ e_france = {
                 b_massillargues = {}
             }
             c_nimes = {
-                color = { 10 16 243 }
+                color = { 33 47 213 }
                 color2 = { 255 255 255 }
                 culture = occitan
                 roman = "Nemausus"
@@ -43989,7 +43989,7 @@ e_france = {
                 b_fontenaylecomte = {}
             }
             c_aunis = {
-                color = { 34 103 234 }
+                color = { 74 81 215 }
                 color2 = { 255 255 255 }
                 b_surgeres = {}
                 b_larochelle = {}
@@ -54448,7 +54448,7 @@ e_africa = {
                 b_elbouni = {}
             }
             c_setif = {
-                color = { 35 153 46 }
+                color = { 64 195 85 }
                 color2 = { 255 255 255 }
                 roman = "Setifis"
                 greek = "Setifis"
@@ -54556,7 +54556,7 @@ e_africa = {
                 b_ouenza = {}
             }
             c_arigh = {
-                color = { 47 253 104 }
+                color = { 53 241 74 }
                 color2 = { 255 255 255 }
                 b_tuggurt = {}
                 b_ajlu_al_gharbiyya = {}
@@ -54861,7 +54861,7 @@ e_africa = {
                 b_khouribga = {}
             }
             c_tadla = {
-                color = { 48 255 6 }
+                color = { 94 223 68 }
                 color2 = { 255 255 255 }
                 b_dai = {}
                 b_tadla = {}
@@ -54869,7 +54869,7 @@ e_africa = {
                 b_afza = {}
             }
             c_sala = {
-                color = { 48 255 6 }
+                color = { 74 203 47 }
                 color2 = { 255 255 255 }
                 b_sale = {}
                 b_albasra = {}
@@ -55611,7 +55611,7 @@ e_persia = {
             armenian = "Paytakaran"
             assyrian = "Paidangaran"
             c_tabriz = {
-                color = { 67 92 138 }
+                color = { 92 125 198 }
                 color2 = { 255 255 255 }
                 pahlavi = "T'awreš"
                 b_tabriz = {
@@ -59195,7 +59195,7 @@ e_null = {
                 b_selchow = {}
             }
             c_santok = {
-                color = { 6 135 2 }
+                color = { 34 101 23 }
                 color2 = { 255 255 255 }
                 polish = "Santok"
                 bohemian = "Santok"
