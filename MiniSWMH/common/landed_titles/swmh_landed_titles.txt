@@ -44956,6 +44956,9 @@ e_france = {
                 b_puigcerda = {}
                 b_meranges = {}
             }
+            allow = {
+                title_duke_basic_allow = yes
+            }
         }
         allow = {
             NOT = {
