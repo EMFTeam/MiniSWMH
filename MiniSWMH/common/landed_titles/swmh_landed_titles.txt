@@ -28136,25 +28136,38 @@ e_arabia = {
                     greek = "Rámla"
                 }
                 b_blanchegarde = {
-                    maghreb_arabic = "Tall al-Sáfí"
-                    levantine_arabic = "Tall al-Sáfí"
-                    egyptian_arabic = "Tall al-Sáfí"
-                    andalusian_arabic = "Tall al-Sáfí"
-                    sicilian_arabic = "Tall al-Sáfí"
-                    bedouin_arabic = "Tall al-Sáfí"
-                    hijazi = "Tall al-Sáfí"
-                    yemeni = "Tall al-Sáfí"
-                    sanhaja = "Tall al-Sáfí"
-                    tagelmust = "Tall al-Sáfí"
-                    tuareg = "Tall al-Sáfí"
-                    masmuda = "Tall al-Sáfí"
-                    zanata = "Tall al-Sáfí"
+                    maghreb_arabic = "Sáfíthá"
+                    levantine_arabic = "Sáfíthá"
+                    egyptian_arabic = "Sáfíthá"
+                    andalusian_arabic = "Sáfíthá"
+                    sicilian_arabic = "Sáfíthá"
+                    bedouin_arabic = "Sáfíthá"
+                    hijazi = "Sáfíthá"
+                    yemeni = "Sáfíthá"
+                    sanhaja = "Sáfíthá"
+                    tagelmust = "Sáfíthá"
+                    tuareg = "Sáfíthá"
+                    masmuda = "Sáfíthá"
+                    zanata = "Sáfíthá"
                     greek = "Saphitha"
                 }
                 b_saintsamuel = {
                     greek = "Monì tìs Agios Samuel"
                 }
                 b_syrbelmont = {
+                    maghreb_arabic = "Súbá"
+                    levantine_arabic = "Súbá"
+                    egyptian_arabic = "Súbá"
+                    andalusian_arabic = "Súbá"
+                    sicilian_arabic = "Súbá"
+                    bedouin_arabic = "Súbá"
+                    hijazi = "Súbá"
+                    yemeni = "Súbá"
+                    sanhaja = "Súbá"
+                    tagelmust = "Súbá"
+                    tuareg = "Súbá"
+                    masmuda = "Súbá"
+                    zanata = "Súbá"
                     greek = "Balamand"
                 }
             }
@@ -28781,7 +28794,21 @@ e_arabia = {
                     assyrian = "Nasrat"
                 }
                 b_mnttabor = {}
-                b_forbelet = {}
+                b_forbelet = {
+                    maghreb_arabic = "'Afrabalá"
+                    levantine_arabic = "'Afrabalá"
+                    egyptian_arabic = "'Afrabalá"
+                    andalusian_arabic = "'Afrabalá"
+                    sicilian_arabic = "'Afrabalá"
+                    bedouin_arabic = "'Afrabalá"
+                    hijazi = "'Afrabalá"
+                    yemeni = "'Afrabalá"
+                    sanhaja = "'Afrabalá"
+                    tagelmust = "'Afrabalá"
+                    tuareg = "'Afrabalá"
+                    masmuda = "'Afrabalá"
+                    zanata = "'Afrabalá"
+                }
             }
             c_beirut = {
                 color = { 11 205 70 }
