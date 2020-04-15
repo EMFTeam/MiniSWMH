@@ -34663,6 +34663,9 @@ e_britannia = {
         culture = saxon
         dignity = 30
         allow = {
+            NOT = {
+                has_landed_title = k_england
+            }
             title_king_basic_allow = yes
         }
     }
@@ -34673,6 +34676,9 @@ e_britannia = {
         culture = saxon
         dignity = 30
         allow = {
+            NOT = {
+                has_landed_title = k_england
+            }
             title_king_basic_allow = yes
         }
     }
@@ -34683,6 +34689,9 @@ e_britannia = {
         culture = saxon
         dignity = 30
         allow = {
+            NOT = {
+                has_landed_title = k_england
+            }
             title_king_basic_allow = yes
         }
     }
@@ -34693,6 +34702,9 @@ e_britannia = {
         culture = saxon
         dignity = 30
         allow = {
+            NOT = {
+                has_landed_title = k_england
+            }
             title_king_basic_allow = yes
         }
     }
