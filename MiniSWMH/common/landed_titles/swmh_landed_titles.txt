@@ -10421,7 +10421,7 @@ e_byzantium = {
             capital = 745
             oghuz = "Izmir"
             turkmen = "Izmir"
-            turkish = "Aydin"
+            turkish = "Izmir"
             c_adramyttion = {
                 color = { 147 55 115 }
                 color2 = { 255 255 255 }
@@ -42196,9 +42196,9 @@ e_italy = {
             limit = {
                 k_naples = {
                     is_de_jure_title = yes
-                }
-                NOT = {
-                    de_jure_liege = FROM
+                    NOT = {
+                        de_jure_liege = FROM
+                    }
                 }
             }
             k_naples = {
@@ -42210,9 +42210,9 @@ e_italy = {
             limit = {
                 k_trinacria = {
                     is_de_jure_title = yes
-                }
-                NOT = {
-                    de_jure_liege = FROM
+                    NOT = {
+                        de_jure_liege = FROM
+                    }
                 }
             }
             k_trinacria = {
@@ -42233,14 +42233,26 @@ e_italy = {
             }
         }
         has_landed_title = k_italy
-        has_landed_title = k_sicily
+        trigger_if = {
+            limit = {
+                k_sicily = {
+                    is_de_jure_title = yes
+                }
+            }
+            has_landed_title = k_sicily
+        }
         trigger_if = {
             limit = {
                 k_naples = {
                     is_de_jure_title = yes
-                }
-                NOT = {
-                    de_jure_liege = FROM
+                    OR = {
+                        k_sicily = {
+                            is_de_jure_title = no
+                        }
+                        NOT = {
+                            de_jure_liege = FROM
+                        }
+                    }
                 }
             }
             has_landed_title = k_naples
@@ -42249,9 +42261,14 @@ e_italy = {
             limit = {
                 k_trinacria = {
                     is_de_jure_title = yes
-                }
-                NOT = {
-                    de_jure_liege = FROM
+                    OR = {
+                        k_sicily = {
+                            is_de_jure_title = no
+                        }
+                        NOT = {
+                            de_jure_liege = FROM
+                        }
+                    }
                 }
             }
             has_landed_title = k_trinacria
