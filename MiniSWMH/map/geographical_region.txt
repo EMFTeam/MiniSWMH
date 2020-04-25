@@ -262,6 +262,9 @@ world_europe_south_italy = {
         d_atri
         d_calabria
         d_sicily
+        d_bari
+        d_tarent
+        d_venosa
         d_venice
     }
 }
@@ -876,5 +879,8 @@ custom_neapolitan = {
         d_apulia
         d_salerno
         d_atri
+        d_bari
+        d_tarent
+        d_venosa
     }
 }
