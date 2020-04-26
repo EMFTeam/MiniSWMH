@@ -262,9 +262,6 @@ world_europe_south_italy = {
         d_atri
         d_calabria
         d_sicily
-        d_bari
-        d_tarent
-        d_venosa
         d_venice
     }
 }
@@ -649,6 +646,9 @@ custom_england = {
         d_lancaster
         d_northumberland
     }
+    counties = {
+        c_cumberland
+    }
 }
 custom_castillian = {
     duchies = {
@@ -731,8 +731,13 @@ custom_scotland = {
         d_aberdeen
         d_sutherland
         d_galloway
-        d_strathclyde
         d_hebrides
+    }
+    counties = {
+        c_dunbreatainn
+        c_rinnfriu
+        c_clydesdale
+        c_dunphris
     }
 }
 custom_historical_plague_free_zone = {
@@ -879,8 +884,5 @@ custom_neapolitan = {
         d_apulia
         d_salerno
         d_atri
-        d_bari
-        d_tarent
-        d_venosa
     }
 }
