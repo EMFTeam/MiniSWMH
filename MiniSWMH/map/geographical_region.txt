@@ -697,6 +697,9 @@ custom_swedish = {
         d_uppland
         d_sodermandland
         d_halsingland
+        d_ostergotland
+        d_vastergotland
+        d_gotland
     }
 }
 custom_danish = {
