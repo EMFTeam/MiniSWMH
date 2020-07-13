@@ -40755,6 +40755,7 @@ e_italy = {
                 b_anguillara = {}
                 b_viterbo = {}
                 b_civitavecchia = {}
+                b_bracciano = {}
             }
             allow = {
                 title_duke_basic_allow = yes
